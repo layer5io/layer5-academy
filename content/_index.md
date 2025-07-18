@@ -12,6 +12,7 @@ Welcome to dev environment for your Academy
 
 [LearningPaths](/academy/learning-paths/)
 
+[Challenges](/academy/challenges/)
 
 
 {{% /blocks/lead %}}
