@@ -2,12 +2,10 @@
 
 title: "Mastering Meshery"
 description: "Learn all about Meshery"
-themeColor: "#00D3A9"
-cardImage: "/images/learning-path/meshery-logo-light.webp"
+banner: "/11111111-1111-1111-1111-111111111111/images/meshery-logo-light.webp"
 courses: 1
-technologyList: ["all"]
-prominentStyling: true
 weight: 1
+type: "learning-path"
 ---
 
 <!--
