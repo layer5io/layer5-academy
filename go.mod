@@ -1,4 +1,4 @@
-module github.com/layer5io/academy-example
+module github.com/layer5io/layer5-academy
 
 go 1.12
 
