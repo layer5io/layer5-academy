@@ -6,7 +6,8 @@ lectures: 4
 courseTitle: "Ambassador Edge Stack API Gateway with Meshery"
 themeColor: "#00B39F"
 order: 1
-cardImage: "../../../src/images/service-mesh-icons/linkerd-white.svg"
+banner: "/11111111-1111-1111-1111-111111111111/images/linkerd-icon-white.svg"
+
 toc:
   [
     "introduction",

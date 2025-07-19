@@ -1,22 +1,18 @@
 ---
 docType: "Chapter"
 id: "reviewing-designs"
-chapterTitle: "Reviewing Designs"
 description: "This chapter explores the essential aspects of reviewing designs in Kanvas, covering the lifecycle of design reviews, the use of comments and annotations, and the best practices for providing constructive feedback. It also details how to effectively collaborate with your team to ensure thorough evaluations and high-quality design outcomes."
-lectures: 4
 weight: 6
 title: "Reviewing Designs"
 ---
 
-{{< chapterstyle >}}
-
-<h1 class="chapter-sub-heading">Introduction</h1>
+# Introduction
 
 When working with Kanvas’ Designer Mode, collaboration is key. Design reviews allow team members to examine, provide feedback, and approve design proposals, ensuring that all components are thoroughly evaluated and potential issues are identified early. This process leads to more robust designs, informed decision-making, and a unified understanding among team members, ultimately contributing to the success of the project.
 
-<h1 class="chapter-sub-heading">Lifecycle of Design Reviews</h1>
+# Lifecycle of Design Reviews
 
-<h2 class="chapter-sub-heading">Submitting Designs</h2>
+## Submitting Designs
 
 This initial step involves preparing your design to be reviewed by your peers. Start by submitting your design for review, ensuring all components are accurately placed and configured. It is crucial to double-check that every aspect of the design is ready for feedback. In the context of Kanvas, you can submit designs for review by:
 
@@ -29,37 +25,37 @@ This initial step involves preparing your design to be reviewed by your peers. S
 
 By following these steps, you can effectively submit your designs for review within Kanvas, ensuring that they are accessible to the right team members and ready for collaborative feedback.
 
-<h2 class="chapter-sub-heading">Reviewing Designs</h2>
+## Reviewing Designs
 
 Team members can review designs using comments or annotations.
 
-<h4 class="chapter-sub-heading">Design Reviews with Comments</h4>
+#### Design Reviews with Comments
 
 You can add comments in two convenient ways:
 
 * **Commenting via the Dock:** Click on the comment icon in the dock to create a new comment, or drag and drop it anywhere on the canvas to position it.
 
-{{< image src="/images/learning-path/reviewing-designs/commenting-via-dock.png" width="100%" align="center" >}}
+![commenting-via-dock]({{< usestatic "mastering-meshery/commenting-via-dock.png" >}})
 
 
 * **Commenting via Context Menu in Canvas:"** Right-click anywhere on your canvas and select **“Add Comment Here”** from the context menu or use the shortcut Ctrl + M (Command + M for Mac users). This allows for swift comment placement exactly where you need it.
 
-{{< image src="/images/learning-path/reviewing-designs/commenting-via-menu.png" width="100%" align="center" >}}
+![commenting-via-menu]({{< usestatic "mastering-meshery/commenting-via-menu.png" >}})
 
-<h4 class="chapter-sub-heading"><u>Tips for using Comments as a Design Review Tool</u></h4>
+#### <u>Tips for using Comments as a Design Review Tool</u>
 
-{{< image src="/images/learning-path/reviewing-designs/comments-as-design-tool.png" width="100%" align="center" >}}
+![comments-as-design-tool]({{< usestatic "mastering-meshery/comments-as-design-tool.png" >}})
 
 * **Initiating Threads:** You can initiate a comment thread by adding a comment. Your comment may request a design review or provide feedback on a design. Team members can reply directly to comments, creating a structured dialogue around each point of feedback for easy referencing.
 * **Utilize Mentions:** Easily draw the attention of relevant team members by tagging them in your comment. To activate this, type @ in the comment box, and a list of your team members will appear. Select who you want to mention. This ensures that the right people are notified and can contribute to the discussion.
 * **Enable Email Notifications:** Customize your [notification preferences](https://docs.layer5.io/cloud/identity/users/notification-preferences/) to receive emails for comments on your design. When this is enabled, you’ll be notified when comments are made on your design, you’re mentioned in a comment, or someone adds a comment to a thread you’ve previously engaged with.
 * **Mute Comment Notifications:** You can also customize your notification preferences to mute email notifications for comments on your design. This can be useful if you want to temporarily pause notifications or reduce email clutter. You’ll still have access to all comments directly within Kanvas.
 
-{{< image src="/images/learning-path/reviewing-designs/comments.png" width="100%" align="center" >}}
+![comments]({{< usestatic "mastering-meshery/comments.png" >}})
 
-* **Comment on Specific Elements:** Place comments to specific components, whether it’s a shape, text, or an entire component. This specificity ensures that feedback is targeted and directly related to the part of the design under discussion.
+**Comment on Specific Elements:** Place comments to specific components, whether it’s a shape, text, or an entire component. This specificity ensures that feedback is targeted and directly related to the part of the design under discussion.
 
-<h2 class="chapter-sub-heading">Resolving Comments</h2>
+## Resolving Comments
 
 Once the feedback has been addressed, you can mark the comment as resolved. For resolving comments, simply right click on the comment component and select the **“resolve”** comment action. It closes the comment thread and signifies that the conversation around that feedback has concluded. It helps keep the review process organized and ensures that completed discussions are neatly archived.
 
@@ -67,9 +63,9 @@ Once the feedback has been addressed, you can mark the comment as resolved. For 
 
 Even after comments are resolved, you can view the history to understand the decisions and discussions that took place. This feature is beneficial for future reference and maintaining a clear record of the review process.
 
-{{< image src="/images/learning-path/reviewing-designs/comment-history.png" width="100%" align="center" >}}
+![comment-history]({{< usestatic "mastering-meshery/comment-history.png" >}})
 
-<h2 class="chapter-sub-heading">Reopening Comments</h2>
+## Reopening Comments
 
 After a comment has been resolved, there might be situations where you need to reopen the discussion. Unresolving a comment allows you to reinitiate conversations, address additional concerns, or make further changes.
 
@@ -79,15 +75,15 @@ To unresolve a comment:
 
 This will show the resolved conversations which can be reopened. This flexibility ensures that ongoing iterations and continuous improvements can be managed effectively.
 
-{{< image src="/images/learning-path/reviewing-designs/reopening-comments.png" width="100%" align="center" >}}
+![reopening-comments]({{< usestatic "mastering-meshery/reopening-comments.png" >}})
 
 By following these steps, you can create a thorough and collaborative review process within Kanvas, ensuring that your designs are vetted comprehensively and efficiently.
 
-<h2 class="chapter-sub-heading">Pinning and Locking Comments in Kanvas</h2>
+## Pinning and Locking Comments in Kanvas
 
-1. <h4 class="chapter-sub-heading">Pinning of Comments</h4>
+1. #### Pinning of Comments
 
-{{< image src="/images/learning-path/reviewing-designs/pinning-comments.png" width="100%" align="center" >}}
+![pinning-comments]({{< usestatic "mastering-meshery/pinning-comments.png" >}})
 
 This image illustrates the feature of pinning comments to specific nodes within Kanvas. This functionality allows users to attach a comment to a particular node, ensuring that the comment remains associated with the node regardless of its position within the design. This is particularly useful for providing context-specific feedback or instructions that should always be visible alongside the relevant component. You can take a comment icon near to a node and it automatically gets pinned to that node.
 
@@ -97,9 +93,9 @@ This image illustrates the feature of pinning comments to specific nodes within 
     * **Contextual Feedback:** This feature helps in maintaining the relevance of the feedback, as the comments are always displayed in relation to the specific node they refer to.
     * **Collaborative Consistency:** Ensures that all collaborators see the comments in the correct context, facilitating clearer communication and understanding.
 
-2. <h4 class="chapter-sub-heading">Locking Comments</h4>
+2. #### Locking Comments
 
-{{< image src="/images/learning-path/reviewing-designs/locking-comments.png" width="100%" align="center" >}}
+![locking-comments]({{< usestatic "mastering-meshery/locking-comments.png" >}})
 
 This image shows the locking and unlocking interface for nodes in Kanvas. Right-click on the node to access the “lock” option. Locking a comment ensures that it remains fixed in its position, even if the overall design pattern changes. This is useful for highlighting and securing key components of the design that should not be altered or moved during collaborative sessions.
 
@@ -109,17 +105,17 @@ This image shows the locking and unlocking interface for nodes in Kanvas. Right-
     * **Shared Among Collaborators:** When a comment is locked, collaborators working on that design will be unable to move or reposition the locked component. This is an excellent opportunity to brainstorm suggestions for easily identifying locked components.
     * **Unlocking Comments:** Comments can be unlocked when necessary, allowing for flexibility in design adjustments. This can be done through the radial menu shown in the image, which provides options for copying, resetting styles, duplicating, deleting, and unlocking nodes.
 
-<h2 class="chapter-sub-heading">Design Reviews with Annotations</h2>
+## Design Reviews with Annotations
 
 Annotations in Kanvas are a powerful way to add detailed notes and explanations directly onto your design canvas. They are crucial for effective communication, detailed feedback, and collaborative design processes. Here’s how you can effectively use annotations to enhance collaboration and streamline design reviews.
 
-{{< image src="/images/learning-path/reviewing-designs/annotations.png" width="100%" align="center" >}}
+![annotations]({{< usestatic "mastering-meshery/annotations.png" >}})
 
 **Whiteboard in Kanvas**
 
 The whiteboarding feature in Kanvas introduces versatile, freestyle drawing capabilities. Enabling the whiteboard feature augments your ability to diagram with a suite of predefined shapes, and pen and pencil annotations, allowing you full freedom of expression in your engineering diagrams. Annotations are a key part of this feature, enabling you to add contextual information directly to your designs.
 
-{{< image src="/images/learning-path/reviewing-designs/whiteboarding.png" width="100%" align="center" >}}
+![whiteboarding]({{< usestatic "mastering-meshery/whiteboarding.png" >}})
 
 **Key Functionalities**
 
@@ -149,7 +145,7 @@ If the whiteboarding feature is not already enabled, follow these steps to acces
 5. Experiment with drawing, annotation, and collaboration functionalities available in the whiteboard toolbar.
 6. Share access with collaborators or team members to engage in real-time collaborative drawing sessions.
 
-{{< image src="/images/learning-path/reviewing-designs/whiteboard-access.png" width="100%" align="center" >}}
+![whiteboard-access]({{< usestatic "mastering-meshery/whiteboard-access.png" >}})
 
 **Customizing Annotations and Shapes** 
 
@@ -157,15 +153,15 @@ Customizing annotations and shapes is crucial in design reviews as it enhances c
 
 1. **Shape Customization:** Shapes within the canvas offer flexibility. Select any shape to access a tooltip with options to resize, reshape, and change colors. This allows for precise adjustments similar to popular design software.
 
-{{< image src="/images/learning-path/reviewing-designs/shape-annotation.png" width="100%" align="center" >}}
+![shape-annotation]({{< usestatic "mastering-meshery/shape-annotation.png" >}})
 
 2. **Text Annotation Customization:** Text annotations come with various options. Customize fonts, sizes, alignments, and styles easily. Text boxes resize for seamless integration with the canvas.
 
-{{< image src="/images/learning-path/reviewing-designs/text-annotation.png" width="100%" align="center" >}}
+![text-annotation]({{< usestatic "mastering-meshery/text-annotation.png" >}})
 
 3. **Interactive Tooltip Interface:** The tooltip is your gateway to customization. It’s simple and intuitive, offering a range of editing options upon selection. It’s designed for easy navigation, mirroring popular design software.
 
-{{< image src="/images/learning-path/reviewing-designs/tooltip-annotation.png" width="100%" align="center" >}}
+![tooltip-annotation]({{< usestatic "mastering-meshery/tooltip-annotation.png" >}})
 
 4. **Advanced Customization Features:**
     * Manage layers and group elements to organize your design better. These advanced tools ensure collaborative work while preserving design integrity.
@@ -198,5 +194,3 @@ Annotations in Kanvas’s Designer Mode are an invaluable tool for enhancing col
     Highlight the most critical feedback first. This ensures that the designer focuses on the most important aspects for improvement.
 
 In conclusion, effective design reviews in Kanvas' Designer Mode are essential for fostering collaboration, ensuring clear communication, and achieving high-quality outcomes. By leveraging features like comments, annotations, and customization, teams can provide actionable feedback, maintain design integrity, and align on project goals. Following best practices for feedback and utilizing the full range of tools Kanvas offers will streamline the review process, leading to more robust and well-documented designs.
-
-{{< /chapterstyle >}}

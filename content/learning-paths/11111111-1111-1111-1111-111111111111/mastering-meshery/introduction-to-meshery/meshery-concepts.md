@@ -2,14 +2,10 @@
 draft: false
 docType: "Chapter"
 id: "meshery-concepts"
-chapterTitle: "Meshery Concepts"
 description: "This chapter delves into the fundamental concepts of Meshery, explaining its purpose, and the architectural and logical components that form its foundation."
-lectures: 4
 weight: 1
 title: "Meshery Concepts"
 ---
-
-{{< chapterstyle >}}
 
 # What is Meshery?
 
@@ -54,5 +50,3 @@ Logical components in Meshery refer to the conceptual elements that define and o
 * [Registry](https://docs.meshery.io/concepts/logical/registry) - Meshery Registry is a database acting as the central repository for all capabilities known to Meshery. These capabilities encompass various entities, including models, components, relationships, and policies.  
 * [Relationships](https://docs.meshery.io/concepts/logical/relationships) - Meshery Relationships identify and facilitate genealogy between Components.  
 * [Workspaces](https://docs.meshery.io/concepts/logical/workspaces) - Meshery Workspaces act as a central collaboration point for teams.
-
-{{< /chapterstyle >}}
