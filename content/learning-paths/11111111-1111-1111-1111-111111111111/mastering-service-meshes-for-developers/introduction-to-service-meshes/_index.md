@@ -6,7 +6,7 @@ lectures: 12
 courseTitle: "Introduction to Service Meshes"
 themeColor: "#00B39F"
 weight: 1
-cardImage: "/learning-paths/images/service-mesh-icons/linkerd-white.svg"
+banner: "/11111111-1111-1111-1111-111111111111/images/linkerd-icon-white.svg"
 meshesYouLearn:
   [
     {

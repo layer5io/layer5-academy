@@ -2,11 +2,10 @@
 docType: "Course"
 title: "Introduction to Meshery"
 description: "Explore Meshery comprehensively in this introductory course. Cover foundational concepts, architectural components, and logical structures. Learn how to create, deploy, and interpret designs. Gain practical insights into configuring Meshery through workspaces and leverage its collaborative attributes to manage your infrastructure."
-lectures: 3
 courseTitle: "Introduction to Meshery"
 themeColor: "#00B39F"
 weight: 1
-cardImage: "../../../src/images/service-mesh-icons/linkerd-white.svg"
+banner: "/11111111-1111-1111-1111-111111111111/images/kubernetes-icon.svg"
 toc:
   [
     "meshery-concepts",
