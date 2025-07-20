@@ -11,15 +11,8 @@ weight: 9
 
 <br />
 
-<h3>Congratulations!</h3>
+### **Congratulations!**
 
-<h5>
-  You have successfully completed the course on{" "}
-  <b>"Introduction to service meshes - Hands on"</b> using{" "}
-  <b>
-    <em>Istio</em>
-  </b>
-  .
-</h5>
+  You have successfully completed the course on **"Introduction to service meshes - Hands on"** using **Istio**.
 
 {{< /chapterstyle >}}

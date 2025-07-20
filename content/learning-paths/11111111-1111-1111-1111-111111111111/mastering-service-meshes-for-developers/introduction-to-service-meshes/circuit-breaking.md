@@ -11,12 +11,14 @@ weight: 8
 
 In this chapter we will configure circuit breaking using Istio. Circuit breaking allows developers to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities. This task will show how to configure circuit breaking for connections, requests, and outlier detection.
 
-<h2 class="chapter-sub-heading">Preparing for circuit breaking</h2>
+### **Preparing for circuit breaking**
 <br />
 
-Before we can configure circuit breaking, please try to access the `product page` app from within `Meshery` to ensure all the calls are making it through **without** errors as we did in [Observability chapter](observability) (<a href="/images/learning-path/istio/meshery_initial_load_test.webp">see screenshot</a>).
+Before we can configure circuit breaking, please try to access the `product page` app from within `Meshery` to ensure all the calls are making it through **without** errors as we did in [Observability chapter](observability)
 
-<h2 class="chapter-sub-heading"> Configure circuit breaking</h2>
+![invalid-kubeconfig]({{< usestatic "mastering-service-mesh/meshery_initial_load_test.webp" >}})
+
+### **Configure circuit breaking**
 
 <br />
 Now that we have the needed services in place, it is time to configure circuit breaking using
@@ -27,9 +29,7 @@ Using Meshery, navigate to the Istio management page:
 1. Enter `default` in the `Namespace` field.
 2. Click the (+) icon on the `Apply Custom Configuration` card and paste the configuration below.
 
-<p>
-  Manual step for can be found <a href="#appendix">here</a>
-</p>
+```yaml
 
 This will update the existing destination rule definition for product page service to break the circuit if there are more than one connection and more than one pending request.
 
@@ -68,7 +68,7 @@ spec:
       mode: ISTIO_MUTUAL
 ```
 
-<h2 class="chapter-sub-heading"> Time to trip the circuit</h2>
+### **Time to trip the circuit**
 
 <br />
 In the circuit-breaker settings, we specified maxRequestsPerConnection: 1 and http1MaxPendingRequests:
@@ -79,17 +79,17 @@ Let us now use Meshery to make several calls to `product page` app by changing t
 
 Once you have updated the fields, you now click on `Run Test`.
 
-This will run the load test and show the results in a chart. (<a href="/images/learning-path/istio/meshery_cb_load_test.webp"> see screenshot </a>).
+This will run the load test and show the results in a chart.
+
+![invalid-kubeconfig]({{< usestatic "mastering-service-mesh/meshery_cb_load_test.webp" >}})
 
 You should only see a percentage of the requests succeed and the rest trapped by the configured circuit breaker.
 
 <br />
-<h2>
-  {" "}
-  <a name="appendix"></a> Manual Steps
-</h2>
 
-<h3 class="chapter-alt-heading"> Configure circuit breaking</h3>
+### **Manual Steps**
+
+#### **Configure circuit breaking**
 
 ```sh
 kubectl apply -f - <<EOF
