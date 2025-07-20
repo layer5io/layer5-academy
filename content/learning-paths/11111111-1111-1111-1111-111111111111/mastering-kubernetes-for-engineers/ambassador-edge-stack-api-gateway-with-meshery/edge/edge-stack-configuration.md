@@ -12,9 +12,9 @@ title: "Edge Stack Configuration"
 
 In this chapter, you will import and deploy Edge Stack Custom Resource Definitions (CRDs) and YAML files. You'll learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you'll deploy a sample Quote service application to route traffic through Edge Stack.
 
-<h2 class="chapter-sub-heading">Steps</h2>
+### **Steps**
 
-<h3 class="chapter-sub-heading">Import Edge Stack CRD YAML and Deploy</h3>
+### **Import Edge Stack CRD YAML and Deploy**
 
 The Edge Stack CRD YAML file typically contains the definitions for custom resources used by Edge Stack. These definitions include the schemas and validation rules for resources like Mappings, Hosts, TLSContexts, RateLimits, Filters, and more. These custom resources allow you to define and manage the various aspects of your API gateway configuration, such as routing, authentication, rate limiting, and TLS settings, directly within your Kubernetes cluster.
 
@@ -40,7 +40,7 @@ The Edge Stack CRD YAML file typically contains the definitions for custom resou
 
 {{< image src="/images/learning-path/edge-stack/es3.png" width="100%" align="center" alt="" >}}
 
-<h3 class="chapter-sub-heading">Import the Edge Stack YAML </h3>
+### **Import the Edge Stack YAML**
 
 Now that the CRDs have been deployed, go ahead to deploy the main Edge Stack Configuration.
 
@@ -52,7 +52,7 @@ Now that the CRDs have been deployed, go ahead to deploy the main Edge Stack Con
 
 {{< image src="/images/learning-path/edge-stack/es5.png" width="100%" align="center" alt="" >}}
 
-<h3 class="chapter-sub-heading">Configure Edge Stack License</h3>
+### **Configure Edge Stack License**
 
 Ambassador Edge Stack requires a valid license to operate. Generate your [license token](https://app.getambassador.io/cloud/edge-stack/license/new) to establish a secure connection between Edge Stack and Ambassador Cloud.
 
@@ -62,7 +62,7 @@ Ambassador Edge Stack requires a valid license to operate. Generate your [licens
 
 {{< image src="/images/learning-path/edge-stack/es6.png" width="100%" align="center" alt="" >}}
 
-<h3 class="chapter-sub-heading">Deploy Edge Stack </h3>
+### **Deploy Edge Stack**
 
 1. Click **Actions** in the top right corner and click on Deploy (double tick).
 
@@ -70,13 +70,13 @@ Ambassador Edge Stack requires a valid license to operate. Generate your [licens
 
 {{< image src="/images/learning-path/edge-stack/es10.png" width="100%" align="center" alt="" >}}
 
-<h3 class="chapter-sub-heading">Listener Custom Resource</h3>
+### **Listener Custom Resource**
 
 The Listener Custom Resource tells Ambassador Edge Stack what port to listen on.
 
 1. Copy the following the YAML and save it to a file called _listener.yaml_ , then import it into Kanvas.
 
-```YAML
+```yaml
 ---
 apiVersion: getambassador.io/v3alpha1
 kind: Listener
@@ -103,19 +103,17 @@ spec:
   hostBinding:
     namespace:
       from: ALL
-EOF
-
 ```
 
 2. Deploy the resource on Kanvas.
 
-<h3 class="chapter-sub-heading">Mapping Resource</h3>
+### **Mapping Resource**
 
 Create a Mapping configuration that instructs Edge Stack on how and where to route traffic. In the YAML file below, any request coming to the specified _hostname_ with the _prefix_ /backend/ will be directed to the _quote service_.
 
 Copy the following the YAML and save it to a file called _mapping.yaml_ , then import it into Kanvas.
 
-```YAML
+```yaml
 apiVersion: getambassador.io/v3alpha1
 kind: Mapping
 metadata:
@@ -126,10 +124,9 @@ spec:
   service: quote
   docs:
     path: "/.ambassador-internal/openapi-docs"
-
 ```
 
-<h3 class="chapter-sub-heading">Deploy Quote Service</h3>
+### **Deploy Quote Service**
 
 Next, import the [Quote Service YAML](https://app.getambassador.io/yaml/v2-docs/3.9.1/quickstart/qotm.yaml) and deploy it on Kanvas. This step will create the necessary deployment and service resources for the Quote service within your Kubernetes cluster, allowing you to see how Edge Stack manages and routes traffic to this backend service.
 

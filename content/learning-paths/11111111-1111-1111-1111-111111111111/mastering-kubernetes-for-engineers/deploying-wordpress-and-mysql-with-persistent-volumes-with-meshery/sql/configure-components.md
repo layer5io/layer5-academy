@@ -10,7 +10,7 @@ title: "Configure Components"
 
 {{< chapterstyle >}}
 
-<h2 class="chapter-sub-heading">Create and Configure Secret for MySQL Database</h2>
+### **Create and Configure Secret for MySQL Database**
 
 In this step, you create a Kubernetes secret component for the MySQL database. This is necessary because the configuration below is in the environment variables section of the mysql-deployment YAML file.
 
@@ -27,7 +27,6 @@ Before you proceed, choose a password and convert it into base64 format. You can
 
 1. Click on the Kubernetes icon on the dock, search for `secret`, and click on it or drag it to the canvas.
 
-<br />
 {{< image src="/images/learning-path/sql/wp8.png" width="100%" align="center" alt="" >}}
 
 _Figure: Create secret component_
@@ -38,14 +37,13 @@ _Figure: Create secret component_
    - Set the _Type_ as `Opaque`
    - Click **+** next to Data and add the secret as a key-value pair `password:cGFzc3dvcmQ=`
 
-<br />
 {{< image src="/images/learning-path/sql/wp9.png" width="100%" align="center" alt="" >}}
 
 _Figure: Configure secret_
 
 3. Click outside the window to close the configuration tab.
 
-<h2 class="chapter-sub-heading">Create Persistent Volumes</h2>
+### **Create Persistent Volumes**
 
 MySQL and WordPress each require a [Persistent Volume (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) to store their data.
 
@@ -55,7 +53,6 @@ Please note that using `hostPath` for Persistent Volumes is generally not recomm
 
 1. Click on the Kubernetes icon on the dock, search for `Persistent Volume`, and select it. Create two PVs.
 
-<br />
 {{< image src="/images/learning-path/sql/wp10.png" width="100%" align="center" alt="" >}}
 
 _Figure: Create persistent volume_
@@ -66,21 +63,18 @@ _Figure: Create persistent volume_
    - Set the "StorageClassName" as `manual`
    - Click **+** next to "AccessMode" and enter `ReadWriteOnce`
 
-<br />
 {{< image src="/images/learning-path/sql/wp11.png" width="100%" align="center" alt="" >}}
 
 _Figure: Configure persistent volume_
 
     - Scroll down to "Capacity" and enter the key pair `storage:20Gi`
 
-<br />
 {{< image src="/images/learning-path/sql/wp12.png" width="100%" align="center" alt="" >}}
 
 _Figure: Persistent volume capacity_
 
     - Scroll down to "Hostpath" and input `mnt/data/wp-pv` for the _path_ and `DirectoryOrCreate` for the _type_.
 
-<br />
 {{< image src="/images/learning-path/sql/wp13.png" width="100%" align="center" alt="" >}}
 
 _Figure: Persistent volume hostpath_
