@@ -6,7 +6,6 @@ lectures: 4
 title: "Deploy Dapr Control Plane"
 weight: 2
 ---
-{{< chapterstyle >}}
 
 The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set of services responsible for managing and orchestrating the runtime and configuration of Dapr. The control plane ensures the smooth operation, deployment, and management of Dapr sidecars and their interactions within a microservices architecture.
 
@@ -100,5 +99,3 @@ The grouping of these components illustrates their interconnections, enhancing o
 ![dapr-visualizer]({{< usestatic "mastering-kubernetes-for-engineers/dapr-visualizer.png" >}})
 
 Using Meshery, we have visualized the components of the Dapr control plane, explored their relationships, and successfully deployed Dapr. Our next step is to integrate the Redis store into our architecture.
-
-{{< /chapterstyle >}}

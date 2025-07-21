@@ -7,8 +7,6 @@ weight: 5
 title: "Validate and Deploy Resources"
 ---
 
-{{< chapterstyle >}}
-
 ### **Deploy the Resources**
 
 1. Click `Actions` in the top right corner and click on `Deploy`.
@@ -43,4 +41,3 @@ _Figure: Deploy resources_
 
 _Figure: Deploy resources_
 
-{{< /chapterstyle >}}

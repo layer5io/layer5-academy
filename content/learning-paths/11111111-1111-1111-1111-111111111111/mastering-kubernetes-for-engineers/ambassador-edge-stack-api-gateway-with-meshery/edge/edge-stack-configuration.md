@@ -7,8 +7,6 @@ weight: 2
 title: "Edge Stack Configuration"
 ---
 
-{{< chapterstyle >}}
-
 In this chapter, you will import and deploy Edge Stack Custom Resource Definitions (CRDs) and YAML files. You'll learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you'll deploy a sample Quote service application to route traffic through Edge Stack.
 
 ### **Steps**
@@ -131,4 +129,3 @@ Next, import the [Quote Service YAML](https://app.getambassador.io/yaml/v2-docs/
 
 {{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-edge-stack.js" id="embedded-design-d429e684-c42a-4c14-816b-b4dddb4b6d40" >}}
 
-{{< /chapterstyle >}}

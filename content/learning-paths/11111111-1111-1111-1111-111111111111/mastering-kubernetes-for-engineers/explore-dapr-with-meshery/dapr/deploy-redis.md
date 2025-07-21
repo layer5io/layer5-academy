@@ -7,8 +7,6 @@ weight: 3
 title: "Deploy Redis"
 ---
 
-{{< chapterstyle >}}
-
 ### **Import Redis Helm Chart and Deploy to Cluster**
 
 1. Follow the same steps used for the Dapr deployment to import this [Redis helm chart](https://charts.bitnami.com/bitnami/redis-19.6.2.tgz) into Meshery and deploy.
@@ -26,5 +24,3 @@ These filter settings will allow you to view both Dapr resources within the _dap
 ![redis-dapr]({{< usestatic "mastering-kubernetes-for-engineers/redis-dapr.png" >}})
 
 Next, let's deploy the Dapr state store component that will manage this Redis state store.
-
-{{< /chapterstyle >}}

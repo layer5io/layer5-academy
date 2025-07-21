@@ -7,8 +7,6 @@ title: "Add labels and Group Components"
 weight: 4
 ---
 
-{{< chapterstyle >}}
-
 ### **Add Labels**
 
 To make it easier to filter and manage your resources during visualization, add labels to all of them.
@@ -35,5 +33,3 @@ This functionality aids in visualizing the relationships between various resourc
 ![wp21]({{< usestatic "mastering-kubernetes-for-engineers/wp21.png" >}})
 
 _Figure: Group Components_
-
-{{< /chapterstyle >}}

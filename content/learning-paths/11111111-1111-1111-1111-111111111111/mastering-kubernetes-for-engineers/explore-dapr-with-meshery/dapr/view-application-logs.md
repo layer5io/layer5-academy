@@ -7,8 +7,6 @@ weight: 6
 title: "View Application Logs"
 ---
 
-{{< chapterstyle >}}
-
 In this chapter, we will explore how Dapr utilizes its [API constructs](https://docs.dapr.io/concepts/building-blocks-concept/) to facilitate communication and manage the state of application data within this architecture by observing the container logs.
 
 ### **Python Application Logs**
@@ -62,5 +60,3 @@ Here's what can be observed from the logs:
 3. The sidecar makes a POST request to the state store endpoint (/v1.0/state/statestore) to persist the state information in Redis. This endpoint is part of the **Dapr state management API**  and is mapped to the configured state store component.
 
 By analyzing these logs, we gained a deeper understanding of how Dapr's APIs such as the state management API and service invocation API work together to enable service-service communication and efficient management of application state.
-
-{{< /chapterstyle >}}

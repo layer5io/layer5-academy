@@ -7,8 +7,6 @@ title: "Exploring Edge Stack with Meshery Playground"
 weight: 1
 ---
 
-{{< chapterstyle >}}
-
 ### **Overview**
 
 In this tutorial, you will explore Edge Stack using Meshery Playground. You'll get hands-on experience importing YAML files that contain Edge Stack configurations and Custom Resource Definitions (CRDs).
@@ -54,4 +52,3 @@ The "stack" includes security functionalities such as automatic TLS, authenticat
 
 {{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-edge-stack.js" id="embedded-design-d429e684-c42a-4c14-816b-b4dddb4b6d40" >}}
 
-{{< /chapterstyle >}}

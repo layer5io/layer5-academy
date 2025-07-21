@@ -7,8 +7,6 @@ title: "Understanding How Dapr Works in a Kubernetes Cluster: A Visual Guide wit
 weight: 1
 ---
 
-{{< chapterstyle >}}
-
 ### **Introduction**
 
 In this tutorial, you will explore how [Dapr](https://dapr.io/)(Distributed Application Runtime) operates within a Kubernetes cluster.
@@ -47,5 +45,3 @@ If you are using a self-hosted Meshery deployment, connect to your Kubernetes cl
 1. Gain hands-on experience in deploying Dapr on a Kubernetes cluster using Meshery.
 1. Learn how to visualize these components using Meshery and get a better understanding of the Dapr architecture and interactions.
 1. Understand how to use Dapr's state management capabilities to persist data in a Redis state store, and see how the Node.js app interacts with the state store to save and retrieve data.
-
-{{< /chapterstyle >}}

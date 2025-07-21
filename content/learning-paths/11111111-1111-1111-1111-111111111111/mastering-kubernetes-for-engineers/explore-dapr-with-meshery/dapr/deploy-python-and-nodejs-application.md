@@ -6,7 +6,6 @@ title: "Deploy Python and NodeJS application"
 lectures: 4
 weight: 5
 ---
-{{< chapterstyle >}}
 
 ### **Deploy Node.js Application**
 
@@ -42,5 +41,3 @@ Switch to visualizer and filter according to these specifications:
 You should see the daprd sidecar containers in both the python and node pods.
 
 ![filter-node-python]({{< usestatic "mastering-kubernetes-for-engineers/filter-node-python.png" >}})
-
-{{< /chapterstyle >}}

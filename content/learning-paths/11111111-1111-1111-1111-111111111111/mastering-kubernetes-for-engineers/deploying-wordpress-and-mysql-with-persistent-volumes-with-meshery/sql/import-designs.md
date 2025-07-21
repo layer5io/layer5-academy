@@ -7,8 +7,6 @@ title: "Import Design Files and Merge"
 weight: 2
 ---
 
-{{< chapterstyle >}}
-
 1. In the left sidebar, click on the upward arrow symbol (import icon) to import the designs into Meshery.
 2. In the modal that appears:
    - Enter a name for your design in the "Design File Name" field (e.g. `mysql-deployment`).
@@ -62,5 +60,3 @@ _Figure: merge modal_
 ![wp7]({{< usestatic "mastering-kubernetes-for-engineers/wp7.png" >}})
 
 _Figure: save design_
-
-{{< /chapterstyle >}}

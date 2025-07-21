@@ -6,7 +6,6 @@ title: "Deploy Dapr StateStore Component"
 lectures: 4
 weight: 4
 ---
-{{< chapterstyle >}}
 
 ### **Create, Configure and Deploy Dapr Redis State Store Component**
 
@@ -47,4 +46,3 @@ Now you can start configuring the Dapr state-store.
 
 Next we will deploy the Python and Node.js applications.
 
-{{< /chapterstyle >}}

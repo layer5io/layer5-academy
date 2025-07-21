@@ -7,8 +7,6 @@ title: "Visualize Deployed Resources"
 weight: 6
 ---
 
-{{< chapterstyle >}}
-
 ### **Visualizing the Deployed Resources**
 
 To view the resources deployed, use the Visualize section of the _Kanvas_. In this section, you can apply filters to display the specific resources you want to see.
@@ -50,4 +48,3 @@ _Figure: Get more details about service_
 
 To delete the resources, use the `Undeploy` option from the Action dropdown in the _Design_ tab.
 
-{{< /chapterstyle >}}

@@ -7,7 +7,6 @@ title: "Interpreting the Edge Stack Meshery Design"
 weight: 3
 ---
 
-{{< chapterstyle >}}
 
 ### **Exploring the Relationships Between Edge Stack Resources with a Kanvas Design**
 
@@ -47,4 +46,3 @@ With the help of Kanvas, these connections become clear and easy to understand.
 
 {{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-deployment-service.js" id="embedded-design-7b01cebf-b0f9-4c11-87e7-612d8fad10c8" >}}
 
-{{< /chapterstyle >}}

@@ -7,8 +7,6 @@ title: "Introduction"
 weight: 1
 ---
 
-{{< chapterstyle >}}
-
 In this tutorial, you will learn how to **Install a Scalable PostgreSQL Distribution on Kubernetes with Cloud Native PostgreSQL** using Meshery Playground. Meshery Playground is an interactive and collaborative live cluster environment that simplifies the deployment process and enhances user experience by providing visual tools for managing Kubernetes resources.
 
 > **NOTE:** If this is your first time working with Meshery Playground, consider starting with the [Exploring Kubernetes Pods with Meshery Playground](https://docs.meshery.io/guides/tutorials/kubernetes-pods) tutorial first.
@@ -37,5 +35,3 @@ CloudNative PG encapsulates PostgreSQL within a Kubernetes-native framework, adh
 
 1. Log in to the [Meshery Playground](https://cloud.layer5.io/) using your credentials. On successful login, you should be at the dashboard. Press the **X** on the _Where do you want to start?_ popup to close it (if required).
 2. Click **Explore** in the Cloud Native Playground tile to navigate to _Kanvas_
-
-{{< /chapterstyle >}}
