@@ -1,5 +1,4 @@
 ---
-contentType: "learning-path"
 title: "Mastering Service Meshes for Developers"
 description: "Learn how to setup a service mesh and build an application"
 weight: 3
