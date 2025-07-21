@@ -5,7 +5,6 @@ themeColor: "#3C494F"
 banner: "/11111111-1111-1111-1111-111111111111/images/kubernetes-icon.svg"
 courses: 1
 weight: 2
-type: "learning-path"
 ---
 
 <!--
