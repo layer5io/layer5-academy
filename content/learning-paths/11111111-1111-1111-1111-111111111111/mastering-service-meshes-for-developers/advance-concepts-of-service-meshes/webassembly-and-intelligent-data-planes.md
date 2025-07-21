@@ -13,7 +13,7 @@ title: "WebAssembly and Intelligent Data Planes"
 
 In this lab, you will use the sample application [Image Hub](https://github.com/layer5io/image-hub). This version of the Image Hub filter has been simplified for your lab. To self-study deeper functionality, try the other version of the Image Hub filter that is available in the Image Hub repo.
 
-## Deploy Sample Application
+### Deploy Sample Application
 
 Using Meshery, select Istio from the Management menu.
 
@@ -25,7 +25,7 @@ In the Istio management page:
 <br />
 <br />
 
-## Load the filter
+### Load the filter
 
 Next, load the custom Envoy filter. This filter is written in Rust and is compiled against WebAssembly as it's target runtime.
 

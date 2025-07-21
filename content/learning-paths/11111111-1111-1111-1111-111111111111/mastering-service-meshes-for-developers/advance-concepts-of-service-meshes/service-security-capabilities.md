@@ -10,7 +10,7 @@ title: "Service Security Capabilities of Istio"
 
 {{< chapterstyle >}}
 
-<h2 class="chapter-sub-heading">Access Control</h2>
+### **Access Control**
 
 You will start by denying all traffic.
 
@@ -23,9 +23,7 @@ metadata:
 spec: {}
 ```
 
-<h3 class="chapter-sub-heading">
-  And then begin poking holes in your service mesh "firewall".
-</h3>
+#### **And then begin poking holes in your service mesh "firewall".**
 
 ```yaml
 ---
@@ -44,7 +42,7 @@ spec:
             methods: ["GET"]
 ```
 
-<h3 class="chapter-sub-heading">Create AuthorizationPolicy for each BookInfo service.</h3>
+#### **Create AuthorizationPolicy for each BookInfo service.**
 
 ```yaml
 ---
@@ -114,7 +112,7 @@ spec:
             methods: ["GET", "POST"]
 ```
 
-<h3 class="chapter-sub-heading">Allow per user access</h3>
+#### **Allow per user access**
 
 ```yaml
 ---
@@ -139,7 +137,7 @@ spec:
           values: ["naruto"]
 ```
 
-<h3 class="chapter-sub-heading">Reset BookInfo Subsets (reset destination rules)</h3>
+#### **Reset BookInfo Subsets (reset destination rules)**
 
 ```yaml
 apiVersion: networking.istio.io/v1alpha3
@@ -206,13 +204,13 @@ spec:
 ---
 ```
 
-<h2 class="chapter-sub-heading">Identity Verification</h2>
+### **Identity Verification**
 
 Note: this lab uses the sample application HTTPbin.
 
 Using Meshery, deploy the HTTPbin sample application.
 
-<h3 class="chapter-sub-heading">Add Claims</h3>
+#### **Add Claims**
 
 ```yaml
 apiVersion: security.istio.io/v1beta1
@@ -234,7 +232,7 @@ spec:
           values: ["group1"]
 ```
 
-<h3 class="chapter-sub-heading">Def</h3>
+#### **Def**
 
 ```yaml
 apiVersion: "security.istio.io/v1beta1"
@@ -251,7 +249,7 @@ spec:
       jwksUri: "https://raw.githubusercontent.com/istio/istio/release-1.7/security/tools/jwt/samples/jwks.json"
 ```
 
-<h2 class="chapter-sub-heading">Mutual TLS</h2>
+### **Mutual TLS**
 
 Using Meshery, you can change mTLS enforcement for a namespace.
 

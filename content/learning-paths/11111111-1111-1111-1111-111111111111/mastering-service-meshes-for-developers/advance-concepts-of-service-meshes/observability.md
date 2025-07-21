@@ -10,7 +10,7 @@ title: "Observability with Istio"
 
 {{< chapterstyle >}}
 
-<h2 class="chapter-sub-heading">Install Telemetry Add-ons</h2>
+### **Install Telemetry Add-ons**
 
 Using Meshery, install Istio telemetry add-ons. In the Istio management page:
 
@@ -22,7 +22,7 @@ Using Meshery, install Istio telemetry add-ons. In the Istio management page:
 
 You will use Prometheus and Grafana for collecting and viewing metrics and [Jaeger](https://www.jaegertracing.io/) collecting and viewing distributed traces. Expose each add-on external to the cluster. Each the service network typs are set to "LoadBalancer".
 
-<h2 class="chapter-sub-heading">Service Mesh Performance and Telemetry</h2>
+### **Service Mesh Performance and Telemetry**
 
 Many of the labs require load to be placed on the sample apps. Let's generate HTTP traffic against the BookInfo application, so we can see interesting telemetry.
 
@@ -40,14 +40,14 @@ The URL to run a load test against will be `http://<IP/hostname of any of the no
 
 Use the computed URL above in Meshery, in the browser, to run a load test and see the results.
 
-<h3 class="chapter-sub-heading">Connect Grafana (optionally, Prometheus) to Meshery.</h3>
+#### **Connect Grafana (optionally, Prometheus) to Meshery.**
 
 On the Settings page:
 
 1. Navigate to the `Metrics` tab.
 1. Enter Grafana's URL:port number and submit.
 
-<h3 class="chapter-sub-heading">Use Meshery to generate load and analyze performance.</h3>
+#### **Use Meshery to generate load and analyze performance.**
 
 On the Performance page:
 
@@ -63,14 +63,10 @@ Click on `Run Test`. A performance test will run and statistical analysis perfor
 
 Next, you will begin controlling requests to BookInfo using traffic management features.
 
-<br />
-<h3>Alternative: Manual installation</h3>
+#### **Alternative: Manual installation**
 Follow these steps if the above steps did not work
-<br />
-<br />
 
-<h4 class="chapter-alt-heading"> Install Add-ons:</h4>
-<br />
+##### **Install Add-ons:**
 
 **Prometheus**
 
@@ -93,8 +89,7 @@ kubectl apply -f https://raw.githubusercontent.com/istio/istio/release-1.7/sampl
 
 ```
 
-<br />
-<h4 class="chapter-alt-heading"> Exposing services</h4>
+##### **Exposing services**
 
 Istio add-on services are deployed by default as `ClusterIP` type services. We can expose the services outside the cluster by either changing the Kubernetes service type to `NodePort` or `LoadBalancer` or by port-forwarding or by configuring Kubernetes Ingress.
 
@@ -104,7 +99,7 @@ To expose them using NodePort service type, we can edit the services and change 
 **Option 2: Expose services with port-forwarding**
 Port-forwarding runs in the foreground. We have appended `&` to the end of the above 2 commands to run them in the background. If you donot want this behavior, please remove the `&` from the end.
 
-<h4 class="chapter-alt-heading"> Prometheus</h4>
+##### **Prometheus**
 
 You will need to expose the Prometheus service on a port either of the two following methods:
 
@@ -132,11 +127,8 @@ kubectl -n istio-system port-forward \
 
 Browse to `http://<ip>:<port>` and in the `Expression` input box enter: `istio_request_bytes_count`. Click the Execute button.
 
-<br />
 
-<br />
-<br />
-<h4 class="chapter-alt-heading"> Grafana</h4>
+##### **Grafana**
 
 You will need to expose the Grafana service on a port either of the two following methods:
 
@@ -159,9 +151,7 @@ kubectl -n istio-system port-forward $(kubectl -n istio-system get pod -l app=gr
   -o jsonpath='{.items[0].metadata.name}') 3000:3000 &
 ```
 
-<br />
-<br />
-<h4 class="chapter-alt-heading"> Distributed Tracing</h4>
+##### **Distributed Tracing**
 
 The sample Bookinfo application is configured to collect trace spans using Zipkin or Jaeger. Although Istio proxies are able to automatically send spans, it needs help from the application to tie together the entire trace. To do this applications need to propagate the appropriate HTTP headers so that when the proxies send span information to Zipkin or Jaeger, the spans can be correlated correctly into a single trace.
 
@@ -175,12 +165,7 @@ To do this the application collects and propagates the following headers from th
 - `x-b3-flags`
 - `x-ot-span-context`
 
-<br />
-
-<br />
-<br />
-
-<h4 class="chapter-alt-heading"> Exposing services</h4>
+##### **Exposing services**
 
 Istio add-on services are deployed by default as `ClusterIP` type services. We can expose the services outside the cluster by either changing the Kubernetes service type to `NodePort` or `LoadBalancer` or by port-forwarding or by configuring Kubernetes Ingress. In this lab, we will briefly demonstrate the `NodePort` and port-forwarding ways of exposing services.
 
@@ -202,7 +187,7 @@ To find the assigned ports for Jaeger:
 kubectl -n istio-system get svc tracing
 ```
 
-<h5 class="chapter-alt-heading">Option 2: Expose services with port-forwarding</h5>
+**Option 2: Expose services with port-forwarding**
 
 To port-forward Jaeger:
 
@@ -212,7 +197,7 @@ kubectl -n istio-system port-forward \
   16686:16686 &
 ```
 
-<h4 class="chapter-alt-heading"> View Traces</h4>
+##### **View Traces**
 
 Let us find the port Jaeger is exposed on by running the following command:
 

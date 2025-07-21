@@ -11,7 +11,7 @@ weight: 2
 
 To play with Istio and demonstrate some of it's capabilities, you will deploy the example BookInfo application, which is included the Istio package.
 
-<h2 class="chapter-sub-heading">What is the Bookinfo Application </h2>
+### **What is the Bookinfo Application**
 <br />
 This application is a polyglot composition of microservices are written in different
 languages and sample BookInfo application displays information about a book, similar to a
@@ -20,7 +20,7 @@ the book, book details (ISBN, number of pages, and so on), and a few book review
 
 The end-to-end architecture of the application is shown in the figure.
 
-{{< image src="/images/learning-path/istio/bookinfo-off-mesh.webp" width="100%" align="center" alt="BookInfo architecture deployed off the mesh" title="Figure: BookInfo deployed off the mesh" >}}
+![book-info]({{< usestatic "mastering-service-mesh/bookinfo-off-mesh.webp" >}})
 
 <br />
 It’s worth noting that these services have no dependencies on Istio, but make an interesting
@@ -29,7 +29,7 @@ for the reviews service.
 
 As shown in the figure below, proxies are sidecarred to each of the application containers.
 
-{{< image src="/images/learning-path/istio/bookinfo-on-mesh.webp" width="100%" align="center" alt="BookInfo architecture deployed on the mesh" title="Figure: BookInfo deployed on the mesh" >}}
+![book-info-on-mesh]({{< usestatic "mastering-service-mesh/bookinfo-on-mesh.webp" >}})
 
 <br />
 Sidecars proxy can be either manually or automatically injected into the pods. Automatic sidecar
@@ -46,9 +46,7 @@ If your environment **does NOT** supports either of these two APIs, then you may
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
 <br />
-<h2 class="chapter-sub-heading">
-  <a name="auto"></a> Deploying Sample App with Automatic sidecar injection
-</h2>
+### **Deploying Sample App with Automatic sidecar injection**
 
 <br />
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
@@ -119,12 +117,12 @@ kubectl describe svc productpage
 Next, you will expose the BookInfo application to be accessed external from the cluster.
 
 <br />
-<h3>Alternative: Manual installation </h3>
+#### **Alternative: Manual installation**
 Follow this if the above steps did not work for you
 <br />
 <br />
 
-<h4 class="chapter-alt-heading"> Label namespace for injection</h4>
+##### **Label namespace for injection**
 
 Label the default namespace with istio-injection=enabled
 
@@ -146,7 +144,7 @@ kube-public    Active    1h
 kube-system    Active    1h
 ```
 
-<h4 class="chapter-alt-heading"> Deploy BookInfo</h4>
+##### **Deploy BookInfo**
 <br />
 
 Applying this yaml file included in the Istio package you collected in [Getting Started](./getting-started) will deploy the BookInfo app in you cluster.
@@ -155,7 +153,7 @@ Applying this yaml file included in the Istio package you collected in [Getting 
 kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 ```
 
-<h4 class="chapter-alt-heading">Deploy Gateway and Virtual Service for BookInfo app</h4>
+##### **Deploy Gateway and Virtual Service for BookInfo app**
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
@@ -164,12 +162,9 @@ kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 <hr />
 <br />
 
-<h3>
-  <a name="manual-sidecar-inj" />
-  Manual Sidecar Injection
-</h3>
+#### **Manual Sidecar Injection**
 
-<p>Use this only when Automatic Sidecar injection doesn't work</p>
+Use this only when Automatic Sidecar injection doesn't work
 
 To do a manual sidecar injection we will be using `istioctl` command:
 
