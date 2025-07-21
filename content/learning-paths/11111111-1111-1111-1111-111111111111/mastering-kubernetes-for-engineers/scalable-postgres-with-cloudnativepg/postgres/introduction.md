@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "introduction"
-chapterTitle: "Introduction"
 description: ""
 lectures: 12
 title: "Introduction"

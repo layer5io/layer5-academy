@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "edge-stack-configuration"
-chapterTitle: "Edge Stack Configuration"
 description: "This chapter covers the configuration of the Edge Stack, including importing and deploying Edge Stack Custom Resource Definitions (CRDs) and YAML files. You will learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you will deploy a sample Quote service application to route traffic through Edge Stack."
 lectures: 4
 weight: 2
@@ -26,7 +25,7 @@ The Edge Stack CRD YAML file typically contains the definitions for custom resou
    - Choose **Url upload** for the upload method, and paste in the [Edge-Stack-crd](https://app.getambassador.io/yaml/edge-stack/3.11.0/aes-crds.yaml) YAML link.
    - Then, click on **Import**.
 
-{{< image src="/images/learning-path/edge-stack/es1.png" width="100%" align="center" alt="" >}}
+![es1]({{< usestatic "mastering-kubernetes-for-engineers/es1.png" >}})
 
 3. Click on the name of the design on the Designs tab to display the visual representations of the various Kubernetes resources and their relationships on the canvas.
 
@@ -34,11 +33,11 @@ The Edge Stack CRD YAML file typically contains the definitions for custom resou
 
 5. To check the status of your deployment, click on the notification icon on the top right corner.
 
-{{< image src="/images/learning-path/edge-stack/es2.png" width="100%" align="center" alt="" >}}
+![es2]({{< usestatic "mastering-kubernetes-for-engineers/es2.png" >}})
 
 6. Click on **Open In visualizer** to navigate to the Visualize section and see a pre-filtered view of the deployed resources in the cluster.
 
-{{< image src="/images/learning-path/edge-stack/es3.png" width="100%" align="center" alt="" >}}
+![es3]({{< usestatic "mastering-kubernetes-for-engineers/es3.png" >}})
 
 ### **Import the Edge Stack YAML**
 
@@ -46,11 +45,11 @@ Now that the CRDs have been deployed, go ahead to deploy the main Edge Stack Con
 
 1. Follow the previous Steps to Import the [Edge Stack YAML](https://app.getambassador.io/yaml/edge-stack/3.11.0/aes.yaml) into Kanvas with the name _Edge-Stack_.
 
-{{< image src="/images/learning-path/edge-stack/es4.png" width="100%" align="center" alt="" >}}
+![es4]({{< usestatic "mastering-kubernetes-for-engineers/es4.png" >}})
 
 2. You can use the **Group Components** icon on the dock below to group resources based on shared labels or annotations.
 
-{{< image src="/images/learning-path/edge-stack/es5.png" width="100%" align="center" alt="" >}}
+![es5]({{< usestatic "mastering-kubernetes-for-engineers/es5.png" >}})
 
 ### **Configure Edge Stack License**
 
@@ -60,7 +59,7 @@ Ambassador Edge Stack requires a valid license to operate. Generate your [licens
 
 2. Click on the Secret component on the design canvas and input the token.
 
-{{< image src="/images/learning-path/edge-stack/es6.png" width="100%" align="center" alt="" >}}
+![es6]({{< usestatic "mastering-kubernetes-for-engineers/es6.png" >}})
 
 ### **Deploy Edge Stack**
 
@@ -68,7 +67,7 @@ Ambassador Edge Stack requires a valid license to operate. Generate your [licens
 
 2. Click on **Open In visualizer** to navigate to the Visualize section and see a pre-filtered view of the deployed resources in the cluster.
 
-{{< image src="/images/learning-path/edge-stack/es10.png" width="100%" align="center" alt="" >}}
+![es10]({{< usestatic "mastering-kubernetes-for-engineers/es10.png" >}})
 
 ### **Listener Custom Resource**
 

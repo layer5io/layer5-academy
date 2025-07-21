@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "view-application-logs"
-chapterTitle: "View Application Logs"
 description: "Use Meshery's interactive terminal to view logs of applications"
 lectures: 4
 weight: 6
@@ -48,7 +47,7 @@ The Python app does not need to know the exact address or port of the Node.js se
 2. On the right sidebar, click on **Action**.
 3. Click on **Stream Container logs**.
 
-{{< image src="/images/learning-path/dapr/stream.png" width="100%" align="center" alt="" >}}
+![stream]({{< usestatic "mastering-kubernetes-for-engineers/stream.png" >}})
 
 The logs show the daprd container logs with a POST request made to **/neworder** endpoint.
 

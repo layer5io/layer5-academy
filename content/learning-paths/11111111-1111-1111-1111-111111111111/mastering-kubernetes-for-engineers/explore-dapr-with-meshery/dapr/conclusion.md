@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "conclusion"
-chapterTitle: "Conclusion"
 description:
 title: "Conclusion"
 lectures: 4

@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "deploy-redis"
-chapterTitle: "Deploy Redis"
 description: "This chapter covers the deployment of Redis Statestore"
 lectures: 4
 weight: 3
@@ -24,7 +23,7 @@ title: "Deploy Redis"
 
 These filter settings will allow you to view both Dapr resources within the _dapr-system_ namespace and Redis resources within the default namespace.
 
-{{< image src="/images/learning-path/dapr/redis-dapr.png" width="100%" align="center" alt="" >}}
+![redis-dapr]({{< usestatic "mastering-kubernetes-for-engineers/redis-dapr.png" >}})
 
 Next, let's deploy the Dapr state store component that will manage this Redis state store.
 

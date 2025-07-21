@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "deploy-python-and-nodejs-application.mdx"
-chapterTitle: "Deploy Python and NodeJS application"
 description: 
 title: "Deploy Python and NodeJS application"
 lectures: 4
@@ -42,6 +41,6 @@ Switch to visualizer and filter according to these specifications:
 
 You should see the daprd sidecar containers in both the python and node pods.
 
-{{< image src="/images/learning-path/dapr/filter-node-python.png" width="100%" align="center" alt="" >}}
+![filter-node-python]({{< usestatic "mastering-kubernetes-for-engineers/filter-node-python.png" >}})
 
 {{< /chapterstyle >}}

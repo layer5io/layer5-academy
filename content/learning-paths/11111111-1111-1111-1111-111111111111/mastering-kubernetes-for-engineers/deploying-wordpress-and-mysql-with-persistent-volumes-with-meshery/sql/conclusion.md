@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "conclusion"
-chapterTitle: "Conclusion"
 description: ""
 lectures: 12
 weight: 7

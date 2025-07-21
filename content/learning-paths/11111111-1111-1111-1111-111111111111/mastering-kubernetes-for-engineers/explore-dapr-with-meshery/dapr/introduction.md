@@ -1,10 +1,9 @@
 ---
 docType: "Chapter"
 id: "introduction"
-chapterTitle: "Understanding How Dapr Works in a Kubernetes Cluster: A Visual Guide with Meshery"
 description: "Learn how Dapr works by deploying Dapr and sample applications in a Kubernetes Cluster using Meshery."
 lectures: 4
-title: "Introduction"
+title: "Understanding How Dapr Works in a Kubernetes Cluster: A Visual Guide with Meshery"
 weight: 1
 ---
 
@@ -32,7 +31,7 @@ This architecture ensures that your application remains loosely coupled and can 
 
 The diagram below illustrates this setup, providing a visual representation of how Dapr components interact within the architecture. We will explore more on these concepts in subsequent chapters.
 
-{{< image src="/images/learning-path/dapr/architecture.png" width="100%" align="center" alt="" >}}
+![architecture]({{< usestatic "mastering-kubernetes-for-engineers/architecture.png" >}})
 
 **Prerequisite**
 

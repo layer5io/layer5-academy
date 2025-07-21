@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "deploy-dapr-control-plane.mdx"
-chapterTitle: "Deploy Dapr Control Plane"
 description: "This chapter takes you through the import, exploration and deployment of Dapr control plane components"
 lectures: 4
 title: "Deploy Dapr Control Plane"
@@ -24,7 +23,7 @@ The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set 
    - Paste the copied link in the **URL** field.
    - Then, click **Import**.
 
-{{< image src="/images/learning-path/dapr/dapr-helm.png" width="100%" align="center" alt="" >}}
+![dapr-helm]({{< usestatic "mastering-kubernetes-for-engineers/dapr-helm.png" >}})
 
 3. On the Designs tab on the left, click on the **DAPR** design you just imported. This will display the various Kubernetes resource components required for deploying the Dapr control plane on the canvas.
 
@@ -49,7 +48,7 @@ The triangles represent services, the rectangles represent deployments, and the 
 
 To briefly take a look at one of these network relationships, click on the dapr-operator container in the deployment and its service to open their configuration tabs.
 
-{{< image src="/images/learning-path/dapr/relationship.png" width="100%" align="center" alt="" >}}
+![relationship]({{< usestatic "mastering-kubernetes-for-engineers/relationship.png" >}})
 
 From the diagram above, the container within the `dapr-operator` deployment is configured to expose Container port **6500**. The `dapr-api` service listens on port **443** and forwards incoming traffic to Target Port **6500**. This is why the arrow is labeled with **443/TCP**.
 
@@ -75,7 +74,7 @@ We can also explore relationships through grouped components.
 
 **Grouped Components**
 
-{{< image src="/images/learning-path/dapr/grouped.png" width="100%" align="center" alt="" >}}
+![grouped]({{< usestatic "mastering-kubernetes-for-engineers/grouped.png" >}})
 
 Click on the **Group Components** icon on the dock at the bottom of the canvas to group resources based on shared labels or annotations.
 
@@ -98,7 +97,7 @@ The grouping of these components illustrates their interconnections, enhancing o
    - For **View Selector** select **Single Node**.
    - For **Kinds** select the resources you want to see including _Deployments, Pods, Services, Statefulset, Secret, Replicaset, Endpoints and Endpoint slices_.
 
-{{< image src="/images/learning-path/dapr/dapr-visualizer.png" width="100%" align="center" alt="" >}}
+![dapr-visualizer]({{< usestatic "mastering-kubernetes-for-engineers/dapr-visualizer.png" >}})
 
 Using Meshery, we have visualized the components of the Dapr control plane, explored their relationships, and successfully deployed Dapr. Our next step is to integrate the Redis store into our architecture.
 

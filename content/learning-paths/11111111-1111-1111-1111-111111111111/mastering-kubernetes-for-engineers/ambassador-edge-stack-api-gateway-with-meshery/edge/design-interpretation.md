@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "design-interpretation"
-chapterTitle: "Interpreting the Edge Stack Meshery Design"
 description: "This chapter explores the relationships between different components in the Ambassador Edge Stack (AES) system using a Kanvas design. It covers the roles and communication ports of each component, as well as the service account roles and relationships within the AES system."
 lectures: 4
 title: "Interpreting the Edge Stack Meshery Design"
@@ -16,7 +15,7 @@ weight: 3
 
 The design below shows the traffic flow between some major components in the Ambassador Edge Stack (AES) system.
 
-{{< image src="/images/learning-path/edge-stack/es8.png" width="100%" align="center" alt="" >}}
+![es8]({{< usestatic "mastering-kubernetes-for-engineers/es8.png" >}})
 
 The components include:
 
@@ -37,7 +36,7 @@ Let's take a look at the roles of each component and the ports used for communic
 
 ### **Service Account Roles**
 
-{{< image src="/images/learning-path/edge-stack/es9.png" width="100%" align="center" alt="" >}}
+![es9]({{< usestatic "mastering-kubernetes-for-engineers/es9.png" >}})
 
 The diagram above shows one of the role assignments and service account relationships within
 the Ambassador Edge Stack (AES) system. You can see that the Service Account (edge-stack) is

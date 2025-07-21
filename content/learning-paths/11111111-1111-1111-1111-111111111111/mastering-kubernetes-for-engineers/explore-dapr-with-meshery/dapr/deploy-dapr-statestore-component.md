@@ -1,7 +1,6 @@
 ---
 docType: "Chapter"
 id: "deploy-dapr-statestore-component.mdx"
-chapterTitle: "Deploy Dapr StateStore Component"
 description: 
 title: "Deploy Dapr StateStore Component"
 lectures: 4
@@ -21,7 +20,7 @@ This setup ensures that Dapr connects to the correct Redis instance, allowing it
 2. Search for "dapr".
 3. Click on the drop-down and drag and drop **component** to the design canvas. This is the Dapr component custom resource we discussed when learning about the Dapr control plane.
 
-{{< image src="/images/learning-path/dapr/drag-component.png" width="100%" align="center" alt="" >}}
+![drag-component]({{< usestatic "mastering-kubernetes-for-engineers/drag-component.png" >}})
 
 #### **Configure State Store and Deploy**
 
@@ -33,7 +32,7 @@ Now you can start configuring the Dapr state-store.
 4. Enter _state.redis_ in the **Type** field.
 5. Enter _v1_ in the **version** field.
 
-{{< image src="/images/learning-path/dapr/state-store.png" width="100%" align="center" alt="" >}}
+![state-store]({{< usestatic "mastering-kubernetes-for-engineers/state-store.png" >}})
 
 {{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-statestore.js" id="embedded-design-f0b9088c-ab17-41ee-9400-fcfc5f4d59a8" >}}
 
@@ -42,7 +41,7 @@ Now you can start configuring the Dapr state-store.
    - For **Value**, enter _redis-master.default.svc.cluster.local:6379_.
    - Under **Secret Key Ref**, enter the pair _redis:redis-password_.
 
-{{< image src="/images/learning-path/dapr/metadata.png" width="100%" align="center" alt="" >}}
+![metadata]({{< usestatic "mastering-kubernetes-for-engineers/metadata.png" >}})
 
 7. Click the **Actions** button and deploy.
 

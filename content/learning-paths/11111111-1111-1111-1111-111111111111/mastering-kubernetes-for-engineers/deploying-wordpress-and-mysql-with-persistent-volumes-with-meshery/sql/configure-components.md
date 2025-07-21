@@ -1,11 +1,10 @@
 ---
 docType: "Chapter"
 id: "configure-components"
-chapterTitle: "Create and Configure Kubernetes Components"
 description: "In this section you will create and configure Persistent Volumes, Persistent Volume Claims and a Secret for the Database."
 lectures: 12
 weight: 3
-title: "Configure Components"
+title: "Create and Configure Kubernetes Components"
 ---
 
 {{< chapterstyle >}}
@@ -27,7 +26,7 @@ Before you proceed, choose a password and convert it into base64 format. You can
 
 1. Click on the Kubernetes icon on the dock, search for `secret`, and click on it or drag it to the canvas.
 
-{{< image src="/images/learning-path/sql/wp8.png" width="100%" align="center" alt="" >}}
+![wp8]({{< usestatic "mastering-kubernetes-for-engineers/wp8.png" >}})
 
 _Figure: Create secret component_
 
@@ -37,7 +36,7 @@ _Figure: Create secret component_
    - Set the _Type_ as `Opaque`
    - Click **+** next to Data and add the secret as a key-value pair `password:cGFzc3dvcmQ=`
 
-{{< image src="/images/learning-path/sql/wp9.png" width="100%" align="center" alt="" >}}
+![wp9]({{< usestatic "mastering-kubernetes-for-engineers/wp9.png" >}})
 
 _Figure: Configure secret_
 
@@ -53,7 +52,7 @@ Please note that using `hostPath` for Persistent Volumes is generally not recomm
 
 1. Click on the Kubernetes icon on the dock, search for `Persistent Volume`, and select it. Create two PVs.
 
-{{< image src="/images/learning-path/sql/wp10.png" width="100%" align="center" alt="" >}}
+![wp10]({{< usestatic "mastering-kubernetes-for-engineers/wp10.png" >}})
 
 _Figure: Create persistent volume_
 
@@ -63,19 +62,19 @@ _Figure: Create persistent volume_
    - Set the "StorageClassName" as `manual`
    - Click **+** next to "AccessMode" and enter `ReadWriteOnce`
 
-{{< image src="/images/learning-path/sql/wp11.png" width="100%" align="center" alt="" >}}
+![wp11]({{< usestatic "mastering-kubernetes-for-engineers/wp11.png" >}})
 
 _Figure: Configure persistent volume_
 
     - Scroll down to "Capacity" and enter the key pair `storage:20Gi`
 
-{{< image src="/images/learning-path/sql/wp12.png" width="100%" align="center" alt="" >}}
+![wp12]({{< usestatic "mastering-kubernetes-for-engineers/wp12.png" >}})
 
 _Figure: Persistent volume capacity_
 
     - Scroll down to "Hostpath" and input `mnt/data/wp-pv` for the _path_ and `DirectoryOrCreate` for the _type_.
 
-{{< image src="/images/learning-path/sql/wp13.png" width="100%" align="center" alt="" >}}
+![wp13]({{< usestatic "mastering-kubernetes-for-engineers/wp13.png" >}})
 
 _Figure: Persistent volume hostpath_
 

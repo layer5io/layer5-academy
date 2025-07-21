@@ -1,10 +1,9 @@
 ---
 docType: "Chapter"
 id: "visualize"
-chapterTitle: "Visualize Deployed Resources"
 description: "In this section you will use the Visualize tool to see the resources in the cluster"
 lectures: 12
-title: "Visualize Resources"
+title: "Visualize Deployed Resources"
 weight: 6
 ---
 
@@ -25,7 +24,7 @@ To view the resources deployed, use the Visualize section of the _Kanvas_. In th
 
 After selecting your filters, you should see a view displaying only your relevant resources, as shown in the image below.
 
-{{< image src="/images/learning-path/sql/wp19.png" width="100%" align="center" alt="" >}}
+![wp19]({{< usestatic "mastering-kubernetes-for-engineers/wp19.png" >}})
 
 _Figure: Filter resources_
 
@@ -35,7 +34,7 @@ You can click on any resource to view more details about it in the "Details" sec
 
 **Deployment**
 
-{{< image src="/images/learning-path/sql/wp23.png" width="100%" align="center" alt="" >}}
+![wp23]({{< usestatic "mastering-kubernetes-for-engineers/wp23.png" >}})
 
 _Figure: Get more details about deployment_
 
@@ -43,7 +42,7 @@ _Figure: Get more details about deployment_
 
 The Service details only display the cluster IP for now. So there is no way to access the application externally.
 
-{{< image src="/images/learning-path/sql/wp20.png" width="100%" align="center" alt="" >}}
+![wp20]({{< usestatic "mastering-kubernetes-for-engineers/wp20.png" >}})
 
 _Figure: Get more details about service_
 
