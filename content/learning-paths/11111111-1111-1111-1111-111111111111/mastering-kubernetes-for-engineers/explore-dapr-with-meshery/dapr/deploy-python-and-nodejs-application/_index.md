@@ -40,4 +40,4 @@ Switch to visualizer and filter according to these specifications:
 
 You should see the daprd sidecar containers in both the python and node pods.
 
-![filter-node-python]({{< usestatic "mastering-kubernetes-for-engineers/filter-node-python.png" >}})
+![filter-node-python](filter-node-python.png)

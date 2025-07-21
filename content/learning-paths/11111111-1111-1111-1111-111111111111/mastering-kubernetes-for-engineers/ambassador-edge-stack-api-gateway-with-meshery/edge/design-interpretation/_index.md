@@ -14,7 +14,7 @@ weight: 3
 
 The design below shows the traffic flow between some major components in the Ambassador Edge Stack (AES) system.
 
-![es8]({{< usestatic "mastering-kubernetes-for-engineers/es8.png" >}})
+![es8](es8.png)
 
 The components include:
 
@@ -35,7 +35,7 @@ Let's take a look at the roles of each component and the ports used for communic
 
 ### **Service Account Roles**
 
-![es9]({{< usestatic "mastering-kubernetes-for-engineers/es9.png" >}})
+![es9](es9.png)
 
 The diagram above shows one of the role assignments and service account relationships within
 the Ambassador Edge Stack (AES) system. You can see that the Service Account (edge-stack) is

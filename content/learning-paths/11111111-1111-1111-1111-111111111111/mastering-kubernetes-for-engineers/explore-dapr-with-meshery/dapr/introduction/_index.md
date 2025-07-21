@@ -29,7 +29,7 @@ This architecture ensures that your application remains loosely coupled and can 
 
 The diagram below illustrates this setup, providing a visual representation of how Dapr components interact within the architecture. We will explore more on these concepts in subsequent chapters.
 
-![architecture]({{< usestatic "mastering-kubernetes-for-engineers/architecture.png" >}})
+![architecture](architecture.png)
 
 **Prerequisite**
 
