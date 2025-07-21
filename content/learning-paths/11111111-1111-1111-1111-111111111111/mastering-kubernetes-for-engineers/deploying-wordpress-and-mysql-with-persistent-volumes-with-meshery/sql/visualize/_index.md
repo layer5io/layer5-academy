@@ -22,7 +22,7 @@ To view the resources deployed, use the Visualize section of the _Kanvas_. In th
 
 After selecting your filters, you should see a view displaying only your relevant resources, as shown in the image below.
 
-![wp19]({{< usestatic "mastering-kubernetes-for-engineers/wp19.png" >}})
+![wp19](wp19.png)
 
 _Figure: Filter resources_
 
@@ -32,7 +32,7 @@ You can click on any resource to view more details about it in the "Details" sec
 
 **Deployment**
 
-![wp23]({{< usestatic "mastering-kubernetes-for-engineers/wp23.png" >}})
+![wp23](wp23.png)
 
 _Figure: Get more details about deployment_
 
@@ -40,7 +40,7 @@ _Figure: Get more details about deployment_
 
 The Service details only display the cluster IP for now. So there is no way to access the application externally.
 
-![wp20]({{< usestatic "mastering-kubernetes-for-engineers/wp20.png" >}})
+![wp20](wp20.png)
 
 _Figure: Get more details about service_
 

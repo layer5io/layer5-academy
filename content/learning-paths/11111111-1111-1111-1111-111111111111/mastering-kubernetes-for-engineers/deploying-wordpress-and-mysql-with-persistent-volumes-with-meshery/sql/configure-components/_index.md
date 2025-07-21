@@ -24,7 +24,7 @@ Before you proceed, choose a password and convert it into base64 format. You can
 
 1. Click on the Kubernetes icon on the dock, search for `secret`, and click on it or drag it to the canvas.
 
-![wp8]({{< usestatic "mastering-kubernetes-for-engineers/wp8.png" >}})
+![wp8](wp8.png)
 
 _Figure: Create secret component_
 
@@ -34,7 +34,7 @@ _Figure: Create secret component_
    - Set the _Type_ as `Opaque`
    - Click **+** next to Data and add the secret as a key-value pair `password:cGFzc3dvcmQ=`
 
-![wp9]({{< usestatic "mastering-kubernetes-for-engineers/wp9.png" >}})
+![wp9](wp9.png)
 
 _Figure: Configure secret_
 
@@ -50,7 +50,7 @@ Please note that using `hostPath` for Persistent Volumes is generally not recomm
 
 1. Click on the Kubernetes icon on the dock, search for `Persistent Volume`, and select it. Create two PVs.
 
-![wp10]({{< usestatic "mastering-kubernetes-for-engineers/wp10.png" >}})
+![wp10](wp10.png)
 
 _Figure: Create persistent volume_
 
@@ -60,19 +60,19 @@ _Figure: Create persistent volume_
    - Set the "StorageClassName" as `manual`
    - Click **+** next to "AccessMode" and enter `ReadWriteOnce`
 
-![wp11]({{< usestatic "mastering-kubernetes-for-engineers/wp11.png" >}})
+![wp11](wp11.png)
 
 _Figure: Configure persistent volume_
 
     - Scroll down to "Capacity" and enter the key pair `storage:20Gi`
 
-![wp12]({{< usestatic "mastering-kubernetes-for-engineers/wp12.png" >}})
+![wp12](wp12.png)
 
 _Figure: Persistent volume capacity_
 
     - Scroll down to "Hostpath" and input `mnt/data/wp-pv` for the _path_ and `DirectoryOrCreate` for the _type_.
 
-![wp13]({{< usestatic "mastering-kubernetes-for-engineers/wp13.png" >}})
+![wp13](wp13.png)
 
 _Figure: Persistent volume hostpath_
 

@@ -17,5 +17,3 @@ Here's a recap of the lessons learned in this course:
 3. Configuring, deploying, and managing the Ambassador Edge Stack with Meshery is now well understood.
 
 By following this tutorial, you have gained a comprehensive understanding of the Ambassador Edge Stack and its integration with Meshery. Congratulations on completing the course!
-
-

@@ -45,7 +45,7 @@ The Python app does not need to know the exact address or port of the Node.js se
 2. On the right sidebar, click on **Action**.
 3. Click on **Stream Container logs**.
 
-![stream]({{< usestatic "mastering-kubernetes-for-engineers/stream.png" >}})
+![stream](stream.png)
 
 The logs show the daprd container logs with a POST request made to **/neworder** endpoint.
 

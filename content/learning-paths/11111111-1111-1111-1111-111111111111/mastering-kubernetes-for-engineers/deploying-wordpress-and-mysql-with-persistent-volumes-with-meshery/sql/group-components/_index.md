@@ -18,7 +18,7 @@ You can also choose to use the existing label, `app:wordpress`, but a new one, `
 3. Add the label `dev:tutorial`.
 4. Do this for **all** the resources on the canvas.
 
-![wp14]({{< usestatic "mastering-kubernetes-for-engineers/wp14.png" >}})
+![wp14](wp14.png)
 
 _Figure: Add label_
 
@@ -30,6 +30,6 @@ The _**Group Components**_ icon on the dock below allows you to group resources 
 
 This functionality aids in visualizing the relationships between various resources, making it easier to manage them, troubleshoot issues, and understand the overall cluster architecture.
 
-![wp21]({{< usestatic "mastering-kubernetes-for-engineers/wp21.png" >}})
+![wp21](wp21.png)
 
 _Figure: Group Components_

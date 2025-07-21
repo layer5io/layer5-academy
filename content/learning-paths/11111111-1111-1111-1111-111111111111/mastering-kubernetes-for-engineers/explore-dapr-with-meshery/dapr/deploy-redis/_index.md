@@ -21,6 +21,6 @@ title: "Deploy Redis"
 
 These filter settings will allow you to view both Dapr resources within the _dapr-system_ namespace and Redis resources within the default namespace.
 
-![redis-dapr]({{< usestatic "mastering-kubernetes-for-engineers/redis-dapr.png" >}})
+![redis-dapr](redis-dapr.png)
 
 Next, let's deploy the Dapr state store component that will manage this Redis state store.
