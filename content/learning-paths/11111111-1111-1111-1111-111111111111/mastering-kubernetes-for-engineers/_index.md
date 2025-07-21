@@ -1,6 +1,6 @@
 ---
 title: "Mastering Kubernetes for Engineers"
-type: "learning-path"
+contentType: "learning-path"
 description: "Learn how to configure your Kubernetes clusters and manage the lifecycle of your workloads"
 banner: "/11111111-1111-1111-1111-111111111111/images/kubernetes-icon.svg"
 courses: 1
