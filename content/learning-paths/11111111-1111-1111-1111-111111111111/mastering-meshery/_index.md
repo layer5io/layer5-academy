@@ -3,9 +3,8 @@
 title: "Mastering Meshery"
 description: "Learn all about Meshery"
 themeColor: "#00D3A9"
-courses: 1
 weight: 1
-banner: "/11111111-1111-1111-1111-111111111111/images/kubernetes-icon.svg"
+banner: "11111111-1111-1111-1111-111111111111/images/meshery-logo-light.webp"
 ---
 
 <!--
