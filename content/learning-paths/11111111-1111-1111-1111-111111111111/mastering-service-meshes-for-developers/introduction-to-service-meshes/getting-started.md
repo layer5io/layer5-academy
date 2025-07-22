@@ -9,11 +9,11 @@ weight: 1
 
 {{< chapterstyle >}}
 
-### **Setup Istio**
+### Setup Istio
 
 Now that we have a Kubernetes cluster and Meshery, we are ready to download and deploy Istio resources.
 
-### **Steps**
+### Steps
 
 1. [Install Istio](#1)
 1. [Verify install](#2)
@@ -24,7 +24,7 @@ Optional (manual install of Istio):
 1. [Setup `istioctl`](#1.2)
 1. [Install istio](#1.3)
 
-#### **Install Istio**
+#### Install Istio
 
 Using Meshery, select `Istio` from the `Lifecycle` menu.
 
@@ -40,13 +40,13 @@ In the Istio management page:
 
    ![install-istio2]({{< usestatic "mastering-service-mesh/install-istio2.webp" >}})
 
-#### **Alternative:Manual installation**
+#### Alternative:Manual installation
 Perform the below steps if the above steps doesn't work for you.
 
 <br />
 <br />
 
-##### **Download Istio**
+##### Download Istio
 
 You will download and deploy the latest Istio resources on your Kubernetes cluster.
 
@@ -58,7 +58,7 @@ On your local machine, execute:
 curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.7.3 sh -
 ```
 
-##### **Setting up istioctl**
+##### Setting up istioctl
 
 On a \*nix system, you can setup `istioctl` by doing the following:
 
@@ -85,7 +85,7 @@ Check if the cluster is ready for installation:
 istioctl verify-install
 ```
 
-##### **Install Istio**
+##### Install Istio
 
 To install Istio with a `demo` profile, execute the below command.
 
@@ -99,14 +99,14 @@ Alternatively, with Envoy logging enabled:
 istioctl install --set profile=demo --set meshConfig.accessLogFile=/dev/stdout
 ```
 
-#### **Verify instal**
+#### Verify instal
 
 In the Istio management page:
 
 1. Click the (+) icon on the `Validate Service Mesh Configuration` card.
 1. Select `Verify Installation` to verify the installation of Istio.
 
-##### **Alternatively:**
+##### Alternatively:
 
 Istio is deployed in a separate Kubernetes namespace `istio-system`. To check if Istio is deployed, and also, to see all the pieces that are deployed, execute the following:
 

@@ -12,7 +12,7 @@ title: "Deploy a sample application"
 
 To play with Istio and demonstrate some of it's capabilities, you will deploy the example BookInfo application, which is included the Istio package.
 
-### **What is the Bookinfo Application**
+### What is the Bookinfo Application
 
 This application is a polyglot composition of microservices are written in different
 languages and sample BookInfo application displays information about a book, similar to a
@@ -86,7 +86,7 @@ This will do 3 things:
 1. Deploys all the BookInfo services in the `default` namespace.
 1. Deploys the virtual service and gateway needed to expose the BookInfo's productpage application in the `default` namespace.
 
-#### **Verify Bookinfo deployment**
+#### Verify Bookinfo deployment
 
 1. Verify that the deployments are all in a state of AVAILABLE before continuing.
 
@@ -110,9 +110,9 @@ kubectl describe svc productpage
 
 Next, you will expose the BookInfo application to be accessed external from the cluster.
 
-#### **Alternative: Manual installation**
+#### Alternative: Manual installation
 Follow this if the above steps did not work for you
-##### **Label namespace for injection**
+##### Label namespace for injection
 
 Label the default namespace with istio-injection=enabled
 
@@ -134,7 +134,7 @@ kube-public    Active    1h
 kube-system    Active    1h
 ```
 
-#### **Deploy BookInfo**
+#### Deploy BookInfo
 
 Applying this yaml file included in the Istio package you collected in [Getting Started](./getting-started) will deploy the BookInfo app in you cluster.
 
@@ -142,7 +142,7 @@ Applying this yaml file included in the Istio package you collected in [Getting 
 kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 ```
 
-#### **Deploy Gateway and Virtual Service for BookInfo app**
+#### Deploy Gateway and Virtual Service for BookInfo app
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml

@@ -10,7 +10,7 @@ title: "Service Security Capabilities of Istio"
 
 {{< chapterstyle >}}
 
-### **Access Control**
+### Access Control
 
 You will start by denying all traffic.
 
@@ -23,7 +23,7 @@ metadata:
 spec: {}
 ```
 
-#### **And then begin poking holes in your service mesh "firewall".**
+#### And then begin poking holes in your service mesh "firewall".
 
 ```yaml
 ---
@@ -42,7 +42,7 @@ spec:
             methods: ["GET"]
 ```
 
-#### **Create AuthorizationPolicy for each BookInfo service.**
+#### Create AuthorizationPolicy for each BookInfo service.
 
 ```yaml
 ---
@@ -112,7 +112,7 @@ spec:
             methods: ["GET", "POST"]
 ```
 
-#### **Allow per user access**
+#### Allow per user access
 
 ```yaml
 ---
@@ -137,7 +137,7 @@ spec:
           values: ["naruto"]
 ```
 
-#### **Reset BookInfo Subsets (reset destination rules)**
+#### Reset BookInfo Subsets (reset destination rules)
 
 ```yaml
 apiVersion: networking.istio.io/v1alpha3
@@ -204,13 +204,13 @@ spec:
 ---
 ```
 
-### **Identity Verification**
+### Identity Verification
 
 Note: this lab uses the sample application HTTPbin.
 
 Using Meshery, deploy the HTTPbin sample application.
 
-#### **Add Claims**
+#### Add Claims
 
 ```yaml
 apiVersion: security.istio.io/v1beta1
@@ -232,7 +232,7 @@ spec:
           values: ["group1"]
 ```
 
-#### **Def**
+#### Def
 
 ```yaml
 apiVersion: "security.istio.io/v1beta1"
@@ -249,7 +249,7 @@ spec:
       jwksUri: "https://raw.githubusercontent.com/istio/istio/release-1.7/security/tools/jwt/samples/jwks.json"
 ```
 
-### **Mutual TLS**
+### Mutual TLS
 
 Using Meshery, you can change mTLS enforcement for a namespace.
 

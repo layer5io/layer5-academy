@@ -9,7 +9,7 @@ title: "View Application Logs"
 
 In this chapter, we will explore how Dapr utilizes its [API constructs](https://docs.dapr.io/concepts/building-blocks-concept/) to facilitate communication and manage the state of application data within this architecture by observing the container logs.
 
-### **Python Application Logs**
+### Python Application Logs
 
 The Python application code above generates messages that contain data with an **orderId** that increments once per second.
 
@@ -49,7 +49,7 @@ The Python app does not need to know the exact address or port of the Node.js se
 
 The logs show the daprd container logs with a POST request made to **/neworder** endpoint.
 
-### **Node.js Application Logs**
+### Node.js Application Logs
 
 Follow the same steps above to get the logs for the Node.js application. The logs show API calls made to the state store for persisting order data.
 

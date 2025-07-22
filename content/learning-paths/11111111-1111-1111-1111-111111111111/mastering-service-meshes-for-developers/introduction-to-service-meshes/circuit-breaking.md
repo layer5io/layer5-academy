@@ -11,14 +11,14 @@ weight: 8
 
 In this chapter we will configure circuit breaking using Istio. Circuit breaking allows developers to write applications that limit the impact of failures, latency spikes, and other undesirable effects of network peculiarities. This task will show how to configure circuit breaking for connections, requests, and outlier detection.
 
-### **Preparing for circuit breaking**
+### Preparing for circuit breaking
 <br />
 
 Before we can configure circuit breaking, please try to access the `product page` app from within `Meshery` to ensure all the calls are making it through **without** errors as we did in [Observability chapter](observability)
 
 ![invalid-kubeconfig]({{< usestatic "mastering-service-mesh/meshery_initial_load_test.webp" >}})
 
-### **Configure circuit breaking**
+### Configure circuit breaking
 
 <br />
 Now that we have the needed services in place, it is time to configure circuit breaking using
@@ -68,7 +68,7 @@ spec:
       mode: ISTIO_MUTUAL
 ```
 
-### **Time to trip the circuit**
+### Time to trip the circuit
 
 <br />
 In the circuit-breaker settings, we specified maxRequestsPerConnection: 1 and http1MaxPendingRequests:
@@ -87,9 +87,9 @@ You should only see a percentage of the requests succeed and the rest trapped by
 
 <br />
 
-### **Manual Steps**
+### Manual Steps
 
-#### **Configure circuit breaking**
+#### Configure circuit breaking
 
 ```sh
 kubectl apply -f - <<EOF

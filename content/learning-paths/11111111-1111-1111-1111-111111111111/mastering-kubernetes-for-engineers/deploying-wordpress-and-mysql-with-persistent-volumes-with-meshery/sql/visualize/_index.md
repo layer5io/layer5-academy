@@ -7,7 +7,7 @@ title: "Visualize Deployed Resources"
 weight: 6
 ---
 
-### **Visualizing the Deployed Resources**
+### Visualizing the Deployed Resources
 
 To view the resources deployed, use the Visualize section of the _Kanvas_. In this section, you can apply filters to display the specific resources you want to see.
 
@@ -26,7 +26,7 @@ After selecting your filters, you should see a view displaying only your relevan
 
 _Figure: Filter resources_
 
-### **Resource Details**
+### Resource Details
 
 You can click on any resource to view more details about it in the "Details" section on the right sidebar.
 
@@ -44,7 +44,7 @@ The Service details only display the cluster IP for now. So there is no way to a
 
 _Figure: Get more details about service_
 
-### **Deleting Resources**
+### Deleting Resources
 
 To delete the resources, use the `Undeploy` option from the Action dropdown in the _Design_ tab.
 

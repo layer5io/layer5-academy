@@ -7,7 +7,7 @@ weight: 5
 title: "Validate and Deploy Resources"
 ---
 
-### **Deploy the Resources**
+### Deploy the Resources
 
 1. Click `Actions` in the top right corner and click on `Deploy`.
 

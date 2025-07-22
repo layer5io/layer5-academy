@@ -7,13 +7,13 @@ title: "Exploring Edge Stack with Meshery Playground"
 weight: 1
 ---
 
-### **Overview**
+### Overview
 
 In this tutorial, you will explore Edge Stack using Meshery Playground. You'll get hands-on experience importing YAML files that contain Edge Stack configurations and Custom Resource Definitions (CRDs).
 
 You'll use Kanvas to view, configure, and deploy Kubernetes resources, including Edge Stack with its custom resources and a sample application. Additionally, you'll leverage Meshery's visualization tool to filter the deployed resources in your cluster.
 
-### **Objectives**
+### Objectives
 
 This tutorial will guide you through exploring Edge Stack using Meshery Playground. You'll cover:
 
@@ -23,7 +23,7 @@ This tutorial will guide you through exploring Edge Stack using Meshery Playgrou
 4. **Visualization**: Get hands-on with Kanvas to understand the components and their interactions within Edge Stack.
 5. **Design Interpretation**: Explore some of the relationships between Edge Stack resources with a Kanvas design, explaining their functionalities and roles within the system.
 
-### **Meshery Playground and Kanvas**
+### Meshery Playground and Kanvas
 
 **Meshery Playground** is an interactive and collaborative live cluster environment that simplifies
 the deployment process and enhances user experience by providing visual tools for managing
@@ -33,19 +33,19 @@ Kubernetes resources.
 
 If this is your first time working with Meshery Playground, consider starting with the [Exploring Kubernetes Pods with Meshery Playground](https://docs.meshery.io/guides/tutorials/kubernetes-pods) tutorial first.
 
-### **Ambassador Edge Stack**
+### Ambassador Edge Stack
 
 Ambassador [Edge Stack](https://www.getambassador.io/products/edge-stack/api-gateway) is a Kubernetes-native API Gateway built on [Envoy Proxy](https://www.envoyproxy.io/). It streamlines Kubernetes workflows for configuration, deployment, and management of APIs, efficiently and securely managing high traffic volumes and distributing requests across multiple services in your cluster.
 
 The "stack" includes security functionalities such as automatic TLS, authentication, and rate limiting, as well as load balancing, ingress control and observability all integrated to ensure scalability and flexibility in Kubernetes environments.
 
-### **Prerequisites**
+### Prerequisites
 
 - Basic understanding of Kubernetes concepts.
 - Access to the _Meshery Playground_. If you don't have an account, sign up at [Meshery Playground](https://play.meshery.io/).
 - [Ambassador Cloud](https://www.getambassador.io/solutions/ambassador-cloud) account.
 
-### **Access Meshery Playground**
+### Access Meshery Playground
 
 1. Log in to the [Meshery Playground](https://cloud.layer5.io/) using your credentials.
 2. Click **Explore** in the Cloud Native Playground tile to navigate to _Kanvas_.

@@ -7,7 +7,7 @@ title: "About Challenge"
 weight: 2
 ---
 
-### **Take the Challenge**
+### Take the Challenge
 
 Before you start, grab your timer. Start the clock and start cracking!
 [Register now](https://cloud.layer5.io/)

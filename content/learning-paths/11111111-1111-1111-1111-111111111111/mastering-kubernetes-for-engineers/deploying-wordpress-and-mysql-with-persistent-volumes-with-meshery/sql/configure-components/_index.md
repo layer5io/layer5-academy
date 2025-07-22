@@ -7,7 +7,7 @@ weight: 3
 title: "Create and Configure Kubernetes Components"
 ---
 
-### **Create and Configure Secret for MySQL Database**
+### Create and Configure Secret for MySQL Database
 
 In this step, you create a Kubernetes secret component for the MySQL database. This is necessary because the configuration below is in the environment variables section of the mysql-deployment YAML file.
 
@@ -40,7 +40,7 @@ _Figure: Configure secret_
 
 3. Click outside the window to close the configuration tab.
 
-### **Create Persistent Volumes**
+### Create Persistent Volumes
 
 MySQL and WordPress each require a [Persistent Volume (PV)](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) to store their data.
 

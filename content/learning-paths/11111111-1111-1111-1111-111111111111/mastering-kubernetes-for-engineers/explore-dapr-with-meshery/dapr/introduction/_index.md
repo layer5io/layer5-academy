@@ -7,7 +7,7 @@ title: "Understanding How Dapr Works in a Kubernetes Cluster: A Visual Guide wit
 weight: 1
 ---
 
-### **Introduction**
+### Introduction
 
 In this tutorial, you will explore how [Dapr](https://dapr.io/)(Distributed Application Runtime) operates within a Kubernetes cluster.
 
@@ -17,7 +17,7 @@ Meshery's Kanvas visualization capabilities allow you to examine the components 
 
 This tutorial expands on the [Hello Kubernetes tutorial with Dapr](https://github.com/dapr/quickstarts/tree/master/tutorials/hello-kubernetes), providing a visual approach to learning Dapr in a Kubernetes environment.
 
-### **Dapr Architecture**
+### Dapr Architecture
 
 In a Dapr-enabled application, the sidecar architecture is central to how Dapr provides its functionalities. Each application pod in your Kubernetes cluster gets a Dapr sidecar injected, which acts as a proxy and mediator for service-to-service calls, state management, and other capabilities. This architecture allows Dapr to offer a set of APIs that simplify common microservice tasks such as **service invocation**, **state management**, and **pub/sub messaging**.
 
@@ -40,7 +40,7 @@ The diagram below illustrates this setup, providing a visual representation of h
 If you are using a self-hosted Meshery deployment, connect to your Kubernetes cluster using this [Guide](https://docs.meshery.io/installation/kubernetes). Alternatively, Meshery Playground users can use the live pre-registered Kubernetes connection. This tutorial uses a self-hosted Meshery deployment with a connected **Minikube** cluster.
 {{< /alert >}}
 
-### **Learning Objectives**
+### Learning Objectives
 
 1. Gain hands-on experience in deploying Dapr on a Kubernetes cluster using Meshery.
 1. Learn how to visualize these components using Meshery and get a better understanding of the Dapr architecture and interactions.

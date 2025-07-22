@@ -7,13 +7,13 @@ lectures: 4
 weight: 4
 ---
 
-### **Create, Configure and Deploy Dapr Redis State Store Component**
+### Create, Configure and Deploy Dapr Redis State Store Component
 
 Following the deployment of the Redis state store, we will use Meshery to create and configure the Dapr state store component. This involves specifying essential details, including the redisHost and redisPassword fields in the Dapr component configuration, which tell Dapr where to find the Redis server and how to authenticate.
 
 This setup ensures that Dapr connects to the correct Redis instance, allowing it to handle state management seamlessly without direct involvement from your application.
 
-#### **Search for Component**
+#### Search for Component
 
 1. On the Dock at the bottom of the design canvas, click on **Components**.
 2. Search for "dapr".
@@ -21,7 +21,7 @@ This setup ensures that Dapr connects to the correct Redis instance, allowing it
 
 ![drag-component](drag-component.png)
 
-#### **Configure State Store and Deploy**
+#### Configure State Store and Deploy
 
 Now you can start configuring the Dapr state-store.
 

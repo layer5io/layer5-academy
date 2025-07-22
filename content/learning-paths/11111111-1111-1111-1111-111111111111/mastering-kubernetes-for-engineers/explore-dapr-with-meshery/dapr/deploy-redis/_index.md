@@ -7,7 +7,7 @@ weight: 3
 title: "Deploy Redis"
 ---
 
-### **Import Redis Helm Chart and Deploy to Cluster**
+### Import Redis Helm Chart and Deploy to Cluster
 
 1. Follow the same steps used for the Dapr deployment to import this [Redis helm chart](https://charts.bitnami.com/bitnami/redis-19.6.2.tgz) into Meshery and deploy.
 

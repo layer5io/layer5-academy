@@ -11,7 +11,7 @@ weight: 2
 
 To play with Istio and demonstrate some of it's capabilities, you will deploy the example BookInfo application, which is included the Istio package.
 
-### **What is the Bookinfo Application**
+### What is the Bookinfo Application
 <br />
 This application is a polyglot composition of microservices are written in different
 languages and sample BookInfo application displays information about a book, similar to a
@@ -46,7 +46,7 @@ If your environment **does NOT** supports either of these two APIs, then you may
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
 <br />
-### **Deploying Sample App with Automatic sidecar injection**
+### Deploying Sample App with Automatic sidecar injection
 
 <br />
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
@@ -117,12 +117,12 @@ kubectl describe svc productpage
 Next, you will expose the BookInfo application to be accessed external from the cluster.
 
 <br />
-#### **Alternative: Manual installation**
+#### Alternative: Manual installation
 Follow this if the above steps did not work for you
 <br />
 <br />
 
-##### **Label namespace for injection**
+##### Label namespace for injection
 
 Label the default namespace with istio-injection=enabled
 
@@ -144,7 +144,7 @@ kube-public    Active    1h
 kube-system    Active    1h
 ```
 
-##### **Deploy BookInfo**
+##### Deploy BookInfo
 <br />
 
 Applying this yaml file included in the Istio package you collected in [Getting Started](./getting-started) will deploy the BookInfo app in you cluster.
@@ -153,7 +153,7 @@ Applying this yaml file included in the Istio package you collected in [Getting 
 kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 ```
 
-##### **Deploy Gateway and Virtual Service for BookInfo app**
+##### Deploy Gateway and Virtual Service for BookInfo app
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
@@ -162,7 +162,7 @@ kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 <hr />
 <br />
 
-#### **Manual Sidecar Injection**
+#### Manual Sidecar Injection
 
 Use this only when Automatic Sidecar injection doesn't work
 

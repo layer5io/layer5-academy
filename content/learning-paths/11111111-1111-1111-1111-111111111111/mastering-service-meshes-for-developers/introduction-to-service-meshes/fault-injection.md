@@ -34,7 +34,7 @@ spec:
             subset: v2
 ```
 
-### **Inject a route rule to create a fault using HTTP delay**
+### Inject a route rule to create a fault using HTTP delay
 
 To start, we will inject a 7s delay for accessing the ratings service for a user `jason`. reviews v2 service has a 10s hard-coded connection timeout for its calls to the ratings service configured globally.
 
@@ -88,7 +88,7 @@ Sorry, product reviews are currently unavailable for this book.
 
 If you logout or login as a different user, the page should load normally without any errors.
 
-### **Inject a route rule to create a fault using HTTP abort**
+### Inject a route rule to create a fault using HTTP abort
 
 In this section, , we will introduce an HTTP abort to the ratings microservices for user `jason`.
 
@@ -139,36 +139,36 @@ Now we login to `/productpage` as user `jason` and observe that the page loads w
 
 `Ratings service is currently unavailable`.
 
-#### **Verify fault injection**
+#### Verify fault injection
 
 Verify the fault injection by logging out (or logging in as a different user), the page should load normally without any errors.
 
 <br />
 
-#### **Alternative: Manual installation**
+#### Alternative: Manual installation
 Follow these steps if the above steps did not work
 <br />
 <br />
 
-##### **Route all traffic to version V1 of all services**
+##### Route all traffic to version V1 of all services
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
 ```
 
-##### **Route all traffic to version V2 of reviews for user Jason**
+##### Route all traffic to version V2 of reviews for user Jason
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-test-v2.yaml
 ```
 
-##### **Inject 7s delay for ratings service**
+##### Inject 7s delay for ratings service
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-delay.yaml
 ```
 
-##### **Inject HTTP abort for ratings service**
+##### Inject HTTP abort for ratings service
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-abort.yaml
