@@ -9,9 +9,9 @@ title: "Edge Stack Configuration"
 
 In this chapter, you will import and deploy Edge Stack Custom Resource Definitions (CRDs) and YAML files. You'll learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you'll deploy a sample Quote service application to route traffic through Edge Stack.
 
-### **Steps**
+### Steps
 
-### **Import Edge Stack CRD YAML and Deploy**
+### Import Edge Stack CRD YAML and Deploy
 
 The Edge Stack CRD YAML file typically contains the definitions for custom resources used by Edge Stack. These definitions include the schemas and validation rules for resources like Mappings, Hosts, TLSContexts, RateLimits, Filters, and more. These custom resources allow you to define and manage the various aspects of your API gateway configuration, such as routing, authentication, rate limiting, and TLS settings, directly within your Kubernetes cluster.
 
@@ -37,7 +37,7 @@ The Edge Stack CRD YAML file typically contains the definitions for custom resou
 
 ![es3](es3.png)
 
-### **Import the Edge Stack YAML**
+### Import the Edge Stack YAML
 
 Now that the CRDs have been deployed, go ahead to deploy the main Edge Stack Configuration.
 
@@ -49,7 +49,7 @@ Now that the CRDs have been deployed, go ahead to deploy the main Edge Stack Con
 
 ![es5](es5.png)
 
-### **Configure Edge Stack License**
+### Configure Edge Stack License
 
 Ambassador Edge Stack requires a valid license to operate. Generate your [license token](https://app.getambassador.io/cloud/edge-stack/license/new) to establish a secure connection between Edge Stack and Ambassador Cloud.
 
@@ -59,7 +59,7 @@ Ambassador Edge Stack requires a valid license to operate. Generate your [licens
 
 ![es6](es6.png)
 
-### **Deploy Edge Stack**
+### Deploy Edge Stack
 
 1. Click **Actions** in the top right corner and click on Deploy (double tick).
 
@@ -67,7 +67,7 @@ Ambassador Edge Stack requires a valid license to operate. Generate your [licens
 
 ![es10](es10.png)
 
-### **Listener Custom Resource**
+### Listener Custom Resource
 
 The Listener Custom Resource tells Ambassador Edge Stack what port to listen on.
 
@@ -104,7 +104,7 @@ spec:
 
 2. Deploy the resource on Kanvas.
 
-### **Mapping Resource**
+### Mapping Resource
 
 Create a Mapping configuration that instructs Edge Stack on how and where to route traffic. In the YAML file below, any request coming to the specified _hostname_ with the _prefix_ /backend/ will be directed to the _quote service_.
 
@@ -123,7 +123,7 @@ spec:
     path: "/.ambassador-internal/openapi-docs"
 ```
 
-### **Deploy Quote Service**
+### Deploy Quote Service
 
 Next, import the [Quote Service YAML](https://app.getambassador.io/yaml/v2-docs/3.9.1/quickstart/qotm.yaml) and deploy it on Kanvas. This step will create the necessary deployment and service resources for the Quote service within your Kubernetes cluster, allowing you to see how Edge Stack manages and routes traffic to this backend service.
 

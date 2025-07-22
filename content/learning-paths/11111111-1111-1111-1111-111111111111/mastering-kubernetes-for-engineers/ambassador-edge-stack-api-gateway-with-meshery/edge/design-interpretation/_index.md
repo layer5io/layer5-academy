@@ -8,7 +8,7 @@ weight: 3
 ---
 
 
-### **Exploring the Relationships Between Edge Stack Resources with a Kanvas Design**
+### Exploring the Relationships Between Edge Stack Resources with a Kanvas Design
 
 **Services and Deployments**
 
@@ -33,7 +33,7 @@ Let's take a look at the roles of each component and the ports used for communic
 
 4. **edge-stack Deployment**: The edge-stack Deployment component is a core part of the Ambassador Edge Stack, handling the main processing and routing of traffic. It receives traffic from the edge-stack service on port 80/TCP and communicates with the edge-stack-admin component on port 8877/TCP for administrative tasks.
 
-### **Service Account Roles**
+### Service Account Roles
 
 ![es9](es9.png)
 

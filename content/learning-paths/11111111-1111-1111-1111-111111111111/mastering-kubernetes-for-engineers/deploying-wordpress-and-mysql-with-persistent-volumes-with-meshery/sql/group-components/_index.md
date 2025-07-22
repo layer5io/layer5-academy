@@ -7,7 +7,7 @@ title: "Add labels and Group Components"
 weight: 4
 ---
 
-### **Add Labels**
+### Add Labels
 
 To make it easier to filter and manage your resources during visualization, add labels to all of them.
 
@@ -24,7 +24,7 @@ _Figure: Add label_
 
 5. Now click on `Save As` and save the design.
 
-### **Group Components**
+### Group Components
 
 The _**Group Components**_ icon on the dock below allows you to group resources based on shared labels or annotations.
 

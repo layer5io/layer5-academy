@@ -7,11 +7,11 @@ title: "What is this Challenge About"
 weight: 2
 ---
 
-### **Overview**
+### Overview
 
 In this challenge, you will design and implement an event-driven autoscaling solution using [Kubernetes Event-Driven Autoscaling (KEDA)](https://keda.sh/). Your task is to create a deployable design that demonstrates KEDA's capabilities in a microservices architecture. This challenge will test your skills in creating a system that can efficiently respond to fluctuating workloads driven by real-world events.
 
-### **Setting the Stage with KEDA**
+### Setting the Stage with KEDA
 
 KEDA (Kubernetes Event-Driven Autoscaling) is an open-source, lightweight component that extends Kubernetes' autoscaling capabilities. It provides fine-grained autoscaling for event-driven workloads, allowing applications to scale based on the number of events needing to be processed.
 
@@ -19,11 +19,11 @@ KEDA bridges the gap between event-driven architectures and Kubernetes' scaling 
 
 In the modern cloud-native landscape, where applications often need to respond to unpredictable, event-driven workloads, KEDA provides a powerful tool for creating responsive, efficient, and cost-effective Kubernetes deployments.
 
-### **Objective**
+### Objective
 
 Design a KEDA-based autoscaling solution for a microservices application that responds efficiently to fluctuating workloads driven by events.
 
-### **Challenge Steps**
+### Challenge Steps
 
 These are necessary steps that must be followed to complete this challenge.
 
@@ -92,7 +92,7 @@ Demonstrate in your design how KEDA integrates with the HPA. Show the flow of ho
 
 2. Design a testing scenario that demonstrates how your services scale in response to varying loads.
 
-### **Evaluation Criteria**
+### Evaluation Criteria
 
 1. **Functionality**: Your design must be deployable and demonstrate working KEDA autoscaling.
 
@@ -104,7 +104,7 @@ Demonstrate in your design how KEDA integrates with the HPA. Show the flow of ho
 
 5. **Testing**: Thorough load testing with meaningful analysis of results.
 
-### **Submission Guidelines**
+### Submission Guidelines
 
 1. Provide a detailed architecture diagram of your KEDA implementation.
 

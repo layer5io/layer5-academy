@@ -7,11 +7,11 @@ title: "About Task"
 weight: 1
 ---
 
-### **Eligibility Criteria**
+### Eligibility Criteria
 
 This challenge is open for all.
 
-### **The Rules**
+### The Rules
 
 1. This contest is for individuals; teams are not allowed.
 2. Any competitor found cheating will be disqualified and banned from future contests.
@@ -20,10 +20,10 @@ This challenge is open for all.
     - Jaeger Collector
     - Jaeger Query
 
-### **Scoring**
+### Scoring
 Participants are ranked by score. Your score is determined by the number of test cases your code submission successfully passes. If two participants have the same score, the tie is broken by the contestant who took the least amount of time to solve the challenges.
 
-### **Can I participate in a sample challenge?**
+### Can I participate in a sample challenge?
 
 Yes, we recommend that you participate in our <a> sample challenge </a>.
 

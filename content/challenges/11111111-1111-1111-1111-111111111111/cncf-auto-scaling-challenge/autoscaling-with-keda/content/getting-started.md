@@ -7,16 +7,16 @@ title: "About KEDA Challenge"
 weight: 1
 ---
 
-### **Eligibility Criteria**
+### Eligibility Criteria
 
 This challenge is open for all.
 
-### **The Rules**
+### The Rules
 
 - This contest is for individuals; teams are not allowed.
 - Any competitor found cheating will be disqualified and banned from future contests.
 
-### **Scoring**
+### Scoring
 1. Participants are ranked by score. Your score is determined by the following criteria:
     * Correct implementation of KEDA scalers (40%)
     * Efficiency of autoscaling configuration (30%)

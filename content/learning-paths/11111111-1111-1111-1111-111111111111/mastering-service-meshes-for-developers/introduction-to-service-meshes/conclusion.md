@@ -11,7 +11,7 @@ weight: 9
 
 <br />
 
-### **Congratulations!**
+### Congratulations!
 
   You have successfully completed the course on **"Introduction to service meshes - Hands on"** using **Istio**.
 

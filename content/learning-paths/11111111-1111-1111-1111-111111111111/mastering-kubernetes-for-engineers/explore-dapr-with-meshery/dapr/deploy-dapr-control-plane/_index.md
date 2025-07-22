@@ -9,9 +9,9 @@ weight: 2
 
 The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set of services responsible for managing and orchestrating the runtime and configuration of Dapr. The control plane ensures the smooth operation, deployment, and management of Dapr sidecars and their interactions within a microservices architecture.
 
-### **Steps**
+### Steps
 
-### **Import Dapr Helm Chart**
+### Import Dapr Helm Chart
 
 1. In the left sidebar, click the upward arrow symbol (import icon) to import the file into Meshery.
 2. In the modal that appears:
@@ -28,7 +28,7 @@ The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set 
 
 {{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-dapr.js" id="embedded-design-7d183e77-09e1-4b69-a5ee-3e3870e9c5f4" >}}
 
-### **Design Interpretation**
+### Design Interpretation
 
 From the design above, several key components that constitute the **Dapr control plane** can be observed, including:
 
@@ -87,7 +87,7 @@ When a new application pod is deployed, the **dapr-sidecar-injector deployment**
 
 The grouping of these components illustrates their interconnections, enhancing our ability to visualize and understand how various parts function together within the cluster.
 
-### **Deploy Dapr**
+### Deploy Dapr
 
 1. The Dapr control plane has to be deployed in the **dapr-system** namespace. Click on the namespaced components (deployments, services, etc.) to open up the configuration tab. Then change the namespace from **default** to **dapr-system**.
 2. To deploy, click **Actions** in the top right corner and click on Deploy (double tick). To learn about deploying Designs in Meshery, see Chapter [Deploying Meshery Designs](https://cloud.layer5.io/academy/learning-paths/mastering-meshery/introduction-to-meshery).

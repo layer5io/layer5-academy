@@ -7,7 +7,7 @@ lectures: 4
 weight: 5
 ---
 
-### **Deploy Node.js Application**
+### Deploy Node.js Application
 
 1. Clone [this](https://github.com/dapr/quickstarts.git) repo and cd into **quickstarts/tutorials/hello-kubernetes/deploy** directory to get the Node.js and Python YAML files.
 2. Import the Node.js application into Meshery.
@@ -26,7 +26,7 @@ annotations:
 
 3. Click the **Actions** button and deploy.
 
-### **Deploy Python Application**
+### Deploy Python Application
 
 Follow previous steps to import and Deploy the python application.
 

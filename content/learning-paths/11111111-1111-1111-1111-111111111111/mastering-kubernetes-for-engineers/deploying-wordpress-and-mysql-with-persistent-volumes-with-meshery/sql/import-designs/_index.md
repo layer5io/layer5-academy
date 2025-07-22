@@ -37,7 +37,7 @@ _Figure: Imported designs on canvas_
 
 _Figure: wordpress-deployment_
 
-### **Merging the Designs**
+### Merging the Designs
 
 Next, you will combine the WordPress and MySQL designs into a single design file. By merging these designs, you can manage and deploy both resources together.
 
