@@ -31,9 +31,15 @@ clean:
 	hugo --cleanDestinationDir
 	make site
 
-.PHONY: setup build site clean site-fast check-go
 
 check-go:
 	@echo "Checking if Go is installed..."
 	@command -v go > /dev/null || (echo "Go is not installed. Please install it before proceeding."; exit 1)
 	@echo "Go is installed."
+
+
+## Update the academy-theme package to latest version
+academy-update:
+	hugo mod get -u
+
+.PHONY: setup build site clean site-fast check-go academy-update
