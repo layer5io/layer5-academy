@@ -5,9 +5,5 @@ go 1.12
 // Uncomment line below when testing changes to the academy theme
 // replace github.com/layer5io/academy-theme v0.1.9 => ../academy-theme
 
-require (
-	github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3 // indirect
-	github.com/google/docsy v0.12.0 // indirect
-	github.com/layer5io/academy-theme v0.1.14 // indirect
-	github.com/twbs/bootstrap v5.3.7+incompatible // indirect
-)
+
+require github.com/layer5io/academy-theme v0.1.15 // indirect
