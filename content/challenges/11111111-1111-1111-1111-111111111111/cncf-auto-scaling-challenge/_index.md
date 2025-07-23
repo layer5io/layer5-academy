@@ -6,5 +6,4 @@ banner: "11111111-1111-1111-1111-111111111111/images/keda-icon.svg"
 id: "3ef92e40-b0e4-47bd-8f84-1b369cb41c0e"
 courses: 1
 weight: 1
-type: learning-paths
 ---
