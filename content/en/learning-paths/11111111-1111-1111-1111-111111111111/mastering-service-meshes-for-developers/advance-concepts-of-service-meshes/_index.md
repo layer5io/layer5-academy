@@ -7,7 +7,7 @@ courseTitle: "Advance Concepts of Service Meshes"
 themeColor: "#466BB0"
 weight: 2
 lectures: 8
-banner: "images/istio-icon-white.svg"
+banner: "/11111111-1111-1111-1111-111111111111/images/istio-icon-white.svg"
 meshesYouLearn:
   [
     {
