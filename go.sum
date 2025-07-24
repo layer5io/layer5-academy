@@ -2,6 +2,4 @@ github.com/FortAwesome/Font-Awesome v0.0.0-20241216213156-af620534bfc3/go.mod h1
 github.com/google/docsy v0.12.0/go.mod h1:1bioDqA493neyFesaTvQ9reV0V2vYy+xUAnlnz7+miM=
 github.com/layer5io/academy-theme v0.1.15 h1:cDIOgNOM8qF6o4HVLnQnhyWBpTaaVvUz+ANJzwcTfLA=
 github.com/layer5io/academy-theme v0.1.15/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
-github.com/layer5io/academy-theme v0.1.16 h1:6WU91gAImK4SKmOsvWEWLKYXGUc1c+z+4EC3FQfPnNw=
-github.com/layer5io/academy-theme v0.1.16/go.mod h1:kAidN16xIX6Dx2TBz7y0u3DeU8UnfUcoQZ/rVogXN80=
 github.com/twbs/bootstrap v5.3.6+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
