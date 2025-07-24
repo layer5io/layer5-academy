@@ -5,7 +5,7 @@ description: "Explore Meshery comprehensively in this introductory course. Cover
 courseTitle: "Introduction to Meshery"
 themeColor: "#00B39F"
 weight: 1
-banner: "/11111111-1111-1111-1111-111111111111/images/kubernetes-icon.svg"
+banner: "images/kubernetes-icon.svg"
 toc:
   [
     "meshery-concepts",

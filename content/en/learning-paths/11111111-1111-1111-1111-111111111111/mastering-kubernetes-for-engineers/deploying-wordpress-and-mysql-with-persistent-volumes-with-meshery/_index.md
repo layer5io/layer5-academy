@@ -4,7 +4,7 @@ title: "Deploying WordPress and MySQL with Persistent Volumes with Meshery"
 description: "Learn how to deploy WordPress and MySQL with persistent volumes with Meshery Playground"
 lectures: 7
 order: 1
-banner: "/11111111-1111-1111-1111-111111111111/images/linkerd-icon-white.svg"
+banner: "images/linkerd-icon-white.svg"
 meshesYouLearn:
   [
     {
