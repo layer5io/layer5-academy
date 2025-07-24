@@ -4,7 +4,7 @@ title: "Mastering Meshery"
 description: "Learn all about Meshery"
 themeColor: "#00D3A9"
 weight: 1
-banner: "images/meshery-logo-light.webp"
+banner: "11111111-1111-1111-1111-111111111111/images/meshery-logo-light.webp"
 id: "23fab7d7-4844-4926-b5e5-4a34193b9789"
 ---
 
