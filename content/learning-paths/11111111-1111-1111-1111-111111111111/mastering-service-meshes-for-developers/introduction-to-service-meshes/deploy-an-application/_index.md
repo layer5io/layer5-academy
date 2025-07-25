@@ -90,7 +90,7 @@ This will do 3 things:
 1. Deploys all the BookInfo services in the `default` namespace.
 1. Deploys the virtual service and gateway needed to expose the BookInfo's productpage application in the `default` namespace.
 
-### Verify Bookinfo deployment
+#### Verify Bookinfo deployment
 
 
 1. Verify that the deployments are all in a state of AVAILABLE before continuing.
