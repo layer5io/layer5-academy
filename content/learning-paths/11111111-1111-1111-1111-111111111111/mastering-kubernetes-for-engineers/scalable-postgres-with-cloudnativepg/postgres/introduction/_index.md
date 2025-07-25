@@ -1,9 +1,8 @@
 ---
-docType: "Chapter"
 id: "introduction"
+title: "Introduction"
 description: "In this chapter, we will introduce the concept of deploying a scalable PostgreSQL distribution on Kubernetes using CloudNativePG and Meshery Playground."
 lectures: 12
-title: "Introduction"
 weight: 1
 ---
 

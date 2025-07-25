@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
 id: "deploy-dapr-control-plane.mdx"
-description: "This chapter takes you through the import, exploration and deployment of Dapr control plane components"
-lectures: 4
 title: "Deploy Dapr Control Plane"
+description: "This chapter takes you through the import, exploration and deployment of Dapr control plane components"
 weight: 2
 ---
 

@@ -1,9 +1,6 @@
 ---
-docType: "Course"
 title: "Explore Dapr with Meshery"
 description: "Learn how Dapr works by deploying Dapr and sample applications in a Kubernetes Cluster using Meshery"
-lectures: 4
-order: 4
 banner: "images/linkerd-icon-white.svg"
 tags: [kubernetes, meshery, dapr]
 categories: [kubernetes, meshery]

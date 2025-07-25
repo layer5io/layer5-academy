@@ -1,10 +1,8 @@
 ---
-docType: "Chapter"
 id: "edge-stack-configuration"
-description: "This chapter covers the configuration of the Edge Stack, including importing and deploying Edge Stack Custom Resource Definitions (CRDs) and YAML files. You will learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you will deploy a sample Quote service application to route traffic through Edge Stack."
-lectures: 4
-weight: 2
 title: "Edge Stack Configuration"
+description: "This chapter covers the configuration of the Edge Stack, including importing and deploying Edge Stack Custom Resource Definitions (CRDs) and YAML files. You will learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you will deploy a sample Quote service application to route traffic through Edge Stack."
+weight: 2
 ---
 
 In this chapter, you will import and deploy Edge Stack Custom Resource Definitions (CRDs) and YAML files. You'll learn how to configure the necessary Ambassador Cloud license and set up essential components like Listener and Mapping resources. Finally, you'll deploy a sample Quote service application to route traffic through Edge Stack.

@@ -1,10 +1,8 @@
 ---
-docType: "Chapter"
 id: "view-application-logs"
-description: "Use Meshery's interactive terminal to view logs of applications"
-lectures: 4
-weight: 6
 title: "View Application Logs"
+description: "Use Meshery's interactive terminal to view logs of applications"
+weight: 6
 ---
 
 In this chapter, we will explore how Dapr utilizes its [API constructs](https://docs.dapr.io/concepts/building-blocks-concept/) to facilitate communication and manage the state of application data within this architecture by observing the container logs.

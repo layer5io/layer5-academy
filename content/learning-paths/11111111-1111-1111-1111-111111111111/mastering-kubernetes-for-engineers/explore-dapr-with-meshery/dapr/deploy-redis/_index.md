@@ -1,10 +1,8 @@
 ---
-docType: "Chapter"
 id: "deploy-redis"
-description: "This chapter covers the deployment of Redis Statestore"
-lectures: 4
-weight: 3
 title: "Deploy Redis"
+description: "This chapter covers the deployment of Redis Statestore"
+weight: 3
 ---
 
 ### Import Redis Helm Chart and Deploy to Cluster

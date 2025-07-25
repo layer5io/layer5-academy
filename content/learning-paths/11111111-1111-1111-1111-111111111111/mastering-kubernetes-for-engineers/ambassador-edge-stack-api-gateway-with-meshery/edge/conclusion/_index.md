@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
 id: "conclusion"
-description: "Concluding this tutorial, you will gain a comprehensive understanding of how to configure, deploy, and manage the Ambassador Edge Stack with Meshery."
-lectures: 4
 title: "Conclusion"
+description: "Concluding this tutorial, you will gain a comprehensive understanding of how to configure, deploy, and manage the Ambassador Edge Stack with Meshery."
 weight: 4
 ---
 
