@@ -8,6 +8,9 @@ themeColor: "#466BB0"
 weight: 2
 lectures: 8
 banner: "images/istio-icon-white.svg"
+tags: [service-mesh, service-architecture]
+categories: [meshery]
+level: [intermediate]
 meshesYouLearn:
   [
     {

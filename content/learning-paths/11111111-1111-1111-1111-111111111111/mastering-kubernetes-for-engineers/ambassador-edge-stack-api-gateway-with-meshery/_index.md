@@ -5,7 +5,9 @@ description: "This course will guide you through the process of deploying and vi
 lectures: 4
 order: 1
 banner: "images/linkerd-icon-white.svg"
-
+tags: [meshery, ambassador, edge-stack]
+categories: [kubernetes, meshery]
+level: [introductory]
 toc:
   [
     "introduction",
