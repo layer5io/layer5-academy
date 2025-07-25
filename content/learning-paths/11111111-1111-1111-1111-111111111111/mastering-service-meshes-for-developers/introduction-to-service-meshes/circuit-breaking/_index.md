@@ -16,7 +16,7 @@ In this chapter we will configure circuit breaking using Istio. Circuit breaking
 
 Before we can configure circuit breaking, please try to access the `product page` app from within `Meshery` to ensure all the calls are making it through **without** errors as we did in [Observability chapter](observability)
 
-![invalid-kubeconfig]({{< usestatic "mastering-service-mesh/meshery_initial_load_test.webp" >}})
+![invalid-kubeconfig](meshery_initial_load_test.webp)
 
 ### Configure circuit breaking
 
@@ -81,7 +81,7 @@ Once you have updated the fields, you now click on `Run Test`.
 
 This will run the load test and show the results in a chart.
 
-![invalid-kubeconfig]({{< usestatic "mastering-service-mesh/meshery_cb_load_test.webp" >}})
+![invalid-kubeconfig](meshery_cb_load_test.webp)
 
 You should only see a percentage of the requests succeed and the rest trapped by the configured circuit breaker.
 

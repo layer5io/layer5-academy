@@ -33,12 +33,12 @@ In the Istio management page:
 1. Type `istio-system` into the namespace field.
 2. Click the (+) icon on the `Install` card and click on `Istio Service Mesh` to install latest version of Istio.
 
-   ![install-istio1]({{< usestatic "mastering-service-mesh/install-istio1.webp" >}})
+   ![install-istio1](install-istio1.webp)
 
 
 3. Click the `Deploy` button on the confirmation modal.
 
-   ![install-istio2]({{< usestatic "mastering-service-mesh/install-istio2.webp" >}})
+   ![install-istio2](install-istio2.webp)
 
 #### Alternative:Manual installation
 Perform the below steps if the above steps doesn't work for you.
