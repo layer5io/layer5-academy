@@ -42,7 +42,7 @@ If your environment **does NOT** supports either of these two APIs, then you may
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
 
-## Deploying Sample App with Automatic sidecar injection
+### Deploying Sample App with Automatic sidecar injection
 
 
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
