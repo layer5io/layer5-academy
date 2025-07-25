@@ -20,7 +20,7 @@ To start configuring Meshery:
 1. Navigate to the left sidebar of Meshery.
 1. Click on the **Lifecycle** dropdown and you will see all the menu items we need in this chapter.
 
-![lifecycle]({{< usestatic "mastering-meshery/lifecycle.png" >}})
+![lifecycle](lifecycle.png)
 ## Creating Teams
 
 Creating a [Team](https://docs.layer5.io/cloud/identity/teams/) is the first step in configuring Meshery. In Meshery, a team is a user group that manages and shares access to resources such as Workspaces, Designs, and Environments. Teams enable efficient collaboration and permission management, facilitating organized operations within an organization. Teams offer control access to workspaces and to workspace resources such as Environments and Connections.
@@ -31,7 +31,7 @@ Follow the steps below to create a team:
 1. Select **Add Team**, enter a name for your team, add Team Members, and **Create Team**.
 
 
-![create-team]({{< usestatic "mastering-meshery/create-team.png" >}})
+![create-team](create-team.png)
 
 ## Creating Workspaces
 
@@ -43,11 +43,11 @@ To create a workspace:
 1. Click **Create**.
 1. Enter a name for your workspace and **Save**.
 
-![create-workspace]({{< usestatic "mastering-meshery/create-workspace.png" >}})
+![create-workspace](create-workspace.png)
 
 1. Once saved, the new Workspace will be created and displayed on the screen.
 
-![confirm-workspace]({{< usestatic "mastering-meshery/confirm-workspace.png" >}})
+![confirm-workspace](confirm-workspace.png)
 In the subsequent sections, we will discuss `Environments` and `Designs` shown in the image above.
 
 ## Creating Environments and Associating Connections
@@ -62,11 +62,11 @@ To create an environment:
 1. Click **Create**.
 1. Enter the name of the environment and **Save**.
 
-![create-environment]({{< usestatic "mastering-meshery/create-environment.png" >}})
+![create-environment](create-environment.png)
 
 1. Once saved, the new Environment will be created and displayed on the screen.
 
-![confirm-environment]({{< usestatic "mastering-meshery/confirm-environment.png" >}})
+![confirm-environment](confirm-environment.png)
 
 Next We'll learn how to assign Connections to Environments.
 
@@ -78,7 +78,7 @@ To add a connection to an environment:
 
 1. Click on the **arrows** icon, and a modal displaying your available connections will appear.
 
-![env-arrow]({{< usestatic "mastering-meshery/env-arrow.png" >}})
+![env-arrow](env-arrow.png)
 
 1. **Available Connections** shows a list of Kubernetes clusters that are currently managed by Meshery.
 1. Select the connection(s) you want to assign.
@@ -89,11 +89,11 @@ To add a connection to an environment:
       * The fourth arrow removes all connections.
 1. Click **Save** to confirm your changes.
 
-![env-connect]({{< usestatic "mastering-meshery/env-connect.png" >}})
+![env-connect](env-connect.png)
 
 1. The Connections have now been assigned to the Environment.
 
-![meshery-env]({{< usestatic "mastering-meshery/meshery-env.png" >}})
+![meshery-env](meshery-env.png)
 
 ### Navigating the Connections Page
 
@@ -107,17 +107,17 @@ On the Connections page, you can easily add a Kubernetes cluster connection. To 
 
 1. Click the **Add Cluster** button to get started.
 
-![add-cluster]({{< usestatic "mastering-meshery/add-cluster.png" >}})
+![add-cluster](add-cluster.png)
 
 1. When the modal appears, navigate to the location of your kubeconfig file and upload it to add your cluster as a connection.
 
-![upload-kubeconfig]({{< usestatic "mastering-meshery/upload-kubeconfig.png" >}})
+![upload-kubeconfig](upload-kubeconfig.png)
 
 1. After uploading the kubeconfig file, the modal should indicate that your cluster has been successfully added as a connection.
 
     If you uploaded an invalid kubeconfig file, you might see an error message statement like the one below. Please ensure you are uploading the correct file with the proper configuration and try again.
 
-![invalid-kubeconfig]({{< usestatic "mastering-meshery/invalid-kubeconfig.png" >}})
+![invalid-kubeconfig](invalid-kubeconfig.png)
 
 #### Viewing Cluster Connection Details
 
@@ -128,7 +128,7 @@ Each connection has key details associated with it such as:
 3. If [MeshSync](https://docs.meshery.io/concepts/architecture/meshsync) is actively running in your cluster, clicking the "Flush MeshSync" button will update MeshSync with the latest data, ensuring it matches the current state of your cluster.
 This ensures that MeshSync's data is refreshed and accurately reflects the current state of your cluster's infrastructure and resources.
 
-![connection-list]({{< usestatic "mastering-meshery/connection-list.png" >}})
+![connection-list](connection-list.png)
 
 ## Integrating Workspaces with Environments and Designs
 
@@ -141,17 +141,17 @@ Integrating designs with Workspaces enables effective collaboration and sharing 
 1. Navigate to **Workspaces** under **Lifecycle**.
 1. In the image below, there are two **arrows** for associating `Environments` and `Designs` to Workspaces, respectively.
 
-![environments-designs]({{< usestatic "mastering-meshery/environments-designs.png" >}})
+![environments-designs](environments-designs.png)
 
 1. Click the appropriate arrow to assign the selected Environments(or Designs) and **Save**.
 
-![associate-with-]({{< usestatic "mastering-meshery/associate-with-workspace.png" >}})
+![associate-with-](associate-with-workspace.png)
 
 #### Confirm Workspace Association
 
 Now, the environment and design are associated with the workspace. You get standardized resource deployment and cross-team collaboration. This enables efficient resource management and tracking, and makes team members more productive.
 
-![confirm-associated-workspace]({{< usestatic "mastering-meshery/confirm-associated-workspace.png" >}})
+![confirm-associated-workspace](confirm-associated-workspace.png)
 
 ## Conclusion
 

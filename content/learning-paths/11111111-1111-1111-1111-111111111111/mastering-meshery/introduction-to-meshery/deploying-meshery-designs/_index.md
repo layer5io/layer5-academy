@@ -30,7 +30,7 @@ There are two modes on the Actions button:
 
 In this chapter, we focus on utilizing the first option to provide a comprehensive view of the deployment process.
 
-![action]({{< usestatic "mastering-meshery/action.png" >}})
+![action](action.png)
 
 ## Design Validation
 
@@ -52,13 +52,11 @@ This comprehensive validation ensures that:
 
 1. Click on the **Validate** Icon.
 
-   {{< image src="/images/learning-path/meshery-deploy/performing-validation.png" width="100%" align="center" >}}
+   ![performing-validation](performing-validation.png)
 
    If the validation is successful, you will see a modal displaying the number of components validated and the number of annotations, similar to the one shown below:
 
-   {" "}
-
-   ![successful-validation]({{< usestatic "mastering-meshery/successful-validation.png" >}})
+   ![successful-validation](successful-validation.png)
 
 ### Handling Validation Errors
 
@@ -70,7 +68,7 @@ A common validation error is:
 
 1. **Missing Required Field**: This happens when a required field is not provided. For example, in the image below, the first error indicates that the field ".spec.template.spec.containers.0.env.0" must have a value.
 
-   ![validation-error]({{< usestatic "mastering-meshery/validation-error.png" >}})
+   ![validation-error](validation-error.png)
 
 To troubleshoot and remediate validation issues:
 
@@ -93,7 +91,7 @@ A dry run in Meshery simulates the deployment of your design in the selected tar
 1. Make necessary adjustments to your configuration based on the feedback provided by the dry run.
 1. Re-run the dry run to ensure all issues have been resolved.
 
-   ![successful-dry-run]({{< usestatic "mastering-meshery/successful-dry-run.png" >}})
+   ![successful-dry-run](successful-dry-run.png)
 
 ### Examples of Dry Run Errors
 
@@ -101,18 +99,18 @@ Some examples of dry run errors are:
 
 1. **Invalid Field Value**: The error message indicates that a field has an invalid value. For instance, in the image below, the fields "spec > ports[0] > port" and "spec > ports[0] > targetPort" have invalid values of 0. These values must be between 1 and 65535, inclusive.
 
-   ![dr-invalid-field1]({{< usestatic "mastering-meshery/dr-invalid-field1.png" >}})
-   ![dr-invalid-field2]({{< usestatic "mastering-meshery/dr-invalid-field2.png" >}})
+   ![dr-invalid-field1](dr-invalid-field1.png)
+   ![dr-invalid-field2](dr-invalid-field2.png)
 
 1. **Missing Required Field**
 
-   ![missing-field]({{< usestatic "mastering-meshery/missing-field.png" >}})
+   ![missing-field](missing-field.png)
 
 1. **Missing Dependencies**: In this case, the error occurs because a Kubernetes [Custom Resource Definition](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) (CRD) should have been deployed first before attempting to deploy this component.
 
    To resolve this, ensure that all necessary dependencies, such as CRDs, are deployed before deploying the components that rely on them.
 
-   ![missing-resource]({{< usestatic "mastering-meshery/missing-resource.png" >}})
+   ![missing-resource](missing-resource.png)
 
 ## Environment Selection
 
@@ -126,19 +124,19 @@ You can add an environment through the deployment modal by following these steps
 
 1. Click on **Add Environments**
 
-   ![add-env]({{< usestatic "mastering-meshery/add-env.png" >}})
+   ![add-env](add-env.png)
 
 1. Select **Create** and put in a name for the environment, _e.g.Development_, and **Save**.
 
-   ![create-env]({{< usestatic "mastering-meshery/create-env.png" >}})
+   ![create-env](create-env.png)
 
 1. After creating the environment you add connections to the environment, here we want to add a Kubernetes cluster. Click on the **arrows** icon to open the Development Resources modal.
 
-   ![assign-conn]({{< usestatic "mastering-meshery/assign-conn.png" >}})
+   ![assign-conn](assign-conn.png)
 
    **Available Connections** on the left side shows a list of Kubernetes clusters that are currently managed by Meshery.
 
-   ![kube-conn]({{< usestatic "mastering-meshery/kube-conn.png" >}})
+   ![kube-conn](kube-conn.png)
 
 {{< alert type="note" title="Add Kubernetes Connections" >}}
 If you do not have any **Kubernetes connections** available, refer to this documentation on how to manage your clusters with Meshery: [Managing Kubernetes Clusters with Meshery](https://docs.meshery.io/installation/kubernetes).
@@ -150,7 +148,7 @@ If you do not have any **Kubernetes connections** available, refer to this docum
 
 During the deployment, if a connection has not yet been added to your environment, it will appear as shown below.
 
-![missing-con]({{< usestatic "mastering-meshery/missing-con.png" >}})
+![missing-con](missing-con.png)
 
 In this scenario, to add a new environment.
 
@@ -166,20 +164,20 @@ Another way to add a connection to an Environment is by selecting an environment
 
 1. Identify the desired connection. Under the **Environment** section, click the dropdown menu to add and select the environment you want to associate with your connection.
 
-   ![env-conn]({{< usestatic "mastering-meshery/env-conn.png" >}})
+   ![env-conn](env-conn.png)
 
 ### Verifying Kubernetes Connections
 
 The Kubernetes connection icon at the top right corner of the screen shows the list of connected Kubernetes clusters.
 Clicking on the icon will invoke an ad hoc connectivity test between your Meshery Server and the specific Kubernetes cluster. Should this check fail, verify the health of your Meshery Operator deployment within that cluster.
 
-![conn-list]({{< usestatic "mastering-meshery/conn-list.png" >}})
+![conn-list](conn-list.png)
 
 ### Environment Error
 
 If your environment is not properly set up before deployment, you may encounter the error below.
 
-![env-error]({{< usestatic "mastering-meshery/env-error.png" >}})
+![env-error](env-error.png)
 
 To handle this error follow the suitable steps for adding a connection to your environment as previously discussed.
 
@@ -216,17 +214,17 @@ You have the option of using the live cluster provided by Meshery Playground or 
 1. Click on **Open In Visualizer** to see the pre-filtered view of the deployed resources in the cluster.
 1. Click **Finish**.
 
-   ![success-deploy]({{< usestatic "mastering-meshery/success-deploy.png" >}})
+   ![success-deploy](success-deploy.png)
 
 ### Deployment Errors
 
 1. **Missing Namespace**: This error occurs when you attempt to create a Kubernetes resource without specifying a namespace. Kubernetes requires that all resources have an associated namespace.
 
-   {{< image src="/images/learning-path/meshery-deploy/missing-ns.png" width="100%" align="center" >}}
+   ![missing-ns](missing-ns.png)
 
 1. **Empty Label Selector**: This error indicates an empty label selector.
 
-   {{< image src="/images/learning-path/meshery-deploy/empty-ls.png" width="100%" align="center" >}}
+   ![empty-ls](empty-ls.png)
 
 ### Troubleshooting Errors
 
@@ -238,7 +236,7 @@ For the comprehensive list of error codes refer to [Error Code Reference](https:
 
 If you encounter persistent issues, consider consulting the [Meshery Community forum](https://discuss.layer5.io/c/meshery/5).
 
-![error-code]({{< usestatic "mastering-meshery/error-code.png" >}})
+![error-code](error-code.png)
 
 ### Using the Notification Center for Troubleshooting
 
@@ -252,9 +250,9 @@ The Notification Center in Meshery helps manage events during the deployment pro
 
 1. Keeps a log of past notifications, allowing you to track and review previous errors and their resolutions.
 
-![notification]({{< usestatic "mastering-meshery/notification.png" >}})
+![notification](notification.png)
 
-![notification-center]({{< usestatic "mastering-meshery/notification-center.png" >}})
+![notification-center](notification-center.png)
 
 By actively monitoring the Notification Center, you can promptly address issues as they arise, ensuring a smoother deployment process. Learn more about [Managing Events with the Notification Center](https://docs.meshery.io/guides/events-management).
 
@@ -265,7 +263,7 @@ To undeploy the resources
 1. Navigate to the Actions button at the top of the Meshery Design canvas.
 1. Click on the **Undeploy** icon.
 
-   ![undeploy]({{< usestatic "mastering-meshery/undeploy.png" >}})
+   ![undeploy](undeploy.png)
 
 
 ## Conclusion

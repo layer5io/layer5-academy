@@ -20,7 +20,7 @@ Using Meshery, install Istio telemetry add-ons. In the Istio management page:
    1. [Jaeger](https://www.jaegertracing.io/)
 
 
-![istio-addons]({{< usestatic "mastering-service-mesh/istio-addons.webp" >}})
+![istio-addons](istio-addons.webp)
 
 You will use Prometheus and Grafana for collecting and viewing metrics and [Jaeger](https://www.jaegertracing.io/) collecting and viewing distributed traces. Expose each add-on external to the cluster. Each the service network typs are set to "LoadBalancer".
 
@@ -134,7 +134,7 @@ kubectl -n istio-system port-forward \
 
 Browse to `http://<ip>:<port>` and in the `Expression` input box enter: `istio_request_bytes_count`. Click the Execute button.
 
-![prometheus]({{< usestatic "mastering-service-mesh/Prometheus.webp" >}})
+![prometheus](Prometheus.webp)
 
 ##### Grafana
 
@@ -159,7 +159,7 @@ kubectl -n istio-system port-forward $(kubectl -n istio-system get pod -l app=gr
   -o jsonpath='{.items[0].metadata.name}') 3000:3000 &
 ```
 
-![Grafana]({{< usestatic "mastering-service-mesh/Grafana_Istio_Dashboard.webp" >}})
+![Grafana](Grafana_Istio_Dashboard.webp)
 
 <br />
 <br />
@@ -177,7 +177,7 @@ To do this the application collects and propagates the following headers from th
 - `x-b3-flags`
 - `x-ot-span-context`
 
-![jaeger]({{< usestatic "mastering-service-mesh/jaeger.webp" >}})
+![jaeger](jaeger.webp)
 
 <br />
 <br />

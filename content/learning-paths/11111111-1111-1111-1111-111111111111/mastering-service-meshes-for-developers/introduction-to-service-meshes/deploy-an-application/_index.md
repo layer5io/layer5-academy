@@ -20,7 +20,7 @@ the book, book details (ISBN, number of pages, and so on), and a few book review
 
 The end-to-end architecture of the application is shown in the figure.
 
-![book-info]({{< usestatic "mastering-service-mesh/bookinfo-off-mesh.webp" >}})
+![book-info](bookinfo-off-mesh.webp)
 
 <br />
 It’s worth noting that these services have no dependencies on Istio, but make an interesting
@@ -29,7 +29,7 @@ for the reviews service.
 
 As shown in the figure below, proxies are sidecarred to each of the application containers.
 
-![book-info-on-mesh]({{< usestatic "mastering-service-mesh/bookinfo-on-mesh.webp" >}})
+![book-info-on-mesh](bookinfo-on-mesh.webp)
 
 <br />
 Sidecars proxy can be either manually or automatically injected into the pods. Automatic sidecar
