@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 id: "deploy-python-and-nodejs-application.mdx"
-description: 
+description: "In this chapter, we will deploy a Python and Node.js application with Dapr sidecars, enabling them to communicate and manage state effectively in a distributed environment."
 title: "Deploy Python and NodeJS application"
 lectures: 4
 weight: 5

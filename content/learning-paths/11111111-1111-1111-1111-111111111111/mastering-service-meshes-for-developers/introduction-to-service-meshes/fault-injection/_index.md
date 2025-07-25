@@ -2,7 +2,7 @@
 docType: "Chapter"
 chapterTitle: "Fault Injection"
 title: "Fault Injection"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, you will learn how to test the resiliency of an application by injecting systematic faults using Istio's fault injection capabilities."
 lectures: 12
 weight: 6
 ---

@@ -2,7 +2,7 @@
 docType: "Chapter"
 chapterTitle: "Conclusion"
 title: "Conclusion"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, we will summarize the key concepts covered in the course and discuss next steps for further learning."
 lectures: 12
 weight: 9
 ---

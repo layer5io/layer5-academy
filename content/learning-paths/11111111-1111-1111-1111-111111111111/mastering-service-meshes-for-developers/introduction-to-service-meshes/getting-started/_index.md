@@ -2,7 +2,7 @@
 docType: "Chapter"
 chapterTitle: "Getting Started"
 title: "Getting Started with Istio"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, we will set up Istio on a Kubernetes cluster and prepare the environment for deploying applications with service mesh capabilities."
 lectures: 12
 weight: 1
 ---

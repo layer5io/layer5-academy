@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Circuit Breaking"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Learn how to configure circuit breaking in Istio to improve application resilience and handle network failures gracefully."
 lectures: 12
 title: "Circuit Breaking"
 weight: 8

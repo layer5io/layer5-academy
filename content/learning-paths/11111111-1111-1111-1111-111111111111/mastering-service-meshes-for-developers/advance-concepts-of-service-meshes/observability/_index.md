@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Observability"
-description: "Meshery, collaborative Kubernetes manager"
+description: "Monitor and visualize the performance of your microservices using Istio's observability features."
 lectures: 12
 order: 4
 id: "observability"

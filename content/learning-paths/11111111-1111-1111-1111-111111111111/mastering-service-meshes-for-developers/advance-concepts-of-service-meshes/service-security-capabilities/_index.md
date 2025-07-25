@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Service security capabilities"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, you will learn how to secure your microservices using Istio's service security capabilities, including access control, identity verification, and mutual TLS."
 lectures: 12
 weight: 6
 id: "service-security-capabilities"
