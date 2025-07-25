@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Mutual TLS & Identity Verification"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, you will learn how to configure mutual TLS in Istio to secure communication between services and verify their identities within the service mesh."
 title: "Mutual TLS & Identity Verification"
 lectures: 12
 weight: 7

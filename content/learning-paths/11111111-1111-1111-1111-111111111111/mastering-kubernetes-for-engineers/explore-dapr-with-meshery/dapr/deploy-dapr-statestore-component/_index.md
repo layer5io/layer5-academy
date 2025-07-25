@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 id: "deploy-dapr-statestore-component.mdx"
-description: 
+description: "In this chapter, we will deploy a Dapr state store component using Redis, which will be used to manage the state of our applications in a distributed environment."
 title: "Deploy Dapr StateStore Component"
 lectures: 4
 weight: 4

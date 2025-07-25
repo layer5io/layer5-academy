@@ -1,7 +1,7 @@
 ---
 docType: "Chapter"
 chapterTitle: "Request Routing and Canary Testing"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, we are going to get our hands on some of the traffic management capabilities of Istio."
 lectures: 12
 weight: 5
 title: "Request Routing and Canary Testing"

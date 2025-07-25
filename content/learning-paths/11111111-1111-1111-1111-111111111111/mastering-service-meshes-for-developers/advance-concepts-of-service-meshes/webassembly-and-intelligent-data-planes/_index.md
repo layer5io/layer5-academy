@@ -2,7 +2,7 @@
 draft: false
 docType: "Chapter"
 chapterTitle: "WebAssembly and intelligent data planes"
-description: "Meshery, collaborative Kubernetes manager"
+description: "In this chapter, you will learn how to extend the capabilities of Istio using WebAssembly filters, enabling intelligent data plane operations for advanced traffic management and processing."
 lectures: 12
 weight: 7
 id: "webassembly-and-intelligent-data-planes"
