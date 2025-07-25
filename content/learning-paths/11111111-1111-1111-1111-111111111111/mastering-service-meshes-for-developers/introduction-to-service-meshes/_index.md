@@ -1,9 +1,6 @@
 ---
-docType: "Course"
 title: "Introduction to Service Meshes"
 description: "Learn how to setup a service mesh and deploy an application using it."
-lectures: 12
-courseTitle: "Introduction to Service Meshes"
 themeColor: "#00B39F"
 weight: 1
 banner: "images/linkerd-icon-white.svg"

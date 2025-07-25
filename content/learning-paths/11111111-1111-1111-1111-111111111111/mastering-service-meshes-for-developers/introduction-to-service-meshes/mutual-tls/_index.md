@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-chapterTitle: "Mutual TLS & Identity Verification"
-description: "In this chapter, you will learn how to configure mutual TLS in Istio to secure communication between services and verify their identities within the service mesh."
+id: "mutual-TLS-&-identity-verification"
 title: "Mutual TLS & Identity Verification"
-lectures: 12
+description: "In this chapter, you will learn how to configure mutual TLS in Istio to secure communication between services and verify their identities within the service mesh."
 weight: 7
 ---
 

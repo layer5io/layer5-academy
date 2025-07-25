@@ -1,11 +1,8 @@
 ---
-docType: "Chapter"
 id: "deploy-an-application"
-chapterTitle: "Deploy a sample application"
-description: "In this chapter, you will deploy the BookInfo application to demonstrate Istio's capabilities in managing microservices."
-lectures: 12
-weight: 2
 title: "Deploy a sample application"
+description: "In this chapter, you will deploy the BookInfo application to demonstrate Istio's capabilities in managing microservices."
+weight: 2
 ---
 
 {{< chapterstyle >}}

@@ -1,11 +1,8 @@
 ---
-docType: "Chapter"
-chapterTitle: "Exposing services through Istio Ingress Gateway"
-description: "In this chapter, you will learn how to expose services in a service mesh using Istio Ingress Gateway, allowing external access to your applications."
-lectures: 12
-weight: 3
-title: "Expose services through Istio Ingress Gateway"
 id: "expose-services"
+title: "Expose services through Istio Ingress Gateway"
+description: "In this chapter, you will learn how to expose services in a service mesh using Istio Ingress Gateway, allowing external access to your applications."
+weight: 3
 ---
 
 {{< chapterstyle >}}

@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-chapterTitle: "Circuit Breaking"
-description: "Learn how to configure circuit breaking in Istio to improve application resilience and handle network failures gracefully."
-lectures: 12
+id: "circuit-breaking"
 title: "Circuit Breaking"
+description: "Learn how to configure circuit breaking in Istio to improve application resilience and handle network failures gracefully."
 weight: 8
 ---
 

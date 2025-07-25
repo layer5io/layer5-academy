@@ -1,11 +1,8 @@
 ---
-docType: "Chapter"
-chapterTitle: "Service security capabilities"
-description: "In this chapter, you will learn how to secure your microservices using Istio's service security capabilities, including access control, identity verification, and mutual TLS."
-lectures: 12
-weight: 6
 id: "service-security-capabilities"
 title: "Service Security Capabilities of Istio"
+description: "In this chapter, you will learn how to secure your microservices using Istio's service security capabilities, including access control, identity verification, and mutual TLS."
+weight: 6
 ---
 
 {{< chapterstyle >}}
