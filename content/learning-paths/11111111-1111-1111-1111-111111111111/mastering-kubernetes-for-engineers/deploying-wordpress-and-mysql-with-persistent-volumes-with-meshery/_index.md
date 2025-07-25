@@ -5,7 +5,7 @@ description: "Learn how to deploy WordPress and MySQL with persistent volumes wi
 lectures: 7
 order: 1
 banner: "images/linkerd-icon-white.svg"
-tags: [meshery, databases, wordpress]
+tags: [kubernetes, meshery, databases, wordpress]
 categories: [kubernetes, meshery]
 level: [introductory]
 meshesYouLearn:

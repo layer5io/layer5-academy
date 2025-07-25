@@ -5,7 +5,7 @@ description: "Learn how Dapr works by deploying Dapr and sample applications in 
 lectures: 4
 order: 4
 banner: "images/linkerd-icon-white.svg"
-tags: [meshery, dapr]
+tags: [kubernetes, meshery, dapr]
 categories: [kubernetes, meshery]
 level: [introductory]
 toc:

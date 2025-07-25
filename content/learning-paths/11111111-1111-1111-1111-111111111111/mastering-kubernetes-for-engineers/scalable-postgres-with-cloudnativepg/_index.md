@@ -5,7 +5,7 @@ description: "Learn how to Install a Scalable PostgreSQL Distribution on Kuberne
 lectures: 7
 order: 1
 banner: "images/linkerd-icon-white.svg"
-tags: [meshery, databases]
+tags: [kubernetes, meshery, databases]
 categories: [kubernetes, meshery]
 level: [introductory]
 meshesYouLearn:
