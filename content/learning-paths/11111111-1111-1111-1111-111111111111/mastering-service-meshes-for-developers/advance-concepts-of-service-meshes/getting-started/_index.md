@@ -8,7 +8,7 @@ weight: 1
 title: "Getting Started with Istio"
 ---
 
-{{< chapterstyle >}}
+
 
 ### Setup Istio
 
@@ -105,4 +105,4 @@ Istio is deployed in a separate Kubernetes namespace `istio-system`. To check if
 kubectl get all -n istio-system
 ```
 
-{{< /chapterstyle >}}
+

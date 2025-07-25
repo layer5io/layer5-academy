@@ -7,7 +7,7 @@ weight: 5
 title: "Request Routing and Canary Testing"
 ---
 
-{{< chapterstyle >}}
+
 In this chapter, we are going to get our hands on some of the traffic management capabilities of Istio.
 
 ### Apply default destination rules
@@ -300,4 +300,4 @@ kubectl apply -f  samples/bookinfo/networking/virtual-service-reviews-50-v3.yaml
 kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-v3.yaml
 ```
 
-{{< /chapterstyle >}}
+

@@ -42,7 +42,7 @@ You can add comments in two convenient ways:
 
 ![commenting-via-menu](commenting-via-menu.png)
 
-#### <u>Tips for using Comments as a Design Review Tool</u>
+#### Tips for using Comments as a Design Review Tool
 
 ![comments-as-design-tool](comments-as-design-tool.png)
 

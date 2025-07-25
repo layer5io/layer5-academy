@@ -8,7 +8,7 @@ title: "Expose services through Istio Ingress Gateway"
 id: "expose-services"
 ---
 
-{{< chapterstyle >}}
+
 The components deployed on the service mesh by default are not exposed outside the cluster. An Ingress Gateway is deployed as a Kubernetes service of type LoadBalancer (or NodePort). To make Bookinfo accessible external to the cluster, you have to create an `Istio Gateway` for the Bookinfo application and also define an `Istio VirtualService` with the routes we need.
 
 ### Inspecting the Istio Ingress Gateway
@@ -238,4 +238,3 @@ We can create a virtualservice & gateway for bookinfo app in the ingress gateway
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
 
-{{< /chapterstyle >}}

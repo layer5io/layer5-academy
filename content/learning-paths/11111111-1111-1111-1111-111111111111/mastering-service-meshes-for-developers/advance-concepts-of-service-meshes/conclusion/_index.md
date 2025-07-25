@@ -9,12 +9,12 @@ weight: 8
 id: "conclusion"
 ---
 
-{{< chapterstyle >}}
 
-<br />
+
+
 
 ### Congratulations!
 
 ##### You have successfully completed the course on **"Advanced concepts of service meshes - Hands on"** using _Istio_.
 
-{{< /chapterstyle >}}
+

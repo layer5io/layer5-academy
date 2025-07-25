@@ -8,7 +8,7 @@ weight: 2
 title: "Deploy a sample application"
 ---
 
-{{< chapterstyle >}}
+
 
 To play with Istio and demonstrate some of it's capabilities, you will deploy the example BookInfo application, which is included the Istio package.
 
@@ -41,9 +41,9 @@ If your environment **does NOT** supports either of these two APIs, then you may
 
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
-<h2 class="chapter-sub-heading">
-  <a name="auto"></a> Deploying Sample App with Automatic sidecar injection
-</h2>
+
+## Deploying Sample App with Automatic sidecar injection
+
 
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
 verify sidecar injector deployment.
@@ -148,14 +148,12 @@ kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
 
-<hr />
 
-<h3>
-  <a name="manual-sidecar-inj" />
-  Manual Sidecar Injection
-</h3>
 
-<p>Use this only when Automatic Sidecar injection doesn't work</p>
+### Manual Sidecar Injection
+
+
+Use this only when Automatic Sidecar injection doesn't work>
 
 To do a manual sidecar injection we will be using `istioctl` command:
 
@@ -185,4 +183,4 @@ kubectl apply -f <(curl https://raw.githubusercontent.com/istio/istio/master/sam
 
 Now continue to [Verify Bookinfo deployment](#verify).
 
-{{< /chapterstyle >}}
+

@@ -7,12 +7,12 @@ lectures: 12
 weight: 2
 ---
 
-{{< chapterstyle >}}
+
 
 To play with Istio and demonstrate some of it's capabilities, you will deploy the example BookInfo application, which is included the Istio package.
 
 ### What is the Bookinfo Application
-<br />
+
 This application is a polyglot composition of microservices are written in different
 languages and sample BookInfo application displays information about a book, similar to a
 single catalog entry of an online book store. Displayed on the page is a description of
@@ -22,7 +22,7 @@ The end-to-end architecture of the application is shown in the figure.
 
 ![book-info](bookinfo-off-mesh.webp)
 
-<br />
+
 It’s worth noting that these services have no dependencies on Istio, but make an interesting
 service mesh example, particularly because of the multitude of services, languages and versions
 for the reviews service.
@@ -31,7 +31,7 @@ As shown in the figure below, proxies are sidecarred to each of the application 
 
 ![book-info-on-mesh](bookinfo-on-mesh.webp)
 
-<br />
+
 Sidecars proxy can be either manually or automatically injected into the pods. Automatic sidecar
 injection requires that your Kubernetes api-server supports `admissionregistration.k8s.io/v1`
 or `admissionregistration.k8s.io/v1beta1` or `admissionregistration.k8s.io/v1beta2` APIs. Verify
@@ -45,10 +45,10 @@ If your environment **does NOT** supports either of these two APIs, then you may
 
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
-<br />
+
 ### Deploying Sample App with Automatic sidecar injection
 
-<br />
+
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
 verify sidecar injector deployment.
 
@@ -90,9 +90,8 @@ This will do 3 things:
 1. Deploys all the BookInfo services in the `default` namespace.
 1. Deploys the virtual service and gateway needed to expose the BookInfo's productpage application in the `default` namespace.
 
-<h3 class="chapter-sub-heading">
-  <a name="verify"></a> Verify Bookinfo deployment{" "}
-</h3>
+### Verify Bookinfo deployment
+
 
 1. Verify that the deployments are all in a state of AVAILABLE before continuing.
 
@@ -116,11 +115,11 @@ kubectl describe svc productpage
 
 Next, you will expose the BookInfo application to be accessed external from the cluster.
 
-<br />
+
 #### Alternative: Manual installation
 Follow this if the above steps did not work for you
-<br />
-<br />
+
+
 
 ##### Label namespace for injection
 
@@ -145,7 +144,7 @@ kube-system    Active    1h
 ```
 
 ##### Deploy BookInfo
-<br />
+
 
 Applying this yaml file included in the Istio package you collected in [Getting Started](./getting-started) will deploy the BookInfo app in you cluster.
 
@@ -159,8 +158,8 @@ kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
 
-<hr />
-<br />
+
+
 
 #### Manual Sidecar Injection
 
@@ -194,4 +193,3 @@ kubectl apply -f <(curl https://raw.githubusercontent.com/istio/istio/master/sam
 
 Now continue to [Verify Bookinfo deployment](#verify).
 
-{{< /chapterstyle >}}
