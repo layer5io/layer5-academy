@@ -1,9 +1,8 @@
 ---
-docType: "Chapter"
 id: "reviewing-designs"
+title: "Reviewing Designs"
 description: "This chapter explores the essential aspects of reviewing designs in Kanvas, covering the lifecycle of design reviews, the use of comments and annotations, and the best practices for providing constructive feedback. It also details how to effectively collaborate with your team to ensure thorough evaluations and high-quality design outcomes."
 weight: 6
-title: "Reviewing Designs"
 ---
 
 ## Introduction
