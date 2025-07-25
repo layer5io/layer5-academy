@@ -6,6 +6,9 @@ courseTitle: "Introduction to Meshery"
 themeColor: "#00B39F"
 weight: 1
 banner: "images/kubernetes-icon.svg"
+tags: [meshery]
+categories: [meshery]
+level: [introductory]
 toc:
   [
     "meshery-concepts",

@@ -7,6 +7,9 @@ courseTitle: "Introduction to Service Meshes"
 themeColor: "#00B39F"
 weight: 1
 banner: "images/linkerd-icon-white.svg"
+tags: [service-mesh, service-networking]
+categories: [meshery]
+level: [intermediate]
 meshesYouLearn:
   [
     {
