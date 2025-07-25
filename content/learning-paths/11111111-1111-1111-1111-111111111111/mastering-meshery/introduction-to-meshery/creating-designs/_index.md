@@ -16,11 +16,11 @@ Creating designs in Kanvas is a seamless process that enables you to visualize, 
 
 2. In the Cloud Native Playground tile, click **Explore** to navigate to Kanvas.
 
-![explore]({{< usestatic "mastering-meshery/explore.png" >}})
+![explore](explore.png)
 
 3. On the left sidebar, click the Kanvas icon to open Kanvas in Designer mode.
 
-![open-kanvas]({{< usestatic "mastering-meshery/open-kanvas.png" >}})
+![open-kanvas](open-kanvas.png)
 
 ## Starting from Scratch
 
@@ -32,7 +32,7 @@ Think of Designer mode as your blueprint studio. Just like architects use specif
 
 2. Give your design a meaningful name, reflecting its purpose or key components. 
 
-![step1]({{< usestatic "mastering-meshery/step1.png" >}})
+![step1](step1.png)
 
 **Step 2: Browsing Available Components**
 
@@ -42,7 +42,7 @@ Think of the Dock as a palette of building blocks for your cloud-native app. Jus
 
 Components can be found in the **Dock** at the bottom of the design canvas.
 
-![step2]({{< usestatic "mastering-meshery/step2.png" >}})
+![step2](step2.png)
 
 **Step 3: Selecting Specific Versions**
 
@@ -50,19 +50,19 @@ To ensure precision in your design, select the specific version of each componen
 
 Choosing component versions is similar to selecting software versions for your cloud-native app. It’s like picking the right versions of libraries to ensure your app functions smoothly.
 
-![step3]({{< usestatic "mastering-meshery/step3.png" >}})
+![step3](step3.png)
 
 **Step 4: Building Complex Cloud Native Deployments**
 
 With the Designer toolbox at your disposal, effortlessly construct complex cloud-native deployments. Simply drag and drop components onto the Kanvas canvas, arranging and configuring them in a way that suits your architecture.
 
-![step4]({{< usestatic "mastering-meshery/step4.png" >}})
+![step4](step4.png)
 
 **Step 5: Configuring Each Component**
 
 Configure your design by adjusting each component through the **Configuration** tab. Click on the component to open up its Configuration tab. Kanvas's intuitive interface allows you to enter settings and parameters directly on the design canvas. As you modify these configurations, your design updates in real-time. Kanvas's auto-sync feature ensures that configuration changes are instantly reflected in the design.
 
-![step5]({{< usestatic "mastering-meshery/step5.png" >}})
+![step5](step5.png)
 
 **Step 6: Design Actions and Interactions**
 
@@ -76,7 +76,7 @@ When working with Kanvas, you can effortlessly integrate various design files to
 
 1. Click the **Import design** option under the **Designs** tab in Kanvas.
 
-![import-design]({{< usestatic "mastering-meshery/import-design.png" >}})
+![import-design](import-design.png)
 
 2. Enter a name for the design in the **Design File Name** field.
 
@@ -84,11 +84,11 @@ When working with Kanvas, you can effortlessly integrate various design files to
 
 4. Select your preferred import method: either **URL** or **File Upload**.
 
-![explore]({{< usestatic "mastering-meshery/configuring-imported-design.png" >}})
+![explore](configuring-imported-design.png)
 
 5. **Example:** Use the Meshery Server Helm chart at [Meshery Helm Chart](https://meshery.github.io/meshery.io/charts/meshery-v0.7.48.tgz).
 
-![meshery-helm-chart]({{< usestatic "mastering-meshery/meshery-helm-chart.png" >}})
+![meshery-helm-chart](meshery-helm-chart.png)
 
 6. **Review and Modify:** You should now have a Kanvas design of the chart. Continue to make any changes if required or deploy it.
 
@@ -104,13 +104,13 @@ When working with Kanvas, you can effortlessly integrate various design files to
 
 4. A modal will pop up requesting you to clone (create a copy of) the design you’ve selected.
 
-![clone-design]({{< usestatic "mastering-meshery/clone-design.png" >}})
+![clone-design](clone-design.png)
 
 5. Click **“clone”** and a copy of the design will appear on your Kanvas canvas. You can then configure the design to suit your purposes.
 
 6. Find your newly cloned design in the list of designs in the left navigation panel.
 
-![list-of-]({{< usestatic "mastering-meshery/list-of-designs.png" >}})
+![list-of-](list-of-designs.png)
 
 ## Github Integrations
 
@@ -118,7 +118,7 @@ Integrating your GitHub account with Meshery unlocks the ability to import files
 
 After importing your designs, they will appear in the [catalog](https://cloud.layer5.io/catalog).
 
-![catalog]({{< usestatic "mastering-meshery/catalog.png" >}})
+![catalog](catalog.png)
 
 To view the design on the canvas:
 
@@ -126,7 +126,7 @@ To view the design on the canvas:
 
 2. Click on **Open in Playground**. This will display the design on the canvas.
 
-![open-in-playground]({{< usestatic "mastering-meshery/open-in-playground.png" >}})
+![open-in-playground](open-in-playground.png)
 
 ## Merging Designs
 

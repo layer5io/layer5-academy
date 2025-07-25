@@ -22,7 +22,7 @@ In Layer5 Cloud, an [Organization](https://docs.layer5.io/cloud/identity/organiz
 1. To create your organization, navigate to [Layer5 Cloud Organizations](https://cloud.layer5.io/identity/organizations) on the Layer5 Cloud dashboard.
 2. Click on Add Organizations and Fill in the details for your Organization.
 
-![create-new-org]({{< usestatic "mastering-meshery/create-new-org.png" >}})
+![create-new-org](create-new-org.png)
 
 ### Editing Your Organization's Details
 
@@ -33,7 +33,7 @@ Once your organization is created, you might need to make changes or retrieve it
 3.  **Inviting Users with a Link**: Inside this modal, under "Invitations," you'll find an option to **Copy your organization link**. Any user who signs up using this unique link will automatically be added to your organization, simplifying the onboarding process.
 4.  After making any necessary changes to the organization's details, click on **Update Organization** to save them.
 
-![edit-org]({{< usestatic "mastering-meshery/edit-org.png" >}})
+![edit-org](edit-org.png)
 
 ## Adding Users to Your Organization
 
@@ -58,7 +58,7 @@ You have two ways to add users:
     -   Search for the users by name that you wish to add.
     -   Once selected, click **Update Organization** to add them.
 
-![add-existing-user]({{< usestatic "mastering-meshery/add-existing-user.png" >}})
+![add-existing-user](add-existing-user.png)
 
 To learn more about creating Users, See [Layer5 Users Docs](https://docs.layer5.io/cloud/identity/users/).
 
@@ -70,14 +70,14 @@ Users added to an organization receive a set of [default permissions](https://do
 1.  Click the **pencil icon** .
 2.  In the "Edit User Profile" modal, locate the **Organization Roles** dropdown menu.
 
-![assign-user-roles]({{< usestatic "mastering-meshery/assign-user-roles.png" >}})
+![assign-user-roles](assign-user-roles.png)
 
 3.  Select the desired role from the list (e.g., "team admin").
 4.  Click **Save Changes**.
 
 After you have completed assigning roles, your organization's user overview might look similar to the following:
 
-![org-overview]({{< usestatic "mastering-meshery/org-overview.png" >}})
+![org-overview](org-overview.png)
 
 ### How to Create Teams
 
@@ -100,7 +100,7 @@ With your users organized into teams and assigned appropriate roles, you're read
 2.  Click on **Create**.
 3.  Enter the detail
 
-![create-workspace]({{< usestatic "mastering-meshery/create-workspace-2.png" >}})
+![create-workspace](create-workspace-2.png)
 
 Your new workspace will be created and will typically appear as an empty container, ready for you to assign environments, teams and resources.
 
@@ -115,7 +115,7 @@ To allow team members to collaborate within a workspace, you need to assign thei
     - Click the > button to move the selected team to the "Assigned Teams" list on the right.
 4.  Click **Save** to confirm the assignment.
 
-![assign-teams-to-workspace]({{< usestatic "mastering-meshery/assign-teams-to-workspace.png" >}})
+![assign-teams-to-workspace](assign-teams-to-workspace.png)
 
 Now, members of the assigned team(s) will have access to this workspace according to their roles and permissions. This enables them to view and collaborate on any designs and views that are part of this workspace, facilitating teamwork.
 
@@ -129,6 +129,6 @@ Team Members will need certain integrations/Connections to carry out their tasks
 1.  Navigate to [**Integrations**](https://cloud.layer5.io/spaces/integrations) in Layer5 Cloud.
 2.  Next, configure the connections that a particular team will require to work.
 
-![integrations]({{< usestatic "mastering-meshery/integrations.png" >}})
+![integrations](integrations.png)
 
 For more detailed instructions, consult dedicated guides for specific integrations (e.g., [Integrating GitHub](https://docs.layer5.io/cloud/getting-started/github-integration/))

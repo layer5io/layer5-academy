@@ -32,7 +32,7 @@ These components encapsulate the resources and include their detailed configurat
 
 ## Meshery Design at a Glance
 
-![basic-meshery-design]({{< usestatic "mastering-meshery/basic-meshery-design.png" >}})
+![basic-meshery-design](basic-meshery-design.png)
 
 The design above shows a simple Meshery Design that consists of Kubernetes components. It specifically illustrates some kubernetes resources that are required to deploy an application to a Kubernetes cluster.
 
@@ -68,7 +68,7 @@ Let's explore a few of these categories.
 1. **Triangles**:
 
     
-    ![triangles]({{< usestatic "mastering-meshery/triangles.svg" >}})
+    ![triangles](triangles.svg)
     
     - **Category**: **Networking and Service Management**.
 
@@ -79,7 +79,7 @@ Let's explore a few of these categories.
 
 1. **Rectangles**:
 
-    ![rectangles]({{< usestatic "mastering-meshery/rectangles.svg" >}})
+    ![rectangles](rectangles.svg)
 
     - **Category**: **Hierarchical and Parent Components**
 
@@ -91,7 +91,7 @@ Let's explore a few of these categories.
 
 1. **User Icons**:
 
-    ![users]({{< usestatic "mastering-meshery/users.svg" >}})
+    ![users](users.svg)
 
     - **Category**: **Role-based access control (RBAC) components**
 
@@ -101,7 +101,7 @@ Let's explore a few of these categories.
 
 1. **Cylinders**:
 
-    ![cylinders]({{< usestatic "mastering-meshery/cylinders.svg" >}})
+    ![cylinders](cylinders.svg)
 
     - **Category**: **Storage and Stateful Components**
 
@@ -125,13 +125,13 @@ Note that users have the flexibility to **customize** these arrow styles to suit
 
 **Edge Relationships**
 
-![dashed_arrow]({{< usestatic "mastering-meshery/dashed_arrow.svg" >}})
+![dashed_arrow](dashed_arrow.svg)
 
 These are used to indicate traffic flow and relationships between components. The dashed lines represent dynamic interactions and data movement, while the arrowheads show the direction of the flow or relationship.
 
 **Annotations**
 
-![annotation-arrow]({{< usestatic "mastering-meshery/annotation-arrow.svg" >}})
+![annotation-arrow](annotation-arrow.svg)
 
 These are used to denote annotations or static connections between components. They serve to illustrate fixed relationships or highlight specific details without implying a flow of data or interaction.
 
@@ -139,24 +139,24 @@ These are used to denote annotations or static connections between components. T
 
 1. **Edge-Network Relationship**: Represented by a dashed arrow with **port/network protocol**.
 
-![network_edge_relationship]({{< usestatic "mastering-meshery/network_edge_relationship.svg" >}})
+![network_edge_relationship](network_edge_relationship.svg)
 
 - **Dashed arrow**: Indicates that the service is linked to the pod, exposing network access to it through a specified port.
 - **Port/Network Protocol**: Indicates the Port exposed by the service and its corresponding network protocol.
 
 **Creating Edge-Network Relationships Between Kubernetes Components**
 
-![edge-network-relationship]({{< usestatic "mastering-meshery/edge-network-relationship.gif" >}})
+![edge-network-relationship](edge-network-relationship.gif)
 
 1. **Edge-Permission Relationships**: Represented by a dashed arrow with an intermediary component, this type of edge indicates a binding relationship between two components. 
 
 The intermediary component (such as a RoleBinding) connects the two, defining how permissions are assigned. For example, a dashed arrow from a `Role` to a `ServiceAccount` with a `RoleBinding` in the middle shows the connection established by the RoleBinding, which links the specific role to the service account and grants the appropriate permissions.
 
-![edge_permission]({{< usestatic "mastering-meshery/edge_permission.svg" >}})
+![edge_permission](edge_permission.svg)
 
 **Creating Edge-Permission Relationships Between Components**
 
-![edge_permission]({{< usestatic "mastering-meshery/edge-permission.gif" >}})
+![edge_permission](edge-permission.gif)
 
 To see more examples on Edge relationships, See [Relationships](https://docs.meshery.io/concepts/logical/relationships).
 
@@ -167,14 +167,17 @@ Meshery extends and offers support for numerous [integrations](https://docs.mesh
 
 In Meshery, these integrated components are distinctly represented by their specific logos as icons and various shapes. These components can be found in `Components` in the dock.
 
-![integrations]({{< usestatic "mastering-meshery/integrations.svg" >}})
+![integrations](integrations.svg)
 
 ##### _Example of integration components in Meshery_
 
 Below is a Meshery Design with AWS Components.
 
 
-{{< meshery-design-embed id="embedded-design-79d1f362-39b3-46f2-b658-42a16984f88e" src="/images/learning-path/embed-test/embedded-design-awscomplex.js" >}}
+{{< meshery-design-embed 
+  id="embedded-design-79d1f362-39b3-46f2-b658-42a16984f88e" 
+  src="embedded-design-awscomplex.js" 
+>}}
 
 
 ## Methods to Identify Components on the Playground Design Canvas
@@ -202,13 +205,13 @@ Annotations can be created using Meshery's Diagramming tools found in the dock a
 
 1. **Images**:  Images can be added to the design to represent components, logos, or any visual aid that supports understanding the architecture.
 
-{{< image src="/images/learning-path/interpreting-designs/annotations-examples.png" width="100%" align="center" >}}
+    ![annotations-examples](annotations-examples.png)
 
 The design below includes annotations such as sections, images, arrows, and various shapes.
 
 {{< meshery-design-embed
   id="embedded-design-a83f0098-2f91-4275-b075-c8676e842804"
-  src="/images/learning-path/embed-test/embedded-design-annotations-example.js"
+  src="embedded-design-annotations-example.js"
 >}}
 
 
@@ -218,11 +221,11 @@ While default shapes, colors, and icons are provided for components and annotati
 
 **Customizing Kubernetes Components**
 
-![customize-kubernetes]({{< usestatic "mastering-meshery/customize-kubernetes.gif" >}})
+![customize-kubernetes](customize-kubernetes.gif)
 
 **Creating and Customizing Arrow Annotations**
 
-![create-annotation]({{< usestatic "mastering-meshery/create-annotation.gif" >}})
+![create-annotation](create-annotation.gif)
 
 {{< alert type="note" title="Edge Style Guide" >}}
 To learn more about the available arrow edge styles, see the [Edge Style Guide](https://docs.meshery.io/extensions/edges-shape-guide).
