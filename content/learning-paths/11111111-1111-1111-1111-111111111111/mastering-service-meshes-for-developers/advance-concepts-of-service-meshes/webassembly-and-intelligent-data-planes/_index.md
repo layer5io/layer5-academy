@@ -40,7 +40,7 @@ In the Istio management page:
 
 ## Send traffic
 
-## Analyze behavior
+### Analyze behavior
 
 Alternative, manual installation steps are provided for reference below. No need to execute these if you have performed the steps above.
 
