@@ -1,10 +1,8 @@
 ---
-draft: false
-docType: "Chapter"
 id: "meshery-concepts"
+title: "Meshery Concepts"
 description: "This chapter delves into the fundamental concepts of Meshery, explaining its purpose, and the architectural and logical components that form its foundation."
 weight: 1
-title: "Meshery Concepts"
 ---
 
 # What is Meshery?

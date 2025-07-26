@@ -1,9 +1,8 @@
 ---
-docType: "Chapter"
 id: "creating-designs"
+title: "Creating Designs"
 description: "This chapter covers the essential steps for creating cloud-native designs in Kanvas. It explores how to start from scratch, import existing infrastructure files, and clone or merge designs from the Layer5 Cloud catalog. Additionally, it provides guidance on integrating GitHub for seamless version control and collaboration, allowing users to manage and configure their cloud-native deployments effectively."
 weight: 1
-title: "Creating Designs"
 ---
 
 ## Introduction

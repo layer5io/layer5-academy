@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-chapterTitle: "Observability"
-description: "In this chapter, you will learn how to monitor and visualize the performance of your microservices using Istio's observability features."
-lectures: 12
+id: "observability"
 title: "Observability"
+description: "In this chapter, you will learn how to monitor and visualize the performance of your microservices using Istio's observability features."
 weight: 4
 ---
 

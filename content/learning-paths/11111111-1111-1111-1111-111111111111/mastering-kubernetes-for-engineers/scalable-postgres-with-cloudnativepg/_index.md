@@ -1,9 +1,8 @@
 ---
-docType: "Course"
+id: "scalable-postgres-with-CloudNativePG"
 title: "Scalable Postgres with CloudNativePG"
 description: "Learn how to Install a Scalable PostgreSQL Distribution on Kubernetes with Cloud Native PostgreSQL"
-lectures: 7
-order: 1
+weight: 1
 banner: "images/linkerd-icon-white.svg"
 tags: [kubernetes, meshery, databases]
 categories: [kubernetes, meshery]

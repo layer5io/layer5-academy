@@ -1,10 +1,8 @@
 ---
-docType: "Chapter"
 id: "configure-components"
-description: "In this section you will create and configure Persistent Volumes, Persistent Volume Claims and a Secret for the Database."
-lectures: 12
-weight: 3
 title: "Create and Configure Kubernetes Components"
+description: "In this section you will create and configure Persistent Volumes, Persistent Volume Claims and a Secret for the Database."
+weight: 3
 ---
 
 ### Create and Configure Secret for MySQL Database
