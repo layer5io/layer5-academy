@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-id: "What is this Challenge About"
-description: "This competition will challenge you to design an architecture diagram that demonstrates how KEDA can be used to automatically scale applications in a Kubernetes environment based on event-driven metrics. You'll learn how to configure KEDA scalers, how to integrate various event sources, and how to visualize the autoscaling process in a complex microservices architecture. This challenge will deepen your understanding of event-driven autoscaling in cloud-native environments and showcase how KEDA enhances Kubernetes' native scaling capabilities"
-chapterTitle: "What is this Challenge About"
+id: "what-is-this-challenge-about"
 title: "What is this Challenge About"
+description: "This competition will challenge you to design an architecture diagram that demonstrates how KEDA can be used to automatically scale applications in a Kubernetes environment based on event-driven metrics. You'll learn how to configure KEDA scalers, how to integrate various event sources, and how to visualize the autoscaling process in a complex microservices architecture. This challenge will deepen your understanding of event-driven autoscaling in cloud-native environments and showcase how KEDA enhances Kubernetes' native scaling capabilities"
 weight: 2
 ---
 

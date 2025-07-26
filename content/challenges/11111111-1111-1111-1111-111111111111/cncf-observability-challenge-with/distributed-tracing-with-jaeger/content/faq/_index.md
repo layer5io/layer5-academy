@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-id: "FAQs"
-description: ""
-chapterTitle: "FAQs"
+id: "faqs"
 title: "FAQs"
+description: ""
 weight: 3
 ---
 
@@ -20,3 +18,7 @@ Yes, in order to participate in a contest you do need to register for the contes
 #### How does the ranking work in a contest?
 
 Each problem has an assigned score. Usually a more challenging problem has a higher score. Your objective is to obtain the highest score with the fastest finish time while making as few mistakes as possible.
+
+#### Do I have to solve the contest problems in a particular order?
+
+No, you can solve the problems in any order you like. Feel free to read all of the problems at the beginning of contest. Looking at a problem does not affect your ranking.
