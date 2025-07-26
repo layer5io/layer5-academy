@@ -8,7 +8,7 @@ id: "service-security-capabilities"
 title: "Service Security Capabilities of Istio"
 ---
 
-{{< chapterstyle >}}
+
 
 ### Access Control
 
@@ -272,4 +272,3 @@ spec:
   #     mode: DISABLE
 ```
 
-{{< /chapterstyle >}}

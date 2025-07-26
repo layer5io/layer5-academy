@@ -25,6 +25,6 @@ Participants are ranked by score. Your score is determined by the number of test
 
 ### Can I participate in a sample challenge?
 
-Yes, we recommend that you participate in our <a> sample challenge </a>.
+Yes, we recommend that you participate in our sample challenge .
 
 This challenge enables you to understand how to participate in challenges on Meshery. It comprises detailed information about how questions should be attempted and details about the Meshery judge.

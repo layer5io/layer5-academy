@@ -7,7 +7,7 @@ title: "Observability"
 weight: 4
 ---
 
-{{< chapterstyle >}}
+
 
 ### Install Telemetry Add-ons
 
@@ -65,15 +65,15 @@ Click on `Run Test`. A performance test will run and statistical analysis perfor
 
 Next, you will begin controlling requests to BookInfo using traffic management features.
 
-<br />
+
 
 #### Alternative: Manual installation
 Follow these steps if the above steps did not work
-<br />
-<br />
+
+
 
 ##### Install Add-ons:
-<br />
+
 
 **Prometheus**
 
@@ -161,8 +161,8 @@ kubectl -n istio-system port-forward $(kubectl -n istio-system get pod -l app=gr
 
 ![Grafana](Grafana_Istio_Dashboard.webp)
 
-<br />
-<br />
+
+
 ##### Distributed Tracing
 
 The sample Bookinfo application is configured to collect trace spans using Zipkin or Jaeger. Although Istio proxies are able to automatically send spans, it needs help from the application to tie together the entire trace. To do this applications need to propagate the appropriate HTTP headers so that when the proxies send span information to Zipkin or Jaeger, the spans can be correlated correctly into a single trace.
@@ -179,14 +179,14 @@ To do this the application collects and propagates the following headers from th
 
 ![jaeger](jaeger.webp)
 
-<br />
-<br />
+
+
 
 ##### Exposing services
 
 Istio add-on services are deployed by default as `ClusterIP` type services. We can expose the services outside the cluster by either changing the Kubernetes service type to `NodePort` or `LoadBalancer` or by port-forwarding or by configuring Kubernetes Ingress. In this lab, we will briefly demonstrate the `NodePort` and port-forwarding ways of exposing services.
 
-<h5 class="chapter-alt-heading"> Option 1: Expose services with NodePort</h5>
+##### Option 1: Expose services with NodePort
 
 To expose them using NodePort service type, we can edit the services and change the service type from `ClusterIP` to `NodePort`
 
@@ -204,7 +204,7 @@ To find the assigned ports for Jaeger:
 kubectl -n istio-system get svc tracing
 ```
 
-<h5 class="chapter-alt-heading">Option 2: Expose services with port-forwarding</h5>
+##### Option 2: Expose services with port-forwarding
 
 To port-forward Jaeger:
 
@@ -224,4 +224,4 @@ kubectl -n istio-system get svc tracing
 
 You can click on the link at the top of the page which maps to the right port and it will open Jaeger UI in a new tab.
 
-{{< /chapterstyle >}}
+
