@@ -1,7 +1,6 @@
 ---
 title: "Advance Concepts of Service Meshes"
 description: "A course which teaches advanced concepts of service meshes."
-themeColor: "#466BB0"
 weight: 2
 banner: "images/istio-icon-white.svg"
 tags: [service-mesh, service-architecture]
