@@ -1,4 +1,5 @@
 ---
+id: "explor-dapr-with-meshery"
 title: "Explore Dapr with Meshery"
 description: "Learn how Dapr works by deploying Dapr and sample applications in a Kubernetes Cluster using Meshery"
 weight: 4

@@ -1,4 +1,5 @@
 ---
+id: "scalable-postgres-with-CloudNativePG"
 title: "Scalable Postgres with CloudNativePG"
 description: "Learn how to Install a Scalable PostgreSQL Distribution on Kubernetes with Cloud Native PostgreSQL"
 weight: 1

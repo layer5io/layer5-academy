@@ -1,5 +1,4 @@
 ---
-
 title: "Mastering Meshery"
 description: "Learn all about Meshery"
 weight: 1
