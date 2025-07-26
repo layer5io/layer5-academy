@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-id: "About KEDA Challenge"
-description: "This competition will challenge you to design and implement event-driven autoscaling for Kubernetes applications using KEDA (Kubernetes Event-driven Autoscaling). You'll learn how to set up KEDA, configure scalers, and optimize autoscaling for various event sources in a microservices architecture."
-chapterTitle: "About KEDA Challenge"
+id: "about-KEDA-challenge"
 title: "About KEDA Challenge"
+description: "This competition will challenge you to design and implement event-driven autoscaling for Kubernetes applications using KEDA (Kubernetes Event-driven Autoscaling). You'll learn how to set up KEDA, configure scalers, and optimize autoscaling for various event sources in a microservices architecture."
 weight: 1
 ---
 

@@ -1,10 +1,7 @@
 ---
-docType: "Course"
+id: "distributed-tracing-with-jaeger"
 title: 'Distributed Tracing with Jaeger'
 description: "Design an event-driven autoscaling architecture using KEDA."
-courseTitle: "Distributed Tracing with Jaeger"
-themeColor: "#00B39F"
-lectures: 3
 weight: 1
 ---
 
