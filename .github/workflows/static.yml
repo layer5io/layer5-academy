@@ -3,8 +3,8 @@ name: Deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["master"]
+  pull_request:
+    branches: [ "master" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -14,18 +14,17 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+  pull-requests: write
+  
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: "pages-${{ github.event.pull_request.number || github.run_id }}"
+  cancel-in-progress: true
 
 jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
-      name: github-pages
+      name: pr-preview-${{ github.event.pull_request.number || github.run_id }}
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
@@ -41,12 +40,24 @@ jobs:
       - name: Install dependencies
         run: make setup
       - name: Build Academy
-        run: make build-preview
+        run: make build-preview BASEURL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview-${{ github.event.pull_request.number || github.run_id }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
+          # Upload just the public folder
           path: 'public'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Comment Preview URL on PR
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: |
+            🚀 **Preview deployment for PR #${{ github.event.pull_request.number }}**
+            
+            🌐 PR URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/pr-preview-${{ github.event.pull_request.number || github.run_id }}
+            > 📖 General Preview: ${{ steps.deployment.outputs.page_url }}
+            
+            This preview will be updated automatically when you push new commits to this PR.
