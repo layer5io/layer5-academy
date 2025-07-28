@@ -22,9 +22,14 @@ setup:
 ## Run on your local machine with draft and future content enabled.
 site: check-go
 	hugo server -D -F
-	
+
+## Build site
 build:
 	hugo
+
+## Build site for deployment previews on github pages
+build-preview:
+	hugo --baseURL=https://layer5io.github.io/layer5-academy
 
 ## Empty build cache and run on your local machine.
 clean: 
