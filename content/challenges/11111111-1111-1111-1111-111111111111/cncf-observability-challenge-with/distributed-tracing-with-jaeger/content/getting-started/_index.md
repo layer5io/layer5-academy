@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-id: "About Task"
-description: "This competition will challenge you to design an architecture diagram that demonstrates how Jaeger can be used to trace requests across a complex microservices architecture. You'll learn how to instrument your code, how to collect and analyze trace data, and how to visualize and interpret the results."
-chapterTitle: "About Task"
+id: "about-task"
 title: "About Task"
+description: "This competition will challenge you to design an architecture diagram that demonstrates how Jaeger can be used to trace requests across a complex microservices architecture. You'll learn how to instrument your code, how to collect and analyze trace data, and how to visualize and interpret the results."
 weight: 1
 ---
 
@@ -25,6 +23,6 @@ Participants are ranked by score. Your score is determined by the number of test
 
 ### Can I participate in a sample challenge?
 
-Yes, we recommend that you participate in our <a> sample challenge </a>.
+Yes, we recommend that you participate in our sample challenge .
 
 This challenge enables you to understand how to participate in challenges on Meshery. It comprises detailed information about how questions should be attempted and details about the Meshery judge.

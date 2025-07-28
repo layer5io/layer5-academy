@@ -5,12 +5,12 @@ description: "In this chapter, we will summarize the key concepts covered in the
 weight: 9
 ---
 
-{{< chapterstyle >}}
 
-<br />
+
+
 
 ### Congratulations!
 
   You have successfully completed the course on **"Introduction to service meshes - Hands on"** using **Istio**.
 
-{{< /chapterstyle >}}
+

@@ -5,7 +5,7 @@ description: "Monitor and visualize the performance of your microservices using 
 weight: 4
 ---
 
-{{< chapterstyle >}}
+
 
 ### Install Telemetry Add-ons
 
@@ -166,7 +166,7 @@ To do this the application collects and propagates the following headers from th
 
 Istio add-on services are deployed by default as `ClusterIP` type services. We can expose the services outside the cluster by either changing the Kubernetes service type to `NodePort` or `LoadBalancer` or by port-forwarding or by configuring Kubernetes Ingress. In this lab, we will briefly demonstrate the `NodePort` and port-forwarding ways of exposing services.
 
-<h5 class="chapter-alt-heading"> Option 1: Expose services with NodePort</h5>
+##### Option 1: Expose services with NodePort
 
 To expose them using NodePort service type, we can edit the services and change the service type from `ClusterIP` to `NodePort`
 
@@ -204,4 +204,4 @@ kubectl -n istio-system get svc tracing
 
 You can click on the link at the top of the page which maps to the right port and it will open Jaeger UI in a new tab.
 
-{{< /chapterstyle >}}
+

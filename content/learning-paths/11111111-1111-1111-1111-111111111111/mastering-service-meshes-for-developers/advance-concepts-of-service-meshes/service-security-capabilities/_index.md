@@ -5,7 +5,7 @@ description: "In this chapter, you will learn how to secure your microservices u
 weight: 6
 ---
 
-{{< chapterstyle >}}
+
 
 ### Access Control
 
@@ -269,4 +269,3 @@ spec:
   #     mode: DISABLE
 ```
 
-{{< /chapterstyle >}}

@@ -22,9 +22,14 @@ setup:
 ## Run on your local machine with draft and future content enabled.
 site: check-go
 	hugo server -D -F
-	
+
+## Build site
 build:
 	hugo
+
+## Build site for local consumption
+build-preview:
+	hugo --baseURL=$(BASEURL)
 
 ## Empty build cache and run on your local machine.
 clean: 

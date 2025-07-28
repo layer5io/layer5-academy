@@ -5,7 +5,6 @@ description: "In this chapter, we will set up Istio on a Kubernetes cluster and 
 weight: 1
 ---
 
-{{< chapterstyle >}}
 
 ### Setup Istio
 
@@ -41,8 +40,6 @@ In the Istio management page:
 #### Alternative:Manual installation
 Perform the below steps if the above steps doesn't work for you.
 
-<br />
-<br />
 
 ##### Download Istio
 
@@ -112,4 +109,4 @@ Istio is deployed in a separate Kubernetes namespace `istio-system`. To check if
 kubectl get all -n istio-system
 ```
 
-{{< /chapterstyle >}}
+

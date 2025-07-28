@@ -5,7 +5,7 @@ description: "In this chapter, you will learn how to configure mutual TLS in Ist
 weight: 7
 ---
 
-{{< chapterstyle >}}
+
 
 Istio provides transparent mutual TLS to services inside the service mesh where both the client and the server authenticate each others' certificates as part of the TLS handshake. As part of this course, we have deployed Istio with mTLS.
 
@@ -131,7 +131,7 @@ exit
 ```
 
 ### Secure Production Identity Framework for Everyone (SPIFFE)
-<br />
+
 Istio uses [SPIFFE](https://spiffe.io/) to assert the identify of workloads on the
 cluster. SPIFFE consists of a notion of identity and a method of proving it. A SPIFFE
 identity consists of an authority part and a path. The meaning of the path in spiffe land
@@ -193,4 +193,4 @@ X509v3 Subject Alternative Name: critical
     URI:spiffe://cluster.local/ns/default/sa/bookinfo-productpage
 ```
 
-{{< /chapterstyle >}}
+

@@ -5,12 +5,12 @@ description: "As a self-service engineering platform, Meshery enables collaborat
 weight: 8
 ---
 
-{{< chapterstyle >}}
 
-<br />
+
+
 
 ### Congratulations!
 
 ##### You have successfully completed the course on **"Advanced concepts of service meshes - Hands on"** using _Istio_.
 
-{{< /chapterstyle >}}
+

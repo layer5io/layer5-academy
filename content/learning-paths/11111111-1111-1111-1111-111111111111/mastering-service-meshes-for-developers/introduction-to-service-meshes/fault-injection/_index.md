@@ -5,7 +5,7 @@ description: "In this chapter, you will learn how to test the resiliency of an a
 weight: 6
 ---
 
-{{< chapterstyle >}}
+
 
 In this chapter we will learn how to test the resiliency of an application by injecting systematic faults.
 Before we start, we will need to reset the virtual services.
@@ -141,12 +141,12 @@ Now we login to `/productpage` as user `jason` and observe that the page loads w
 
 Verify the fault injection by logging out (or logging in as a different user), the page should load normally without any errors.
 
-<br />
+
 
 #### Alternative: Manual installation
 Follow these steps if the above steps did not work
-<br />
-<br />
+
+
 
 ##### Route all traffic to version V1 of all services
 
@@ -172,4 +172,4 @@ kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-delay.
 kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-abort.yaml
 ```
 
-{{< /chapterstyle >}}
+

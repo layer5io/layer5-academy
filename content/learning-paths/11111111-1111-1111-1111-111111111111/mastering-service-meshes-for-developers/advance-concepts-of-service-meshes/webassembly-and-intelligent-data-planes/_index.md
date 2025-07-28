@@ -5,7 +5,7 @@ description: "In this chapter, you will learn how to extend the capabilities of 
 weight: 7
 ---
 
-{{< chapterstyle >}}
+
 
 In this lab, you will use the sample application [Image Hub](https://github.com/layer5io/image-hub). This version of the Image Hub filter has been simplified for your lab. To self-study deeper functionality, try the other version of the Image Hub filter that is available in the Image Hub repo.
 
@@ -18,8 +18,8 @@ In the Istio management page:
 1. Type default into the namespace field.
 2. Click the (+) icon on the Manage Sample Application Lifecycle card and select Image Hub Application to install the latest version of Image Hub
 
-<br />
-<br />
+
+
 
 ### Load the filter
 
@@ -32,11 +32,11 @@ In the Istio management page:
 1. Type default into the namespace field.
 2. Click the (+) icon on the Apply Service Mesh Configuration card and select Envoy Filter for Image Hub to deploy the custom filter.
 
-<br />
-<br />
+
+
 ## Send traffic
-<br />
-## Analyze behavior
+
+### Analyze behavior
 
 Alternative, manual installation steps are provided for reference below. No need to execute these if you have performed the steps above.
 
@@ -133,4 +133,4 @@ Manually patch the Image Hub Deployment.
 
 A future version of Meshery will allow you to deploy any filter from the [wasm-filters](https://github.com/layer5io/wasm-filters) repo. PR the repo to upload your custom filter and have Meshery deploy it.
 
-{{< /chapterstyle >}}
+

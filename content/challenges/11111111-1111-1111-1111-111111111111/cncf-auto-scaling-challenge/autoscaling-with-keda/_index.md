@@ -1,10 +1,7 @@
 ---
-docType: "Course"
+id: "autoscaling-with-KEDA"
 title: 'Autoscaling with KEDA'
 description: "Design an event-driven autoscaling architecture using KEDA."
-courseTitle: "Autoscaling with KEDA"
-themeColor: "#00B39F"
-lectures: 3
 weight: 1
 ---
 

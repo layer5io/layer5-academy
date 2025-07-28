@@ -1,7 +1,6 @@
 ---
 title: "CNCF Observability Challenge with Jaeger"
 description: "Join this CNCF Challenge and showcase your skills in designing a distributed tracing architecture using Jaeger."
-themeColor: "#3C494F"
 banner: "images/jaeger-icon-black.svg"
 courses: 1
 weight: 2
