@@ -45,7 +45,7 @@ First, create a copy of this repository under your own GitHub account.
 
 ### 3. Configure Your Organization Directories
 
-The Academy platform uses an **Organization UID** to keep content separate and secure. You must get this ID from the Layer5 CLoud before proceeding.
+The Academy platform uses an **Organization ID** to keep content separate and secure. You must get this ID from the Layer5 CLoud before proceeding.
 
 Once you have your UID, rename the placeholder directories:
 
