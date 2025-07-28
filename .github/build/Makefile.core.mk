@@ -62,3 +62,4 @@ PORT:=9081
 # Build
 #-----------------------------------------------------------------------------
 RELEASE_CHANNEL="edge"
+BASEURL="https://layer5io.github.com/layer5-academy"
