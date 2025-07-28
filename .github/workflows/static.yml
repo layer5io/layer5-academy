@@ -41,7 +41,7 @@ jobs:
       - name: Install dependencies
         run: make setup
       - name: Build Academy
-        run: make build
+        run: make build-preview
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
