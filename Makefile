@@ -27,9 +27,9 @@ site: check-go
 build:
 	hugo
 
-## Build site for deployment previews on github pages
+## Build site for local consumption
 build-preview:
-	hugo --baseURL=https://layer5io.github.io/layer5-academy
+	hugo --baseURL=$(BASEURL)
 
 ## Empty build cache and run on your local machine.
 clean: 
