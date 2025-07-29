@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
 id: "visualize"
-description: "In this section you will use the Visualize tool to see the resources in the cluster"
-lectures: 12
 title: "Visualize Deployed Resources"
+description: "In this section you will use the Visualize tool to see the resources in the cluster"
 weight: 6
 ---
 

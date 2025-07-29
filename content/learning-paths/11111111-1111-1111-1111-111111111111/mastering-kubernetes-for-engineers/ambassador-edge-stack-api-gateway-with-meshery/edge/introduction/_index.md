@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
 id: "introduction"
-description: "Ambassador Edge Stack is a powerful API gateway built on Envoy Proxy. It simplifies the configuration, deployment, and management of APIs in Kubernetes environments. With features like automatic TLS, authentication, rate limiting, load balancing, and observability, Ambassador Edge Stack ensures scalability and flexibility for high traffic volumes and distributed requests across multiple services in your cluster."
-lectures: 4
 title: "Exploring Edge Stack with Meshery Playground"
+description: "Ambassador Edge Stack is a powerful API gateway built on Envoy Proxy. It simplifies the configuration, deployment, and management of APIs in Kubernetes environments. With features like automatic TLS, authentication, rate limiting, load balancing, and observability, Ambassador Edge Stack ensures scalability and flexibility for high traffic volumes and distributed requests across multiple services in your cluster."
 weight: 1
 ---
 

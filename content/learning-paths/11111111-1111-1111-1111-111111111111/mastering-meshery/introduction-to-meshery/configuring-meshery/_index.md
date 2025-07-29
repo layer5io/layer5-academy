@@ -1,10 +1,8 @@
 ---
-draft: false
-docType: "Chapter"
 id: "configuring-meshery"
+title: "Configuring Meshery"
 description: "This chapter covers the steps for configuring meshery, including the process of creating teams, workspaces, environments, and connections. It also explains how they associate with each other."
 weight: 3
-title: "Configuring Meshery"
 ---
 
 ## Introduction

@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-chapterTitle: "Fault Injection"
+id: "fault-injection"
 title: "Fault Injection"
 description: "In this chapter, you will learn how to test the resiliency of an application by injecting systematic faults using Istio's fault injection capabilities."
-lectures: 12
 weight: 6
 ---
 

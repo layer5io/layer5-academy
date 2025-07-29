@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
 id: "conclusion"
-description:
 title: "Conclusion"
-lectures: 4
+description: ""
 weight: 7
 ---
 

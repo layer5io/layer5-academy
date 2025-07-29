@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
-chapterTitle: "Conclusion"
+id: "conclusion"
 title: "Conclusion"
 description: "In this chapter, we will summarize the key concepts covered in the course and discuss next steps for further learning."
-lectures: 12
 weight: 9
 ---
 

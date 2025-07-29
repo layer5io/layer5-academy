@@ -1,9 +1,8 @@
 ---
-docType: "Course"
+id: "deploying-wordPress-and-mySQL-with-persistent-volumes-with-meshery"
 title: "Deploying WordPress and MySQL with Persistent Volumes with Meshery"
 description: "Learn how to deploy WordPress and MySQL with persistent volumes with Meshery Playground"
-lectures: 7
-order: 1
+weight: 1
 banner: "images/linkerd-icon-white.svg"
 tags: [kubernetes, meshery, databases, wordpress]
 categories: [kubernetes, meshery]

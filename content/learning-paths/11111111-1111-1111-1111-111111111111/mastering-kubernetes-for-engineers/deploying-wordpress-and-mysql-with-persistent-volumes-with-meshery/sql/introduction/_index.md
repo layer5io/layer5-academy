@@ -1,9 +1,7 @@
 ---
-docType: "Chapter"
 id: "introduction"
-description: "Get started with Meshery playground"
 title: "Deploying WordPress and MySQL with Persistent Volumes with Meshery"
-lectures: 12
+description: "Get started with Meshery playground"
 weight: 1
 ---
 
