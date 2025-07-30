@@ -37,7 +37,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           destination_dir: pr-preview-${{ github.event.pull_request.number }}
-          target_branch: gh-pages
+          publish_branch: gh-pages
 
       - name: Comment PR with preview URL
         if: github.event_name == 'pull_request'
