@@ -2,11 +2,6 @@ baseURL: http://localhost:9876/academy/
 title: Example Academy
 canonifyurls: true
 
-
-# Comment out if you don't want the "print entire section" link enabled.
-outputs:
-  section: [HTML, print, RSS,JSON]
-
 module:
   hugoVersion:
     extended: true
