@@ -44,7 +44,8 @@ check-go:
 
 
 ## Update the academy-theme package to latest version
-academy-update:
+theme-update:
+	echo "Updating to latest academy-theme..." && \
 	hugo mod get -u
 
 .PHONY: setup build site clean site-fast check-go academy-update
