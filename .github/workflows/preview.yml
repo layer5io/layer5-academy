@@ -1,0 +1,27 @@
+name: Deploy PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.9'
+          extended: true
+
+      - name: Install dependencies
+        run: make setup
+
+      - name: Build site for PR preview
+        run: |
+          BASEURL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
+          npm run build:preview
