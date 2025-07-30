@@ -37,13 +37,17 @@ jobs:
           path: ./public
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          destination_dir: pr-preview-${{ github.event.pull_request.number }}
 
       - name: Comment PR with preview URL
-              if: github.event_name == 'pull_request'
-              env:
-                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: |
-                PREVIEW_URL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
-                COMMENT_BODY="Preview deployed: [View Preview]($PREVIEW_URL)"
-                gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PREVIEW_URL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
+          COMMENT_BODY="🚀 Preview deployed: [View Preview]($PREVIEW_URL)"
+          gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
