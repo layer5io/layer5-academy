@@ -8,7 +8,7 @@ permissions:
   contents: read
   id-token: write
   pages: write
-  
+
 jobs:
   build-preview:
     runs-on: ubuntu-latest
@@ -31,17 +31,13 @@ jobs:
           BASEURL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
           npm run build:preview
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: ./public
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           destination_dir: pr-preview-${{ github.event.pull_request.number }}
+          target_branch: gh-pages
 
       - name: Comment PR with preview URL
         if: github.event_name == 'pull_request'
