@@ -1,0 +1,49 @@
+name: Deploy PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  id-token: write
+  pages: write
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.9'
+          extended: true
+
+      - name: Install dependencies
+        run: make setup
+
+      - name: Build site for PR preview
+        run: |
+          BASEURL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
+          npm run build:preview
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          destination_dir: pr-preview-${{ github.event.pull_request.number }}
+          publish_branch: gh-pages
+
+      - name: Comment PR with preview URL
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PREVIEW_URL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
+          COMMENT_BODY="🚀 Preview deployed: [View Preview]($PREVIEW_URL)"
+          gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
