@@ -30,3 +30,20 @@ jobs:
         run: |
           BASEURL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
           npm run build:preview
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+
+      - name: Comment PR with preview URL
+              if: github.event_name == 'pull_request'
+              env:
+                GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              run: |
+                PREVIEW_URL="https://layer5io.github.io/layer5-academy/pr-preview-${{ github.event.pull_request.number }}/"
+                COMMENT_BODY="Preview deployed: [View Preview]($PREVIEW_URL)"
+                gh pr comment ${{ github.event.pull_request.number }} --body "$COMMENT_BODY"
