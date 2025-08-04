@@ -10,7 +10,7 @@ title: "Deploy Redis"
 
 1. Follow the same steps used for the Dapr deployment to import this [Redis helm chart](https://charts.bitnami.com/bitnami/redis-19.6.2.tgz) into Meshery and deploy.
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-redis.js" id="embedded-design-c3dcee44-6b8a-498f-a44c-66682ccf4d2a" >}}
+{{< meshery-design-embed src="embedded-design-redis.js" id="embedded-design-c3dcee44-6b8a-498f-a44c-66682ccf4d2a" >}}
 
 2. Click **Actions** to deploy, then click **Open In Visualizer**.
 3. In **Visualizer** mode, use the filter to adjust the views of the resources in the cluster.
