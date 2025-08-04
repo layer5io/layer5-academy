@@ -4,7 +4,7 @@ title: "Introduction to Service Meshes - Linkerd"
 description: "Learn how to deploy and manage service meshes using Linkerd, a lightweight service mesh for Kubernetes."
 weight: 2
 banner: "images/linkerd-icon-white.svg"
-tags: [service-mesh, service-networking]
+tags: [service-mesh, linkerd]
 categories: "meshery"
 level: "intermediate"
 ---

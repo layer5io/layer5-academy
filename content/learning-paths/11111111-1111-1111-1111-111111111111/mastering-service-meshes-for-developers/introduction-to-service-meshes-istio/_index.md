@@ -4,7 +4,7 @@ title: "Introduction to Service Meshes - Istio"
 description: "Learn how to setup a service mesh and deploy an application using it."
 weight: 1
 banner: "images/istio-icon-white.svg"
-tags: [service-mesh, service-networking]
+tags: [service-mesh, istio]
 categories: "meshery"
 level: "intermediate"
 ---
