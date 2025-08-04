@@ -49,5 +49,5 @@ The "stack" includes security functionalities such as automatic TLS, authenticat
 1. Log in to the [Meshery Playground](https://cloud.layer5.io/) using your credentials.
 2. Click **Explore** in the Cloud Native Playground tile to navigate to _Kanvas_.
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-edge-stack.js" id="embedded-design-d429e684-c42a-4c14-816b-b4dddb4b6d40" >}}
+{{< meshery-design-embed src="embedded-design-edge-stack.js" id="embedded-design-d429e684-c42a-4c14-816b-b4dddb4b6d40" >}}
 

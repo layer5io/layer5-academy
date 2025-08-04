@@ -32,7 +32,7 @@ Now you can start configuring the Dapr state-store.
 
 ![state-store](state-store.png)
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-statestore.js" id="embedded-design-f0b9088c-ab17-41ee-9400-fcfc5f4d59a8" >}}
+{{< meshery-design-embed src="embedded-design-statestore.js" id="embedded-design-f0b9088c-ab17-41ee-9400-fcfc5f4d59a8" >}}
 
 6. Click on the **metadata** drop-down and begin to fill in the info.
    - For **Name**, enter _redisHost_.

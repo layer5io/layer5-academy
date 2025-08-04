@@ -25,7 +25,7 @@ The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set 
 
 3. On the Designs tab on the left, click on the **DAPR** design you just imported. This will display the various Kubernetes resource components required for deploying the Dapr control plane on the canvas.
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-dapr.js" id="embedded-design-7d183e77-09e1-4b69-a5ee-3e3870e9c5f4" >}}
+{{< meshery-design-embed src="embedded-design-dapr.js" id="embedded-design-7d183e77-09e1-4b69-a5ee-3e3870e9c5f4" >}}
 
 ### Design Interpretation
 
@@ -40,7 +40,7 @@ Let’s take a closer look at some of the relationships between these components
 
 **Statefulsets, Deployments, and Services**
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-dapr-deployments.js" id="embedded-design-f6439589-1722-4fbc-b0e5-49f8d7c0ab17" >}}
+{{< meshery-design-embed src="embedded-design-dapr-deployments.js" id="embedded-design-f6439589-1722-4fbc-b0e5-49f8d7c0ab17" >}}
 
 The triangles represent services, the rectangles represent deployments, and the cylinder icons represent statefulsets. Arrows indicate that a service is associated with a deployment/statefulset, exposing network access to it, indicative of an [Edge-Network](https://docs.meshery.io/concepts/logical/relationships#1-edge---network) relationship. The ports exposed by each service are shown at the ends of the arrows. To learn more about how to identify these components, see [Component Shape Guide]().
 
@@ -54,13 +54,13 @@ This illustrates how exposed ports are mapped to their corresponding services wi
 
 **Roles, ClusterRoles, and ServiceAccounts**
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-dapr-roles.js" id="embedded-design-79476480-b3b3-4e47-8805-de2cd5735bb8" >}}
+{{< meshery-design-embed src="embedded-design-dapr-roles.js" id="embedded-design-79476480-b3b3-4e47-8805-de2cd5735bb8" >}}
 
 These resources represent Roles, ClusterRoles, ServiceAccounts, and other necessary RBAC configurations that the Dapr control plane requires within the cluster. An [Edge-permission](https://docs.meshery.io/concepts/logical/relationships#3-edge---permission) relationship exists between some of these components, which are bound through RoleBindings and ClusterRoleBindings.
 
 **Custom Resource and Custom Resource Definitions**
 
-{{< meshery-design-embed src="/images/learning-path/embed-test/embedded-design-dapr-crds.js" id="embedded-design-7eed863e-a37c-493f-a7b6-61e4b29bb678" >}}
+{{< meshery-design-embed src="embedded-design-dapr-crds.js" id="embedded-design-7eed863e-a37c-493f-a7b6-61e4b29bb678" >}}
 
 Dapr leverages several Custom Resource Definitions (CRDs) to allow users manage and define its configuration and operation. The key custom resources are **Configurations**, **Components**, **Resiliency**, **Subscriptions**, **HTTPEndpoints**.
 
