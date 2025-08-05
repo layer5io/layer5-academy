@@ -18,7 +18,7 @@ questions:
         text: "8000 and 8443"
   - id: "q2"
     text: "Which components are part of the Ambassador Edge Stack system shown in the design? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

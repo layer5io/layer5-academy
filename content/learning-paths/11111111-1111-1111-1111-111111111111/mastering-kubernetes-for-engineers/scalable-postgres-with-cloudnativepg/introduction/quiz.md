@@ -18,7 +18,7 @@ questions:
         text: "A container orchestration platform"
   - id: "q2"
     text: "What resources will be imported and deployed in this tutorial? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

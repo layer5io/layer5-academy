@@ -18,7 +18,7 @@ questions:
         text: "Connection timeout and DNS failure"
   - id: "q2"
     text: "Which VirtualService configuration fields are used for fault injection? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

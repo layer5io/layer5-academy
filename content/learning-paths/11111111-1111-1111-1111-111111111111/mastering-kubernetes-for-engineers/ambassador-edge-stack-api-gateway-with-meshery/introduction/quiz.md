@@ -18,7 +18,7 @@ questions:
         text: "HAProxy"
   - id: "q2"
     text: "Which features are included in Ambassador Edge Stack? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "Dynamic Application Runtime"
   - id: "q2"
     text: "Which capabilities does Dapr provide through its sidecar architecture? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

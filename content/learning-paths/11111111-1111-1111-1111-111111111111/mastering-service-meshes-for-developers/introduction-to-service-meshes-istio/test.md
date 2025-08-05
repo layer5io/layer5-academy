@@ -18,7 +18,7 @@ questions:
         text: "Consul Connect"
   - id: "q2"
     text: "What are the main learning outcomes of this Istio course? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

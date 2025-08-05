@@ -18,7 +18,7 @@ questions:
         text: "Basic, Advanced, and Expert"
   - id: "q2"
     text: "Which methods can be used to add comments in Kanvas for design reviews?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

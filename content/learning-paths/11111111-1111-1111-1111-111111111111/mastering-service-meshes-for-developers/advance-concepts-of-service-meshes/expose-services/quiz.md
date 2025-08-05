@@ -18,7 +18,7 @@ questions:
         text: "To provide authentication for all services"
   - id: "q2"
     text: "Which Istio resources are required to expose a service through the Ingress Gateway? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

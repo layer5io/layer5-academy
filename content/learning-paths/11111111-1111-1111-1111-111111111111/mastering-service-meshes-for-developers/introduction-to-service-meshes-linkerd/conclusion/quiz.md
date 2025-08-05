@@ -18,7 +18,7 @@ questions:
         text: "Consul Connect"
   - id: "q2"
     text: "Which key features of Linkerd were explored in this course? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

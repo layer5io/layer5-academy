@@ -18,7 +18,7 @@ questions:
         text: "80"
   - id: "q2"
     text: "Which custom resources are typically defined in Edge Stack CRD YAML files? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

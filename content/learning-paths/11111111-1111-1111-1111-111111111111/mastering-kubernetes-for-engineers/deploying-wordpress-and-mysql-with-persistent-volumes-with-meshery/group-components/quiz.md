@@ -18,7 +18,7 @@ questions:
         text: "env:production"
   - id: "q2"
     text: "What benefits does the Group Components functionality provide? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

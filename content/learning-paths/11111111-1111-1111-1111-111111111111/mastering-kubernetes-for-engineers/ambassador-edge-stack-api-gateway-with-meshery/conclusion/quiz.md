@@ -18,7 +18,7 @@ questions:
         text: "Helm"
   - id: "q2"
     text: "What key learnings were covered in this Ambassador Edge Stack course? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "To enable mutual TLS automatically"
   - id: "q2"
     text: "Which Istio security features help secure microservices? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

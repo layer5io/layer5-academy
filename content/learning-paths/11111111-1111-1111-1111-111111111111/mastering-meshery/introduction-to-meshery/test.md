@@ -19,7 +19,7 @@ questions:
         text: "To replace Kubernetes"
   - id: "q2"
     text: "Which of the following are architectural components of Meshery? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -54,7 +54,7 @@ questions:
         text: "A database table"
   - id: "q5"
     text: "Which of the following are logical components in Meshery? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 3
     options:
       - id: "a"
@@ -84,7 +84,7 @@ questions:
         text: "A container runtime"
   - id: "q7"
     text: "What types of files can you import into Kanvas to create designs?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 3
     options:
       - id: "a"

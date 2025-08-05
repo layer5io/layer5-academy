@@ -18,7 +18,7 @@ questions:
         text: "database-password"
   - id: "q2"
     text: "What configuration settings are required for the Persistent Volumes? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

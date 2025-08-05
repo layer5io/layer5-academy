@@ -18,7 +18,7 @@ questions:
         text: "Comparison of different service mesh technologies"
   - id: "q2"
     text: "Which key concepts were covered in this Istio course? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

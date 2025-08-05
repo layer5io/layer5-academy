@@ -18,7 +18,7 @@ questions:
         text: "Helm Chart"
   - id: "q2"
     text: "What happens when you drag and drop one design onto another in Meshery? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

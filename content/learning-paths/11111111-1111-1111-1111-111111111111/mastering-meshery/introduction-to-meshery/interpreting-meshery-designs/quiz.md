@@ -18,7 +18,7 @@ questions:
         text: "Simple templates for basic configurations"
   - id: "q2"
     text: "Which shapes are used to represent different categories of Kubernetes components in Meshery?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

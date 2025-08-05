@@ -18,7 +18,7 @@ questions:
         text: "Only CPU and memory usage"
   - id: "q2"
     text: "Which CLI tools does Linkerd dashboard expose? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

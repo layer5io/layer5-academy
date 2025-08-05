@@ -18,7 +18,7 @@ questions:
         text: "Import, validation, testing, and deployment"
   - id: "q2"
     text: "What does a dry run in Meshery accomplish?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

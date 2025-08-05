@@ -18,7 +18,7 @@ questions:
         text: "Single-language distributed system"
   - id: "q2"
     text: "What are the requirements for automatic sidecar injection in Istio? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

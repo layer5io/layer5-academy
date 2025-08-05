@@ -18,7 +18,7 @@ questions:
         text: "Only works with specific application frameworks"
   - id: "q2"
     text: "Which features does Linkerd provide for observability? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

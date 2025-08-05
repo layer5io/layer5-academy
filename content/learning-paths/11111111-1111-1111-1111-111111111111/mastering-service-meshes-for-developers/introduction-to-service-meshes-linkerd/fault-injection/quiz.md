@@ -18,7 +18,7 @@ questions:
         text: "Breaking application deployments intentionally"
   - id: "q2"
     text: "How does Linkerd implement fault injection? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

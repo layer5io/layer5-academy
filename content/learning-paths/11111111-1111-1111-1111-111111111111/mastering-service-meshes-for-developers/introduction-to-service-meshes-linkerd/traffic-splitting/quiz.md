@@ -18,7 +18,7 @@ questions:
         text: "Linkerd custom spec"
   - id: "q2"
     text: "What are the core primitives used in Linkerd's traffic splitting approach? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

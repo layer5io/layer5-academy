@@ -18,7 +18,7 @@ questions:
         text: "ExternalName"
   - id: "q2"
     text: "Which Istio resources are required to expose services through the Ingress Gateway? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

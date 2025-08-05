@@ -18,7 +18,7 @@ questions:
         text: "To deploy applications to the cluster"
   - id: "q2"
     text: "Which components are essential for efficient resource management in Workspaces?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "PetStore"
   - id: "q2"
     text: "How can Linkerd proxy be injected into applications? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

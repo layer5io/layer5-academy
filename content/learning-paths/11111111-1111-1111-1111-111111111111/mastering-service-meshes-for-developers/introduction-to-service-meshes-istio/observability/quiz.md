@@ -18,7 +18,7 @@ questions:
         text: "InfluxDB, Chronograf, and Kapacitor"
   - id: "q2"
     text: "What are the default methods to expose Istio add-on services outside the cluster? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

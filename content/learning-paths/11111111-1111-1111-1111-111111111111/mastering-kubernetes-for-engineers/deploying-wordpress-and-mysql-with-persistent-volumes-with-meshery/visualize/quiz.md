@@ -18,7 +18,7 @@ questions:
         text: "env=production"
   - id: "q2"
     text: "Which resource kinds should be selected in the filter to view all deployed resources? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

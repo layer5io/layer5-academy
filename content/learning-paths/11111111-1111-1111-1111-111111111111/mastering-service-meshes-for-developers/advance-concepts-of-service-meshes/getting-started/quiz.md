@@ -18,7 +18,7 @@ questions:
         text: "kube-system"
   - id: "q2"
     text: "Which of the following are valid methods to install Istio? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "Endpoints"
   - id: "q2"
     text: "Which Istio resources are used for traffic management? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

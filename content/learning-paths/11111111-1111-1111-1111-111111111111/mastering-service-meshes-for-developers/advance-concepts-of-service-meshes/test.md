@@ -18,7 +18,7 @@ questions:
         is_correct: true
   - id: "q2"
     text: "Which technologies are covered in advanced service mesh concepts? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

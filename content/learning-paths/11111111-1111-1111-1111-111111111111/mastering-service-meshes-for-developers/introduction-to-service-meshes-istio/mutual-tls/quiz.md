@@ -18,7 +18,7 @@ questions:
         text: "DISABLE"
   - id: "q2"
     text: "Which certificate files are present in the sidecar proxy for mTLS? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

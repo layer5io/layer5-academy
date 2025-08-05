@@ -18,7 +18,7 @@ questions:
         text: "YAML Manifest"
   - id: "q2"
     text: "Which namespaces should be selected in the filter to view both Dapr and Redis resources? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

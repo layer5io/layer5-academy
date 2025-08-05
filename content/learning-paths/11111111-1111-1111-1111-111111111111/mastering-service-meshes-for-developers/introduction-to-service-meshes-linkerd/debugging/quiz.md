@@ -18,7 +18,7 @@ questions:
         text: "Low requests per second"
   - id: "q2"
     text: "Which Linkerd features help with debugging applications? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

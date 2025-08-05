@@ -18,7 +18,7 @@ questions:
         text: "Jenkins"
   - id: "q2"
     text: "What are the key components involved in this Dapr exploration course?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

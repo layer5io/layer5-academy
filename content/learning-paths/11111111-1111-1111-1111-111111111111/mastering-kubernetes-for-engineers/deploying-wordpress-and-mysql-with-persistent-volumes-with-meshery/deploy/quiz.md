@@ -18,7 +18,7 @@ questions:
         text: "The design is saved to local storage"
   - id: "q2"
     text: "What does Meshery Playground provide in terms of cluster connectivity? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

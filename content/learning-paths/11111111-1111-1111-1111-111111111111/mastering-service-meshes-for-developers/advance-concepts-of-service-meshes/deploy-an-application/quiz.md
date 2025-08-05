@@ -18,7 +18,7 @@ questions:
         text: "To provide a database management system"
   - id: "q2"
     text: "Which of the following are requirements for automatic sidecar injection? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

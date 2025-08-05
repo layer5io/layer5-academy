@@ -18,7 +18,7 @@ questions:
         text: "To replace Kubernetes entirely"
   - id: "q2"
     text: "Which components are examples of Meshery's architectural components?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "dapr.io/sidecar: \"true\""
   - id: "q2"
     text: "Which Dapr annotations are used in the Node.js application manifest? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

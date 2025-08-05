@@ -18,7 +18,7 @@ questions:
         text: "To route traffic to different service versions"
   - id: "q2"
     text: "Which DestinationRule configuration sections are used for circuit breaking? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

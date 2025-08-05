@@ -18,7 +18,7 @@ questions:
         text: "envoy.wasm.runtime.node"
   - id: "q2"
     text: "Which components are required to deploy a WebAssembly filter in Istio? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "MongoDB"
   - id: "q2"
     text: "Which technologies are used for installing scalable PostgreSQL in this course?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

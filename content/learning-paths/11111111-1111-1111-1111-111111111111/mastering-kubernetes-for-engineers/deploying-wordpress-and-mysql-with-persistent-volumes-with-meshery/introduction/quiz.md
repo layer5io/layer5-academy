@@ -18,7 +18,7 @@ questions:
         text: "Database management tools"
   - id: "q2"
     text: "What resources will you create in this WordPress and MySQL tutorial? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

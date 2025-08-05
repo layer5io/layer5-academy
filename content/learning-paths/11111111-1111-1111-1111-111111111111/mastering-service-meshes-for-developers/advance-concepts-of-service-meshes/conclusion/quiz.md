@@ -18,7 +18,7 @@ questions:
         text: "Istio"
   - id: "q2"
     text: "Which advanced concepts were covered in this Istio service mesh course? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

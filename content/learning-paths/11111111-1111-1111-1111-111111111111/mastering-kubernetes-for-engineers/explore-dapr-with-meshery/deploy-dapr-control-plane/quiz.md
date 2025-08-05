@@ -18,7 +18,7 @@ questions:
         text: "kube-system"
   - id: "q2"
     text: "Which components are part of the Dapr control plane? (Select all that apply)"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

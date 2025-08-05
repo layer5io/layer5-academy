@@ -18,7 +18,7 @@ questions:
         text: "To monitor cluster performance"
   - id: "q2"
     text: "Which file types can be imported as designs in Kanvas?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

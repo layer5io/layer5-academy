@@ -18,7 +18,7 @@ questions:
         is_correct: true
   - id: "q2"
     text: ""
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

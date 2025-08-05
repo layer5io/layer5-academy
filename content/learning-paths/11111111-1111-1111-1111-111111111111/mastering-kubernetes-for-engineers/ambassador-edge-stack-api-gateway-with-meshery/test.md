@@ -18,7 +18,7 @@ questions:
         text: "To replace Kubernetes"
   - id: "q2"
     text: "Which service meshes are explored in this Ambassador Edge Stack course?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

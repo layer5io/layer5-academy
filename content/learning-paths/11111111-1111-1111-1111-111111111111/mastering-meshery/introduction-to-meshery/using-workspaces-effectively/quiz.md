@@ -18,7 +18,7 @@ questions:
         text: "Teams are independent of Organizations and Workspaces"
   - id: "q2"
     text: "What are the methods available for adding users to an Organization in Layer5 Cloud?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"

@@ -18,7 +18,7 @@ questions:
         text: "Nginx and Redis"
   - id: "q2"
     text: "Which storage feature is emphasized in this WordPress and MySQL deployment course?"
-    type: "multi-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
