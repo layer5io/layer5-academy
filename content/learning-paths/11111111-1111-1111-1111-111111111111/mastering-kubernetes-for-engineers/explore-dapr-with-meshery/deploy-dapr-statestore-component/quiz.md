@@ -1,0 +1,37 @@
+---
+title: "Quiz"
+passing_percentage: 70
+layout: "test"
+type: "test"
+questions:
+  - id: "q1"
+    text: "What should be entered in the Type field when configuring the Dapr state store component?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "redis.state"
+      - id: "b"
+        text: "state.redis"
+        is_correct: true
+      - id: "c"
+        text: "statestore.redis"
+  - id: "q2"
+    text: "What configuration details are essential for the Dapr state store component? (Select all that apply)"
+    type: "multi-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "redisHost field"
+        is_correct: true
+      - id: "b"
+        text: "redisPassword field"
+        is_correct: true
+      - id: "c"
+        text: "httpTimeout field"
+  - id: "q3"
+    text: "What is the redisHost value that should be entered in the metadata configuration?"
+    type: "short_answer" 
+    marks: 2
+    correct_answer: "redis-master.default.svc.cluster.local:6379" 
+---

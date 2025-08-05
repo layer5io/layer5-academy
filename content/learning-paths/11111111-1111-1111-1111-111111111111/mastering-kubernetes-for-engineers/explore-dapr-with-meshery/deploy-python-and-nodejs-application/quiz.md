@@ -1,0 +1,37 @@
+---
+title: "Quiz"
+passing_percentage: 70
+layout: "test"
+type: "test"
+questions:
+  - id: "q1"
+    text: "What annotation tells the Dapr sidecar injector to inject a sidecar container?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "dapr.io/inject: \"true\""
+      - id: "b"
+        text: "dapr.io/enabled: \"true\""
+        is_correct: true
+      - id: "c"
+        text: "dapr.io/sidecar: \"true\""
+  - id: "q2"
+    text: "Which Dapr annotations are used in the Node.js application manifest? (Select all that apply)"
+    type: "multi-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "dapr.io/app-id"
+        is_correct: true
+      - id: "b"
+        text: "dapr.io/app-port"
+        is_correct: true
+      - id: "c"
+        text: "dapr.io/protocol"
+  - id: "q3"
+    text: "What should you see in both the Python and Node pods when viewing them in the visualizer?"
+    type: "short_answer" 
+    marks: 2
+    correct_answer: "daprd sidecar containers" 
+---
