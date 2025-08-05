@@ -1,0 +1,37 @@
+---
+title: "Quiz"
+passing_percentage: 70
+layout: "test"
+type: "test"
+questions:
+  - id: "q1"
+    text: "What type of application architecture does the BookInfo application represent?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "Monolithic application"
+      - id: "b"
+        text: "Polyglot composition of microservices"
+        is_correct: true
+      - id: "c"
+        text: "Single-language distributed system"
+  - id: "q2"
+    text: "What are the requirements for automatic sidecar injection in Istio? (Select all that apply)"
+    type: "multi-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "Kubernetes API server supporting admissionregistration APIs"
+        is_correct: true
+      - id: "b"
+        text: "Namespace labeled with istio-injection=enabled"
+        is_correct: true
+      - id: "c"
+        text: "Manual proxy configuration in each pod"
+  - id: "q3"
+    text: "What command is used to enable automatic sidecar injection for a namespace?" 
+    type: "short_answer" 
+    marks: 2
+    correct_answer: "kubectl label namespace default istio-injection=enabled" 
+---
