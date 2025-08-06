@@ -3,9 +3,9 @@
 
 This repository is a starter template for creating custom learning paths and courses on the [Layer5 Academy](https://cloud.layer5.io/academy/overview). It provides the necessary file structure and a working example to help you get started quickly.
 
-This guide will walk you through setting up your own content repository, creating courses, and previewing them locally.
+> **📖 Complete Documentation:** For comprehensive content creation guidelines, visit the [official Layer5 Academy documentation](https://docs.layer5.io/cloud/academy/creating-content/)
 
-> For more in-depth documentation, see the official [Layer5 Academy docs](https://docs.layer5.io/cloud/academy/).
+This README focuses on the specific setup steps for this starter template.
 
 ## Prerequisites
 
@@ -47,86 +47,52 @@ First, create a copy of this repository under your own GitHub account.
 
 The Academy platform uses an **Organization ID** to keep content separate and secure. You must get this ID from the Layer5 CLoud before proceeding.
 
-Once you have your UID, rename the placeholder directories:
+Once you have your UUID, rename the placeholder directories:
 
-  - Rename `content/learning-paths/your-org-uid` to `content/learning-paths/<your-organization-uid>`
-  - Rename `static/your-org-uuid` to `static/<your-organization-uid>`
-  - Rename `layouts/shortcodes/your-org-uuid` to `layouts/shortcodes/<your-organization-uid>`
+  - Rename `content/learning-paths/your-org-uuid` to `content/learning-paths/<your-organization-uuid>`
+  - Rename `static/your-org-uuid` to `static/<your-organization-uuid>`
+  - Rename `layouts/shortcodes/your-org-uuid` to `layouts/shortcodes/<your-organization-uuid>`
 
 ### 4. Add Your Content
 
-Now you're ready to create your learning path. The structure is: **Learning Path → Course → Chapter → Lesson**.
+> **📚 Content Creation Guide:** For detailed instructions on structuring learning paths, writing courses, and creating assessments, see the [Content Creation Documentation](https://docs.layer5.io/cloud/academy/creating-content/).
 
-A high-level view of the structure looks like this:
-  ```text
-  content/
-  └── learning-paths/
-      ├── _index.md
-      └── <your-organization-uid>/
-          └── <your-learning-path>/
-              ├── _index.md
-              └── <your-course-1>/
-              └── <your-course-2>/
-                  ├── _index.md
-                  └── content/
-                      └── your-lesson-1.md
-                      └── your-lesson-2.md
-  ```
+The basic structure is: **Learning Path → Course → Chapter → Lesson**.
 
-  - **Delete the example content** inside `content/learning-paths/<your-organization-uid>/`.
-  - **Create your folder structure** following the example's hierarchy.
-  - **Add your lessons** as Markdown (`.md`) files inside the `content` directory of a course.
-  - **Use frontmatter** at the top of your `_index.md` and lesson files to define titles, descriptions, and weights.
+Quick setup steps:
+- Delete the example content inside `content/learning-paths/<your-organization-uuid>/`
+- Create your folder structure following the example's hierarchy
+- Add your lessons as Markdown files with proper frontmatter
 
 ### 5. Add Assets (Images & Videos)
 
-Enhance your course with images and other visual aids. To ensure compatibility with the multi-tenant Academy platform, **do not use standard Markdown image links**. Instead, use the `usestatic` shortcode, which generates the correct, tenant-aware path for your assets.
+For this template, place assets in your scoped static directory: `static/<your-organization-uuid>/`
 
-**How to Add an Image**
-
-1.  Place your image file (e.g., `hugo-logo.png`) in your scoped static directory:
-
-    ```text
-    static/<your-organization-uid>/images/hugo-logo.png
-    ```
-2.  In your `lesson-1.md` file, embed the image using the `usestatic` shortcode. The `path` is relative to your scoped static folder: 
-
-    ```text
-    ![The Hugo Logo]({{</* usestatic path="images/hugo-logo.png" */>}})
-    ```
-
-Then the system will automatically convert this into the correct URL when building the site.
-
-**How to Add a Video**
-
+Use the `usestatic` shortcode for images:
 ```text
-{{</* card 
-title="Video: Example" */>}}
-<video width="100%" height="100%" controls>
-    <source src="https://exmaple.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-{{</* /card */>}}
+![Image description]({{</* usestatic path="images/your-image.png" */>}})
 ```
+
+> **🎨 Asset Management:** For comprehensive guidelines on adding multimedia content, interactive elements, and assessments, see the [Content Creation Documentation](https://docs.layer5.io/cloud/academy/creating-content/).
 
 ### 6. Local Development
 
 To preview your content locally, run the Hugo server from the project root:
 
 ```bash
-hugo server
+make site
 ```
 
 This will start a local server. You can view your content and check for formatting issues before publishing.
 
 > The local preview uses basic styling. Full Academy branding and styles will be applied after your content is integrated into the cloud platform.
 
-### 7. Going Live
+### 7. Publishing Your Content
 
-Once your content is complete and tested locally:
+Once your content is ready:
 
-1.  Push all your changes to your forked repository on GitHub.
-2.  **[Connect](https://layer5.io/company/contact) the Layer5 Team** via Slack, email, or by opening a GitHub issue.
-3.  Provide the URL to your content repository.
+1. Push your changes to your forked repository
+2. [Contact the Layer5 team](https://layer5.io/company/contact) with your repository URL
+3. A Layer5 administrator will integrate your content into the Academy platform
 
-A Layer5 administrator will then integrate your repository into the main Academy platform. After integration, your learning paths will be visible on the official [Layer5 Cloud site](https://cloud.layer5.io/academy/overview).
+> **🚀 Publishing Process:** For detailed information about the publishing workflow and content review process, see the [Academy Documentation](https://docs.layer5.io/cloud/academy/creating-content/).
