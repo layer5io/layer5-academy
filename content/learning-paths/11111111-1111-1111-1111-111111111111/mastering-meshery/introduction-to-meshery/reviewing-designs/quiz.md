@@ -30,6 +30,8 @@ questions:
         text: "Commenting via Context Menu using right-click"
         is_correct: true
       - id: "c"
+        text: "Using voice commands with speech recognition"
+      - id: "d"
         text: "Using keyboard shortcut Ctrl + M (Command + M for Mac)"
         is_correct: true
   - id: "q3"

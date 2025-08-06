@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Consul Connect"
+      - id: "d"
+        text: "Envoy Proxy"
   - id: "q3"
     text: "What is the primary tool used for deploying and visualizing Edge Stack components in this course?"
     type: "short_answer" 

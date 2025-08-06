@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Database administration"
+      - id: "d"
+        text: "Load balancing"
   - id: "q3"
     text: "Which container orchestration platform does Dapr integrate with?"
     type: "short_answer" 

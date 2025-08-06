@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Load balancer configurations"
+      - id: "d"
+        text: "Service mesh configurations"
   - id: "q3"
     text: "Which file format defines Kubernetes resources?"
     type: "short_answer" 

@@ -32,6 +32,8 @@ questions:
       - id: "c"
         text: "Docker Compose files"
         is_correct: true
+      - id: "d"
+        text: "PowerPoint presentations"
   - id: "q3"
     text: "When merging designs in Kanvas, what happens to the individual original designs?"
     type: "single-answer"

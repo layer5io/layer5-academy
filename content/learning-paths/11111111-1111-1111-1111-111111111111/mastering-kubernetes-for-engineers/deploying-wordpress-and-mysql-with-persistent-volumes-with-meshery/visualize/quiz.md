@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Ingress"
+      - id: "d"
+        text: "NetworkPolicy"
   - id: "q3"
     text: "What action removes resources from the cluster?"
     type: "short_answer" 

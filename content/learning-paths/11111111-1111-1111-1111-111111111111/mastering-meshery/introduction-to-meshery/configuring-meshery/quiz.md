@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Service meshes"
+      - id: "d"
+        text: "Container registries"
   - id: "q3"
     text: "What happens when you upload an invalid kubeconfig file when adding a cluster connection?"
     type: "single-answer"

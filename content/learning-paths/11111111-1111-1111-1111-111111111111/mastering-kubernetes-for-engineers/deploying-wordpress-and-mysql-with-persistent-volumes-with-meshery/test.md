@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Temporary storage"
+      - id: "d"
+        text: "Memory-based storage"
   - id: "q3"
     text: "Which visual platform is used for application deployment in this course?"
     type: "short_answer" 

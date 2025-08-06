@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Setting up CI/CD pipelines"
+      - id: "d"
+        text: "Configuring database backups"
   - id: "q3"
     text: "Which platform provided the deployment environment?"
     type: "short_answer" 

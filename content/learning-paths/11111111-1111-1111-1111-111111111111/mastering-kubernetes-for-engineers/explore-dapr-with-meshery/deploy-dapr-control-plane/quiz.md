@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Nginx Controller"
+      - id: "d"
+        text: "Istio Sidecar Proxy"
   - id: "q3"
     text: "What numeric identifier defines service endpoints?"
     type: "short_answer" 

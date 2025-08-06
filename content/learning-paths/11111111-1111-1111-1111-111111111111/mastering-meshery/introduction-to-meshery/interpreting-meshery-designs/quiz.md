@@ -29,6 +29,8 @@ questions:
       - id: "b"
         text: "Cylinders for Storage and Stateful Components"
         is_correct: true
+      - id: "d"
+        text: "Hexagons for Security Components"
       - id: "c"
         text: "Rectangles for Hierarchical and Parent Components"
         is_correct: true

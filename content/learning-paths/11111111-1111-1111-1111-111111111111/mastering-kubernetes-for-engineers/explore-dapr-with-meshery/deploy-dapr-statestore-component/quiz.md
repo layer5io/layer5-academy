@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "httpTimeout field"
+      - id: "d"
+        text: "connectionPoolSize field"
   - id: "q3"
     text: "Which database system is used for state storage?"
     type: "short_answer" 

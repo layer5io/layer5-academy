@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "kube-system"
+      - id: "d"
+        text: "istio-system"
   - id: "q3"
     text: "Which platform provides the distributed application runtime?"
     type: "short_answer" 

@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Docker Compose"
+      - id: "d"
+        text: "Helm Charts"
   - id: "q3"
     text: "What is the name of the PostgreSQL distribution used in this course?"
     type: "short_answer" 

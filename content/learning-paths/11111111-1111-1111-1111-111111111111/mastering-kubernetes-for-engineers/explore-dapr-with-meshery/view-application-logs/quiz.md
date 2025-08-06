@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Configuration API"
+      - id: "d"
+        text: "Pub/Sub API"
   - id: "q3"
     text: "Which API manages persistent data in Dapr applications?"
     type: "short_answer" 

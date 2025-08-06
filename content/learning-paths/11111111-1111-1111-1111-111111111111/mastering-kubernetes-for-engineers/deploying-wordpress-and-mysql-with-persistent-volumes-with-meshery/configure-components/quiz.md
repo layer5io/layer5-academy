@@ -27,10 +27,12 @@ questions:
         text: "StorageClassName set to 'manual'"
         is_correct: true
       - id: "b"
+        text: "Protocol set to TCP"
+      - id: "c"
+        text: "Capacity set to 50Gi"
+      - id: "d"
         text: "AccessMode set to 'ReadWriteOnce'"
         is_correct: true
-      - id: "c"
-        text: "Protocol set to TCP"
   - id: "q3"
     text: "What storage type should be avoided in production environments?"
     type: "short_answer" 

@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "dapr.io/protocol"
+      - id: "d"
+        text: "dapr.io/config"
   - id: "q3"
     text: "What pattern adds functionality alongside application containers?"
     type: "short_answer" 

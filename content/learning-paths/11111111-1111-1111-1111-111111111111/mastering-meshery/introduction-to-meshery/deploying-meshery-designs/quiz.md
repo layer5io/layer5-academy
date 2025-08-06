@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Permanently deploys resources to the cluster"
+      - id: "d"
+        text: "Generates deployment documentation"
   - id: "q3"
     text: "What is the relationship between Meshery Operator and Kubernetes clusters?"
     type: "single-answer"

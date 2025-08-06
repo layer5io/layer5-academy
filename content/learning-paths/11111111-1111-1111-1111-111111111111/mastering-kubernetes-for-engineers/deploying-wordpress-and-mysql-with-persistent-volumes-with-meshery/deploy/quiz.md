@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Read-only access to cluster metrics"
+      - id: "d"
+        text: "Automatic cluster provisioning"
   - id: "q3"
     text: "Which UI element displays deployment status updates?"
     type: "short_answer" 

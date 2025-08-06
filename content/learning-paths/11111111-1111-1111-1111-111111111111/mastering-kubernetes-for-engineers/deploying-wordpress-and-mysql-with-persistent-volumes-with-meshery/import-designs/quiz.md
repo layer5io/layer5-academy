@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "The original designs are deleted"
+      - id: "d"
+        text: "Automatic version control is enabled"
   - id: "q3"
     text: "Which CMS application is deployed in this tutorial?"
     type: "short_answer" 

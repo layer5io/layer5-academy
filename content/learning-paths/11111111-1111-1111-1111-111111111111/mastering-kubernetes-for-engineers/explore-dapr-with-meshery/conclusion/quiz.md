@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Set up CI/CD pipelines"
+      - id: "d"
+        text: "Configured service mesh integration"
   - id: "q3"
     text: "What Kubernetes concept organizes related resources?"
     type: "short_answer" 

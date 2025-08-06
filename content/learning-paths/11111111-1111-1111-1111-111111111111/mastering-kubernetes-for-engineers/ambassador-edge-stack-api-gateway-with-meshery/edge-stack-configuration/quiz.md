@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "ConfigMaps"
+      - id: "d"
+        text: "Listeners"
   - id: "q3"
     text: "Which Edge Stack resource controls traffic routing?"
     type: "short_answer" 

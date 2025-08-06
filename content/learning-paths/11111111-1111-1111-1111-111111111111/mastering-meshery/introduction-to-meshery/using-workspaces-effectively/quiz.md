@@ -27,10 +27,12 @@ questions:
         text: "Using an invite link"
         is_correct: true
       - id: "b"
+        text: "Automatic synchronization from external directories"
+      - id: "c"
+        text: "File-based bulk import from CSV"
+      - id: "d"
         text: "Manual addition via Layer5 Cloud Users"
         is_correct: true
-      - id: "c"
-        text: "Automatic synchronization from external directories"
   - id: "q3"
     text: "What do users receive when they are added to an organization?"
     type: "single-answer"

@@ -27,9 +27,11 @@ questions:
         text: "MeshSync"
         is_correct: true
       - id: "b"
+        text: "Docker Engine"
+      - id: "c"
         text: "Operator"
         is_correct: true
-      - id: "c"
+      - id: "d"
         text: "Broker"
         is_correct: true
   - id: "q3"

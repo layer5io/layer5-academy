@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Automatically scaling applications"
+      - id: "d"
+        text: "Reducing deployment costs"
   - id: "q3"
     text: "What metadata is used for component grouping?"
     type: "short_answer" 

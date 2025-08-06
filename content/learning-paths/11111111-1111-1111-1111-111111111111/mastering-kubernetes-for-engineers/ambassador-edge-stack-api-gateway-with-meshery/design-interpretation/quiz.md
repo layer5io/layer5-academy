@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "nginx-controller"
+      - id: "d"
+        text: "kube-proxy"
   - id: "q3"
     text: "What do services use to specify communication endpoints?"
     type: "short_answer" 

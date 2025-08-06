@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Load balancer configurations"
+      - id: "d"
+        text: "Monitoring dashboards"
   - id: "q3"
     text: "Which architectural approach does CloudNativePG follow?"
     type: "short_answer" 

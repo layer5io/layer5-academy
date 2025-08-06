@@ -32,6 +32,8 @@ questions:
       - id: "c"
         text: "Sample applications"
         is_correct: true
+      - id: "d"
+        text: "Docker Desktop"
   - id: "q3"
     text: "What orchestration platform is used for deploying Dapr applications?"
     type: "short_answer" 

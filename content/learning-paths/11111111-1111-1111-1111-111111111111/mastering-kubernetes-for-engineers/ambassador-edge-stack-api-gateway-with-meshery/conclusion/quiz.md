@@ -31,6 +31,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Setting up database connections"
+      - id: "d"
+        text: "Implementing load balancing algorithms"
   - id: "q3"
     text: "Which platform was used for Ambassador Edge Stack management?"
     type: "short_answer" 
