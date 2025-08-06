@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Low requests per second"
+      - id: "d"
+        text: "Zero traffic volume"
   - id: "q2"
     text: "Which Linkerd features help with debugging applications? (Select all that apply)"
     type: "multiple-answers"

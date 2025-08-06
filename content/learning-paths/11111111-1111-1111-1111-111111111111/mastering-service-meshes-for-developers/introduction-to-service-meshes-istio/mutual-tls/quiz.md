@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "DISABLE"
+      - id: "d"
+        text: "AUTO"
   - id: "q2"
     text: "Which certificate files are present in the sidecar proxy for mTLS? (Select all that apply)"
     type: "multiple-answers"

@@ -16,6 +16,8 @@ questions:
         text: "To encrypt traffic between services"
       - id: "c"
         text: "To route traffic to different service versions"
+      - id: "d"
+        text: "To balance load across service instances"
   - id: "q2"
     text: "Which DestinationRule configuration sections are used for circuit breaking? (Select all that apply)"
     type: "multiple-answers"

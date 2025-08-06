@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Consul Connect"
+      - id: "d"
+        text: "Envoy Proxy"
   - id: "q2"
     text: "What are the main learning outcomes of this Istio course? (Select all that apply)"
     type: "multiple-answers"

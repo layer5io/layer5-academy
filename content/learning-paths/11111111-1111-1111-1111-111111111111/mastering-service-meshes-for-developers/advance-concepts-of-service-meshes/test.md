@@ -16,6 +16,8 @@ questions:
       - id: "c"
         text: "Intermediate"
         is_correct: true
+      - id: "d"
+        text: "Advanced"
   - id: "q2"
     text: "Which technologies are covered in advanced service mesh concepts? (Select all that apply)"
     type: "multiple-answers"

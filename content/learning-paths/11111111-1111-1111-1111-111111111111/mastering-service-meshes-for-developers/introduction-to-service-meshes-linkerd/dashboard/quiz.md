@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Only CPU and memory usage"
+      - id: "d"
+        text: "Resource utilization and network throughput"
   - id: "q2"
     text: "Which CLI tools does Linkerd dashboard expose? (Select all that apply)"
     type: "multiple-answers"

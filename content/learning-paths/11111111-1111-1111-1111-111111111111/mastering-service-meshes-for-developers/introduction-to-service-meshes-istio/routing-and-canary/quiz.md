@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Endpoints"
+      - id: "d"
+        text: "Revisions"
   - id: "q2"
     text: "Which Istio resources are used for traffic management? (Select all that apply)"
     type: "multiple-answers"

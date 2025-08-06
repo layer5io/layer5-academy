@@ -16,6 +16,8 @@ questions:
         text: "Elasticsearch, Kibana, and Logstash"
       - id: "c"
         text: "InfluxDB, Chronograf, and Kapacitor"
+      - id: "d"
+        text: "Splunk, Dynatrace, and Datadog"
   - id: "q2"
     text: "What are the methods to expose Istio add-on services outside the cluster? (Select all that apply)"
     type: "multiple-answers"

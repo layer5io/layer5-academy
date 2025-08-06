@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Istio"
+      - id: "d"
+        text: "OpenShift"
   - id: "q2"
     text: "Which advanced concepts were covered in this Istio service mesh course? (Select all that apply)"
     type: "multiple-answers"

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "kube-system"
+      - id: "d"
+        text: "linkerd-system"
   - id: "q2"
     text: "Which commands can be used to install Linkerd? (Select all that apply)"
     type: "multiple-answers"

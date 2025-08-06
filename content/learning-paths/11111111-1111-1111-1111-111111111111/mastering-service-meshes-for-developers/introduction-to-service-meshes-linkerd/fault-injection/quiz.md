@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Breaking application deployments intentionally"
+      - id: "d"
+        text: "Simulating network partitions and service outages"
   - id: "q2"
     text: "How does Linkerd implement fault injection? (Select all that apply)"
     type: "multiple-answers"

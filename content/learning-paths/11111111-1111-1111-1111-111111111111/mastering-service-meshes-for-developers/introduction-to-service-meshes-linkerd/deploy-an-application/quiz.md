@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "PetStore"
+      - id: "d"
+        text: "WebVoting"
   - id: "q2"
     text: "How can Linkerd proxy be injected into applications? (Select all that apply)"
     type: "multiple-answers"

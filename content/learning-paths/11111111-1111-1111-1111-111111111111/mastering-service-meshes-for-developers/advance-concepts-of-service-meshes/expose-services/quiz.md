@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To provide authentication for all services"
+      - id: "d"
+        text: "To monitor service mesh traffic patterns"
   - id: "q2"
     text: "Which Istio resources are required to expose a service through the Ingress Gateway? (Select all that apply)"
     type: "multiple-answers"

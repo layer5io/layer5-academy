@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "kube-system"
+      - id: "d"
+        text: "istio-control-plane"
   - id: "q2"
     text: "Which tools can be used to install Istio? (Select all that apply)"
     type: "multiple-answers"

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Comparison of different service mesh technologies"
+      - id: "d"
+        text: "Service mesh architecture fundamentals"
   - id: "q2"
     text: "Which key concepts were covered in this Istio course? (Select all that apply)"
     type: "multiple-answers"

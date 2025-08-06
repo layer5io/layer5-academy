@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "ExternalName"
+      - id: "d"
+        text: "NodePort"
   - id: "q2"
     text: "Which Istio resources are required to expose services through the Ingress Gateway? (Select all that apply)"
     type: "multiple-answers"

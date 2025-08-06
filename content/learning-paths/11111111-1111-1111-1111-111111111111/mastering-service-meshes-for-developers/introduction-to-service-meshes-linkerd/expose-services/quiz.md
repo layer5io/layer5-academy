@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Only ingress gateway is included"
+      - id: "d"
+        text: "Yes, but only egress gateway is included"
   - id: "q2"
     text: "What is required when using ingress controllers with Linkerd? (Select all that apply)"
     type: "multiple-answers"

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To provide a database management system"
+      - id: "d"
+        text: "To test service mesh performance benchmarks"
   - id: "q2"
     text: "Which of the following are requirements for automatic sidecar injection? (Select all that apply)"
     type: "multiple-answers"

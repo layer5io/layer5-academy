@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Consul Connect"
+      - id: "d"
+        text: "Kuma"
   - id: "q2"
     text: "Which key features of Linkerd were explored in this course? (Select all that apply)"
     type: "multiple-answers"

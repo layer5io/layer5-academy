@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Only works with specific application frameworks"
+      - id: "d"
+        text: "Requires third-party monitoring tools integration"
   - id: "q2"
     text: "Which features does Linkerd provide for observability? (Select all that apply)"
     type: "multiple-answers"

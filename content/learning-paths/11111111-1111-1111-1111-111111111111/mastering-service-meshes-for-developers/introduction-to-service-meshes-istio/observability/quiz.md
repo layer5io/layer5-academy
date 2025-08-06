@@ -16,6 +16,8 @@ questions:
         text: "Elasticsearch, Kibana, and Logstash"
       - id: "c"
         text: "InfluxDB, Chronograf, and Kapacitor"
+      - id: "d"
+        text: "DataDog, New Relic, and AppDynamics"
   - id: "q2"
     text: "What are the default methods to expose Istio add-on services outside the cluster? (Select all that apply)"
     type: "multiple-answers"

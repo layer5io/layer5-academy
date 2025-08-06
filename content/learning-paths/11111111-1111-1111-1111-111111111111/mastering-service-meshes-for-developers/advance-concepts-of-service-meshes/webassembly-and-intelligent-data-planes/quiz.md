@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "envoy.wasm.runtime.node"
+      - id: "d"
+        text: "envoy.wasm.runtime.wasmer"
   - id: "q2"
     text: "Which components are required to deploy a WebAssembly filter in Istio? (Select all that apply)"
     type: "multiple-answers"

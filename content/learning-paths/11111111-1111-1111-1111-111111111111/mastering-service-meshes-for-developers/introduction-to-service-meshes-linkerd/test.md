@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Enterprise service mesh"
+      - id: "d"
+        text: "Multi-cluster service mesh"
   - id: "q2"
     text: "What are the key features of Linkerd covered in this course? (Select all that apply)"
     type: "multiple-answers"

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Single-language distributed system"
+      - id: "d"
+        text: "Serverless function composition"
   - id: "q2"
     text: "What are the requirements for automatic sidecar injection in Istio? (Select all that apply)"
     type: "multiple-answers"

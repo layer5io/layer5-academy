@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To enable mutual TLS automatically"
+      - id: "d"
+        text: "To configure default security policies"
   - id: "q2"
     text: "Which Istio security features help secure microservices? (Select all that apply)"
     type: "multiple-answers"

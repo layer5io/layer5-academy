@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Linkerd custom spec"
+      - id: "d"
+        text: "OpenTracing specification"
   - id: "q2"
     text: "What are the core primitives used in Linkerd's traffic splitting approach? (Select all that apply)"
     type: "multiple-answers"

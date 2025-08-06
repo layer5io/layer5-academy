@@ -16,6 +16,8 @@ questions:
         text: "Network partition and service unavailable"
       - id: "c"
         text: "Connection timeout and DNS failure"
+      - id: "d"
+        text: "CPU throttling and memory exhaustion"
   - id: "q2"
     text: "Which VirtualService configuration fields are used for fault injection? (Select all that apply)"
     type: "multiple-answers"
