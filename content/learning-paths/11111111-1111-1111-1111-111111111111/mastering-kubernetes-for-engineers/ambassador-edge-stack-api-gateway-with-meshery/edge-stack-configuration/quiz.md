@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "80"
+      - id: "d"
+        text: "9090"
   - id: "q2"
     text: "Which custom resources are typically defined in Edge Stack CRD YAML files? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "ConfigMaps"
   - id: "q3"
-    text: "What does the Mapping resource do in Edge Stack?"
+    text: "Which Edge Stack resource controls traffic routing?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Instructs Edge Stack on how and where to route traffic based on hostname and prefix patterns" 
+    correct_answer: "Mapping" 
 ---

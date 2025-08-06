@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "3000"
+      - id: "d"
+        text: "8000"
   - id: "q2"
     text: "Which Dapr APIs are used in this application architecture? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Configuration API"
   - id: "q3"
-    text: "What endpoint does the Node.js sidecar use to persist state information in Redis?"
+    text: "Which API manages persistent data in Dapr applications?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "/v1.0/state/statestore" 
+    correct_answer: "State" 
 ---

@@ -31,7 +31,7 @@ questions:
         text: "tap for request stream monitoring"
         is_correct: true
   - id: "q3"
-    text: "What service does the linkerd dashboard command port-forward to?" 
+    text: "Which service provides the Linkerd web interface?"
     type: "short_answer" 
     marks: 2
     correct_answer: "linkerd-web" 

@@ -31,8 +31,8 @@ questions:
         text: "curl -sL https://run.linkerd.io/install | sh"
         is_correct: true
   - id: "q3"
-    text: "What command verifies the Linkerd installation and components?" 
+    text: "Which CLI tool is used for Linkerd management?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "linkerd check" 
+    correct_answer: "linkerd" 
 ---

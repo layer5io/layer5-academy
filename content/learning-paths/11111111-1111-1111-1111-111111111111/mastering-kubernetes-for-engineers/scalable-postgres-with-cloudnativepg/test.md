@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "MongoDB"
+      - id: "d"
+        text: "SQLite"
   - id: "q2"
     text: "Which technologies are used for installing scalable PostgreSQL in this course?"
     type: "multiple-answers"

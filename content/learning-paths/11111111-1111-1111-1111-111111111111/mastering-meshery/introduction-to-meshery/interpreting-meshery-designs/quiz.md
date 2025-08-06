@@ -16,6 +16,8 @@ questions:
         text: "Only code-based representations of infrastructure"
       - id: "c"
         text: "Simple templates for basic configurations"
+      - id: "d"
+        text: "Hardware-specific configuration files"
   - id: "q2"
     text: "Which shapes are used to represent different categories of Kubernetes components in Meshery?"
     type: "multiple-answers"
@@ -42,4 +44,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "To automatically configure Kubernetes resources"
+      - id: "d"
+        text: "To replace manual deployment processes"
 ---

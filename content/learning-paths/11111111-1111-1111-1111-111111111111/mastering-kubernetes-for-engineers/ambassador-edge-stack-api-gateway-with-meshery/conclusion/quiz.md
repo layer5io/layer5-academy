@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Helm"
+      - id: "d"
+        text: "Grafana"
   - id: "q2"
     text: "What key learnings were covered in this Ambassador Edge Stack course? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Setting up database connections"
   - id: "q3"
-    text: "What platform was used throughout this tutorial to work with Ambassador Edge Stack?"
+    text: "Which platform was used for Ambassador Edge Stack management?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Meshery Playground" 
+    correct_answer: "Meshery" 
 ---

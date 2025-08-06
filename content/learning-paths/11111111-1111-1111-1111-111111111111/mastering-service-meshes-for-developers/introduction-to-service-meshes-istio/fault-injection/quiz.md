@@ -31,8 +31,8 @@ questions:
         text: "match conditions for specific users or headers"
         is_correct: true
   - id: "q3"
-    text: "What error message appears when the reviews service experiences a timeout due to fault injection?" 
+    text: "What type of failure is simulated when reviews service is delayed by fault injection?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "Error fetching product reviews!" 
+    correct_answer: "Timeout" 
 ---

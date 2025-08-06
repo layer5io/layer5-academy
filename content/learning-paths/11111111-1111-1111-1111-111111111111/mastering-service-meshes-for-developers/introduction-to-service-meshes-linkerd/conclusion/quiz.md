@@ -31,7 +31,7 @@ questions:
         text: "Fault injection and debugging capabilities"
         is_correct: true
   - id: "q3"
-    text: "What type of learning approach was emphasized in this course?" 
+    text: "Which learning methodology emphasizes practical experience?"
     type: "short_answer" 
     marks: 2
     correct_answer: "Hands-on" 

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To replace Kubernetes entirely"
+      - id: "d"
+        text: "To monitor application performance only"
   - id: "q2"
     text: "Which components are examples of Meshery's architectural components?"
     type: "multiple-answers"
@@ -42,4 +44,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "Network security monitoring"
+      - id: "d"
+        text: "Database query optimization"
 ---

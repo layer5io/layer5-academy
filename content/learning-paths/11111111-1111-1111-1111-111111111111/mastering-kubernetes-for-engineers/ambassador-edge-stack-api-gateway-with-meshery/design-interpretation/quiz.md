@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "8000 and 8443"
+      - id: "d"
+        text: "9000 and 9443"
   - id: "q2"
     text: "Which components are part of the Ambassador Edge Stack system shown in the design? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "nginx-controller"
   - id: "q3"
-    text: "What port does the edge-stack-admin Service use to communicate with the edge-stack component for administrative purposes?"
+    text: "What do services use to specify communication endpoints?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "8877/TCP" 
+    correct_answer: "Port" 
 ---

@@ -30,8 +30,8 @@ questions:
       - id: "c"
         text: "Using kubectl apply directly on YAML files"
   - id: "q3"
-    text: "What command is used to verify if the cluster is ready for Istio installation?" 
+    text: "Which Istio tool verifies cluster readiness?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "istioctl verify-install" 
+    correct_answer: "istioctl" 
 ---

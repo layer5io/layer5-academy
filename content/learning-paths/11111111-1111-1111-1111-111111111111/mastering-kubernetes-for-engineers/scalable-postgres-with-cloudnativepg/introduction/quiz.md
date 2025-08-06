@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "A container orchestration platform"
+      - id: "d"
+        text: "A PostgreSQL monitoring solution"
   - id: "q2"
     text: "What resources will be imported and deployed in this tutorial? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Load balancer configurations"
   - id: "q3"
-    text: "What principles does CloudNativePG adhere to for deployment, scaling, and management?"
+    text: "Which architectural approach does CloudNativePG follow?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Cloud-native principles" 
+    correct_answer: "Cloud native" 
 ---

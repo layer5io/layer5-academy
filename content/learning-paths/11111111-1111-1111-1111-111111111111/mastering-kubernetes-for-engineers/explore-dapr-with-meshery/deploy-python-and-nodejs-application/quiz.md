@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "dapr.io/sidecar: \"true\""
+      - id: "d"
+        text: "dapr.io/activate: \"true\""
   - id: "q2"
     text: "Which Dapr annotations are used in the Node.js application manifest? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "dapr.io/protocol"
   - id: "q3"
-    text: "What should you see in both the Python and Node pods when viewing them in the visualizer?"
+    text: "What pattern adds functionality alongside application containers?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "daprd sidecar containers" 
+    correct_answer: "Sidecar" 
 ---

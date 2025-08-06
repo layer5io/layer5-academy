@@ -31,8 +31,8 @@ questions:
         text: "Observability and telemetry"
         is_correct: true
   - id: "q3"
-    text: "What type of platform is Meshery described as?" 
+    text: "Which engineering platform is used for service mesh management?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "self-service engineering platform" 
+    correct_answer: "Meshery" 
 ---

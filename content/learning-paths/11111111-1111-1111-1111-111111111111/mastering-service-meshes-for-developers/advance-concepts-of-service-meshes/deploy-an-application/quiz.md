@@ -30,8 +30,8 @@ questions:
       - id: "c"
         text: "Manual proxy container configuration"
   - id: "q3"
-    text: "What command is used to label a namespace for automatic sidecar injection?" 
+    text: "Which tool manages Kubernetes namespace labeling?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "kubectl label namespace default istio-injection=enabled" 
+    correct_answer: "kubectl" 
 ---

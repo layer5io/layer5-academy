@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To deploy applications to the cluster"
+      - id: "d"
+        text: "To provide database storage solutions"
   - id: "q2"
     text: "Which components are essential for efficient resource management in Workspaces?"
     type: "multiple-answers"
@@ -41,4 +43,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "Meshery automatically fixes the configuration"
+      - id: "d"
+        text: "The file is saved but marked as invalid"
 ---

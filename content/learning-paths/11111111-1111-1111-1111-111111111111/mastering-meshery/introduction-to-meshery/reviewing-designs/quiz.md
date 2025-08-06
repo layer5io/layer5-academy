@@ -16,6 +16,8 @@ questions:
         text: "Draft, Review, and Final"
       - id: "c"
         text: "Basic, Advanced, and Expert"
+      - id: "d"
+        text: "Local, Remote, and Shared"
   - id: "q2"
     text: "Which methods can be used to add comments in Kanvas for design reviews?"
     type: "multiple-answers"

@@ -31,8 +31,8 @@ questions:
         text: "Configuring Kubernetes Ingress"
         is_correct: true
   - id: "q3"
-    text: "Which HTTP headers must applications propagate for distributed tracing to work correctly?" 
+    text: "What type of monitoring capability tracks requests across multiple services?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "x-request-id, x-b3-traceid, x-b3-spanid, x-b3-parentspanid, x-b3-sampled, x-b3-flags, x-ot-span-context" 
+    correct_answer: "Tracing" 
 ---

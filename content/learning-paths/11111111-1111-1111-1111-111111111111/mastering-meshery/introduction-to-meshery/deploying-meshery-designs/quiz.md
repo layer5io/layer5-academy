@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Import, validation, testing, and deployment"
+      - id: "d"
+        text: "Setup, configuration, monitoring, and cleanup"
   - id: "q2"
     text: "What does a dry run in Meshery accomplish?"
     type: "multiple-answers"
@@ -41,4 +43,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "Multiple Meshery Operators can share the same Kubernetes cluster"
+      - id: "d"
+        text: "Meshery Operators are independent of Kubernetes clusters"
 ---

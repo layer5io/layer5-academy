@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To replace Kubernetes"
+      - id: "d"
+        text: "To monitor network traffic only"
   - id: "q2"
     text: "Which service meshes are explored in this Ambassador Edge Stack course?"
     type: "multiple-answers"

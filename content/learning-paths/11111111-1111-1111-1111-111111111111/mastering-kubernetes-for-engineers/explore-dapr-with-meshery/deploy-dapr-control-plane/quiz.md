@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "kube-system"
+      - id: "d"
+        text: "dapr-public"
   - id: "q2"
     text: "Which components are part of the Dapr control plane? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Nginx Controller"
   - id: "q3"
-    text: "What port does the dapr-api service listen on and forward traffic to?"
+    text: "What numeric identifier defines service endpoints?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Port 443 forwarding to Target Port 6500" 
+    correct_answer: "Port" 
 ---

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "env:production"
+      - id: "d"
+        text: "tier:frontend"
   - id: "q2"
     text: "What benefits does the Group Components functionality provide? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Automatically scaling applications"
   - id: "q3"
-    text: "What does the Group Components feature allow you to group resources based on?"
+    text: "What metadata is used for component grouping?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Shared labels or annotations" 
+    correct_answer: "Labels" 
 ---

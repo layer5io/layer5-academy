@@ -30,8 +30,8 @@ questions:
       - id: "c"
         text: "kubectl apply with manual YAML files"
   - id: "q3"
-    text: "What command verifies if the cluster is ready for Istio installation?" 
+    text: "Which CLI tool is used for Istio management and verification?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "istioctl verify-install" 
+    correct_answer: "istioctl" 
 ---

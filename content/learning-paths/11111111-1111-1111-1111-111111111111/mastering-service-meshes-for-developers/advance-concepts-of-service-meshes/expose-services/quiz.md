@@ -30,8 +30,8 @@ questions:
       - id: "c"
         text: "Istio ServiceEntry"
   - id: "q3"
-    text: "What is the purpose of DestinationRules with subsets in Istio?" 
+    text: "What Istio feature defines service versions for traffic routing?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "To define available versions of deployed services for traffic management" 
+    correct_answer: "DestinationRules" 
 ---

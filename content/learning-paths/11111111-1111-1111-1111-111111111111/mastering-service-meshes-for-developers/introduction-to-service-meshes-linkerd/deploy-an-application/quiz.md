@@ -31,8 +31,8 @@ questions:
         text: "Through Meshery dashboard configuration"
         is_correct: true
   - id: "q3"
-    text: "What annotation is used to enable automatic Linkerd proxy injection?" 
+    text: "Which Linkerd annotation enables automatic proxy injection?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "linkerd.io/inject: enabled" 
+    correct_answer: "inject" 
 ---

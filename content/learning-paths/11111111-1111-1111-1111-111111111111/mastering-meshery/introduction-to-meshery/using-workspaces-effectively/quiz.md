@@ -16,6 +16,8 @@ questions:
         text: "Workspaces contain Organizations, which contain Teams"
       - id: "c"
         text: "Teams are independent of Organizations and Workspaces"
+      - id: "d"
+        text: "Organizations are managed within individual Workspaces"
   - id: "q2"
     text: "What are the methods available for adding users to an Organization in Layer5 Cloud?"
     type: "multiple-answers"
@@ -41,4 +43,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "No permissions until manually assigned"
+      - id: "d"
+        text: "Read-only access to all organization resources"
 ---

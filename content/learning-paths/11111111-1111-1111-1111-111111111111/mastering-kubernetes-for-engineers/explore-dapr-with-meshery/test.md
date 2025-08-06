@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Jenkins"
+      - id: "d"
+        text: "Terraform"
   - id: "q2"
     text: "What are the key components involved in this Dapr exploration course?"
     type: "multiple-answers"
@@ -31,8 +33,8 @@ questions:
         text: "Sample applications"
         is_correct: true
   - id: "q3"
-    text: "In which environment are Dapr and sample applications deployed in this course?"
+    text: "What orchestration platform is used for deploying Dapr applications?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Kubernetes Cluster" 
+    correct_answer: "Kubernetes" 
 ---

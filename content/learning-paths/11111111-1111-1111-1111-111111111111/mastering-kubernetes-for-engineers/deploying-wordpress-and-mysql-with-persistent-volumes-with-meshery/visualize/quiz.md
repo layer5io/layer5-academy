@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "env=production"
+      - id: "d"
+        text: "service=web"
   - id: "q2"
     text: "Which resource kinds should be selected in the filter to view all deployed resources? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Ingress"
   - id: "q3"
-    text: "How can you delete the deployed resources from the cluster?"
+    text: "What action removes resources from the cluster?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Use the Undeploy option from the Action dropdown in the Design tab" 
+    correct_answer: "Undeploy" 
 ---

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "database-password"
+      - id: "d"
+        text: "db-credentials"
   - id: "q2"
     text: "What configuration settings are required for the Persistent Volumes? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Protocol set to TCP"
   - id: "q3"
-    text: "Why is using hostPath for Persistent Volumes not recommended for production environments?"
+    text: "What storage type should be avoided in production environments?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Because it ties the volume to the node's filesystem, which can lead to data loss if the node fails" 
+    correct_answer: "hostPath" 
 ---

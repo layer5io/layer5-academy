@@ -16,6 +16,8 @@ questions:
         text: "To deploy applications directly to production"
       - id: "c"
         text: "To monitor cluster performance"
+      - id: "d"
+        text: "To create automated backup schedules"
   - id: "q2"
     text: "Which file types can be imported as designs in Kanvas?"
     type: "multiple-answers"
@@ -31,7 +33,7 @@ questions:
         text: "Docker Compose files"
         is_correct: true
   - id: "q3"
-    text: "What happens to your original designs when you merge them in Kanvas?"
+    text: "When merging designs in Kanvas, what happens to the individual original designs?"
     type: "single-answer"
     marks: 2
     options:
@@ -42,4 +44,6 @@ questions:
         is_correct: true
       - id: "c"
         text: "They are automatically backed up to GitHub"
+      - id: "d"
+        text: "They are combined into one single design file"
 ---

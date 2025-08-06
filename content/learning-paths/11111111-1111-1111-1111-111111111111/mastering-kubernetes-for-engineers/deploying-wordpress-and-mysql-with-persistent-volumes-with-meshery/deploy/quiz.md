@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "The design is saved to local storage"
+      - id: "d"
+        text: "The design is converted to Helm charts"
   - id: "q2"
     text: "What does Meshery Playground provide in terms of cluster connectivity? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Read-only access to cluster metrics"
   - id: "q3"
-    text: "Where can you check the status of your deployment after clicking Deploy?"
+    text: "Which UI element displays deployment status updates?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Click on the notification icon on the top right corner" 
+    correct_answer: "Notifications" 
 ---

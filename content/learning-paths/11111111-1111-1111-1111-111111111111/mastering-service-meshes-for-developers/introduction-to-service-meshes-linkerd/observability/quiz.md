@@ -31,8 +31,8 @@ questions:
         text: "Distributed tracing with B3 propagation"
         is_correct: true
   - id: "q3"
-    text: "What command starts the Linkerd dashboard?" 
+    text: "Which tool provides Linkerd's web interface?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "linkerd dashboard" 
+    correct_answer: "dashboard" 
 ---

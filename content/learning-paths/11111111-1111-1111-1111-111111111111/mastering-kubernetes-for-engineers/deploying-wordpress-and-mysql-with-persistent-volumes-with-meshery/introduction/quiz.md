@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Database management tools"
+      - id: "d"
+        text: "Container runtime environment"
   - id: "q2"
     text: "What resources will you create in this WordPress and MySQL tutorial? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Load balancer configurations"
   - id: "q3"
-    text: "What are the two YAML files that need to be downloaded for this tutorial?"
+    text: "Which file format defines Kubernetes resources?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "mysql-deployment.yaml and wordpress-deployment.yaml" 
+    correct_answer: "YAML" 
 ---

@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Only MySQL database"
+      - id: "d"
+        text: "Redis cache and WordPress site"
   - id: "q2"
     text: "What key skills were gained in this tutorial? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Setting up CI/CD pipelines"
   - id: "q3"
-    text: "What platform was used to complete this WordPress and MySQL deployment tutorial?"
+    text: "Which platform provided the deployment environment?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Meshery Playground" 
+    correct_answer: "Meshery" 
 ---

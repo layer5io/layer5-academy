@@ -31,8 +31,8 @@ questions:
         text: "Volume mount configuration for sidecar"
         is_correct: true
   - id: "q3"
-    text: "What annotation is used to configure user volume mounts for Istio sidecars?" 
+    text: "Which annotation configures Istio sidecar volumes?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "sidecar.istio.io/userVolumeMount" 
+    correct_answer: "userVolumeMount" 
 ---

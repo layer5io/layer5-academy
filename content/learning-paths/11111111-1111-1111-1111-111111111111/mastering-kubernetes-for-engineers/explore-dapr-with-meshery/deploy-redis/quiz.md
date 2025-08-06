@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "YAML Manifest"
+      - id: "d"
+        text: "Kustomize Template"
   - id: "q2"
     text: "Which namespaces should be selected in the filter to view both Dapr and Redis resources? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "kube-system"
   - id: "q3"
-    text: "What component will be deployed next after Redis to manage the Redis state store?"
+    text: "Which platform provides the distributed application runtime?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Dapr state store component" 
+    correct_answer: "Dapr" 
 ---

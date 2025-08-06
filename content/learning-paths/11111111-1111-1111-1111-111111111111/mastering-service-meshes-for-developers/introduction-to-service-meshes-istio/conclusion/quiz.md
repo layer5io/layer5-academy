@@ -31,7 +31,7 @@ questions:
         text: "Security with mTLS and fault injection"
         is_correct: true
   - id: "q3"
-    text: "What type of learning approach does this course emphasize?" 
+    text: "Which learning approach emphasizes practical experience?"
     type: "short_answer" 
     marks: 2
     correct_answer: "Hands-on" 

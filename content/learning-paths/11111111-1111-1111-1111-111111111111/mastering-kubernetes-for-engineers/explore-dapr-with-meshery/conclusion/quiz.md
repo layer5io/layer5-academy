@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Helm"
+      - id: "d"
+        text: "Docker Desktop"
   - id: "q2"
     text: "What key accomplishments were achieved in this course? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Set up CI/CD pipelines"
   - id: "q3"
-    text: "Which namespaces were observed to contain the deployed resources in this tutorial?"
+    text: "What Kubernetes concept organizes related resources?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "dapr-system and default" 
+    correct_answer: "Namespaces" 
 ---

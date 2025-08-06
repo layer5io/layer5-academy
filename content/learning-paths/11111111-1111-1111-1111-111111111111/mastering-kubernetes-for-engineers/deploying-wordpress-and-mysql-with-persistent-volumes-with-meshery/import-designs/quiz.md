@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Helm Chart"
+      - id: "d"
+        text: "Terraform Template"
   - id: "q2"
     text: "What happens when you drag and drop one design onto another in Meshery? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "The original designs are deleted"
   - id: "q3"
-    text: "What is the recommended name for the merged WordPress and MySQL design?"
+    text: "Which CMS application is deployed in this tutorial?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "wordpress-mysql-deployment" 
+    correct_answer: "WordPress" 
 ---

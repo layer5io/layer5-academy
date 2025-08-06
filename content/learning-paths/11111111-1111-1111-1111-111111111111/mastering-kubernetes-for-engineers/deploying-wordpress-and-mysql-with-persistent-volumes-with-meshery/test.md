@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "Nginx and Redis"
+      - id: "d"
+        text: "Django and MariaDB"
   - id: "q2"
     text: "Which storage feature is emphasized in this WordPress and MySQL deployment course?"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Temporary storage"
   - id: "q3"
-    text: "What platform is used for deploying WordPress and MySQL in this course?"
+    text: "Which visual platform is used for application deployment in this course?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Meshery Playground" 
+    correct_answer: "Meshery" 
 ---

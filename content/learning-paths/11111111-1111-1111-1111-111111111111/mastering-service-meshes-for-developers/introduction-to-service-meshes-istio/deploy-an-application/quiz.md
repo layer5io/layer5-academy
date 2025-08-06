@@ -30,8 +30,8 @@ questions:
       - id: "c"
         text: "Manual proxy configuration in each pod"
   - id: "q3"
-    text: "What command is used to enable automatic sidecar injection for a namespace?" 
+    text: "Which tool is used to manage Kubernetes resources?" 
     type: "short_answer" 
     marks: 2
-    correct_answer: "kubectl label namespace default istio-injection=enabled" 
+    correct_answer: "kubectl" 
 ---

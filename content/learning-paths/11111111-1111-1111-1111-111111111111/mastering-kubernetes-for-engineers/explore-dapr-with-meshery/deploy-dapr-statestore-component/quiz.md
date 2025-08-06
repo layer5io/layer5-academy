@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "statestore.redis"
+      - id: "d"
+        text: "redis.component"
   - id: "q2"
     text: "What configuration details are essential for the Dapr state store component? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "httpTimeout field"
   - id: "q3"
-    text: "What is the redisHost value that should be entered in the metadata configuration?"
+    text: "Which database system is used for state storage?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "redis-master.default.svc.cluster.local:6379" 
+    correct_answer: "Redis" 
 ---

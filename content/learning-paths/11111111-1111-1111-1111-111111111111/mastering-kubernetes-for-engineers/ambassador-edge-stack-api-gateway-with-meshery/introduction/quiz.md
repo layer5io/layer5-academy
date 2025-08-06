@@ -25,13 +25,17 @@ questions:
         text: "Automatic TLS"
         is_correct: true
       - id: "b"
-        text: "Rate limiting"
+        text: "Global Rate limiting"
         is_correct: true
       - id: "c"
-        text: "Database management"
+        text: "Local Rate limiting"
+        is_correct: true
+      - id: "d"
+        text: "Round Robin Load Balancing"
+        is_correct: true
   - id: "q3"
-    text: "What is Kanvas in the context of Meshery?"
+    text: "Which Meshery component provides visual design capabilities?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "A visual tool within Meshery that allows users to interact with and manage Kubernetes resources through a graphical interface" 
+    correct_answer: "Kanvas" 
 ---

@@ -16,6 +16,8 @@ questions:
         text: "Distributed API Runtime"
       - id: "c"
         text: "Dynamic Application Runtime"
+      - id: "d"
+        text: "Distributed Application Platform"
   - id: "q2"
     text: "Which capabilities does Dapr provide through its sidecar architecture? (Select all that apply)"
     type: "multiple-answers"
@@ -30,8 +32,8 @@ questions:
       - id: "c"
         text: "Database administration"
   - id: "q3"
-    text: "What tutorial does this course expand on to provide a visual approach to learning Dapr?"
+    text: "Which container orchestration platform does Dapr integrate with?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Hello Kubernetes tutorial with Dapr" 
+    correct_answer: "Kubernetes" 
 ---

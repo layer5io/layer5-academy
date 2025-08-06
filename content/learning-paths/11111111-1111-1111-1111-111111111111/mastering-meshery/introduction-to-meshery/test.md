@@ -17,6 +17,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "To replace Kubernetes"
+      - id: "d"
+        text: "To provide database management solutions"
   - id: "q2"
     text: "Which of the following are architectural components of Meshery? (Select all that apply)"
     type: "multiple-answers"
@@ -34,10 +36,10 @@ questions:
       - id: "d"
         text: "Docker Engine"
   - id: "q3"
-    text: "What is the first step you should take when configuring Meshery for team collaboration?"
+    text: "What type of entity is created first for team collaboration in Meshery?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Creating a Team"
+    correct_answer: "Team"
   - id: "q4"
     text: "What is a Workspace in Meshery?"
     type: "single-answer"
