@@ -23,6 +23,7 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy:
+    if: github.event.pull_request.head.repo.full_name == github.repository
     environment:
       name: pr-preview-${{ github.event.pull_request.number || github.run_id }}
       url: ${{ steps.deployment.outputs.page_url }}
@@ -61,3 +62,23 @@ jobs:
             > 📖 General Preview: ${{ steps.deployment.outputs.page_url }}
             
             This preview will be updated automatically when you push new commits to this PR.
+  mirror-fork-pr:
+    if: github.event.pull_request.head.repo.full_name != github.repository
+    environment:
+      name: pr-preview-${{ github.event.pull_request.number || github.run_id }}
+      # url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+      - name: Set up Git user
+        run: |
+          git config user.name "l5io"
+          git config user.email "l5io@users.noreply.github.com"
+      - name: Push branch to master repo
+        run: |
+          git remote add main-origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push main-origin HEAD:refs/heads/pr-preview/${{ github.event.pull_request.number }} --force
