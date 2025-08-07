@@ -2,7 +2,7 @@
 type: "page"
 title: "Introduction to AWS CloudFormation"
 description: ""
-weight: 7
+weight: 8
 ---
 
 AWS CloudFormation is a powerful Infrastructure as Code (IaC) service offered by Amazon Web Services (AWS) that allows you to define, provision, and manage your cloud infrastructure in a declarative way. With CloudFormation, you can describe your infrastructure using templates, which are written in JSON or YAML and contain a set of instructions for AWS to create and configure the resources you need. This approach provides several key benefits, including:

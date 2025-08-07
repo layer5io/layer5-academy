@@ -2,7 +2,7 @@
 type: "page"
 title: "Introduction to Terraform"
 description: ""
-weight: 5
+weight: 6
 ---
 
 Imagine this: you're a software developer, coding away on an amazing new app. But then comes the dreaded task – setting up the infrastructure for your application. Manually provisioning servers, configuring networks, and managing databases sounds like a nightmare, right?

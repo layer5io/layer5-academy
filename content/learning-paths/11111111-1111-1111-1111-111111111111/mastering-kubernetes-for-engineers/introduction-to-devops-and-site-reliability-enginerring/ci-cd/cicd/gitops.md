@@ -35,6 +35,7 @@ Benefits of using GitOps for deployment:
     GitOps provides a complete audit trail of changes made to the system, facilitating troubleshooting and compliance audits.
 
 Popular GitOps tools:
+    - Meshery GitOps is a platform that provides a comprehensive GitOps solution for managing Kubernetes applications and infrastructure.
     - Argo CD is an open source GitOps continuous delivery tool that supports multiple platforms and environments.
     - Flux CD is an open source GitOps continuous delivery tool that is specifically designed for Kubernetes deployments.
     - Tekton CD is an open source GitOps continuous delivery platform built on Kubernetes.

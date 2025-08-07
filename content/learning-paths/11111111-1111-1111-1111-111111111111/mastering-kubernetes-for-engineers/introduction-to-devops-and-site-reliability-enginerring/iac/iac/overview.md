@@ -13,7 +13,7 @@ Consider a scenario where a cloud service provider, like the ones your company c
 
 Let's delve into an example. Suppose your company deploys billing and subscription solutions on Azure. Using IaC, you can define the Azure resources required for the solution in a declarative manner. Here's a simplified Terraform snippet:
 
-```bash
+```hcl
 resource "azurerm_resource_group" "billing_rg" {
   name     = "billing-rg"
   location = "East US"

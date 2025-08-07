@@ -2,7 +2,7 @@
 type: "page"
 title: "Introduction to OpenTofu"
 description: "" 
-weight: 6
+weight: 7
 ---
 
 In the space of infrastructure as code (IaC), Terraform has long been the reigning champion. However, concerns about its future under HashiCorp's Business Source License (BSL) sparked the creation of OpenTofu, a fork that aims to reclaim the open source spirit and provide developers and DevOps engineers with greater flexibility and control.
