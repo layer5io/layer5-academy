@@ -7,7 +7,7 @@ weight: 9
 
 Release strategies play a crucial role in the software development lifecycle, determining how and when new features, enhancements, and bug fixes are delivered to end-users. Different release strategies offer varying degrees of control, risk management, and flexibility.
 
-#### **Rolling Release**
+#### Rolling Release
 
 In a rolling release strategy, new features and updates are continuously and incrementally released as soon as they are ready. There are no distinct version numbers or major releases. The software is always in a state of evolution.
 
@@ -22,7 +22,7 @@ Use Cases:
 - Web applications and services that can be updated seamlessly without user disruption.
 - Software where continuous evolution and rapid delivery of features are critical.
 
-#### **Feature Toggles (Feature Flags)**
+#### Feature Toggles (Feature Flags)
 
 Feature toggles involve wrapping new features in conditional statements that can be controlled externally. This allows developers to enable or disable features without modifying code, providing flexibility in managing feature releases.
 
@@ -37,7 +37,7 @@ Use Cases:
 - Testing new features with a subset of users.
 - Safely releasing features that might be turned off if issues arise.
 
-#### **Blue-Green Deployment**
+#### Blue-Green Deployment
 
 In a blue-green deployment, two environments (blue and green) are maintained. One environment serves as the production environment (e.g., blue), while the other is used for deploying and testing new releases (e.g., green). The switch between environments determines the active production version.
 
@@ -50,7 +50,7 @@ Use Cases:
 - Web applications where downtime is not acceptable.
 - Ensuring seamless transition between releases in critical systems.
 
-#### **Canary Release**
+#### Canary Release
 
 Canary releases involve deploying a new version of the software to a small subset of users (the "canaries") before a full release. This allows for real-world testing and monitoring of the new version's performance.
 
@@ -64,7 +64,7 @@ Use Cases:
 - Web and mobile applications where real-world user feedback is valuable.
 - Minimizing the impact of potential issues on a small user subset.
 
-#### **Phased (Staged) Rollout**
+#### Phased (Staged) Rollout
 
 In a phased rollout, the new version is released to a limited subset of users initially and then progressively to a broader audience over time. Each phase allows for monitoring and addressing issues before expanding to the next group.
 
