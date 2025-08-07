@@ -76,6 +76,5 @@ questions:
       - id: "d"
         text: "Support for creating read-only replicas for scaling."
         is_correct: true
-layout: "test"
 type: "test"
 ---
