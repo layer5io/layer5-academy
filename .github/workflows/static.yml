@@ -23,6 +23,8 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy:
+    if: github.event.pull_request.head.repo.full_name != github.repository
+
     environment:
       name: pr-preview-${{ github.event.pull_request.number || github.run_id }}
       url: ${{ steps.deployment.outputs.page_url }}
