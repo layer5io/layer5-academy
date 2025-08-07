@@ -1,11 +1,13 @@
 ---
-type: "learning-path"
-title: "Mastering Service Meshes for Developers"
+type: "course"
+title: "Advance Concepts of Service Meshes"
+courseId: "advance-concepts-of-service-mesh"
 description: "A learning path designed to equip solution architects, network administrators, DevOps, and site reliability engineers with the knowledge and skills needed to efficiently manage and secure microservices-based applications using service mesh architecture."
 weight: 3
-banner: "images/service-mesh.svg"
-id: "c2622a7c-cdd0-4a1b-81b9-cd13df002a1f"
-tags: [service-mesh]
+banner: "images/istio-icon-white.svg"
+tags: [service-mesh, service-architecture]
 categories: "meshery"
-level: "intermediate"
+level: "advanced"
 ---
+
+Chapters available
