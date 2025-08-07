@@ -104,6 +104,5 @@ questions:
         text: "To automatically generate a strong password."
       - id: "d"
         text: "To encrypt the entire MySQL database."
-layout: "test"
 type: "test"
 ---
