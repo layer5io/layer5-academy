@@ -4,7 +4,7 @@ title: "Kubernetes Multi-Container Pods"
 description: "Learn how to design and deploy multi-container Pods in Kubernetes using patterns like sidecars, ambassadors, and adapters to extend application functionality and share resources effectively."
 weight: 5
 banner: "images/linkerd-icon-white.svg"
-tags: [kubernetes, meshery, databases, wordpress]
+tags: [kubernetes, containers]
 categories: "kubernetes"
 level: "beginner"
 ---
