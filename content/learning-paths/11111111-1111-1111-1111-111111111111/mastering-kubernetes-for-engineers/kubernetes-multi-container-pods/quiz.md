@@ -3,7 +3,7 @@ title: "Quiz"
 passing_percentage: 70
 questions:
     - id: "q1"
-      text: "Improved ;ogging for cluster nodes"
+      text: "What is one kye benefit of using multi-container Pods in Kubernetes ?"
       type: "single-answer"
       marks: 2
       options:
