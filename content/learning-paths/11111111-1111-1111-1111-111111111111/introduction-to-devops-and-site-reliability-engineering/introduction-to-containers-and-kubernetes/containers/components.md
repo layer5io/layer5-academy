@@ -41,7 +41,7 @@ Worker nodes in Kubernetes are the machines (physical or virtual) where your act
     
     It is a Kubernetes agent installed on every node in the cluster. It is responsible for local cluster networking. It implements local IPTABLES or IPVS rules to handle routing and load-balancing of traffic on the Pod network. It monitors the changes that happen to Service objects and their endpoints. If changes occur, it translates them into actual network rules inside the node. Kube-Proxy is installed as an add-on during the installation process, usually created as a DaemonSet.
 
-- Pod
+### Pod
     
     A pod is the smallest deployable unit in Kubernetes, representing a single instance of a running process in a cluster. Pods encapsulate one or more containers and share network and storage resources.
 
