@@ -3,7 +3,7 @@ title: "Test"
 passing_percentage: 70
 questions:
     - id: "q1"
-      text: "What is one kye benefit of using multi-container Pods in Kubernetes ?"
+      text: "What is one key benefit of using multi-container Pods in Kubernetes?"
       type: "single-answer"
       marks: 2
       options:
