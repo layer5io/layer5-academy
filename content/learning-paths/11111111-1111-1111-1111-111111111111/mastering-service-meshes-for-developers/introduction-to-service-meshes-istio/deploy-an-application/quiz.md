@@ -30,7 +30,7 @@ questions:
         text: "Namespace labeled with istio-injection=enabled"
         is_correct: true
       - id: "c"
-        text: "Manual proxy configuration in each pod"
+        text: "Manual sidecar proxy configuration in each pod"
   - id: "q3"
     text: "Which tool is used to manage Kubernetes resources?" 
     type: "short_answer" 

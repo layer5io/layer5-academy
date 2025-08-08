@@ -5,7 +5,7 @@ layout: "test"
 type: "test"
 questions:
   - id: "q1"
-    text: "What label is recommended for this tutorial to prevent resources from mixing with others?"
+    text: "What label is recommended for this tutorial to prevent tutorial resources from mixing with other resources?"
     type: "single-answer"
     marks: 2
     options:

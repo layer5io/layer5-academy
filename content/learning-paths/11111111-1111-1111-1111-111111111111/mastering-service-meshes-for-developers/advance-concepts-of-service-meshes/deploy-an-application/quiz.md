@@ -30,7 +30,7 @@ questions:
         text: "Namespace labeled with istio-injection=enabled"
         is_correct: true
       - id: "c"
-        text: "Manual proxy container configuration"
+        text: "Manual sidecar proxy container configuration"
   - id: "q3"
     text: "Which tool manages Kubernetes namespace labeling?" 
     type: "short_answer" 

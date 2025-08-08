@@ -10,10 +10,10 @@ questions:
     marks: 2
     options:
       - id: "a"
-        text: "dapr.io/inject: \"true\""
-      - id: "b"
         text: "dapr.io/enabled: \"true\""
         is_correct: true
+      - id: "b"
+        text: "dapr.io/inject: \"true\""
       - id: "c"
         text: "dapr.io/sidecar: \"true\""
       - id: "d"

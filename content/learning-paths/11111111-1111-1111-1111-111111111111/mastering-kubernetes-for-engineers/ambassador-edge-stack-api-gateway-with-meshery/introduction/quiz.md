@@ -16,6 +16,8 @@ questions:
         is_correct: true
       - id: "c"
         text: "HAProxy"
+      - id: "d"
+        text: "Apache HTTP Server"
   - id: "q2"
     text: "Which features are included in Ambassador Edge Stack? (Select all that apply)"
     type: "multiple-answers"

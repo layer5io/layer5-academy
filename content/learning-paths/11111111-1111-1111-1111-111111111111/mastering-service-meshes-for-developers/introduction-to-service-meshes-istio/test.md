@@ -24,7 +24,7 @@ questions:
     marks: 2
     options:
       - id: "a"
-        text: "Setup a service mesh"
+        text: "Set up a service mesh"
         is_correct: true
       - id: "b"
         text: "Deploy applications using service mesh"

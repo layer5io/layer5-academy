@@ -27,10 +27,10 @@ questions:
         text: "EnvoyFilter resource"
         is_correct: true
       - id: "b"
-        text: "WASM binary file"
+        text: "WebAssembly binary file"
         is_correct: true
       - id: "c"
-        text: "Volume mount configuration for sidecar"
+        text: "Volume mount configuration for the sidecar"
         is_correct: true
   - id: "q3"
     text: "Which annotation configures Istio sidecar volumes?"

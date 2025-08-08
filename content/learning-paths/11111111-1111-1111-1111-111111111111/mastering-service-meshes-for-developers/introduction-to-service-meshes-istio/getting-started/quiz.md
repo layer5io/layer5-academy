@@ -30,7 +30,7 @@ questions:
         text: "istioctl with demo profile"
         is_correct: true
       - id: "c"
-        text: "kubectl apply with manual YAML files"
+        text: "kubectl apply with manual YAML file configuration"
   - id: "q3"
     text: "Which CLI tool is used for Istio management and verification?" 
     type: "short_answer" 

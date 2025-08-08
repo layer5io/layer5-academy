@@ -12,7 +12,7 @@ questions:
       - id: "a"
         text: "ClusterIP"
       - id: "b"
-        text: "LoadBalancer (or NodePort)"
+        text: "LoadBalancer or NodePort"
         is_correct: true
       - id: "c"
         text: "ExternalName"

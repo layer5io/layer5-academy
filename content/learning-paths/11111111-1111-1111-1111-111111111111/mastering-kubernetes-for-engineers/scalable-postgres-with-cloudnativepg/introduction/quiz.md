@@ -12,7 +12,7 @@ questions:
       - id: "a"
         text: "A database management system"
       - id: "b"
-        text: "A level 5 Kubernetes operator that efficiently manages PostgreSQL clusters"
+        text: "A Level5 Kubernetes operator that efficiently manages PostgreSQL clusters"
         is_correct: true
       - id: "c"
         text: "A container orchestration platform"

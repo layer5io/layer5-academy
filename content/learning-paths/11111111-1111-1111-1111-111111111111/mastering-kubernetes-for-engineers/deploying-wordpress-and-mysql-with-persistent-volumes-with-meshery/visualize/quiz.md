@@ -5,7 +5,7 @@ layout: "test"
 type: "test"
 questions:
   - id: "q1"
-    text: "Which filter should be used for the label to display only your tutorial resources?"
+    text: "Which label filter should be used to display only your tutorial resources?"
     type: "single-answer"
     marks: 2
     options:

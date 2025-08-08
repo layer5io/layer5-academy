@@ -30,7 +30,7 @@ questions:
         text: "Using istioctl with demo profile"
         is_correct: true
       - id: "c"
-        text: "Using kubectl apply directly on YAML files"
+        text: "Using kubectl apply directly with YAML files"
   - id: "q3"
     text: "Which Istio tool verifies cluster readiness?" 
     type: "short_answer" 

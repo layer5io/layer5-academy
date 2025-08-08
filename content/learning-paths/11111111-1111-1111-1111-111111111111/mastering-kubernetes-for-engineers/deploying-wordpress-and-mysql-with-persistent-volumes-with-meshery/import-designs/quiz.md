@@ -34,8 +34,8 @@ questions:
       - id: "d"
         text: "Automatic version control is enabled"
   - id: "q3"
-    text: "Which CMS application is deployed in this tutorial?"
+    text: "What type of file is selected in the “Design Type” dropdown during import?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "WordPress" 
+    correct_answer: "Manifest" 
 ---

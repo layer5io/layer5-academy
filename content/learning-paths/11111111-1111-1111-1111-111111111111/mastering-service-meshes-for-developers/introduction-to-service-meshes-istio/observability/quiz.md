@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "DataDog, New Relic, and AppDynamics"
   - id: "q2"
-    text: "What are the default methods to expose Istio add-on services outside the cluster? (Select all that apply)"
+    text: "What are the methods to expose Istio add-on services outside the cluster? (Select all that apply)"
     type: "multiple-answers"
     marks: 2
     options:
@@ -30,7 +30,7 @@ questions:
         text: "Using port-forwarding"
         is_correct: true
       - id: "c"
-        text: "Services are exposed by default as LoadBalancer"
+        text: "Add-on services are exposed by default as LoadBalancer"
   - id: "q3"
     text: "What is the default port for accessing Grafana dashboards?" 
     type: "short_answer" 

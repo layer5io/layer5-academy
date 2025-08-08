@@ -33,7 +33,7 @@ questions:
         text: "match conditions for specific users or headers"
         is_correct: true
   - id: "q3"
-    text: "What type of failure is simulated when reviews service is delayed by fault injection?" 
+    text: "What type of failure is simulated when the reviews service is delayed by fault injection?" 
     type: "short_answer" 
     marks: 2
     correct_answer: "Timeout" 

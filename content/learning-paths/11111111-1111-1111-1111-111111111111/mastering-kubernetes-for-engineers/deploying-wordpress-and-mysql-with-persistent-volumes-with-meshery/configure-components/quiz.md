@@ -30,6 +30,7 @@ questions:
         text: "Protocol set to TCP"
       - id: "c"
         text: "Capacity set to 50Gi"
+        is_correct: true
       - id: "d"
         text: "AccessMode set to 'ReadWriteOnce'"
         is_correct: true
