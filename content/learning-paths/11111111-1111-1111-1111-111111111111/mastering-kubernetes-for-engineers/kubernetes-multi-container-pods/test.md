@@ -34,7 +34,7 @@ questions:
 
 
     - id: "q3"
-      text: "What should multi-container Pods be used cautiously"
+      text: "Why should multi-container Pods be used cautiously?"
       type: "single-answer"
       marks: 2
       options:
