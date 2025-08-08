@@ -1,4 +1,5 @@
 ---
+id: ""
 type: "learning-path"
 title: "Introduction to DevOps and Site Reliability Engineering"
 description: "Learn how to start transforming your organization using the principles and practices of DevOps."
