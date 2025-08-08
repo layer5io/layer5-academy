@@ -46,7 +46,7 @@ questions:
           text: "They can introduce complexity, latency, and tight coupling"
           is_correct: true
         - id: "d"
-          text: "They use different network policies than single-container Pods"
+          text: "Because, multi-container Pods use different network policies than single-container Pods."
 
 type: "test"
 ---
