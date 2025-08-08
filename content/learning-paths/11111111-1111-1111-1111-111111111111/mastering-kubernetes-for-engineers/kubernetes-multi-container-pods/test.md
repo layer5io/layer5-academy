@@ -39,7 +39,7 @@ questions:
       marks: 2
       options:
         - id: "a"
-          text: "They always require manual scaling"
+          text: "Because, multi-container Pods always require manual scaling."
         - id: "b"
           text: "They are not supported on managed Kuberenetes services"
         - id: "c"
