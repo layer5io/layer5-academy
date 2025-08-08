@@ -9,6 +9,6 @@ This chapter presents an overview of DevOps and Site Reliability Engineering (SR
 
 By the end of this chapter, you should be able to:
 
-Discuss the fundamentals of DevOps and SRE
+- Discuss the fundamentals of DevOps and SRE
 Explain the key principles of DevOps and SRE
 Review different tools used by DevOps and SRE
