@@ -5,9 +5,9 @@ description: "Learn about the emergence of DevOps, its key principles, and how i
 weight: 1
 ---
 
-DevOps software development methodology that emphasizes collaboration and communication between development and operations teams, didn't appear overnight. Its roots can be traced back to several contributing factors and key turning points.
 
 ### The DevOps Era
+DevOps software development methodology that emphasizes collaboration and communication between development and operations teams, didn't appear overnight. Its roots can be traced back to several contributing factors and key turning points.
 
 #### Early Influences
 - Agile movement: The Agile movement, emerging in the 1990s and formally established in 2001, emphasized iterative development and collaboration, paving the way for DevOps' focus on faster delivery and team integration.

@@ -5,15 +5,18 @@ description: ""
 weight: 5
 ---
 
+### SLA
+
 An SLA is a formal contract between a service provider and its customers, outlining the expected level of service. It defines the agreed-upon quality of service, including performance metrics, availability, and support expectations. In Site Reliability Engineering (SRE), a Service Level Agreement (SLA) plays a crucial role in managing expectations and ensuring a service meets user needs.
 
-**Benefits of SLAs**
+### Benefits of SLAs
+
 - Clear Communication: SLAs establish a shared understanding between SREs, developers, and stakeholders regarding the expected performance of a service.
 - Improved Reliability: Having defined SLAs motivates SREs to proactively monitor and improve the system's reliability to meet the agreed-upon targets.
 - Risk Management: Clear SLAs help manage customer expectations and define potential consequences for outages. This allows for proactive planning and mitigation strategies.
 
 
-**Real-world Example**
+### Real-world Example
 
 Let's take a look at an example of an SLA in SRE applied to an e-commerce platform.
 

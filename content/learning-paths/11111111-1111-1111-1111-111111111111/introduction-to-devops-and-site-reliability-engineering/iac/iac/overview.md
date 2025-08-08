@@ -1,9 +1,11 @@
 ---
 type: "page"
-title: "Infrastructure as Code: Overview"
+title: "Infrastructure as Code"
 description: ""
 weight: 1
 ---
+
+### Overview
 
 [Infrastructure as Code (IaC)](https://en.wikipedia.org/wiki/Infrastructure_as_code) is a revolutionary approach in the space of software development and IT operations, transforming the way we build, manage, and scale infrastructure. At its core, IaC involves describing and provisioning infrastructure elements through machine-readable script files, treating infrastructure in a manner similar to software code.
 

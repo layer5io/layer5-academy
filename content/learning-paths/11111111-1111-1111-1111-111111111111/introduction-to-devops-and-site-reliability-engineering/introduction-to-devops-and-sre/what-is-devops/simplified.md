@@ -5,6 +5,8 @@ description: "A simplified analogy to understand the roles of DevOps and SRE in 
 weight: 3
 ---
 
+### Overview
+
 DevOps and SRE are two different disciplines of Software Engineering, but they are deeply interconnected and rely on each other for success. DevOps focuses on creating new features and improvements, while SRE focuses on ensuring the reliability and stability of the system. Both DevOps and SRE require strong collaboration and communication to achieve common goals. Anyone interested in a career in tech should consider exploring both DevOps and SRE to understand the full picture of software development and delivery.
 
 In this course, we will provide an understanding of what DevOps and SRE are all about and how they work together to create successful software products. Let’s look at a simplified analogy to understand better.

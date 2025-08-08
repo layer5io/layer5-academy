@@ -6,11 +6,12 @@ weight: 7
 ---
 
 
+### Overview
 Kubernetes, often abbreviated as k8s, is an open source platform for automating the deployment, scaling, and management of containerized applications. It has become the de facto standard for container orchestration, powering a vast number of applications across various industries.
 
 Imagine you have a large orchestra with many different instruments. Each instrument plays its own unique part, but they all need to work together in harmony to create beautiful music. Kubernetes is like the conductor of this orchestra, coordinating the different containerized applications (instruments) to ensure your application runs smoothly and efficiently.
 
-Here's a breakdown of Kubernetes' core functionalities:
+### Core Functionalities
 
 - Deployment: Kubernetes automates the deployment of containerized applications across a cluster of nodes.
 - Scaling: It automatically scales applications up or down based on demand, ensuring optimal resource utilization.
@@ -21,7 +22,7 @@ Here's a breakdown of Kubernetes' core functionalities:
 - Self-healing: Kubernetes restarts containers that fail, replaces containers, kills containers that don't respond to your user-defined health check, and doesn't advertise them to clients until they are ready to serve.
 - Horizontal scaling: Scale your application up and down with a simple command, with a UI, or automatically based on CPU usage.
 
-Here is a quick look back at Kubernetes' history:
+### History
 
 - 2014: Kubernetes originates from Google's internal container management system, Borg.
 - 2015: Kubernetes is open sourced under the Apache License 2.0.
@@ -29,7 +30,7 @@ Here is a quick look back at Kubernetes' history:
 - 2017: Kubernetes 1.0 is released, marking a significant milestone in its development.
 - 2023: Kubernetes is the dominant container orchestration platform, used by millions of organizations worldwide.
 
-There are several reasons why Kubernetes has become the leading container orchestration platform:
+### Key Features
 
 - Open source: Kubernetes is free to use and modify, allowing for customization and integration with various tools and technologies.
 - Scalable: Kubernetes can manage thousands of containers across multiple nodes, making it suitable for large-scale applications.

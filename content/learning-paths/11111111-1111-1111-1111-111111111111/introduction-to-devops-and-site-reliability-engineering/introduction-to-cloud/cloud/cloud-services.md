@@ -1,9 +1,11 @@
 ---
 type: "page"
 title: "Major Cloud Services"
-description: ""
+description: "The major cloud services offered by providers like AWS, Azure, and Google Cloud."
 weight: 6
 ---
+
+### Cloud Services
 
 - **Compute Services**
 

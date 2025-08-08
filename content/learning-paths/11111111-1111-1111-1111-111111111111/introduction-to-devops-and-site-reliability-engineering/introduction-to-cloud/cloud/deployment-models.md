@@ -1,10 +1,9 @@
 ---
 type: "page"
 title: "Cloud Deployment Models"
-description: ""
+description: "An overview of the different cloud deployment models, including public, private, hybrid, community, and multi-cloud."
 weight: 5
 ---
-Cloud Deployment Models
 Next, let's delve into the different cloud deployment models:
 
 - **Public Cloud**

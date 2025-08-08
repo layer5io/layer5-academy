@@ -5,9 +5,8 @@ description: ""
 weight: 2
 ---
 
-In April 2011, [the Sony PlayStation Network (PSN) experienced a massive outage](https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage) that lasted for 23 days and affected over 100 million users. This incident is considered a classic example of the challenges faced in the pre-DevOps era and serves as a cautionary tale for organizations transitioning to modern development practices.
-
 ### PSN Outage
+In April 2011, [the Sony PlayStation Network (PSN) experienced a massive outage](https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage) that lasted for 23 days and affected over 100 million users. This incident is considered a classic example of the challenges faced in the pre-DevOps era and serves as a cautionary tale for organizations transitioning to modern development practices.
 
 #### Pre-DevOps Challenges Contributing to the PSN Outage
 - **Silos and Communication Gaps**: The development and operations teams at Sony worked in separate silos with limited communication and collaboration. This led to a lack of understanding of each other's work and challenges, making it difficult to respond effectively to the evolving situation during the outage.

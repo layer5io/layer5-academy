@@ -5,9 +5,10 @@ description: "Understand the key characteristics of the pre-DevOps era, includin
 weight: 1
 ---
 
+### Key Characteristics of the Pre-DevOps Era
+
 The pre-DevOps era in software development was a starkly different landscape than what we see today. It was a time of siloed teams, rigid methodologies, and a lot of manual work, which often led to slow and unreliable software delivery.
 
-Here are some key characteristics of the pre-DevOps era:
 
 - **Waterfall Model**
    The dominant methodology was the Waterfall model, a linear approach where each stage had to be completed before moving on to the next. This made it difficult to adapt to changes and respond quickly to new requirements.

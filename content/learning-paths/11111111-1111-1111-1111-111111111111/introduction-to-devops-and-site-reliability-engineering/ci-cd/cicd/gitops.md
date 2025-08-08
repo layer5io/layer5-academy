@@ -5,31 +5,40 @@ description: ""
 weight: 10
 ---
 
+### GitOps Overview
+
 GitOps is a deployment methodology that leverages Git as a single source of truth for infrastructure and application configuration. This approach enables developers to manage their applications and infrastructure in a declarative manner, using familiar Git workflows.
 
-Key principles of GitOps:
+
+
+### Key principles of GitOps:
 
 - Declarative configuration
     
     The desired state of the infrastructure and application is declared in Git repositories as YAML manifests, Helm charts, or other declarative formats.
+
 - Single source of truth
     
     The Git repository serves as the only source of truth for the desired state of the system, ensuring consistency and traceability.
+
 - Pull-based reconciliation
     
     A GitOps controller continuously monitors the Git repository for changes and automatically applies them to the target environment, ensuring the desired state is achieved.
 
-Benefits of using GitOps for deployment:
+### Benefits of using GitOps for deployment:
 
 - Simplified deployment process
     
     GitOps provides a straightforward and automated deployment process, removing the need for manual configuration and deployment scripts.
+
 - Increased consistency and reliability
     
     By using declarative configuration and a single source of truth, GitOps helps ensure consistent and reliable deployments across different environments.
+
 - Improved collaboration
     
     GitOps encourages collaboration between developers and operations teams by providing a shared platform for managing infrastructure and applications.
+    
 - Enhanced auditability and traceability
     
     GitOps provides a complete audit trail of changes made to the system, facilitating troubleshooting and compliance audits.

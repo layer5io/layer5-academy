@@ -5,6 +5,8 @@ description: ""
 weight: 6
 ---
 
+### What is Terraform?
+
 Imagine this: you're a software developer, coding away on an amazing new app. But then comes the dreaded task – setting up the infrastructure for your application. Manually provisioning servers, configuring networks, and managing databases sounds like a nightmare, right?
 
 Well, fear no more! Infrastructure as Code (IaC) tools like Terraform are here to save the day. Think of Terraform as your personal infrastructure chef, taking care of all the tedious infrastructure setup and management tasks with ease.
@@ -16,20 +18,26 @@ But what exactly is Terraform? Simply put, Terraform is a powerful open source I
 - Version control your infrastructure like any other code, making collaboration and rollbacks a breeze.
 - Re-use infrastructure components as modular "Terraform modules," promoting consistency and efficiency.
 
-Why should software developers learn Terraform? Let's face it, software development is already complex enough. Focusing on creative coding, solving problems, and building great features should be your top priority. By leveraging the power of Terraform, you can:
+### Why Should You Use Terraform?
+
+Let's face it, software development is already complex enough. Focusing on creative coding, solving problems, and building great features should be your top priority. By leveraging the power of Terraform, you can:
 
 - Ship your code faster
     
     No more waiting for IT teams to provision infrastructure. Terraform automates the process, allowing you to deploy your code quickly and efficiently.
+
 - Focus on what matters
     
     By eliminating manual infrastructure tasks, you free up valuable time and mental energy to focus on what you do best – write amazing code!
+
 - Collaborate better
     
     Terraform's human-readable configuration files make it easy for developers and other teams to collaborate on infrastructure management.
+
 - Achieve consistency
     
     With Terraform, your infrastructure is defined as code, ensuring consistency and repeatability across different environments.
+
 - Embrace reusability
 
     Terraform modules allow you to build reusable infrastructure components, saving you time and effort in the long run.

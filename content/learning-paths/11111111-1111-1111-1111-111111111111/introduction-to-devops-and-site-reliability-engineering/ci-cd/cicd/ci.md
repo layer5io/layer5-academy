@@ -5,6 +5,8 @@ description: ""
 weight: 3
 ---
 
+### Continuous Integration (CI)
+
 Continuous Integration (CI) is a pivotal methodology in software development, reshaping the way teams collaborate and deliver high-quality code. At its core, CI involves the regular merging of code changes from multiple contributors into a shared repository. This iterative process serves as a proactive measure to identify and rectify integration issues at an early stage, fostering a development environment characterized by stability and efficiency.
 
 In the world of CI, the mantra is frequent integration. Unlike traditional development approaches, where code integration might occur infrequently, CI encourages developers to merge their code multiple times a day. This frequent integration is accompanied by an automated build process, a cornerstone of CI. The build process includes tasks such as code compilation, automated testing, and the creation of executable artifacts. The automation ensures that the codebase is consistently and reliably built, reducing variability and ensuring a standardized output.
