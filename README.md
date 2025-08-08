@@ -9,6 +9,13 @@ This guide will walk you through setting up your own content repository, creatin
 
 ## Prerequisites
 
+
+
+
+
+BOOOOO!!!
+
+
 Before you begin, ensure you have the following installed on your system:
 
   * [**Hugo**](https://gohugo.io/getting-started/installing/) (extended version) （version 0.147.9）
@@ -130,3 +137,4 @@ Once your content is complete and tested locally:
 3.  Provide the URL to your content repository.
 
 A Layer5 administrator will then integrate your repository into the main Academy platform. After integration, your learning paths will be visible on the official [Layer5 Cloud site](https://cloud.layer5.io/academy/overview).
+
