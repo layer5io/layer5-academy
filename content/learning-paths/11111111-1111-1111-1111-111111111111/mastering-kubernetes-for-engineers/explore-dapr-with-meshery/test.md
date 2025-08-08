@@ -36,7 +36,7 @@ questions:
     text: "What is used as the statestore in the 'Explore Dapr with Meshery' course?"
     type: "short-answer"
     marks: 2
-    answer: "Redis"
+    correct_answer: "Redis"
   - id: "q4"
     text: "What is the main purpose of deploying a Dapr StateStore component with Redis?"
     type: "single-answer"
