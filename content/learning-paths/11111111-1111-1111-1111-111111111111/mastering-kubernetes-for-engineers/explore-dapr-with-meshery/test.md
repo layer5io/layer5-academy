@@ -105,7 +105,7 @@ questions:
     text: "What is the primary environment where Dapr is explored in this course?"
     type: "short-answer"
     marks: 2
-    answer: "Kubernetes"
+    correct_answer: "Kubernetes"
   - id: "q10"
     text: "What is the first step in the visual guide to understanding how Dapr works within a Kubernetes cluster?"
     type: "single-answer"
