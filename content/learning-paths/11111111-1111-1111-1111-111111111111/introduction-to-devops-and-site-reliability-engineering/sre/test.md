@@ -45,7 +45,7 @@ questions:
     
     - id: "q4"
       text: "Which of the following will help balance release velocity with system reliability?"
-      type: "multiple-answer"
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

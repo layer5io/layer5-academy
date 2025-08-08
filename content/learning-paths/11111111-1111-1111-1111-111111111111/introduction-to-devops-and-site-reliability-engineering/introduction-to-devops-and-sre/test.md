@@ -4,7 +4,7 @@ passing_percentage: 70
 questions:
     - id: "q1"
       text: "Which of the following are characteristics of the pre-DevOps era ?"
-      type: "multiple-answer"
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"

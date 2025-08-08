@@ -35,7 +35,7 @@ questions:
 
     - id: "q3"
       text: "Which of the following features are provided by Kubernetes directly?"
-      type: "multiple-answer"
+      type: "multiple-answers"
       marks: 2
       options:
         - id: "a"
