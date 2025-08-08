@@ -48,6 +48,5 @@ questions:
         - id: "d"
           text: "They use different network policies than single-container Pods"
 
-layout: "test"
 type: "test"
 ---
