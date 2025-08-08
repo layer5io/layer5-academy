@@ -70,7 +70,7 @@ questions:
     text: "What is the name of the tool's interactive terminal used to view application logs?"
     type: "short-answer"
     marks: 2
-    answer: "Meshery"
+    correct_answer: "Meshery"
   - id: "q7"
     text: "What is attached to the applications to enable effective communication and state management?"
     type: "single-answer"
