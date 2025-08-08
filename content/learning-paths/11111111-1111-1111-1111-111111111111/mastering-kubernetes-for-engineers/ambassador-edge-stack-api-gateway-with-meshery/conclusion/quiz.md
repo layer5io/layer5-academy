@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Grafana"
   - id: "q2"
-    text: "What key learnings were covered in this Ambassador Edge Stack course? (Select all that apply)"
+    text: "What key learnings were covered in this Ambassador Edge Stack course?"
     type: "multiple-answers"
     marks: 2
     options:

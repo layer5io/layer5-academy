@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "istio-control-plane"
   - id: "q2"
-    text: "Which tools can be used to install Istio? (Select all that apply)"
+    text: "Which tools can be used to install Istio?"
     type: "multiple-answers"
     marks: 2
     options:

@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "redis.component"
   - id: "q2"
-    text: "What configuration details are essential for the Dapr state store component? (Select all that apply)"
+    text: "What configuration details are essential for the Dapr state store component?"
     type: "multiple-answers"
     marks: 2
     options:

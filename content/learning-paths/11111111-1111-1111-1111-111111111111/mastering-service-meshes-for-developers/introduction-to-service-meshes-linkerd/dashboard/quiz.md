@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Resource utilization and network throughput"
   - id: "q2"
-    text: "Which CLI tools does Linkerd dashboard expose? (Select all that apply)"
+    text: "Which CLI tools does Linkerd dashboard expose?"
     type: "multiple-answers"
     marks: 2
     options:

@@ -20,7 +20,7 @@ questions:
       - id: "d"
         text: "To provide database management solutions"
   - id: "q2"
-    text: "Which of the following are architectural components of Meshery? (Select all that apply)"
+    text: "Which of the following are architectural components of Meshery?"
     type: "multiple-answers"
     marks: 2
     options:
@@ -55,7 +55,7 @@ questions:
       - id: "d"
         text: "A database table"
   - id: "q5"
-    text: "Which of the following are logical components in Meshery? (Select all that apply)"
+    text: "Which of the following are logical components in Meshery?"
     type: "multiple-answers"
     marks: 3
     options:

@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Distributed Application Platform"
   - id: "q2"
-    text: "Which capabilities does Dapr provide through its sidecar architecture? (Select all that apply)"
+    text: "Which capabilities does Dapr provide through its sidecar architecture?"
     type: "multiple-answers"
     marks: 2
     options:

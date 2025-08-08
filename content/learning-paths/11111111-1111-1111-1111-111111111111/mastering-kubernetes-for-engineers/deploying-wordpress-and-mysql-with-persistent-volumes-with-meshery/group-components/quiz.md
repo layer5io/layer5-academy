@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "tier:frontend"
   - id: "q2"
-    text: "What benefits does the Group Components functionality provide? (Select all that apply)"
+    text: "What benefits does the Group Components functionality provide?"
     type: "multiple-answers"
     marks: 2
     options:

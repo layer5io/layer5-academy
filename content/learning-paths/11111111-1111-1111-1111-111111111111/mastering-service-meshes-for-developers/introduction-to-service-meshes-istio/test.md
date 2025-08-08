@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Envoy Proxy"
   - id: "q2"
-    text: "What are the main learning outcomes of this Istio course? (Select all that apply)"
+    text: "What are the main learning outcomes of this Istio course?"
     type: "multiple-answers"
     marks: 2
     options:

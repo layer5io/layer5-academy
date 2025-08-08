@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "9090"
   - id: "q2"
-    text: "Which custom resources are typically defined in Edge Stack CRD YAML files? (Select all that apply)"
+    text: "Which custom resources are typically defined in Edge Stack CRD YAML files?"
     type: "multiple-answers"
     marks: 2
     options:

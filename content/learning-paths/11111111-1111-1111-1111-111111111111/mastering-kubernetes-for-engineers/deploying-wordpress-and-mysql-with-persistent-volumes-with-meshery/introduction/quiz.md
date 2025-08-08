@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Container runtime environment"
   - id: "q2"
-    text: "What resources will you create in this WordPress and MySQL tutorial? (Select all that apply)"
+    text: "What resources will you create in this WordPress and MySQL tutorial?"
     type: "multiple-answers"
     marks: 2
     options:

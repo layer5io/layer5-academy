@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "All Resources"
   - id: "q2"
-    text: "Which namespaces should be selected in the filter to view both Dapr and Redis resources? (Select all that apply)"
+    text: "Which namespaces should be selected in the filter to view both Dapr and Redis resources?"
     type: "multiple-answers"
     marks: 2
     options:

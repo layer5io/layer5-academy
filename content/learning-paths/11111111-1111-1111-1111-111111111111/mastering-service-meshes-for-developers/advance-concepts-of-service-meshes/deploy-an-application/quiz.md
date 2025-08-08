@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "To test service mesh performance benchmarks"
   - id: "q2"
-    text: "Which of the following are requirements for automatic sidecar injection? (Select all that apply)"
+    text: "Which of the following are requirements for automatic sidecar injection?"
     type: "multiple-answers"
     marks: 2
     options:

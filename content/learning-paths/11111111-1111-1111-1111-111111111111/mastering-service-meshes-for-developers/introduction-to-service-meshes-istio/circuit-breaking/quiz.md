@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "To balance load across service instances"
   - id: "q2"
-    text: "Which DestinationRule configuration sections are used for circuit breaking? (Select all that apply)"
+    text: "Which DestinationRule configuration sections are used for circuit breaking?"
     type: "multiple-answers"
     marks: 2
     options:

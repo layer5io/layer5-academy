@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Serverless function composition"
   - id: "q2"
-    text: "What are the requirements for automatic sidecar injection in Istio? (Select all that apply)"
+    text: "What are the requirements for automatic sidecar injection in Istio?"
     type: "multiple-answers"
     marks: 2
     options:

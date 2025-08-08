@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "service=web"
   - id: "q2"
-    text: "Which resource kinds should be selected in the filter to view all deployed resources? (Select all that apply)"
+    text: "Which resource kinds should be selected in the filter to view all deployed resources?"
     type: "multiple-answers"
     marks: 2
     options:

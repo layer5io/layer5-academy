@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "The design is converted to a Helm chart"
   - id: "q2"
-    text: "What does Meshery Playground provide in terms of cluster connectivity? (Select all that apply)"
+    text: "What does Meshery Playground provide in terms of cluster connectivity?"
     type: "multiple-answers"
     marks: 2
     options:

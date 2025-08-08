@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Simulating network partitions and unavailable services"
   - id: "q2"
-    text: "How does Linkerd implement fault injection? (Select all that apply)"
+    text: "How does Linkerd implement fault injection?"
     type: "multiple-answers"
     marks: 2
     options:

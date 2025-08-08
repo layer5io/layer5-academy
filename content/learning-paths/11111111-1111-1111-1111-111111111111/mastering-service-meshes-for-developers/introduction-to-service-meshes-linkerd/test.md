@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Multi-cluster service mesh"
   - id: "q2"
-    text: "What are the key features of Linkerd covered in this course? (Select all that apply)"
+    text: "What are the key features of Linkerd covered in this course?"
     type: "multiple-answers"
     marks: 2
     options:

@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "To configure default security policies"
   - id: "q2"
-    text: "Which Istio security features help secure microservices? (Select all that apply)"
+    text: "Which Istio security features help secure microservices?"
     type: "multiple-answers"
     marks: 2
     options:

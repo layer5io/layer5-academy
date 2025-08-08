@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "WebVoting"
   - id: "q2"
-    text: "How can Linkerd proxy be injected into applications? (Select all that apply)"
+    text: "How can Linkerd proxy be injected into applications?"
     type: "multiple-answers"
     marks: 2
     options:

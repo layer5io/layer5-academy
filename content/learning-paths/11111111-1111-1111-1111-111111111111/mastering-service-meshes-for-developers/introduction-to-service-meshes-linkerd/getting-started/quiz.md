@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "linkerd-system"
   - id: "q2"
-    text: "Which commands can be used to install Linkerd? (Select all that apply)"
+    text: "Which commands can be used to install Linkerd?"
     type: "multiple-answers"
     marks: 2
     options:

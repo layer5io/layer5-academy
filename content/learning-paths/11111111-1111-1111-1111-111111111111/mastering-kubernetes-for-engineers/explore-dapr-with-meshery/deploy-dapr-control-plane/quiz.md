@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "dapr-public"
   - id: "q2"
-    text: "Which components are part of the Dapr control plane? (Select all that apply)"
+    text: "Which components are part of the Dapr control plane?"
     type: "multiple-answers"
     marks: 2
     options:

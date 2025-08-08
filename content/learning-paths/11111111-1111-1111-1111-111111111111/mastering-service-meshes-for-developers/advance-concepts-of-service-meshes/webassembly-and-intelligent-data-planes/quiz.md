@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "envoy.wasm.runtime.wasmer"
   - id: "q2"
-    text: "Which components are required to deploy a WebAssembly filter in Istio? (Select all that apply)"
+    text: "Which components are required to deploy a WebAssembly filter in Istio?"
     type: "multiple-answers"
     marks: 2
     options:

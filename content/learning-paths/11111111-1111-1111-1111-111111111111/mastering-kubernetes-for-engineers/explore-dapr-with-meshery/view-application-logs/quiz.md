@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "8000"
   - id: "q2"
-    text: "Which Dapr APIs are used in this application architecture? (Select all that apply)"
+    text: "Which Dapr APIs are used in this application architecture?"
     type: "multiple-answers"
     marks: 2
     options:

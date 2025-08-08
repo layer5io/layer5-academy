@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Revisions"
   - id: "q2"
-    text: "Which Istio resources are used for traffic management? (Select all that apply)"
+    text: "Which Istio resources are used for traffic management?"
     type: "multiple-answers"
     marks: 2
     options:

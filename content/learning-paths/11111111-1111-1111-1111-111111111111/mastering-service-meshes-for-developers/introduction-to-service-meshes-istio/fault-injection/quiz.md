@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "CPU throttling and memory exhaustion"
   - id: "q2"
-    text: "Which VirtualService configuration fields are used for fault injection? (Select all that apply)"
+    text: "Which VirtualService configuration fields are used for fault injection?"
     type: "multiple-answers"
     marks: 2
     options:

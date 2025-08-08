@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Terraform Template"
   - id: "q2"
-    text: "What happens when you drag and drop one design onto another in Meshery? (Select all that apply)"
+    text: "What happens when you drag and drop one design onto another in Meshery?"
     type: "multiple-answers"
     marks: 2
     options:

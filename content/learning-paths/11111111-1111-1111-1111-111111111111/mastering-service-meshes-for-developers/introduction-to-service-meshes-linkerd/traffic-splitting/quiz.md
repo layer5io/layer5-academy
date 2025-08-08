@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "OpenTracing specification"
   - id: "q2"
-    text: "What are the core primitives used in Linkerd's traffic splitting approach? (Select all that apply)"
+    text: "What are the core primitives used in Linkerd's traffic splitting approach?"
     type: "multiple-answers"
     marks: 2
     options:

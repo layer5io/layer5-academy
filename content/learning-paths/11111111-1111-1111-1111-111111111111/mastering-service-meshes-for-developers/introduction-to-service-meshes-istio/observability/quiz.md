@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "DataDog, New Relic, and AppDynamics"
   - id: "q2"
-    text: "What are the methods to expose Istio add-on services outside the cluster? (Select all that apply)"
+    text: "What are the methods to expose Istio add-on services outside the cluster?"
     type: "multiple-answers"
     marks: 2
     options:

@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "9000 and 9443"
   - id: "q2"
-    text: "Which components are part of the Ambassador Edge Stack system shown in the design? (Select all that apply)"
+    text: "Which components are part of the Ambassador Edge Stack system shown in the design?"
     type: "multiple-answers"
     marks: 2
     options:

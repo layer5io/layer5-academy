@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "To monitor service mesh traffic patterns"
   - id: "q2"
-    text: "Which Istio resources are required to expose a service through the Ingress Gateway? (Select all that apply)"
+    text: "Which Istio resources are required to expose a service through the Ingress Gateway?"
     type: "multiple-answers"
     marks: 2
     options:

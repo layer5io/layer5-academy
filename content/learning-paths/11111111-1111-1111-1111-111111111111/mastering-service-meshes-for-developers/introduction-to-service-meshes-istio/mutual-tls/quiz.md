@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "AUTO"
   - id: "q2"
-    text: "Which certificate files are present in the sidecar proxy for mTLS? (Select all that apply)"
+    text: "Which certificate files are present in the sidecar proxy for mTLS?"
     type: "multiple-answers"
     marks: 2
     options:

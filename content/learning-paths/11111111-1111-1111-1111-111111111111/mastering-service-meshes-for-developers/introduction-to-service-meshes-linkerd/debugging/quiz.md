@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Zero traffic volume"
   - id: "q2"
-    text: "Which Linkerd features help with debugging applications? (Select all that apply)"
+    text: "Which Linkerd features help with debugging applications?"
     type: "multiple-answers"
     marks: 2
     options:

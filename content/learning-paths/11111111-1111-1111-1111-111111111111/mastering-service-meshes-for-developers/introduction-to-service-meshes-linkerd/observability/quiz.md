@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Requires third-party monitoring tools integration"
   - id: "q2"
-    text: "Which features does Linkerd provide for observability? (Select all that apply)"
+    text: "Which features does Linkerd provide for observability?"
     type: "multiple-answers"
     marks: 2
     options:

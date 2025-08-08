@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "A PostgreSQL monitoring solution"
   - id: "q2"
-    text: "What resources will be imported and deployed in this tutorial? (Select all that apply)"
+    text: "What resources will be imported and deployed in this tutorial?"
     type: "multiple-answers"
     marks: 2
     options:

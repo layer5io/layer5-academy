@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "NodePort"
   - id: "q2"
-    text: "Which Istio resources are required to expose services through the Ingress Gateway? (Select all that apply)"
+    text: "Which Istio resources are required to expose services through the Ingress Gateway?"
     type: "multiple-answers"
     marks: 2
     options:

@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "mesh-system"
   - id: "q2"
-    text: "Which of the following are valid methods to install Istio? (Select all that apply)"
+    text: "Which of the following are valid methods to install Istio?"
     type: "multiple-answers"
     marks: 2
     options:

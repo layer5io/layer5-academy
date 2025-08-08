@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Redis cache and WordPress site"
   - id: "q2"
-    text: "What key skills were gained in this tutorial? (Select all that apply)"
+    text: "What key skills were gained in this tutorial?"
     type: "multiple-answers"
     marks: 2
     options:

@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "db-credentials"
   - id: "q2"
-    text: "What configuration settings are required for the Persistent Volumes? (Select all that apply)"
+    text: "What configuration settings are required for the Persistent Volumes?"
     type: "multiple-answers"
     marks: 2
     options:

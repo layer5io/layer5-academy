@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Docker Desktop"
   - id: "q2"
-    text: "What key accomplishments were achieved in this course? (Select all that apply)"
+    text: "What key accomplishments were achieved in this course?"
     type: "multiple-answers"
     marks: 2
     options:

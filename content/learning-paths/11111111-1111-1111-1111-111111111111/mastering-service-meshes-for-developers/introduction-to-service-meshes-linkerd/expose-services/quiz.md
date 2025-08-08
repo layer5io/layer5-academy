@@ -19,7 +19,7 @@ questions:
       - id: "d"
         text: "Yes, but only an egress gateway is included"
   - id: "q2"
-    text: "What is required when using ingress controllers with Linkerd? (Select all that apply)"
+    text: "What is required when using ingress controllers with Linkerd?"
     type: "multiple-answers"
     marks: 2
     options:
