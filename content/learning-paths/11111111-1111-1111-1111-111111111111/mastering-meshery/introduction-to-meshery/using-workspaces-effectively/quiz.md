@@ -27,11 +27,13 @@ questions:
         text: "Using an invite link"
         is_correct: true
       - id: "b"
-        text: "Automatic synchronization from external directories"
+        text: "Creating new user accounts directly"
+        is_correct: true
       - id: "c"
-        text: "File-based bulk import from CSV"
+        text: "Adding existing Layer5 Cloud users"
+        is_correct: true
       - id: "d"
-        text: "Manual addition via Layer5 Cloud Users"
+        text: "Inviting users via email who don't have Layer5 Cloud accounts"
         is_correct: true
   - id: "q3"
     text: "What do users receive when they are added to an organization?"

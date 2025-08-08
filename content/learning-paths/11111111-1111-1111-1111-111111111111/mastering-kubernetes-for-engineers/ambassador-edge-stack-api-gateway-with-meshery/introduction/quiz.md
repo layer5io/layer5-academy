@@ -27,10 +27,10 @@ questions:
         text: "Automatic TLS"
         is_correct: true
       - id: "b"
-        text: "Global Rate limiting"
+        text: "Global rate limiting"
         is_correct: true
       - id: "c"
-        text: "Local Rate limiting"
+        text: "Local rate limiting"
         is_correct: true
       - id: "d"
         text: "Round Robin Load Balancing"

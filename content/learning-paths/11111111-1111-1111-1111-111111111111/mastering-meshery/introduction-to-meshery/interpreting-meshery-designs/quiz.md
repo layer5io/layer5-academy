@@ -33,7 +33,8 @@ questions:
         text: "Rectangles for Hierarchical and Parent Components"
         is_correct: true
       - id: "d"
-        text: "Hexagons for Security Components"
+        text: "User Icons for Role-based access control (RBAC) components"
+        is_correct: true
   - id: "q3"
     text: "What is the primary purpose of annotations in Meshery designs?"
     type: "single-answer"
