@@ -5,6 +5,8 @@ description: "This course provides an overview of DevOps and Site Reliability En
 weight: 1
 ---
 
+### Course Overview
+
 Learn how to start transforming your organization using the principles and practices of DevOps.
 
 As Agile practices started revolutionizing software development, there has been an increasing need to bridge the gap between faster development and traditional waterfall practices. With its modern principles, practices and an array of state-of-the-art automation tools, DevOps provides a path to bring your operations into the Agile era, ultimately resulting in faster software delivery, without compromising on quality. The 2018 Open Source Jobs Report from Dice and the Linux Foundation highlighted the strong popularity of DevOps practices, along with cloud and container technologies. DevOps skills are in high demand, and DevOps jobs are among the highest-paid tech jobs.
