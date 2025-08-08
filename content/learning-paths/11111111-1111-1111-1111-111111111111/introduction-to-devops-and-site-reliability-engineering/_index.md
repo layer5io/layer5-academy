@@ -7,5 +7,5 @@ weight: 4
 banner: "images/sre-k8s.svg"
 tags: ["devops", "SRE", "site-reliability-engineering", "kubernetes", "CI/CD", "cloud", "IAC"]
 category: "SRE"
-level: "intermediate"
+level: "beginner"
 ---
