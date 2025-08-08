@@ -43,7 +43,7 @@ questions:
         - id: "b"
           text: "Because, multi-container Pods are not supported on managed Kubernetes services."
         - id: "c"
-          text: "They can introduce complexity, latency, and tight coupling"
+          text: "Because, multi-container Pods can introduce complexity, latency, and tight coupling."
           is_correct: true
         - id: "d"
           text: "Because, multi-container Pods use different network policies than single-container Pods."
