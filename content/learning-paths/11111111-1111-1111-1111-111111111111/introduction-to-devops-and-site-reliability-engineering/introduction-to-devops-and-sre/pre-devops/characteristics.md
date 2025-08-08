@@ -11,7 +11,7 @@ The pre-DevOps era in software development was a starkly different landscape tha
 
 
 - **Waterfall Model**
-   The dominant methodology was the Waterfall model, a linear approach where each stage had to be completed before moving on to the next. This made it difficult to adapt to changes and respond quickly to new requirements.
+   The dominant methodology was the [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model), a linear approach where each stage had to be completed before moving on to the next. This made it difficult to adapt to changes and respond quickly to new requirements.
 - **Siloed Teams**
    Developers, testers, and operations teams worked independently, often with little communication or collaboration. This created a "throw it over the wall" mentality, where each team blamed the other for problems.
 - **Manual Processes**
