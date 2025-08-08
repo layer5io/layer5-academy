@@ -7,7 +7,7 @@ weight: 1
 
 ### Overview
 
-Site Reliability Engineering (SRE) is an approach to running large-scale, reliable services. Google is widely credited with formalizing and popularizing the term "SRE" and has since been adopted by many other tech companies. SRE blends aspects of software engineering with traditional IT and focuses on creating scalable and highly reliable software systems. The primary focus of SRE is to improve the reliability of services. Reliability is often measured through service level indicators (SLIs), service level objectives (SLOs), and service level agreements (SLAs). These metrics help define the performance and availability levels expected from a service.
+Site Reliability Engineering (SRE) is an approach to running large-scale, reliable services. [Google](https://sre.google/) is widely credited with formalizing and popularizing the term "SRE" and has since been adopted by many other tech companies. SRE blends aspects of software engineering with traditional IT and focuses on creating scalable and highly reliable software systems. The primary focus of SRE is to improve the reliability of services. Reliability is often measured through service level indicators (SLIs), service level objectives (SLOs), and service level agreements (SLAs). These metrics help define the performance and availability levels expected from a service.
 
 While traditional IT operations might focus on keeping systems running, SRE provides a framework for balancing the need for system reliability with the need for new features and development. It does this by integrating development and operations teams more closely, using the same tools and techniques across both domains to improve the reliability and maintainability of systems.
 
