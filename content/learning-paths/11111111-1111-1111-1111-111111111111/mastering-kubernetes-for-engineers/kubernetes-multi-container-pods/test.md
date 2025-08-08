@@ -41,7 +41,7 @@ questions:
         - id: "a"
           text: "Because, multi-container Pods always require manual scaling."
         - id: "b"
-          text: "They are not supported on managed Kuberenetes services"
+          text: "Because, multi-container Pods are not supported on managed Kubernetes services."
         - id: "c"
           text: "They can introduce complexity, latency, and tight coupling"
           is_correct: true
