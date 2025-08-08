@@ -15,7 +15,7 @@ DevOps software development methodology that emphasizes collaboration and commun
 - Cloud computing: The emergence of cloud platforms provided a scalable and flexible environment for development and deployment, further facilitating collaboration and faster delivery.
 
 #### Formative Years (2007-2009)
-- Patrick Debois: In 2007, frustrated with the traditional silos between development and operations, Patrick Debois, a Belgian consultant and project manager, began advocating for closer collaboration. He coined the term "DevOps" in 2009, which resonated with the growing desire for a more integrated approach to software development. To learn more, you can read "The Origins of DevOps: What's in a Name?" article, by Steve Mezak or watch "The (Short) History of DevOps" video.
+- Patrick Debois: In 2007, frustrated with the traditional silos between development and operations, Patrick Debois, a Belgian consultant and project manager, began advocating for closer collaboration. He coined the term "DevOps" in 2009, which resonated with the growing desire for a more integrated approach to software development. To learn more, you can read ["The Origins of DevOps: What's in a Name?"](https://devops.com/the-origins-of-devops-whats-in-a-name/) article, by Steve Mezak or watch ["The (Short) History of DevOps"](https://www.youtube.com/watch?v=o7-IuYS0iSE) video.
 - Agile Infrastructure: Around the same time, the "Agile Infrastructure" movement emerged, focusing on applying Agile principles to infrastructure management, aligning it with development practices.
 
 #### Gaining Momentum (2010s)
