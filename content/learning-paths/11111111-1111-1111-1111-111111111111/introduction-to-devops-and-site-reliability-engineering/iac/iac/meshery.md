@@ -5,71 +5,61 @@ description: "Learn how to manage your infrastructure using Infrastructure as Co
 weight: 5
 ---
 
-## Why Use IaC with Meshery?
+### Meshery as Infrastructure as Code (IaC)
 
-Using Meshery for IaC provides several benefits:
+Meshery is a cloud native management plane that enables Infrastructure as Code (IaC) through declarative configuration management. Using Meshery Designs, users can define, import, manage, and deploy infrastructure configurations in a structured and repeatable manner.
 
-- **Version Control** – Store your configurations in Git to track changes over time.
-- **Repeatability** – Apply the same configuration across multiple environments.
-- **Automation** – Reduce manual setup with reproducible templates.
-- **Collaboration** – Share and reuse configurations among teams.
-- **Consistency** – Avoid configuration drift and ensure all environments are aligned.
+### Meshery Designs: The Foundation of IaC
 
-## How Meshery Implements IaC
+Meshery Designs are YAML-based configurations that serve as the core construct for managing infrastructure as code. They provide a declarative approach similar to Kubernetes manifests.
 
-Meshery supports IaC through its **Meshery Designs** and **Meshery Templates**, which define your service mesh resources, workloads, and policies as declarative specifications. These can be managed via:
+#### Key Features
+- **Declarative Configuration**: Define infrastructure using YAML for version control and automation
+- **Schema Validation**: Ensures configurations meet defined standards
+- **Reusable Templates**: Create infrastructure blueprints for consistent deployments
 
-- **Meshery UI** – Design and export configurations as YAML/JSON.
-- **Meshery CLI** – Apply designs directly to your environment using command-line tools.
-- **Meshery API** – Automate deployments programmatically.
+### Importing Infrastructure Definitions
 
-### Example: Applying a Design as Code
+Meshery supports multiple import formats:
+- **Kubernetes Manifests**: Import raw YAML files
+- **Helm Charts**: Package management and deployment
+- **Docker Compose**: Containerized workloads
+- **GitHub Repositories**: Direct GitOps integration
 
-```bash
-# Apply a Meshery Design from a local file
-mesheryctl design apply -f my-service-mesh-design.yaml
-````
+#### Import Methods
+- **UI**: Upload files, provide URLs, or connect GitHub repositories
+- **CLI**: Use `mesheryctl design import [URL | filepath]`
 
-Or from a remote Git repository:
+### GitOps Integration
 
-```bash
-mesheryctl design apply \
-  --url https://raw.githubusercontent.com/my-org/infra/main/service-mesh.yaml
-```
+Meshery integrates with GitOps workflows through GitHub connections, enabling:
+- Automated infrastructure deployments
+- Change validation
+- Pre-merge infrastructure visualization
 
-### Sample Meshery Design YAML
+#### Kanvas Snapshot GitHub Action
+Provides infrastructure preview capabilities in pull requests with pre-merge visualization of infrastructure changes.
 
-```yaml
-version: 1.0
-kind: Design
-name: my-service-mesh
-components:
-  - name: istio-ingressgateway
-    type: workload
-    settings:
-      replicas: 2
-      resources:
-        limits:
-          cpu: 500m
-          memory: 256Mi
-```
+### Infrastructure Lifecycle Management
 
-## Integrating with GitOps
+#### Provisioning and Deprovisioning
+- **Deploy**: Automatic deployment using Meshery Adapters
+- **Undeploy**: Remove infrastructure via UI or CLI (`mesheryctl --undeploy`)
+- **Configuration**: Customize deployments with Design Configurator
 
-Meshery integrates seamlessly with GitOps workflows:
+#### Infrastructure Discovery
+- **Greenfield**: Manage infrastructure created by Meshery
+- **Brownfield**: Discover and manage existing infrastructure
 
-1. **Store** Meshery Designs in your Git repository.
-2. **Automate** deployments with CI/CD tools like ArgoCD or Flux.
-3. **Trigger** Meshery CLI commands in your pipelines to keep environments in sync.
+### Sample Applications
 
-## Best Practices
+Meshery includes sample applications for demonstration:
+- BookInfo, Emojivoto, ImageHub, HTTPBin, Linkerd Books, Online Boutique
+- Accessible through the infrastructure management interface
 
-* Keep all configurations in a dedicated Git repository.
-* Use **branching strategies** for environment promotion (dev → staging → prod).
-* Modularize your designs into reusable components.
-* Regularly validate configurations with Meshery’s built-in **conformance tests**.
-* Automate drift detection and remediation.
+### Notification Center
 
----
-
-By combining **IaC principles** with **Meshery’s multi-mesh management capabilities**, you can ensure your infrastructure remains consistent, automated, and version-controlled across environments.
+Centralized event monitoring with:
+- Real-time infrastructure updates
+- Filtering by severity and status
+- Actionable alerts for critical events
