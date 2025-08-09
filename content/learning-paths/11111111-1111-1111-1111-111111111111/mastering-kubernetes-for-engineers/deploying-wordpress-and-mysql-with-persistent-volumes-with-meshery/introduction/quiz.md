@@ -1,7 +1,6 @@
 ---
 title: "Quiz"
 passing_percentage: 70
-layout: "test"
 type: "test"
 questions:
   - id: "q1"
