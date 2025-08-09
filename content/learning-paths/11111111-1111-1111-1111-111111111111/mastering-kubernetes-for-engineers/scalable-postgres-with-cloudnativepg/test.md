@@ -37,4 +37,32 @@ questions:
     type: "short_answer" 
     marks: 2
     correct_answer: "CloudNativePG" 
+  - id: "q4"
+    text: "In the manifest for a CloudNativePG Cluster, what does the 'instances' field define?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "The number of databases to create inside the cluster."
+      - id: "b"
+        text: "The specific version of PostgreSQL to be used."
+      - id: "c"
+        text: "The total number of servers (pods) that will form the PostgreSQL cluster."
+        is_correct: true
+      - id: "d"
+        text: "The amount of storage to allocate."
+  - id: "q5"
+    text: "According to the course, what is the very first step required before you can deploy a PostgreSQL cluster using a CloudNativePG manifest?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "Create the Persistent Volume Claims manually."
+      - id: "b"
+        text: "Install the CloudNativePG operator into your Kubernetes cluster."
+        is_correct: true
+      - id: "c"
+        text: "Create the user credentials Secret."
+      - id: "d"
+        text: "Deploy a connection-pooling application."
 ---

@@ -38,4 +38,49 @@ questions:
     type: "short_answer" 
     marks: 2
     correct_answer: "Kubernetes" 
+  - id: "q4"
+    text: "Which of the following are deployed as part of the Dapr control plane in this course?"
+    type: "multiple-answer"
+    marks: 3
+    options:
+      - id: "a"
+        text: "Dapr Operator"
+        is_correct: true
+      - id: "b"
+        text: "Dapr Sidecar Injector"
+        is_correct: true
+      - id: "c"
+        text: "Dapr Sentry"
+        is_correct: true
+      - id: "d"
+        text: "Dapr Dashboard"
+  - id: "q5"
+    text: "What is used as the statestore in the 'Explore Dapr with Meshery' course?"
+    type: "short-answer"
+    marks: 2
+    correct_answer: "Redis"
+  - id: "q6"
+    text: "What is the main purpose of deploying a Dapr StateStore component with Redis?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "To manage the application's user interface."
+      - id: "b"
+        text: "To handle the networking between services."
+      - id: "c"
+        text: "To manage the application's state in a distributed environment."
+        is_correct: true
+      - id: "d"
+        text: "To monitor the health of the Kubernetes cluster."
+  - id: "q7"
+    text: "What is the name of the tool's interactive terminal used to view application logs?"
+    type: "short-answer"
+    marks: 2
+    correct_answer: "Meshery"
+  - id: "q8"
+    text: "What is the primary environment where Dapr is explored in this course?"
+    type: "short-answer"
+    marks: 2
+    correct_answer: "Kubernetes"
 ---
