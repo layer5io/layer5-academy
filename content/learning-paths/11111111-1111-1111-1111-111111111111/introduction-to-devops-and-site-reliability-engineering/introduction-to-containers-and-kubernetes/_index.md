@@ -6,5 +6,5 @@ weight: 4
 tags: ["containers", "kubernetes"]
 categories: "kubernetes"
 level: "beginner"
-banner: "images/sre-k8s.svg"
+banner: "sre-k8s.svg"
 ---

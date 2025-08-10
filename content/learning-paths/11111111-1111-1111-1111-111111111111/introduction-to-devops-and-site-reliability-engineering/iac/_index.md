@@ -6,5 +6,5 @@ weight: 5
 tags: ["IAC", "infrastructure as code"]
 categories: "IAC"
 level: "beginner"
-banner: "images/sre-k8s.svg"
+banner: "sre-k8s.svg"
 ---
