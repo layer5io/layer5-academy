@@ -6,5 +6,5 @@ weight: 7
 tags: ["observability"]
 categories: "observability"
 level: "beginner"
-banner: "images/sre-k8s.svg"
+banner: "sre-k8s.svg"
 ---
