@@ -1,6 +1,7 @@
 ---
 title: "Deploying WordPress and MySQL with Persistent Volumes with Meshery"
 passing_percentage: 70
+type: "test"
 questions:
   - id: "q1"
     text: "According to the course, what is the fundamental problem with running stateful applications like databases on Kubernetes without a persistent storage solution?"
@@ -17,7 +18,7 @@ questions:
       - id: "d"
         text: "It uses too much CPU and memory."
   - id: "q2"
-    text: "The course guides you to create and configure several components. Which of the following components are specifically mentioned for storing application data and credentials? (Select all that apply)"
+    text: "The course guides you to create and configure several components. Which of the following components are specifically mentioned for storing application data and credentials?"
     type: "multiple-answer"
     marks: 2
     options:
@@ -47,7 +48,7 @@ questions:
       - id: "d"
         text: "A log file that records deployment errors."
   - id: "q4"
-    text: "Which of the following are key actions the course teaches you to perform directly within the Meshery user interface? (Select all that apply)"
+    text: "Which of the following are key actions the course teaches you to perform directly within the Meshery user interface?"
     type: "multiple-answer"
     marks: 2
     options:
@@ -104,5 +105,38 @@ questions:
         text: "To automatically generate a strong password."
       - id: "d"
         text: "To encrypt the entire MySQL database."
-type: "test"
+  - id: "q8"
+    text: "What are the two main applications deployed in this course?"
+    type: "single-answer"
+    marks: 2
+    options:
+      - id: "a"
+        text: "Apache and PostgreSQL"
+      - id: "b"
+        text: "WordPress and MySQL"
+        is_correct: true
+      - id: "c"
+        text: "Nginx and Redis"
+      - id: "d"
+        text: "Django and MariaDB"
+  - id: "q9"
+    text: "Which storage feature is emphasized in this WordPress and MySQL deployment course?"
+    type: "multiple-answers"
+    marks: 2
+    options:
+      - id: "a"
+        text: "Persistent Volumes"
+        is_correct: true
+      - id: "b"
+        text: "Kubernetes storage"
+        is_correct: true
+      - id: "c"
+        text: "Temporary storage"
+      - id: "d"
+        text: "Memory-based storage"
+  - id: "q3"
+    text: "Which visual platform is used for application deployment in this course?"
+    type: "short_answer" 
+    marks: 2
+    correct_answer: "Meshery" 
 ---

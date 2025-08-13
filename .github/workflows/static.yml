@@ -23,6 +23,8 @@ concurrency:
 jobs:
   # Single deploy job since we're just deploying
   deploy:
+    if: github.event.pull_request.head.repo.full_name != github.repository
+
     environment:
       name: pr-preview-${{ github.event.pull_request.number || github.run_id }}
       url: ${{ steps.deployment.outputs.page_url }}
@@ -47,8 +49,39 @@ jobs:
           # Upload just the public folder
           path: 'public'
       - name: Deploy to GitHub Pages
+        if: github.event.pull_request.head.repo.full_name == github.repository
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+
+
+
+
+
+      - name: Commit changes
+        if: github.event.pull_request.head.repo.full_name != github.repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: mesheryctl/helpers server/helpers/ **.go docs/
+          commit_user_name: l5io
+          commit_user_email: ci@meshery.io
+          commit_author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          commit_options: "--signoff"
+          commit_message: "Deployment preview for PR ${{ github.event.pull_request.number }}"
+
+      # - name: Set up Git user
+      #   if: github.event.pull_request.head.repo.full_name != github.repository
+      #   run: |
+      #     git config user.name "l5io"
+      #     git config user.email "l5io@users.noreply.github.com"
+      # - name: Push branch to master repo
+      #   if: github.event.pull_request.head.repo.full_name != github.repository
+      #   run: |
+      #     git remote add main-origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+      #     git push main-origin HEAD:refs/heads/pr-preview/${{ github.event.pull_request.number }} --force
+
+
       - name: Comment Preview URL on PR
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2
@@ -61,3 +94,24 @@ jobs:
             > 📖 General Preview: ${{ steps.deployment.outputs.page_url }}
             
             This preview will be updated automatically when you push new commits to this PR.
+
+
+
+
+
+
+
+
+
+  # mirror-fork-pr:
+  #   if: github.event.pull_request.head.repo.full_name != github.repository
+  #   environment:
+  #     name: pr-preview-${{ github.event.pull_request.number || github.run_id }}
+  #     # url: ${{ steps.deployment.outputs.page_url }}
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Checkout PR branch
+  #       uses: actions/checkout@v4
+  #       with:
+  #         ref: ${{ github.event.pull_request.head.ref }}
+  #         repository: ${{ github.event.pull_request.head.repo.full_name }}
