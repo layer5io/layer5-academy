@@ -1,9 +1,9 @@
 ---
 type: "learning-path"
 title: "Mastering Meshery"
-description: "Learn all about Meshery"
+description: "Gain a comprehensive understanding of Meshery and its capabilities for managing cloud native infrastructure. This path focuses on equipping you with the knowledge and skills to effectively leverage Meshery for designing, deploying, operating, and optimizing their Kubernetes and cloud environments... collaboratively."
 weight: 1
-banner: "images/meshery-logo-light.webp"
+banner: "meshery-logo-light.webp"
 id: "23fab7d7-4844-4926-b5e5-4a34193b9789"
 tags: [meshery]
 categories: "meshery"
