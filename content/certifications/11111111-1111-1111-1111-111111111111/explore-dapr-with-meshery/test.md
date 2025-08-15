@@ -69,7 +69,7 @@ questions:
 
   - id: "q6"
     text: "When deploying a Dapr component (e.g., Redis state store), which of the following fields are mandatory?"
-    type: "mutiple-answers"
+    type: "multiple-answers"
     marks: 2
     options: 
       - id: "a"
