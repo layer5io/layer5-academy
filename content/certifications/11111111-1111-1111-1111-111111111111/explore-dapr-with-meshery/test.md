@@ -1,4 +1,5 @@
 ---
+title: "Explore Dapr with Meshery Certification"
 weight: 1
 passing_percentage: 70
 questions:
@@ -130,7 +131,5 @@ questions:
       - id: "d"
         text: "Secret store set to 'kubernetes'"
         is_correct: true
-
-layout: "test"
 type: "test"
 ---
