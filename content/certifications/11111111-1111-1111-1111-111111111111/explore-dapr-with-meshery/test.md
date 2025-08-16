@@ -1,4 +1,5 @@
 ---
+title: "Explore Dapr with Meshery Certification"
 weight: 1
 passing_percentage: 70
 questions:
@@ -68,7 +69,7 @@ questions:
 
   - id: "q6"
     text: "When deploying a Dapr component (e.g., Redis state store), which of the following fields are mandatory?"
-    type: "mutiple-answers"
+    type: "multiple-answers"
     marks: 2
     options: 
       - id: "a"
@@ -130,7 +131,5 @@ questions:
       - id: "d"
         text: "Secret store set to 'kubernetes'"
         is_correct: true
-
-layout: "test"
 type: "test"
 ---
