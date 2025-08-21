@@ -1,7 +1,7 @@
 ---
+type: "test"
 title: "Test"
 passing_percentage: 70
-type: "test"
 questions:
   - id: "q1"
     text: "Which feature best characterizes CloudNativePG as a Level 5 Kubernetes Operator?"
@@ -51,7 +51,7 @@ questions:
         is_correct: true
       - id: "d"
         text: "The amount of storage to allocate."
-  - id: "q5"
+  - id: "q4"
     text: "According to the course, what is the very first step required before you can deploy a PostgreSQL cluster using a CloudNativePG manifest?"
     type: "single-answer"
     marks: 2
@@ -65,4 +65,21 @@ questions:
         text: "Create the user credentials Secret."
       - id: "d"
         text: "Deploy a connection-pooling application."
+  - id: "q5"
+    text: "Which of the following are features or benefits provided by the CloudNativePG operator?"
+    type: "multiple-answer"
+    instructions: "Select all that apply"
+    marks: 2
+    options:
+      - id: "a"
+        text: "Built-in high availability with failover capabilities."
+        is_correct: true
+      - id: "b"
+        text: "Management of backup and recovery processes."
+        is_correct: true
+      - id: "c"
+        text: "Automatic performance tuning of SQL queries."
+      - id: "d"
+        text: "Support for creating read-only replicas for scaling."
+        is_correct: true
 ---

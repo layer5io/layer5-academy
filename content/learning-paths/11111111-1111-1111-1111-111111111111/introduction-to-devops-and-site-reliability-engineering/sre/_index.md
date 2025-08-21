@@ -6,5 +6,5 @@ weight: 8
 tags: ["SRE"]
 categories: "SRE"
 level: "beginner"
-banner: "images/sre-k8s.svg"
+banner: "sre-k8s.svg"
 ---

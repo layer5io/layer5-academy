@@ -6,5 +6,5 @@ weight: 3
 tags: ["cloud", "cloud computing"]
 categories: "cloud"
 level: "beginner"
-banner: "images/sre-k8s.svg"
+banner: "sre-k8s.svg"
 ---
