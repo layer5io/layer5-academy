@@ -1,5 +1,5 @@
 ---
-title: "Deploying WordPress and MySQL with Persistent Volumes with Meshery"
+title: "Test"
 passing_percentage: 70
 type: "test"
 questions:
@@ -19,7 +19,7 @@ questions:
         text: "It uses too much CPU and memory."
   - id: "q2"
     text: "The course guides you to create and configure several components. Which of the following components are specifically mentioned for storing application data and credentials?"
-    type: "multiple-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -49,7 +49,7 @@ questions:
         text: "A log file that records deployment errors."
   - id: "q4"
     text: "Which of the following are key actions the course teaches you to perform directly within the Meshery user interface?"
-    type: "multiple-answer"
+    type: "multiple-answers"
     marks: 2
     options:
       - id: "a"
@@ -134,7 +134,7 @@ questions:
         text: "Temporary storage"
       - id: "d"
         text: "Memory-based storage"
-  - id: "q3"
+  - id: "q10"
     text: "Which visual platform is used for application deployment in this course?"
     type: "short_answer" 
     marks: 2
