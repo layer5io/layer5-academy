@@ -7,7 +7,7 @@ weight: 4
 
 ### Installing OpenTofu
 
-OpenTofu is very easy to install and works on various Linux, Windows, and MacOS distributions. The installation method differs depending on your choice of operating system. The easiest is to use the installer script made available in the official documentation.
+OpenTofu is very easy to install and works on various Linux, Windows, and MacOS distributions. The installation method differs depending on your choice of operating system. The easiest is to use the installer script made available in the [official documentation](https://opentofu.org/docs/intro/install/).
 
 1. Download the Installer script:
 
