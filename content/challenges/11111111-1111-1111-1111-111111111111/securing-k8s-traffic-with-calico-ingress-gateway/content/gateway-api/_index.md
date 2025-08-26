@@ -9,7 +9,7 @@ By default, cert-manager GatewayAPI integration is not enabled. This is the part
 
 Enable the Gateway API integration:
 
-```
+```bash
 kubectl patch deployment -n cert-manager cert-manager --type='json' --patch '
 [
   {

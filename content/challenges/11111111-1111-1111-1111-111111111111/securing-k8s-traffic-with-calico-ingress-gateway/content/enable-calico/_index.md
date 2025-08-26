@@ -9,7 +9,7 @@ Now, let's switch on the Calico Ingress Gateway. We achieve this by applying a G
 
 Enable Calico Ingress Gateway capabilities:
 
-```
+```bash
 kubectl create -f - <<EOF
 apiVersion: operator.tigera.io/v1
 kind: GatewayAPI
@@ -22,7 +22,7 @@ This Calico-specific Gateway API resource is the essential prerequisite for usin
 
 Let's check the deployment status:
 
-```
+```bash
 kubectl wait --for=condition=Available tigerastatus gatewayapi
 ```
 

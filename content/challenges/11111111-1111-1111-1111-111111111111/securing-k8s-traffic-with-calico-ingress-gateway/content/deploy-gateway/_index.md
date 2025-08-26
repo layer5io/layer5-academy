@@ -20,7 +20,7 @@ signaling that Calico’s Ingress Gateway should manage this Gateway instance.
 
 Create a gateway:
 
-```
+```bash
 kubectl create -f - <<EOF
 apiVersion: gateway.networking.k8s.io/v1
 kind: Gateway
@@ -54,7 +54,7 @@ namespace named **'envoy-default-calico-demo-gw-xxxxxxx'.**
 
 > **warnings** At this stage, we need to add the Calico Ingress Gateway IP to the domain A record that we added in the https section. Keep in mind that different domain registrars have different methods for updating DNS records.
 
-```
+```bash
 kubectl get svc -A | egrep envoy-default
 ```
 
@@ -85,4 +85,3 @@ And done
 ![7th](7th.png)
 
 ![8th](8th.png)
-

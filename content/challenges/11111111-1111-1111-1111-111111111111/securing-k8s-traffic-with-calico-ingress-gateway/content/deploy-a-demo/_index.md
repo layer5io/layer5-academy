@@ -13,25 +13,25 @@ This application provides a realistic, multi-service architecture with a user-fa
 
 Deploy the application; this pulls the Kubernetes manifests from the official GitHub repository and creates the necessary deployments and services:
 
-```
+```bash
 kubectl create -f 
 https://raw.githubusercontent.com/GoogleCloudPlatform/microservices-demo/refs/heads/release/v0.10.2/release/kubernetes-manifests.yaml
 ```
 Now that the application is deployed, we can verify the status of the frontend deployment and identify the associated ClusterIP service:
 
-```
+```bash
 kubectl  rollout status deployment/frontend
 ```
 
 Verify the services with the following command:
 
-```
+```bash
 kubectl get svc  | egrep frontend
 ```
 
 You should see an output similar to the one below:
 
-```
+```bash
 frontend                ClusterIP      10.100.42.132    <none>                                                                   80/TCP         5d19h
 frontend-external       LoadBalancer   10.100.43.33     a78ef864683d543e59c7d91fba812176-247554297.us-west-2.elb.amazonaws.com   80:30816/TCP   5d19h
 ```

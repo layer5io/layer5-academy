@@ -12,7 +12,7 @@ We create a ClusterIssuer, a cluster-scoped resource used to configure a Certifi
 
 Create a clusterissuer resource:
 
-```
+```bash
 kubectl create -f -<<EOF
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
