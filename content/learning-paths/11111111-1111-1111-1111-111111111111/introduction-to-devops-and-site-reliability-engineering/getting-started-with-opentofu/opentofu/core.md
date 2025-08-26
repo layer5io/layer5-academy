@@ -26,7 +26,7 @@ provider "aws" {
 ### Resources
 Resources in OpenTofu are the fundamental elements that represent the components of your infrastructure. They are the building blocks you define in your configuration files to manage and interact with various services and platforms. Each resource corresponds to a specific object or service provided by cloud providers, SaaS platforms, or other APIs. By understanding how to declare and configure resources, you unlock the full power of OpenTofu to automate and maintain your infrastructure consistently and efficiently.
 
-Resources model real-world infrastructure objects such as virtual machines, databases, storage buckets, networking components, and more. They are declared using a simple and human-readable syntax in OpenTofu configuration files (typically with a .tf extension). Each resource block specifies the type of resource, its unique name within the configuration, and its properties or settings.
+Resources model real-world infrastructure objects such as virtual machines, databases, storage buckets, networking components, and more. They are declared using a simple and human-readable syntax in OpenTofu configuration files (typically with a **.tf** extension). Each resource block specifies the type of resource, its unique name within the configuration, and its properties or settings.
 
 Syntax:
 
