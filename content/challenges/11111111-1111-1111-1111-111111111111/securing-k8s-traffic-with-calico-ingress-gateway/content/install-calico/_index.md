@@ -5,6 +5,8 @@ description: ""
 weight: 4
 ---
 
+### Installing Calico Using the Tigera Operator
+
 Let's install the Tigera operator, which is the recommended method for managing the lifecycle of Calico and its components.
 
 ![Tigera-operator](Tigera-operator.png)

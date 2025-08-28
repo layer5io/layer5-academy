@@ -5,6 +5,8 @@ description: ''
 weight: 10
 ---
 
+### Configuring Gateway API Resources for Traffic Management
+
 ![magic](magic.png)
 
 In our example, we need to create two key Gateway API resources.
@@ -78,7 +80,7 @@ And done
 
 ![5th](5th.png)
 
-**Now check your site** 
+**Now check your site**
 
 ![6th](6th.png)
 

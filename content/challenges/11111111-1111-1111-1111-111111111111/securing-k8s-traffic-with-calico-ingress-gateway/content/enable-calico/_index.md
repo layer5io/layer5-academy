@@ -5,6 +5,8 @@ description: ""
 weight: 6
 ---
 
+### Activating Calico Ingress Gateway with Envoy Proxy
+
 Now, let's switch on the Calico Ingress Gateway. We achieve this by applying a Gateway API CR. Remember, this CR belongs to the Tigera operator (**operator.tigera.io/v1**) and acts as the **'on'** switch. Creating it tells the operator to deploy its managed Envoy Proxy, which will handle our incoming traffic. Calico uses Envoy as its engine for implementing the official Kubernetes Gateway API standard, giving us access to powerful routing and security features.
 
 Enable Calico Ingress Gateway capabilities:

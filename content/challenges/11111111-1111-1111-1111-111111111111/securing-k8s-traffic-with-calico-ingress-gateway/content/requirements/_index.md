@@ -5,6 +5,7 @@ description: ""
 weight: 2
 ---
 
+### Prerequisites and Environment Setup
 
 This microcourse is a technical rundown of what you should expect and do, and how everything ties together. While you can read each section to understand the fundamentals and procedure, you can also copy and paste these commands to run the demo in your environment.
 

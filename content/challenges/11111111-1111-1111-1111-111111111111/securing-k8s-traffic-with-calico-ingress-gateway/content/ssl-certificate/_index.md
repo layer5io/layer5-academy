@@ -5,6 +5,8 @@ description: ""
 weight: 7
 ---
 
+### Installing Cert-Manager for Automated SSL Certificate Management
+
 Manually managing TLS certificates is tedious and prone to errors. cert-manager automates issuance, renewal, and configuration, ensuring our application remains secure with valid certificates.
 
 ```bash

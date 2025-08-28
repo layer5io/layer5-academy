@@ -5,6 +5,8 @@ description: ""
 weight: 9
 ---
 
+### Setting Up Certificate Authority with ClusterIssuer
+
 Issuers and ClusterIssuers are cert-manager resources that represent certificate authorities (CAs) capable of signing certificate requests. Every Certificate resource in cert-manager needs an associated Issuer (or ClusterIssuer).
 
 We create a ClusterIssuer, a cluster-scoped resource used to configure a Certificate Authority (CA) - in this example, Let’s Encrypt. We configure it to use the HTTP-01 challenge method for domain validation and explicitly tell it to solve these challenges via the **calico-demo-gw** Gateway.

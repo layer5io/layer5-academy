@@ -5,6 +5,8 @@ description: ""
 weight: 8
 ---
 
+### Enabling Gateway API Integration in Cert-Manager
+
 By default, cert-manager GatewayAPI integration is not enabled. This is the part that monitors the Gateway API resources to issue certificates for them.
 
 Enable the Gateway API integration:

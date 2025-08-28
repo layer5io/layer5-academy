@@ -5,6 +5,8 @@ description: ""
 weight: 5
 ---
 
+### Deploying a Microservices Demo Application
+
 To demonstrate the capabilities of the Gateway API and the Calico Ingress Gateway, we deploy Google’s ["Online Boutique"](https://github.com/GoogleCloudPlatform/microservices-demo), a popular microservices demo application.
 
 ![Microservice](Microservice.png)
@@ -37,5 +39,4 @@ frontend-external       LoadBalancer   10.100.43.33     a78ef864683d543e59c7d91f
 ```
 
 At this point, our application is successfully deployed, and our customers can access it using the DNS name provided by the load balancer. However, this traffic is unencrypted, which highlights the key security gap we’re aiming to address. 
-
 Next, we will use Calico Ingress Gateway to equip our application with SSL and run it over HTTPS without modifying our application or server code.
