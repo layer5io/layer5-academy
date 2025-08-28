@@ -11,7 +11,7 @@ weight: 10
 
 In our example, we need to create two key Gateway API resources.
 
-## Gateway
+#### Gateway
 
 The Gateway resource defines the cluster’s entry point for external traffic,
 something typically owned and managed by the platform or infrastructure team. It
