@@ -1,9 +1,11 @@
 ---
-id: "enabling-service-account-and-RBAC-creation"
-title: 'Enabling the Service Account and RBAC Creation'
+id: "service-account-and-RBAC"
+title: 'Service Account and RBAC'
 description: ""
 weight: 5
 ---
+
+### Enabling the Service Account and RBAC Creation
 
 ```yaml
 rbac:
@@ -26,7 +28,7 @@ serviceAccount:
 
 - **ServiceAccount** provides the necessary identity for ArgoCD Image Updater to authenticate and interact with the Kubernetes API to perform updates on deployment manifests or Helm charts (e.g., changing container image tags).
 
-- **rbac** ensures that ArgoCD Image Updater is granted only the permissions it needs, helping to secure your cluster by restricting its access and reducing the attack surface.
+- **RBAC** ensures that ArgoCD Image Updater is granted only the permissions it needs, helping to secure your cluster by restricting its access and reducing the attack surface.
 
 ---
 

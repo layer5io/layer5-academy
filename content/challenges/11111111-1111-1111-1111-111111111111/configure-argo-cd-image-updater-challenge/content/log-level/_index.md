@@ -5,6 +5,8 @@ description: ""
 weight: 6
 ---
 
+### Configuring Log Levels in Argo CD Image Updater
+
 ```yaml
 # -- Argo CD Image Update log level
 logLevel: "debug"

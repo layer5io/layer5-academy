@@ -5,6 +5,8 @@ description: ""
 weight: 8
 ---
 
+### Propagating New Image Versions in Argo CD
+
 Argo CD Image Updater supports two write-back methods for propagating new image versions to Argo CD.
 
 - **argocd**: 

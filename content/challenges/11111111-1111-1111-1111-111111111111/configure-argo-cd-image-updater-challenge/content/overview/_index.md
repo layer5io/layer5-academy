@@ -1,9 +1,11 @@
 ---
-id: "Overview"
-title: 'Overview'
+id: "introduction"
+title: 'Introduction'
 description: ""
 weight: 1
 ---
+
+### Overview
 
 This challenge provides a walkthrough on automating Kubernetes deployments by integrating Argo CD Image Updater with Helm. It details the setup process, including configuring container registries like Amazon ECR and GitHub Container Registry, and emphasizes the importance of proper authentication and role-based access control (RBAC) to ensure secure and efficient operations. It also explores various update strategies—such as semantic versioning (semver), latest, digest, and name—demonstrating how to annotate Argo CD applications to enable these strategies effectively.
 

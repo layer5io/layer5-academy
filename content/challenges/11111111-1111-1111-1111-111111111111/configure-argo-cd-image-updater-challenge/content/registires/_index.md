@@ -5,6 +5,8 @@ description: ""
 weight: 4
 ---
 
+### Configuring the container registries
+
 Let's configure the container registries that we are using. Argo CD Image Updater supports the majority of container registries (public and private), that implement Docker registry v2 API and has been tested against registries such as Docker Hub, Docker Registry v2 reference implementation (on-premise), Red Had Quay, Jfrog Artifactory, Github Container Registry, GitHub Packages Registry, GitLab Container Registry, and Google Container Registry.
 
 In the following examples, we will configure two of the most widely used container registries – Amazon Elastic Container Registry (ECR) and GitHub Container Registry (GHCR). In our case, we are working with private registries to ensure secure storage and access control for container images.
@@ -39,7 +41,7 @@ authScripts:
 The script is executed by the pod and is responsible for obtaining the ECR authorization token. We use a role attached to our EKS node group, which includes the AWS-managed policy **AmazonEC2ContainerRegistryReadOnly**. This policy permits the **GetAuthorizationToken** API call:
 
 
-```
+```bash
 {
     "Version": "2012-10-17",
     "Statement": [

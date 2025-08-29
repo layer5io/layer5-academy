@@ -5,6 +5,9 @@ description: ""
 weight: 3
 ---
 
+### Setting Up Argo CD Image Updater
+
+
 In this example implementation, we are using the official [argocd-image-updater](https://github.com/argoproj/argo-helm/tree/main/charts/argocd-image-updater) Helm chart. It is deployed as an **argocd** application in the same cluster and namespace as Argo CD:
 
 ```yaml
