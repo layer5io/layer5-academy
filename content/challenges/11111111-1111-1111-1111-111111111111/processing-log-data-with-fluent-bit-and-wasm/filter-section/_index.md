@@ -7,7 +7,7 @@ weight: 9
 
 The **[FILTER]** section specifies the configuration for a filter plugin. In this configuration, there is a single filter using the WASM plugin. This plugin selects all the logs that match the tag **dummy** and applies custom processing rules as discussed above.
 
-```
+```bash
 [FILTER]
    Name                wasm
    match               dummy

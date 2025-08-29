@@ -9,7 +9,7 @@ weight: 11
 
     Create a file called fluent-bit.conf with the following content:
 
-    ```
+    ```bash
     [INPUT]
        Name            dummy
        Dummy           {"ipAddr":"41.0.0.1","log": "2023-08-11 19:56:44 W3SVC1 WIN-PC1 ::1 GET / - 80 ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/115.0.0.0+Safari/537.36+Edg/115.0.1901.200 - - localhost 304 142 756 1078 -"}
@@ -50,7 +50,7 @@ weight: 11
 
     Execute the following command to run Fluent Bit in a Docker container, ensure the filter.wasm binary exists in the current directory where you are running the command.
 
-    ```
+    ```bash
     docker run \\
      -v $(pwd)/filter.wasm:/fluent-bit/etc/filter.wasm \\
      -v $(pwd)/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf \\

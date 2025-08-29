@@ -9,7 +9,7 @@ In this use case, we want to enrich the log data using location data already pre
 
 With Fluent Bit, there are no additional requirements for executing WASM plugins. We need to write a program in a language that can compile to WASM. In our case, we will use Golang.
 
-``` 
+```bash
 package main
 
 import (

@@ -9,7 +9,7 @@ The **[OUTPUT]** section specifies the configuration for an output plugin. In th
 
 **Note:** This is done for demonstration purposes only—in a practical scenario we would have sent it to S3, Elasticsearch, or some other destination.
 
-```
+```bash
 [OUTPUT]
    name          stdout
    match         dummy

@@ -6,13 +6,13 @@ weight: 6
 ---
 
 1. Initialize a new Golang project using the following command:
-    ```
+    ```bash
     mkdir go-filter && go mod init go-filter
     ```
 2. Copy the above Golang program in a file called filter.go
 
 3. With our filter program written, lets compile it using tinygo
-    ```
+    ```bash
     # Use the below command for tinygo version >= 0.33.0
     tinygo build -target=wasi -o filter.wasm filter.go
 
