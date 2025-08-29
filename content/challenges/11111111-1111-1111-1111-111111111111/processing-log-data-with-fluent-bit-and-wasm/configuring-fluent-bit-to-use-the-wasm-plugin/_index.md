@@ -7,7 +7,7 @@ weight: 7
 
 Here is the Fluent Bit configuration for our use case:
 
-```
+```bash
 [INPUT]
    Name              dummy
    Dummy             {"ipAddr":"41.0.0.1","log": "2023-08-11 19:56:44 W3SVC1 WIN-PC1 ::1 GET / - 80 ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/115.0.0.0+Safari/537.36+Edg/115.0.1901.200 - - localhost 304 142 756 1078 -"}
