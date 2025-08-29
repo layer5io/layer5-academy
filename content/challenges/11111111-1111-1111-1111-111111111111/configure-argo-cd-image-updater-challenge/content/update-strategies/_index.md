@@ -74,7 +74,7 @@ sampleapp:
       pullPolicy: "Always"
 ```
 
-### latest upadte strategy:
+### latest update strategy:
 
 Argo CD Image Updater can update the image with the most recent build date, even if the tag is arbitrary (like a Git commit SHA or random string). It focuses on the build date, not when the image was tagged or pushed to the registry. If multiple tags share the same build date, the updater sorts the tags in descending lexical order and selects the last one.
 
