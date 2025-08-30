@@ -1,6 +1,6 @@
 ---
 title: "Test"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "Which of the following are characteristics of the pre-DevOps era ?"

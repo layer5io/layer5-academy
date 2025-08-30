@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-passing_percentage: 70
+pass_percentage: 70
 type: "test"
 questions:
   - id: "q1"

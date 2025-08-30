@@ -1,6 +1,6 @@
 ---
 title: "Test"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "What is Infrastructure as Code (IaC)?"
