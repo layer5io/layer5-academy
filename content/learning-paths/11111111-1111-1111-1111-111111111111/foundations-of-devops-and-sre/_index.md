@@ -1,5 +1,5 @@
 ---
-id: "090a7872-5b0d-46ba-9979-f01ddce1b11f"
+id: "eae2092c-908e-49c3-bccd-2848344250d1"
 type: "learning-path"
 title: "Foundations of DevOps & SRE"
 description: "Learn how to start transforming your organization using the principles and practices of DevOps and Site Reliability Engineering."

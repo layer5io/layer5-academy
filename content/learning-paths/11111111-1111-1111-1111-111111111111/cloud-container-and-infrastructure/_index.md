@@ -1,5 +1,5 @@
 ---
-id: "090a7872-5b0d-46ba-9979-f01ddce1b11f"
+id: "79cd56fe-cf3c-483b-b3c1-47bc29069f3b"
 type: "learning-path"
 title: "Cloud, Containers & Infrastructure"
 description: "Learn how to leverage cloud technologies, containerization, and infrastructure management in your DevOps practices."
