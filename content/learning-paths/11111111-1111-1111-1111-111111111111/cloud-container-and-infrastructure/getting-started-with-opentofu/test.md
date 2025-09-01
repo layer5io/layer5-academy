@@ -1,6 +1,6 @@
 ---
+type: "test"
 title: "Course Test"
-passing_percentage: 70
 questions:
   - id: "q1"
     text: "Which of the following is a key benefit of using Infrastructure as Code (IaC) compared to manual infrastructure provisioning?"
@@ -86,5 +86,4 @@ questions:
     type: "short-answer"
     marks: 2
     correct_answer: "Provider"
-type: "test"
 ---
