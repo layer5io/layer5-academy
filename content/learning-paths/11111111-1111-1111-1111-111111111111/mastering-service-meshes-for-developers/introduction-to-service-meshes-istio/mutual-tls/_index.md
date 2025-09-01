@@ -193,5 +193,3 @@ Output will be similar to:
 X509v3 Subject Alternative Name: critical
     URI:spiffe://cluster.local/ns/default/sa/bookinfo-productpage
 ```
-
-

@@ -46,4 +46,3 @@ _Figure: Get more details about service_
 ### Deleting Resources
 
 To delete the resources, use the `Undeploy` option from the Action dropdown in the _Design_ tab.
-

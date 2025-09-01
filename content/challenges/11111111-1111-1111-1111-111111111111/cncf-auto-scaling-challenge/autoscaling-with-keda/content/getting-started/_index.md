@@ -15,8 +15,9 @@ This challenge is open for all.
 - Any competitor found cheating will be disqualified and banned from future contests.
 
 ### Scoring
+
 1. Participants are ranked by score. Your score is determined by the following criteria:
-    * Correct implementation of KEDA scalers (40%)
-    * Efficiency of autoscaling configuration (30%)
-    * Integration with at least two different event sources (20%)
-    * Documentation and explanation of your solution (10%)
+    - Correct implementation of KEDA scalers (40%)
+    - Efficiency of autoscaling configuration (30%)
+    - Integration with at least two different event sources (20%)
+    - Documentation and explanation of your solution (10%)

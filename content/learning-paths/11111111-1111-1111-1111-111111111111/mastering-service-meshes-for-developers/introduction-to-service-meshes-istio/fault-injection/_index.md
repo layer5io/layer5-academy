@@ -142,12 +142,9 @@ Now we login to `/productpage` as user `jason` and observe that the page loads w
 
 Verify the fault injection by logging out (or logging in as a different user), the page should load normally without any errors.
 
-
-
 #### Alternative: Manual installation
+
 Follow these steps if the above steps did not work
-
-
 
 ##### Route all traffic to version V1 of all services
 
@@ -172,5 +169,3 @@ kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-delay.
 ```sh
 kubectl apply -f samples/bookinfo/networking/virtual-service-ratings-test-abort.yaml
 ```
-
-

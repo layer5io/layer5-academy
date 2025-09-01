@@ -29,7 +29,6 @@ For example:
 
 These components encapsulate the resources and include their detailed configurations and interaction rules within the larger infrastructure. Not only do they serve as blueprints, but they can also be integrated and deployed to your cluster using Meshery, transforming your designs into reality!
 
-
 ## Meshery Design at a Glance
 
 ![basic-meshery-design](basic-meshery-design.png)
@@ -44,8 +43,8 @@ Components are represented by various shapes and icons that effectively illustra
 
 Major Meshery components that can be found in a design include:
 
-1. **Kubernetes Components**: Resources like `Deployments`, `Services`, and `ConfigMaps`. 
-1. **Meshery Integration Components**: Configurable components that can be deployed to a cluster, representing integrations with various applications and cloud native infrastructure. 
+1. **Kubernetes Components**: Resources like `Deployments`, `Services`, and `ConfigMaps`.
+1. **Meshery Integration Components**: Configurable components that can be deployed to a cluster, representing integrations with various applications and cloud native infrastructure.
 For example, resources such as `Subnet`, `VPC`, and `NAT Gateway` are specific to the AWS integration with Meshery.
 
 First let's take a look at the Kubernetes Components.
@@ -56,10 +55,9 @@ Kubernetes components are represented by `blue icons`, distinguishing them from 
 
 As you familiarize yourself with Meshery Designs, you'll quickly recognize the unique icons and shapes representing these Kubernetes components.
 
-
 ### Basic Concepts of Kubernetes Components in Meshery
 
-Some Kubernetes components can be categorized by their distinct shapes and icons, which help distinguish them based on their roles within the system. 
+Some Kubernetes components can be categorized by their distinct shapes and icons, which help distinguish them based on their roles within the system.
 
 This makes it intuitive to identify each component’s function, enhancing the user experience when designing and interpreting infrastructure blueprints.
 
@@ -67,15 +65,13 @@ Let's explore a few of these categories.
 
 1. **Triangles**:
 
-    
     ![triangles](triangles.svg)
-    
+
     - **Category**: **Networking and Service Management**.
 
     - **Description**: Triangular shapes are used for components that manage or interact with networking and service-related functions. This includes defining how services are exposed and connected within the cluster.
 
     - **Examples**: API Service, Service.
-
 
 1. **Rectangles**:
 
@@ -148,7 +144,7 @@ These are used to denote annotations or static connections between components. T
 
 ![edge-network-relationship](edge-network-relationship.gif)
 
-1. **Edge-Permission Relationships**: Represented by a dashed arrow with an intermediary component, this type of edge indicates a binding relationship between two components. 
+1. **Edge-Permission Relationships**: Represented by a dashed arrow with an intermediary component, this type of edge indicates a binding relationship between two components.
 
 The intermediary component (such as a RoleBinding) connects the two, defining how permissions are assigned. For example, a dashed arrow from a `Role` to a `ServiceAccount` with a `RoleBinding` in the middle shows the connection established by the RoleBinding, which links the specific role to the service account and grants the appropriate permissions.
 
@@ -159,7 +155,6 @@ The intermediary component (such as a RoleBinding) connects the two, defining ho
 ![edge_permission](edge-permission.gif)
 
 To see more examples on Edge relationships, See [Relationships](https://docs.meshery.io/concepts/logical/relationships).
-
 
 ## Meshery Integration Components
 
@@ -173,12 +168,10 @@ In Meshery, these integrated components are distinctly represented by their spec
 
 Below is a Meshery Design with AWS Components.
 
-
-{{< meshery-design-embed 
-  id="embedded-design-79d1f362-39b3-46f2-b658-42a16984f88e" 
-  src="embedded-design-awscomplex.js" 
+{{< meshery-design-embed
+  id="embedded-design-79d1f362-39b3-46f2-b658-42a16984f88e"
+  src="embedded-design-awscomplex.js"
 >}}
-
 
 ## Methods to Identify Components on the Playground Design Canvas
 
@@ -213,7 +206,6 @@ The design below includes annotations such as sections, images, arrows, and vari
   id="embedded-design-a83f0098-2f91-4275-b075-c8676e842804"
   src="embedded-design-annotations-example.js"
 >}}
-
 
 ## Customizing Components and Annotation
 

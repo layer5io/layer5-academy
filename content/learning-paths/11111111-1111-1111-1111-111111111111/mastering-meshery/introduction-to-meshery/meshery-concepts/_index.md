@@ -9,7 +9,7 @@ title: "Meshery Concepts"
 
 # What is Meshery?
 
-Meshery is a self-service engineering platform that enables collaborative design and operation of cloud and cloud-native infrastructure. It's a versatile tool designed to help engineers manage and operate their infrastructure visually, collaboratively, and confidently. Whether you are a platform engineer, a site reliability engineer, or part of a DevSecOps team, Meshery has something to offer. 
+Meshery is a self-service engineering platform that enables collaborative design and operation of cloud and cloud-native infrastructure. It's a versatile tool designed to help engineers manage and operate their infrastructure visually, collaboratively, and confidently. Whether you are a platform engineer, a site reliability engineer, or part of a DevSecOps team, Meshery has something to offer.
 
 ## Meshery's Purpose
 

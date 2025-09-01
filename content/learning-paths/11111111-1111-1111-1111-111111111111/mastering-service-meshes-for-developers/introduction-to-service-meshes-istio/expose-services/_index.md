@@ -8,8 +8,8 @@ id: "expose-services"
 
 
 The components deployed on the service mesh by default are not exposed outside the cluster. An Ingress Gateway is deployed as a Kubernetes service of type LoadBalancer (or NodePort). To make Bookinfo accessible external to the cluster, you have to create an `Istio Gateway` for the Bookinfo application and also define an `Istio VirtualService` with the routes we need.
-### Inspecting the Istio Ingress Gateway
 
+### Inspecting the Istio Ingress Gateway
 
 The ingress gateway gets exposed as a normal Kubernetes service of type LoadBalancer (or NodePort):
 
@@ -54,8 +54,8 @@ Now let us find the ingress pod and output the log:
 ```sh
 kubectl logs istio-ingressgateway-... -n istio-system
 ```
-### View Istio Ingress Gateway for Bookinfo
 
+### View Istio Ingress Gateway for Bookinfo
 
 #### View the Gateway and VirtualServices
 
@@ -69,7 +69,7 @@ kubectl get virtualservices
 kubectl get virtualservices -o yaml
 ```
 
-#### Find the external port of the Istio Ingress Gateway by running:
+#### Find the external port of the Istio Ingress Gateway by running
 
 ```sh
 kubectl get service istio-ingressgateway -n istio-system -o wide
@@ -81,7 +81,7 @@ To just get the first port of istio-ingressgateway service, we can run this:
 kubectl get service istio-ingressgateway -n istio-system --template='{{(index .spec.ports 1).nodePort}}'
 ```
 
-#### Create a DNS entry:
+#### Create a DNS entry
 
 Modify you local `/etc/hosts` file to add an entry for your sample application.
 
@@ -135,6 +135,7 @@ spec:
             port:
               number: 9080
 ```
+
 ### Apply default destination rules
 
 Before we start playing with Istio's traffic management capabilities we need to define the available versions of the deployed services. They are called subsets, in destination rules.
@@ -215,6 +216,7 @@ kubectl get destinationrules
 
 kubectl get destinationrules -o yaml
 ```
+
 ### Browse to BookInfo
 
 Browse to the website of the Bookinfo. To view the product page, you will have to append
@@ -250,10 +252,8 @@ exit
 ```
 
 #### Alternative: Manual installation
+
 Follow this if the above steps did not work for you
-
-
-
 
 ##### Default destination rules
 
@@ -270,4 +270,3 @@ We can create a virtualservice & gateway for bookinfo app in the ingress gateway
 ```sh
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
-

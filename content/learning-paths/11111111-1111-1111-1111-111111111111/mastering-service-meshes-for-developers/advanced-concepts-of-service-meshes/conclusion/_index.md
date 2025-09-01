@@ -11,8 +11,6 @@ id: "conclusion"
 
 
 
-### Congratulations!
+### Congratulations
 
-##### You have successfully completed the course on **"Advanced concepts of service meshes - Hands on"** using _Istio_.
-
-
+##### You have successfully completed the course on **"Advanced concepts of service meshes - Hands on"** using _Istio_

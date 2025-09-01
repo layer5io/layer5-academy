@@ -12,13 +12,11 @@ In this chapter we will configure circuit breaking using Istio. Circuit breaking
 
 ### Preparing for circuit breaking
 
-
 Before we can configure circuit breaking, please try to access the `product page` app from within `Meshery` to ensure all the calls are making it through **without** errors as we did in [Observability chapter](observability)
 
 ![invalid-kubeconfig](meshery_initial_load_test.webp)
 
 ### Configure circuit breaking
-
 
 Now that we have the needed services in place, it is time to configure circuit breaking using
 a destination rule.
@@ -69,8 +67,8 @@ spec:
 
 ### Time to trip the circuit
 
-
 In the circuit-breaker settings, we specified maxRequestsPerConnection: 1 and http1MaxPendingRequests:
+
 1. This should mean that if we exceed more than one request per connection and more than one
 pending request, we should see the istio-proxy sidecar open the circuit for further requests/connections.
 
@@ -83,8 +81,6 @@ This will run the load test and show the results in a chart.
 ![invalid-kubeconfig](meshery_cb_load_test.webp)
 
 You should only see a percentage of the requests succeed and the rest trapped by the configured circuit breaker.
-
-
 
 ### Manual Steps
 
@@ -118,5 +114,3 @@ spec:
       maxEjectionPercent: 100
 EOF
 ```
-
-
