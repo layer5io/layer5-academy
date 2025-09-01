@@ -1,7 +1,7 @@
 ---
 title: "Explore Dapr with Meshery Certification"
 weight: 1
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: " What is the purpose of the Dapr Sidecar Injector in a Kubernetes cluster?"
