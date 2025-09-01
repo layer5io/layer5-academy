@@ -4,7 +4,7 @@ Just head over to the GitHub page and click the "Fork" button. It's just that si
 
 ## Clone your fork to your local machine
 
-```
+```shell
 git clone git@github.com:USERNAME/FORKED-PROJECT.git
 ```
 
@@ -13,7 +13,7 @@ While this isn't an absolutely necessary step, if you plan on doing anything mor
 
 ## Add 'upstream' repo to list of remotes
 
-```
+```shell
 git remote add upstream https://github.com/layer5io/meshery.git
 ```
 
@@ -21,7 +21,7 @@ git remote add upstream https://github.com/layer5io/meshery.git
 
 ## Verify the new remote named 'upstream'
 
-```
+```shell
 git remote -v
 ```
 
@@ -29,13 +29,13 @@ Whenever you want to update your fork with the latest upstream changes, you'll n
 
 ## Fetch from upstream remote
 
-```
+```shell
 git fetch upstream
 ```
 
 ## View all branches, including those from upstream
 
-```
+```shell
 git branch -va
 ```
 
@@ -43,7 +43,7 @@ Now, checkout your own master branch and merge the upstream repo's master branch
 
 ## Checkout your master branch and merge upstream
 
-```
+```shell
 git checkout master
 git merge upstream/master
 ```
@@ -59,7 +59,7 @@ To create a new branch and start working on it, peform the following flow.
 
 ## Checkout the master branch - you want your new branch to come from master
 
-```
+```shell
 git checkout master
 ```
 
@@ -69,13 +69,13 @@ For enhancements use `feature/your_username/issue#` or `feature/your_username/na
 
 For bugs use `bug/your_username/issue#` or `bug/your_username/name_of_bug`
 
-```
+```shell
 git branch feature/jdoe/567
 ```
 
 ## Switch to your new branch
 
-```
+```shell
 git checkout feature/jdoe/567
 ```
 
@@ -89,7 +89,7 @@ In the time that you've been working on your changes, if any commits have been m
 
 ## Fetch upstream master and merge with your repo's master branch
 
-```
+```shell
 git fetch upstream
 git checkout master
 git merge upstream/master
@@ -97,7 +97,7 @@ git merge upstream/master
 
 ## If there were any new commits, rebase your development branch
 
-```
+```shell
 git checkout feature/jdoe/567
 git rebase master
 ```
@@ -106,7 +106,7 @@ Now, it may be desirable to squash some of your smaller commits down into a smal
 
 ## Rebase all commits on your development branch
 
-```
+```shell
 git checkout
 git rebase -i master
 ```
