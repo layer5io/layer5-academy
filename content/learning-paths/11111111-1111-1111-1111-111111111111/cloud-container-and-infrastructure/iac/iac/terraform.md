@@ -23,19 +23,19 @@ But what exactly is Terraform? Simply put, Terraform is a powerful open source I
 Let's face it, software development is already complex enough. Focusing on creative coding, solving problems, and building great features should be your top priority. By leveraging the power of Terraform, you can:
 
 - Ship your code faster
-    
+
     No more waiting for IT teams to provision infrastructure. Terraform automates the process, allowing you to deploy your code quickly and efficiently.
 
 - Focus on what matters
-    
+
     By eliminating manual infrastructure tasks, you free up valuable time and mental energy to focus on what you do best – write amazing code!
 
 - Collaborate better
-    
+
     Terraform's human-readable configuration files make it easy for developers and other teams to collaborate on infrastructure management.
 
 - Achieve consistency
-    
+
     With Terraform, your infrastructure is defined as code, ensuring consistency and repeatability across different environments.
 
 - Embrace reusability

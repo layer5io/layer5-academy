@@ -9,6 +9,7 @@ weight: 1
 ---
 
 ## Objective
+
 A course to help you setup a service-mesh and start using it to build real-life applications using Meshery
 as the cloud native management plane.
 

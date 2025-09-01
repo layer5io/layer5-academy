@@ -23,7 +23,6 @@ Then, on August 10, 2023, with little to no advance notice, HashiCorp switched T
 
 The developer community asked HashiCorp to switch back to an open source license to ensure a single, impartial, reliable home for Terraform. With no response from Hashicorp by August 25, 2023, the community decided to create a fork of Terraform, and that's how OpenTofu was born.
 
-
 ### Advantages of OpenTofu
 
 Some of the key advantages that make OpenTofu a standout tool in the IaC ecosystem are listed below:

@@ -6,6 +6,7 @@ weight: 1
 ---
 
 ### Overview
+
 In this hands-on activity, we will learn how to install OpenTofu and verify the installation.
 
 ### Installing OpenTofu

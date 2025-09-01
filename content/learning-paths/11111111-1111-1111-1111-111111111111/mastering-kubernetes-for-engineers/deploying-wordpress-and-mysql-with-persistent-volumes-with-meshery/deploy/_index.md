@@ -39,4 +39,3 @@ _Figure: Deploy resources_
 ![wp22](wp22.png)
 
 _Figure: Deploy resources_
-

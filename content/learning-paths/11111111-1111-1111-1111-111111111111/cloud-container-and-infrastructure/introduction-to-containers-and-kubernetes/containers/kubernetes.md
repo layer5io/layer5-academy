@@ -7,6 +7,7 @@ weight: 7
 
 
 ### Overview
+
 Kubernetes, often abbreviated as k8s, is an open source platform for automating the deployment, scaling, and management of containerized applications. It has become the de facto standard for container orchestration, powering a vast number of applications across various industries.
 
 Imagine you have a large orchestra with many different instruments. Each instrument plays its own unique part, but they all need to work together in harmony to create beautiful music. Kubernetes is like the conductor of this orchestra, coordinating the different containerized applications (instruments) to ensure your application runs smoothly and efficiently.

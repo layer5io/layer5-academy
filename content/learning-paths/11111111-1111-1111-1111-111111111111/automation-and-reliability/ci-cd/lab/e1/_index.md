@@ -21,19 +21,20 @@ jenkins_data:/var/jenkins_home jenkins/jenkins:2.60.3-alpine
 ```
 
 2. List the container running the following command:
+
 ```bash
-$ docker container ls
+docker container ls
 ```
 
 3. View the logs and capture the initial admin password for Jenkins by executing the following
 command:
 
 ```bash
-$ docker logs myjenkins1| grep -B 5 initialAdminPassword
+docker logs myjenkins1| grep -B 5 initialAdminPassword
 ```
 
 4. Access the Jenkins server and perform the initial configuration.
-Open the browser and access the URL:http://HostIP:8080 (curl ifconfig.io to
+Open the browser and access the URL:<http://HostIP:8080> (curl ifconfig.io to
 get your public IP).
 
 ![Initial Jenkins Setup](step1.png)
@@ -48,9 +49,7 @@ choice. However, to keep it simple, we will choose “none” in this lab and mo
 
 ![Initial Jenkins Setup](step3.png)
 
-
 !![Initial Jenkins Setup](step4.png)
-
 
 7. Admin user can be created during this step. We will skip the step and select “Continue as
 admin” and proceed to the next step.
@@ -111,9 +110,9 @@ pipelines.
 container, by executing the following commands.
 
 ```bash
-$ docker container stop myjenkins1
-$ docker container rm myjenkins1
-$ docker container rm `docker container ls -a -q` -f
-$ docker image rm `docker image ls -q` -f
-$ docker volume prune -f
+docker container stop myjenkins1
+docker container rm myjenkins1
+docker container rm `docker container ls -a -q` -f
+docker image rm `docker image ls -q` -f
+docker volume prune -f
 ```

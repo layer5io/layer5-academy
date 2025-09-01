@@ -7,6 +7,7 @@ weight: 3
 
 
 ### Key Principles of DevOps
+
 Adhering to the key principles of DevOps will ensure a more successful development, delivery, and implementation of applications and services.
 
 - **Collaboration**: DevOps emphasizes breaking down silos between development and operations teams, encouraging shared responsibilities and improved communication.

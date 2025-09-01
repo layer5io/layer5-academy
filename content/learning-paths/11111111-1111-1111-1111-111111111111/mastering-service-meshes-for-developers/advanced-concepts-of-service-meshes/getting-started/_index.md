@@ -25,7 +25,6 @@ Optional (manual install of Istio):
 
 #### Install Istio
 
-
 Using Meshery, select `Istio` from the `Management` menu.
 
 In the Istio management page:
@@ -34,6 +33,7 @@ In the Istio management page:
 1. Click the (+) icon on the `Install` card and select `Latest Istio` to install the latest version of Istio.
 
 #### Alternative:Manual installation
+
 Perform the below steps if the above steps doesn't work for you.
 
 #### Download Istio
@@ -47,6 +47,7 @@ On your local machine, execute:
 ```sh
 curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.7.3 sh -
 ```
+
 #### Setting up istioctl
 
 On a \*nix system, you can setup `istioctl` by doing the following:
@@ -95,12 +96,10 @@ In the Istio management page:
 1. Click the (+) icon on the `Validate Service Mesh Configuration` card.
 1. Select `Verify Installation` to verify the installation of Istio.
 
-#### Alternatively:
+#### Alternatively
 
 Istio is deployed in a separate Kubernetes namespace `istio-system`. To check if Istio is deployed, and also, to see all the pieces that are deployed, execute the following:
 
 ```sh
 kubectl get all -n istio-system
 ```
-
-

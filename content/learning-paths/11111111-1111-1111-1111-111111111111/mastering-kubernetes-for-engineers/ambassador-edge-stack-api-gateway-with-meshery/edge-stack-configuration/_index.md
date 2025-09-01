@@ -127,4 +127,3 @@ spec:
 Next, import the [Quote Service YAML](https://app.getambassador.io/yaml/v2-docs/3.9.1/quickstart/qotm.yaml) and deploy it on Kanvas. This step will create the necessary deployment and service resources for the Quote service within your Kubernetes cluster, allowing you to see how Edge Stack manages and routes traffic to this backend service.
 
 {{< meshery-design-embed src="embedded-design-edge-stack.js" id="embedded-design-d429e684-c42a-4c14-816b-b4dddb4b6d40" >}}
-

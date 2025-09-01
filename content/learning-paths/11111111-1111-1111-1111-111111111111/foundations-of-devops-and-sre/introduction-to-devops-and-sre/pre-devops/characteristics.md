@@ -9,7 +9,6 @@ weight: 1
 
 The pre-DevOps era in software development was a starkly different landscape than what we see today. It was a time of siloed teams, rigid methodologies, and a lot of manual work, which often led to slow and unreliable software delivery.
 
-
 - **Waterfall Model**
    The dominant methodology was the [Waterfall model](https://en.wikipedia.org/wiki/Waterfall_model), a linear approach where each stage had to be completed before moving on to the next. This made it difficult to adapt to changes and respond quickly to new requirements.
 - **Siloed Teams**

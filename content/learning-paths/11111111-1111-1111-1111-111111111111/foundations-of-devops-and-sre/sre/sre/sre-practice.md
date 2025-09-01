@@ -35,7 +35,6 @@ Provide training and development: Equip your SRE team with the necessary skills 
 
 Foster a learning culture: Encourage continuous learning and experimentation within the SRE team.
 
-
 #### Embrace automation and tooling
 
 Invest in automation tools: Utilize tools like Ansible, Puppet, and Chef for infrastructure management and deployments.

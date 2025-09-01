@@ -12,7 +12,7 @@ Podman (Pod Manager) is an open source tool for managing OCI (Open Container Ini
 ### Key Features of Podman
 
 - **Daemonless Architecture**
-    
+
     Unlike Docker, which requires a central daemon (dockerd) to create, run, and manage containers, Podman operates in a daemonless architecture. This means each command runs in its process, improving security by reducing the attack surface and allowing non-root users to run containers.
 
 - **Root and Rootless Modes**
@@ -23,20 +23,19 @@ Podman (Pod Manager) is an open source tool for managing OCI (Open Container Ini
     One of the significant features of Podman is its ability to run containers without root privileges. This enhances security as it reduces the risk of privilege escalation attacks.
 
 - **Use of Fork/Exec Model**
-    
+
     When a container is started using Podman, it forks itself and then execs the runtime (like runc or crun). Each container is its process or set of processes on the host, managed directly by the kernel and not by a long-running daemon process.
 
 - **Compatibility with Docker**
-    
+
     Podman is designed to be compatible with Docker in terms of command line (CLI) syntax, making it easy for users to transition from Docker to Podman. It supports most Docker commands and can use Docker images and registries seamlessly.
 
 - **Pods Management**
   
     Similar to Kubernetes, Podman can also manage pods, which are groups of one or more containers sharing the same network, IPC, and PID namespaces. This feature makes Podman align well with Kubernetes environments.
 
-
 - **Image Management**
-    
+
     Podman uses the same image format as Docker, meaning it can pull and use images from any container registry that Docker can. It also uses the same image/store format as Docker.
 
 - **Networking**

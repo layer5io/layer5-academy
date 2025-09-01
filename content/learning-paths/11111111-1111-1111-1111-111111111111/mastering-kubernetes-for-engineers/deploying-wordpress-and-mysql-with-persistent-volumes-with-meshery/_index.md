@@ -10,4 +10,3 @@ level: "beginner"
 ---
 
 A course to help you deploy wordpress and MySQL Database with persistent volumes with Meshery Playground.
-
