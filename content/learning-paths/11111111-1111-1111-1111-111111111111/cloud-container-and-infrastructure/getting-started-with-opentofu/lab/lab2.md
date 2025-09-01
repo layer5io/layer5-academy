@@ -19,6 +19,7 @@ In this exercise, we will write a basic OpenTofu code to create a resource local
 workflow to create any infrastructure in OpenTofu.
 
 The basic workflow in OpenTofu is comprised of three stages:
+
 1. Write the code
 2. Review changes before applying it
 3. Apply to provision the infrastructure
@@ -192,8 +193,10 @@ Destroy complete! Resources: 1 destroyed.
 ```
 
 9. Verify if the file has been cleaned up :
+
 ```bash
 ls demo.txt
 No such file or directory
 ```
+
 In this lab exercise, we explored the basics of OpenTofu and learned how to create a resource using the Tofu CLI.

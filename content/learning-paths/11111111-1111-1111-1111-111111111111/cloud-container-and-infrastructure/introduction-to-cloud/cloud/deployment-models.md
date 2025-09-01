@@ -25,5 +25,5 @@ Next, let's delve into the different cloud deployment models:
 - **Multi-Cloud**
 
     A multi-cloud strategy involves leveraging services from multiple cloud providers to avoid vendor lock-in, enhance redundancy, and optimize costs. For example, organizations might use AWS for machine learning, Azure for integration services, and Google Cloud for data analytics, creating a diversified cloud ecosystem.
-    
+
 These deployment models offer diverse options for organizations based on their specific needs, with considerations ranging from scalability and control to compliance and redundancy.

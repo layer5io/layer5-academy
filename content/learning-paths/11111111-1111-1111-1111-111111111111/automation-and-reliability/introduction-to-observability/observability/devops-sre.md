@@ -5,7 +5,8 @@ description: "Observability is a critical aspect of both DevOps (Development and
 weight: 5
 ---
 
-### Observability in DevOps:
+### Observability in DevOps
+
 Continuous Monitoring:
 
 - Objective: DevOps emphasizes continuous integration, continuous delivery (CI/CD), and continuous monitoring. Observability is integrated into the monitoring phase to provide real-time insights into the health and performance of applications.
@@ -27,6 +28,7 @@ Infrastructure as Code (IaC):
 - Role: Observability helps assess the performance and reliability of infrastructure changes, ensuring that they meet operational requirements.
 
 ### Observability in Site Reliability Engineering (SRE)
+
 In both DevOps and SRE practices, observability is not just about monitoring; it's about understanding the entire system's behavior, from application code to infrastructure, and leveraging that understanding to ensure reliability, efficiency, and continuous improvement. Observability practices align closely with the principles of these methodologies, supporting collaboration, automation, and a focus on delivering reliable services to end-users.
 
 Understanding Service Level Agreement (SLA), Service Level Objective (SLO) and Service Level Indicator (SLI) is crucial in the field of cloud native technologies and observability. These concepts are fundamental to ensuring that services meet their performance and reliability targets, which is critical for maintaining user satisfaction and operational excellence. These concepts are not isolated elements but rather a collaborative framework. By effectively utilizing SLAs, SLOs, SLIs, and Observability, you can ensure your software systems deliver on their promises, maintain user trust, and thrive in a competitive landscape. We will discuss SLAs, SLIs and SLOs in the next chapter.

@@ -18,7 +18,6 @@ Using Meshery, install Istio telemetry add-ons. In the Istio management page:
    1. [Grafana](https://grafana.com/)
    1. [Jaeger](https://www.jaegertracing.io/)
 
-
 ![istio-addons](istio-addons.webp)
 
 You will use Prometheus and Grafana for collecting and viewing metrics and [Jaeger](https://www.jaegertracing.io/) collecting and viewing distributed traces. Expose each add-on external to the cluster. Each the service network typs are set to "LoadBalancer".
@@ -41,14 +40,14 @@ The URL to run a load test against will be `http://<IP/hostname of any of the no
 
 Use the computed URL above in Meshery, in the browser, to run a load test and see the results.
 
-##### Connect Grafana (optionally, Prometheus) to Meshery.
+##### Connect Grafana (optionally, Prometheus) to Meshery
 
 On the Settings page:
 
 1. Navigate to the `Metrics` tab.
 1. Enter Grafana's URL:port number and submit.
 
-##### Use Meshery to generate load and analyze performance.
+##### Use Meshery to generate load and analyze performance
 
 On the Performance page:
 
@@ -64,15 +63,11 @@ Click on `Run Test`. A performance test will run and statistical analysis perfor
 
 Next, you will begin controlling requests to BookInfo using traffic management features.
 
-
-
 #### Alternative: Manual installation
+
 Follow these steps if the above steps did not work
 
-
-
-##### Install Add-ons:
-
+##### Install Add-ons
 
 **Prometheus**
 
@@ -160,8 +155,6 @@ kubectl -n istio-system port-forward $(kubectl -n istio-system get pod -l app=gr
 
 ![Grafana](Grafana_Istio_Dashboard.webp)
 
-
-
 ##### Distributed Tracing
 
 The sample Bookinfo application is configured to collect trace spans using Zipkin or Jaeger. Although Istio proxies are able to automatically send spans, it needs help from the application to tie together the entire trace. To do this applications need to propagate the appropriate HTTP headers so that when the proxies send span information to Zipkin or Jaeger, the spans can be correlated correctly into a single trace.
@@ -177,9 +170,6 @@ To do this the application collects and propagates the following headers from th
 - `x-ot-span-context`
 
 ![jaeger](jaeger.webp)
-
-
-
 
 ##### Exposing services
 
@@ -222,5 +212,3 @@ kubectl -n istio-system get svc tracing
 ```
 
 You can click on the link at the top of the page which maps to the right port and it will open Jaeger UI in a new tab.
-
-

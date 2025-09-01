@@ -6,9 +6,11 @@ weight: 8
 ---
 
 ### Fault Injection using SMI in Linkerd
+
 Application failure injection is a form of chaos engineering where we artificially increase the error rate of certain services in a microservice application to see what impact that has on the system as a whole. Traditionally, you would need to add some kind of failure injection library into your service code in order to do application failure injection. Thankfully, the service mesh gives us a way to inject application failures without needing to modify or rebuild our services at all.
 
 ### Using SMI Traffic Split API to inject errors
+
 We can easily inject application failures by using the Traffic Split API of the Service Mesh Interface. This allows us to do failure injection in a way that is implementation agnostic and works across service meshes.
 
 We will do this first by deploying a new service which only return errored responses. We will be using a simple NGINX service which has configured to only return HTTP 500 responses.
@@ -16,6 +18,7 @@ We will do this first by deploying a new service which only return errored respo
 We will then create a traffic split which would redirect the service mesh to send a sample percentage of traffic to the error service instead, let's say 20% of service's traffic to error, then we would have injected an artificial 20% error rate in service.
 
 ### Deploy Linkerd Books Application
+
 We will be deploying [Linkerd Books application](https://github.com/BuoyantIO/booksapp) for this part of the demo
 
 Use meshery to deploy the bookinfo application :
@@ -28,23 +31,28 @@ Inject linkerd into sample application using
 ```bash
 linkerd inject https://run.linkerd.io/booksapp.yml | kubectl apply -f -
 ```
+
 In the following, one of the service has already beeen configured with the error let's remove the error rate from the same :
 
 ```bash
 kubectl edit deploy/authors
 ```
+
 Remove the lines
 
 ```yaml
 - name: FAILURE_RATE
   value: "0.5"
 ```
+
 Now if you will see linkerd stat, the success rate would be 100%
 
 ```bash
 linkerd stat deploy
 ```
+
 #### Create the errored service
+
 Now we will create our error service, we have NGINX pre-configured to only respond with HTTP 500 status code
 
 ```yaml
@@ -116,6 +124,7 @@ kind: ConfigMap
 metadata:
   name: error-injector-config
 ```
+
 After deploying the above errored service, we will create a traffic split resource which will be responsible to direct 20% of the book service to the error.
 
 ```yaml
@@ -131,20 +140,25 @@ spec:
   - service: error-injector
     weight: 200m
 ```
+
 You can now see an 20% error rate for calls from webapp to books
 
 ```bash
 linkerd routes deploy/webapp --to service/books
 ```
+
 You can also see the error on the web browser
 
 ```bash
 kubectl port-forward deploy/webapp 7000 && open http://localhost:7000
 ```
+
 If you refresh page few times, you will see Internal Server Error.
 
 ### Cleanup
+
 ```bash
 kubectl delete trafficsplit/error-split
 ```
+
 Remove the book info application from the Meshery Dashboard by clicking on the trash icon in the sample application card on the linkerd adapters' page.

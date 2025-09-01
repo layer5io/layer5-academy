@@ -21,7 +21,6 @@ The end-to-end architecture of the application is shown in the figure.
 
 ![book-info](bookinfo-off-mesh.webp)
 
-
 It’s worth noting that these services have no dependencies on Istio, but make an interesting
 service mesh example, particularly because of the multitude of services, languages and versions
 for the reviews service.
@@ -29,7 +28,6 @@ for the reviews service.
 As shown in the figure below, proxies are sidecarred to each of the application containers.
 
 ![book-info-on-mesh](bookinfo-on-mesh.webp)
-
 
 Sidecars proxy can be either manually or automatically injected into the pods. Automatic sidecar
 injection requires that your Kubernetes api-server supports `admissionregistration.k8s.io/v1`
@@ -44,9 +42,7 @@ If your environment **does NOT** supports either of these two APIs, then you may
 
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
-
 ### Deploying Sample App with Automatic sidecar injection
-
 
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
 verify sidecar injector deployment.
@@ -91,7 +87,6 @@ This will do 3 things:
 
 #### Verify Bookinfo deployment
 
-
 1. Verify that the deployments are all in a state of AVAILABLE before continuing.
 
 ```sh
@@ -114,11 +109,9 @@ kubectl describe svc productpage
 
 Next, you will expose the BookInfo application to be accessed external from the cluster.
 
-
 #### Alternative: Manual installation
+
 Follow this if the above steps did not work for you
-
-
 
 ##### Label namespace for injection
 
@@ -144,7 +137,6 @@ kube-system    Active    1h
 
 ##### Deploy BookInfo
 
-
 Applying this yaml file included in the Istio package you collected in [Getting Started](./getting-started) will deploy the BookInfo app in you cluster.
 
 ```sh
@@ -156,9 +148,6 @@ kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 ```sh
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
-
-
-
 
 #### Manual Sidecar Injection
 
@@ -191,4 +180,3 @@ kubectl apply -f <(curl https://raw.githubusercontent.com/istio/istio/master/sam
 ```
 
 Now continue to [Verify Bookinfo deployment](#verify).
-

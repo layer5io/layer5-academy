@@ -30,7 +30,7 @@ Think of Designer mode as your blueprint studio. Just like architects use specif
 
 1. Click **New** at the top right of the screen to open a new design canvas.
 
-2. Give your design a meaningful name, reflecting its purpose or key components. 
+2. Give your design a meaningful name, reflecting its purpose or key components.
 
 ![step1](step1.png)
 
@@ -96,7 +96,7 @@ When working with Kanvas, you can effortlessly integrate various design files to
 
 **Steps to Clone a Design from Catalog using Kanvas:**
 
-1. Switch to Kanvas Designer mode, if not already in it. 
+1. Switch to Kanvas Designer mode, if not already in it.
 
 2. In the left navigation panel, click the **“Catalog”** menu tab.
 
@@ -122,7 +122,7 @@ After importing your designs, they will appear in the [catalog](https://cloud.la
 
 To view the design on the canvas:
 
-1. Click on the Catalog Card. 
+1. Click on the Catalog Card.
 
 2. Click on **Open in Playground**. This will display the design on the canvas.
 
@@ -130,7 +130,7 @@ To view the design on the canvas:
 
 ## Merging Designs
 
-For enhanced collaboration and scalability, merge existing designs into your canvas by dragging and dropping. This feature enables you to consolidate multiple designs, creating a unified and comprehensive view of your infrastructure. 
+For enhanced collaboration and scalability, merge existing designs into your canvas by dragging and dropping. This feature enables you to consolidate multiple designs, creating a unified and comprehensive view of your infrastructure.
 
 Kanvas orchestrates the merging process internally, creating a unified design that incorporates components from the dragged designs. Importantly, users do not lose their original designs during the merging process. Kanvas retains records of each design, preserving their individuality. To learn how to merge designs, see [Merging Designs](https://docs.layer5.io/kanvas/getting-started/starting-scratch/#step-8-merging-designs).
 

@@ -15,7 +15,6 @@ An SLA is a formal contract between a service provider and its customers, outlin
 - Improved Reliability: Having defined SLAs motivates SREs to proactively monitor and improve the system's reliability to meet the agreed-upon targets.
 - Risk Management: Clear SLAs help manage customer expectations and define potential consequences for outages. This allows for proactive planning and mitigation strategies.
 
-
 ### Real-world Example
 
 Let's take a look at an example of an SLA in SRE applied to an e-commerce platform.

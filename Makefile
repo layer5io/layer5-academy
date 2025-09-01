@@ -12,10 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#include .github/build/Makefile.show-help.mk
+include .github/build/Makefile.show-help.mk
 
-## Install academy-example dependencies on your local machine.
-## See https://gohugo.io/categories/installation
+## Install dependencies on your local machine.
 setup:
 	npm install
 
@@ -36,16 +35,25 @@ clean:
 	hugo --cleanDestinationDir
 	make site
 
+## Fix Markdown linting issues
+lint-fix:
+	@echo "Checking for markdownlint-cli2..."
+	@command -v markdownlint-cli2 > /dev/null || { \
+		echo "markdownlint-cli2 not found. Attempting to install globally..."; \
+		command -v npm > /dev/null || { echo "npm is not installed. Please install Node.js/npm and re-run 'make lint-fix'."; exit 1; }; \
+		npm install -g markdownlint-cli2; \
+	}
+	@echo "Running markdownlint-cli2 --fix..."
+	@markdownlint-cli2 --fix "**/*.md" "#node_modules" "#public" "#resources"
 
 check-go:
 	@echo "Checking if Go is installed..."
 	@command -v go > /dev/null || (echo "Go is not installed. Please install it before proceeding."; exit 1)
 	@echo "Go is installed."
 
-
 ## Update the academy-theme package to latest version
 theme-update:
 	echo "Updating to latest academy-theme..." && \
 	hugo mod get github.com/layer5io/academy-theme
 
-.PHONY: setup build site clean site-fast check-go academy-update
+.PHONY: setup build site clean check-go theme-update

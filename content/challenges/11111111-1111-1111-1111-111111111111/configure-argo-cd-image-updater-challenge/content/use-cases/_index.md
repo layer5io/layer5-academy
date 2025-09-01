@@ -13,7 +13,6 @@ For teams deploying frequently updated images, manually tracking and updating th
 
 Whether you’re running a simple workload or managing complex deployments across multiple environments, Argo CD Image Updater provides a streamlined way to automate image updates, reduce operational overhead, and ensure that your applications are always running with the latest and most secure versions.
 
-
 ### VERSION CONTROL AND STABILITY
 
 Sometimes teams want to stick to a specific versioning pattern like semver or ensure they only pick stable releases. With Argo CD Image Updater’s configurable strategies, it’s easy to enforce such policies and ensure the application is always running on the desired version.

@@ -11,7 +11,6 @@ Let's configure the container registries that we are using. Argo CD Image Update
 
 In the following examples, we will configure two of the most widely used container registries – Amazon Elastic Container Registry (ECR) and GitHub Container Registry (GHCR). In our case, we are working with private registries to ensure secure storage and access control for container images.
 
-
 ### Amazon Elastic Container Registry (ECR) configuration
 
 ```yaml
@@ -39,7 +38,6 @@ authScripts:
 ```
 
 The script is executed by the pod and is responsible for obtaining the ECR authorization token. We use a role attached to our EKS node group, which includes the AWS-managed policy **AmazonEC2ContainerRegistryReadOnly**. This policy permits the **GetAuthorizationToken** API call:
-
 
 ```bash
 {
@@ -91,4 +89,3 @@ metadata:
 stringData:
   token: user_name:access_token
 ```
-

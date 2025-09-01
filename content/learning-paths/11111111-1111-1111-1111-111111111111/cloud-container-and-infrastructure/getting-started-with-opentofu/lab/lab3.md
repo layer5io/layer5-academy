@@ -48,11 +48,14 @@ ID.
 3. The OpenTofu CLI provides us with a few commands to make the OpenTofu code more convenient to work
 with. The tofu fmt command reformats OpenTofu configuration files into a canonical format and style, saving
 you the time and effort of making minor adjustments for readability and consistency.
+
 ```bash
 tofu fmt
 main.tf
 ```
+
 4. Initialize the working directory by executing the following command:
+
 ```bash
 tofu init
 tofu init
@@ -147,7 +150,6 @@ Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 7. Congratulations: you have created your first EC2 instance using OpenTofu. Login into your AWS console
 and verify the machine has been created. It would be something similar to the below snapshot.
 
-
 8. After verification, let us clean up and destroy the resource created.
 
 ```bash
@@ -187,6 +189,7 @@ aws_instance.firstvm: Still destroying... [id=i-0af888e6a779951aa, 1m20s elapsed
 aws_instance.firstvm: Destruction complete after 1m21s
 Destroy complete! Resources: 1 destroyed.
 ```
+
 In this lab exercise, we performed a hands-on activity where we provisioned an Amazon EC2 instance using
 OpenTofu, an open source Infrastructure as Code (IaC) tool. OpenTofu enables us to define, manage, and
 automate infrastructure resources through code, making it easier to create and configure cloud resources

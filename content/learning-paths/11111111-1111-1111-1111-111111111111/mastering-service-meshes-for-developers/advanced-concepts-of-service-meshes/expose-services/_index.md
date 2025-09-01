@@ -10,11 +10,9 @@ id: "expose-services"
 id: "expose-services"
 ---
 
-
 The components deployed on the service mesh by default are not exposed outside the cluster. An Ingress Gateway is deployed as a Kubernetes service of type LoadBalancer (or NodePort). To make Bookinfo accessible external to the cluster, you have to create an `Istio Gateway` for the Bookinfo application and also define an `Istio VirtualService` with the routes we need.
 
 ### Inspecting the Istio Ingress Gateway
-
 
 The ingress gateway gets exposed as a normal Kubernetes service of type LoadBalancer (or NodePort):
 
@@ -74,8 +72,7 @@ kubectl get virtualservices
 kubectl get virtualservices -o yaml
 ```
 
-#### Find the external port of the Istio Ingress Gateway by running:
-
+#### Find the external port of the Istio Ingress Gateway by running
 
 ```sh
 kubectl get service istio-ingressgateway -n istio-system -o wide
@@ -87,7 +84,7 @@ To just get the first port of istio-ingressgateway service, we can run this:
 kubectl get service istio-ingressgateway -n istio-system --template='{{(index .spec.ports 1).nodePort}}'
 ```
 
-#### Create a DNS entry:
+#### Create a DNS entry
 
 Modify your local `/etc/hosts` file to add an entry for your sample application.
 
@@ -193,7 +190,7 @@ Browse to the website of the Bookinfo. To view the product page, you will have t
 
 Now, reload the page multiple times and notice how it round robins between v1, v2 and v3 of the reviews service.
 
-###Inspect the Istio proxy of the productpage pod
+### Inspect the Istio proxy of the productpage pod
 
 To better understand the istio proxy, let's inspect the details. Let us `exec` into the productpage pod to find the proxy details. To do so we need to first find the full pod name and then `exec` into the istio-proxy container:
 
@@ -222,7 +219,6 @@ exit
 
 Follow this if the above steps did not work for you
 
-
 ##### Default destination rules
 
 Run the following command to create default destination rules for the Bookinfo services:
@@ -233,10 +229,8 @@ kubectl apply -f samples/bookinfo/networking/destination-rule-all-mtls.yaml
 
 ##### Configure the Bookinfo route with the Istio Ingress gateway
 
-
 We can create a virtualservice & gateway for bookinfo app in the ingress gateway by running the following:
 
 ```sh
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
-

@@ -42,8 +42,8 @@ prometheus-2.49.1.linux-amd64/console_libraries/prom.lib
 3. Move the extracted binaries to the bin folder by executing the below commands.
 
 ```bash
-$ sudo mv prometheus-2.49.1.linux-amd64/prometheus /usr/local/bin/
-$ sudo mv prometheus-2.49.1.linux-amd64/promtool /usr/local/bin/
+sudo mv prometheus-2.49.1.linux-amd64/prometheus /usr/local/bin/
+sudo mv prometheus-2.49.1.linux-amd64/promtool /usr/local/bin/
 ```
 
 4. Create a directory for the Prometheus configuration file and make use of the default
@@ -59,15 +59,15 @@ $ sudo mv prometheus-2.49.1.linux-amd64/prometheus.yml
 user.
 
 ```bash
-$ sudo useradd --no-create-home --shell /bin/false prometheus
+sudo useradd --no-create-home --shell /bin/false prometheus
 ```
 
 6. Set ownership, make Prometheus own its files.
 
 ```bash
-$ sudo chown prometheus:prometheus /usr/local/bin/prometheus
-$ sudo chown prometheus:prometheus /usr/local/bin/promtool
-$ sudo chown -R prometheus:prometheus /etc/prometheus
+sudo chown prometheus:prometheus /usr/local/bin/prometheus
+sudo chown prometheus:prometheus /usr/local/bin/promtool
+sudo chown -R prometheus:prometheus /etc/prometheus
 ```
 
 7. To allow Prometheus to run as a service, create a systemd service file:
@@ -103,7 +103,7 @@ Created symlink
 ```
 
 9. Verify if you are able to access the service by opening the browser and executing
-http://localhost:9090
+<http://localhost:9090>
 
 ![Prometheus UI](ui.png)
 
@@ -197,18 +197,20 @@ Created symlink
 ```
 
 13. Configure Grafana to use Prometheus:
-- Access Grafana web interface. Open your web browser and go to http://localhost:3000. The default login is admin for both username and password.
+
+- Access Grafana web interface. Open your web browser and go to <http://localhost:3000>. The default login is admin for both username and password.
 
 ![Grafana Login](grafana.png)
 
 ![Grafana Dashboard](grafana2.png)
 
-- Add Prometheus as a Data Source. Go to "Connections" > "Data Sources" > "Add Data Source". Select "Prometheus" as the type. For the URL, enter http://localhost:9090 and click "Save & Test".
+- Add Prometheus as a Data Source. Go to "Connections" > "Data Sources" > "Add Data Source". Select "Prometheus" as the type. For the URL, enter <http://localhost:9090> and click "Save & Test".
 
 ![Grafana Data Source](grafana3.png)
 
 Create a Dashboard. Now, you can create a new dashboard and add panels to
 visualize metrics from Prometheus.
+
 - In the panel configuration view, you’ll see a query editor. Since you've set Prometheus as the data source, it should be selected by default.
 - In the Metrics field, you can write your Prometheus query. For example, if you want to monitor the CPU usage of a system, you might use a query like node_cpu_seconds_total. This metric and query depend on the data exposed to Prometheus. For a simple start, you can use up{job="prometheus"} which will show you the up/down status of Prometheus targets.
 - After entering your query, you should see the graph update in real time below the query editor. Adjust the time range and graph settings as needed. You can set the title of the panel under the Panel title section by clicking on the title name at the top.

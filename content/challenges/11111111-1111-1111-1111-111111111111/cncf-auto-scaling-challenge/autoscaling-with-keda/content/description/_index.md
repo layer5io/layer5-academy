@@ -25,7 +25,6 @@ Design a KEDA-based autoscaling solution for a microservices application that re
 
 These are necessary steps that must be followed to complete this challenge.
 
-
 #### 1. KEDA Architecture Design
 
 1. First, import KEDA into Meshery and expand on the design, identifying the key components of the KEDA architecture including The **KEDA Operator** deployment, the **Metrics Server** etc. Consider how they interact within your Kubernetes cluster and how to properly represent this interaction in your design.
@@ -35,7 +34,6 @@ These are necessary steps that must be followed to complete this challenge.
     * Their resource requests and limits.
     * Any environment variables or configuration options.
     * Service account and RBAC settings.
-
 
 3. Visualize in your design how these components will interact with your Kubernetes cluster's API server, the Horizontal Pod Autoscaler (HPA), and your application deployments.
 

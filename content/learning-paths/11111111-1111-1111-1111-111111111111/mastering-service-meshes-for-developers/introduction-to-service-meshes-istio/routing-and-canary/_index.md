@@ -183,7 +183,6 @@ Now if we login as your `jason`, you will be able to see data from `reviews` v2.
 
 ### Canary Testing - Traffic Shifting
 
-
 #### Canary testing w/50% load
 
 To start canary testing, let's begin by transferring 50% of the traffic from reviews:v1 to reviews:v3 with the following command:
@@ -263,8 +262,8 @@ spec:
 
 Now, if we reload the `/productpage` in your browser several times, you should now see red-colored star ratings 100% of the time.
 
-
 #### Alternative: Manual installation
+
 Follow these steps if the above steps did not work
 
 ##### Default destination rules
@@ -298,5 +297,3 @@ kubectl apply -f  samples/bookinfo/networking/virtual-service-reviews-50-v3.yaml
 ```sh
 kubectl apply -f samples/bookinfo/networking/virtual-service-reviews-v3.yaml
 ```
-
-

@@ -33,6 +33,7 @@ resource "azurerm_app_service_plan" :billing-plan" {
 
 # Additional resources like databases, storage, etc. can be defined here.
 ```
+
 In this example, we've defined an Azure Resource Group and an App Service Plan. Executing this code with Terraform would automatically create these resources in Azure, ensuring consistency and reducing the risk of configuration errors.
 
 IaC not only simplifies initial deployments but also facilitates scaling, updates, and teardowns. This paradigm shift towards treating infrastructure as code is a game-changer, promoting collaboration, reducing manual errors, and enhancing the overall efficiency of software development and IT operations.

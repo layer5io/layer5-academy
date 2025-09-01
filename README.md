@@ -7,7 +7,7 @@ It is built with [Hugo](https://gohugo.io/) and integrated into a multi-reposito
 
 ## 📚 Overview
 
-- **Role**: Primary source of official Academy content 
+- **Role**: Primary source of official Academy content
 - **Features**:
   - Fully structured, production-ready reference
   - Rapid local preview loop for Markdown content changes
@@ -35,6 +35,7 @@ The Academy platform is composed of multiple repositories, each with a specific 
 - **[`academy-build`](https://github.com/layer5io/academy-build)** – Central build and deployment pipeline. Aggregates content from multiple repos with the theme to generate and publish the complete Academy site.
 
 - For more detailed information: [Academy / Platform Development](https://docs.layer5.io/cloud/academy/platform-development/)
+
 ---
 
 ## Quick Start (Local Preview)
@@ -58,6 +59,7 @@ Open your browser at: ```http://localhost:1313/academy```. Note: The local previ
 ---
 
 ## Repository Structure
+
 ```bash
 layer5-academy/
 ├── content/         # All learning paths, challenges, and certifications (Markdown)
@@ -67,25 +69,32 @@ layer5-academy/
 ├── go.mod           # Go module dependencies (includes academy-theme)
 └── Makefile         # Commands for local dev & build
 ```
+
 ---
 
 ## Contributing
 
 We welcome contributions to improve:
+
 - Content accuracy and clarity
 - Additional learning paths, challenges, or certifications
 - Shortcodes, layouts, and formatting
 
 Workflow:
+
 1. Fork this repository.
 2. Create a feature branch:
+
 ```bash
 git checkout -b feature/your-feature
 ```
+
 3. Commit changes:
+
 ```bash
 git commit -m "Describe your change"
 ```
+
 4. Push and open a Pull Request.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
@@ -93,6 +102,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 ---
 
 ## Publishing
+
 - **Official content**: Merged changes are automatically integrated into the central academy-build pipeline and deployed to the Academy platform.
 - **Organization-owned content**: Use academy-example as a starting point.
 After creating a release, the academy-build pipeline will fetch and publish your content to Layer5 Cloud (requires organization ID and token).
@@ -100,6 +110,7 @@ After creating a release, the academy-build pipeline will fetch and publish your
 ---
 
 ## Resources
-- Academy Documentation: https://docs.layer5.io/cloud/academy
-- Content Creation Guide: https://docs.layer5.io/cloud/academy/creating-content
-- Community Slack: https://slack.layer5.io
+
+- Academy Documentation: <https://docs.layer5.io/cloud/academy>
+- Content Creation Guide: <https://docs.layer5.io/cloud/academy/creating-content>
+- Community Slack: <https://slack.layer5.io>

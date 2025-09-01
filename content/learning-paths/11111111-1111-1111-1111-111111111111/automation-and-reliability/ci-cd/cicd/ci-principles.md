@@ -15,7 +15,6 @@ weight: 7
 
 - **Immediate Feedback**: Developers receive immediate feedback on the success or failure of their code integration. Quick feedback allows for prompt issue resolution, reducing the risk of defects accumulating.
 
-
 ### Continuous Integration (CI) Practices
 
 - **Version Control**: Use a version control system (e.g., Git) to manage code changes, enabling collaboration, tracking history, and providing a reliable mechanism for rollbacks.

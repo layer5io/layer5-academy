@@ -53,7 +53,6 @@ For more details on the OpenTofu workflow, check out the [documentation](https:/
 
 tofu is the official command-line interface (CLI) tool designed to interact with OpenTofu. tofu allows users to define, provision, and manage cloud infrastructure resources in a consistent and automated manner. By leveraging tofu, developers and operations teams can efficiently manage complex infrastructure setups across multiple cloud providers and services.
 
-
 | Command                            | Description                                                        |
 |------------------------------------|--------------------------------------------------------------------|
 | tofu init                          | Initialize the working directory with configuration files          |
@@ -67,7 +66,6 @@ tofu is the official command-line interface (CLI) tool designed to interact with
 | tofu workspace new <name>          | Create a new workspace for managing separate environments          |
 | tofu workspace select <name>       | Switch to a different workspace                                    |
 | tofu import <resource> <id>       | Import an existing resource into Tofu's state management           |
-
 
 #### The OpenTofu Language
 
@@ -83,12 +81,12 @@ The syntax of the OpenTofu language consists of a few basic elements:
   <IDENTIFIER> = <EXPRESSION> # Argument
 }
 ```
+
 - Blocks are used to group related settings and usually represent an object, like a resource. Each block has a specific type, can include labels for identification, and contains a body with arguments and other nested blocks. Most of the key features in OpenTofu are controlled through these top-level blocks in configuration files.
 - Arguments are used inside blocks to assign specific values to names, defining settings for a resource or feature.
 - Expressions represent values, either directly or by referencing or combining other values. These expressions are used as values for arguments or within other expressions.
 
 The OpenTofu language is declarative, meaning you describe the desired outcome rather than listing the steps to achieve it. The order of blocks and how they’re arranged in files doesn’t matter much. OpenTofu focuses on the relationships between resources—whether defined directly or inferred—to determine the order of operations.
-
 
 ### Migrating from Terraform
 

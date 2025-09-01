@@ -37,7 +37,6 @@ You can add comments in two convenient ways:
 
 ![commenting-via-dock](commenting-via-dock.png)
 
-
 * **Commenting via Context Menu in Canvas:"** Right-click anywhere on your canvas and select **“Add Comment Here”** from the context menu or use the shortcut Ctrl + M (Command + M for Mac users). This allows for swift comment placement exactly where you need it.
 
 ![commenting-via-menu](commenting-via-menu.png)
@@ -70,8 +69,9 @@ Even after comments are resolved, you can view the history to understand the dec
 After a comment has been resolved, there might be situations where you need to reopen the discussion. Unresolving a comment allows you to reinitiate conversations, address additional concerns, or make further changes.
 
 To unresolve a comment:
+
 * Click on the comment icon at the top right of the design canvas.
-* Select "resolved" from the dropdown menu. 
+* Select "resolved" from the dropdown menu.
 
 This will show the resolved conversations which can be reopened. This flexibility ensures that ongoing iterations and continuous improvements can be managed effectively.
 
@@ -89,9 +89,9 @@ This image illustrates the feature of pinning comments to specific nodes within 
 
 **How It Works:**
 
-- **Attach Comments:** When a comment is pinned to a component, it stays linked to that node. This means that no matter where the node is moved within the design, the comment will follow.
-- **Contextual Feedback:** This feature helps in maintaining the relevance of the feedback, as the comments are always displayed in relation to the specific node they refer to.
-- **Collaborative Consistency:** Ensures that all collaborators see the comments in the correct context, facilitating clearer communication and understanding.
+* **Attach Comments:** When a comment is pinned to a component, it stays linked to that node. This means that no matter where the node is moved within the design, the comment will follow.
+* **Contextual Feedback:** This feature helps in maintaining the relevance of the feedback, as the comments are always displayed in relation to the specific node they refer to.
+* **Collaborative Consistency:** Ensures that all collaborators see the comments in the correct context, facilitating clearer communication and understanding.
 
 2. #### Locking Comments
 
@@ -102,8 +102,8 @@ This image shows the locking and unlocking interface for nodes in Kanvas. Right-
 **How It Works:**
 
 * **Lock Comments:** By locking a comment, you ensure that it stays in place. This can be particularly useful for critical components that form the backbone of your design.
-    * **Shared Among Collaborators:** When a comment is locked, collaborators working on that design will be unable to move or reposition the locked component. This is an excellent opportunity to brainstorm suggestions for easily identifying locked components.
-    * **Unlocking Comments:** Comments can be unlocked when necessary, allowing for flexibility in design adjustments. This can be done through the radial menu shown in the image, which provides options for copying, resetting styles, duplicating, deleting, and unlocking nodes.
+  * **Shared Among Collaborators:** When a comment is locked, collaborators working on that design will be unable to move or reposition the locked component. This is an excellent opportunity to brainstorm suggestions for easily identifying locked components.
+  * **Unlocking Comments:** Comments can be unlocked when necessary, allowing for flexibility in design adjustments. This can be done through the radial menu shown in the image, which provides options for copying, resetting styles, duplicating, deleting, and unlocking nodes.
 
 ### Design Reviews with Annotations
 
@@ -147,7 +147,7 @@ If the whiteboarding feature is not already enabled, follow these steps to acces
 
 ![whiteboard-access](whiteboard-access.png)
 
-#### Customizing Annotations and Shapes 
+#### Customizing Annotations and Shapes
 
 Customizing annotations and shapes is crucial in design reviews as it enhances clarity and communication within the team. By tailoring annotations and shapes to fit specific needs, team members can highlight important aspects, provide detailed feedback, and visually differentiate components within the design. This level of customization ensures that feedback is clear, actionable, and directly tied to the relevant parts of the design, making the review process more efficient and effective.
 
@@ -181,7 +181,7 @@ Annotations in Kanvas’s Designer Mode are an invaluable tool for enhancing col
 
 ### Best Practices for Effective Design Reviews
 
-* **Provide clear and actionable feedback** 
+* **Provide clear and actionable feedback**
     Provide specific feedbackthat the designer can act on. Vague comments can lead to misunderstandings and delays in the design process. Support your feedback with examples or references. This can help clarify your point and provide the designer with tangible suggestions for improvement.
 
 * **Balance positive and contructive feedback**

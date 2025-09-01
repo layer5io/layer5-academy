@@ -9,7 +9,6 @@ weight: 7
 
 The **argocd-image-updater** binary and specifically the **test** subcommand provides a variety of test options, including testing registry access, multi-arch images, semver constrains, update strategies, and credentials before configuring annotations on your Argo CD applications. It is available in the **argocd-image-updater** pod or you can install it locally. Here are the **argocd-image-updater** test command options:
 
-
 ``` bash
 Flags:
 

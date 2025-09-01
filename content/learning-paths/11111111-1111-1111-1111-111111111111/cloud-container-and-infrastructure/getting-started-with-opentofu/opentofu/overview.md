@@ -12,6 +12,7 @@ Managing IT infrastructure can be complicated, but Infrastructure as Code (IaC) 
 Next, we’ll introduce OpenTofu, a popular open source IaC tool. You’ll see what makes OpenTofu unique and how it compares to similar tools like Terraform. By the end of this chapter, you’ll know how to install OpenTofu, set it up, and use it to write and manage infrastructure using its basic workflow: writing configurations, planning changes, applying them, and removing resources when needed.
 
 ### Learning Objectives
+
 By the end of this module, learners will be able to:
 
 - Define Infrastructure as Code (IaC) and explain its role in modern infrastructure management.

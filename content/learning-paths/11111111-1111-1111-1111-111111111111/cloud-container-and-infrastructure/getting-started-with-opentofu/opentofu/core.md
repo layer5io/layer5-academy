@@ -24,6 +24,7 @@ provider "aws" {
 ```
 
 ### Resources
+
 Resources in OpenTofu are the fundamental elements that represent the components of your infrastructure. They are the building blocks you define in your configuration files to manage and interact with various services and platforms. Each resource corresponds to a specific object or service provided by cloud providers, SaaS platforms, or other APIs. By understanding how to declare and configure resources, you unlock the full power of OpenTofu to automate and maintain your infrastructure consistently and efficiently.
 
 Resources model real-world infrastructure objects such as virtual machines, databases, storage buckets, networking components, and more. They are declared using a simple and human-readable syntax in OpenTofu configuration files (typically with a **.tf** extension). Each resource block specifies the type of resource, its unique name within the configuration, and its properties or settings.
@@ -49,6 +50,7 @@ resource "aws_instance" "web_server" {
 ```
 
 ### State
+
 OpenTofu uses a system called [state](https://opentofu.org/docs/language/state/) to keep track of your infrastructure and how it connects to real-world resources. This state helps OpenTofu remember important details about your setup and ensures it works efficiently, especially with larger and more complex systems. It also enables OpenTofu to determine what changes are needed when updating your configurations.
 
 By default, OpenTofu saves the state in a local file called **terraform.tfstate.** However, storing the state locally can be challenging for teams, as everyone needs access to the latest version, and overlapping changes can cause conflicts. For better collaboration and security, it’s recommended to use a remote state storage solution, such as [TACOS](https://opentofu.org/docs/intro/tacos/) (TF Automation and Collaboration Software). This allows you to version, encrypt, and securely share the state file across your team.
@@ -58,6 +60,7 @@ The state is essential because it links the resources you’ve defined in your c
 OpenTofu supports storing state remotely in various storage locations, such as Amazon S3, Azure Blob Storage, Google Cloud Storage, Alibaba Cloud OSS, HashiCorp Consul, and TACOS. Using a remote state makes it easier for teams to collaborate and reduces the risk of errors when multiple people are working on the same infrastructure. You can set up this remote state storage using a backend or TACOS in your main configuration's root module.
 
 ### Provisioning Infrastructure with OpenTofu
+
 OpenTofu's provisioning workflow relies on three commands: plan, apply, and destroy. All three commands require an initialized working directory and act only on the currently selected workspace.
 
 #### Commands
@@ -71,7 +74,7 @@ OpenTofu's provisioning workflow relies on three commands: plan, apply, and dest
     Typically, you run `tofu plan` to validate your configuration changes and ensure that the actions it proposes are what you expect. You can also save this plan as a file and use `tofu apply` later to make those exact changes to your infrastructure.
 
 - `tofu apply`
-    
+
     The `tofu apply` command in OpenTofu does the same thing that tofu plan does by figuring out what changes need to be made to your resources. However, tofu apply goes further and makes those changes using the provider's API. Before it makes any changes, you are asked to confirm them unless you've chosen to skip this approval step.
 
     By default, `tofu apply` creates a new plan before applying changes and shows it to you when asking for confirmation. But you can also give it a plan file that you previously created with tofu plan. This allows you to execute a specific set of approved changes reliably, even if your configuration or the actual state of your infrastructure has changed since you made the original plan.

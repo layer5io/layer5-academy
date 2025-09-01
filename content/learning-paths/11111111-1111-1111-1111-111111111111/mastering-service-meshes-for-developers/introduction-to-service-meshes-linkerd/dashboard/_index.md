@@ -6,11 +6,13 @@ weight: 4
 ---
 
 ### Introduction to Linkerd Dashboard
+
 The Dashboard provides a clickable user interface for administration of Linkerd. The Dashboard provides measurements of success rate, requests/second and latency for services on the mesh. Run the Linkerd Dashboard, by executing:
 
 ```bash
 linkerd dashboard &
 ```
+
 This command port-forwards from your local system to the linkerd-web service. You can also expose the dashboard using Kubernetes ingress, which we will see later in this section.
 
 Since Linkerd's control plane components have the Linkerd proxy sidecarred, you can examine statistics of the traffic you are generating by looking at the dashboard. Execute:
@@ -18,7 +20,9 @@ Since Linkerd's control plane components have the Linkerd proxy sidecarred, you 
 ```bash
 linkerd -n linkerd top deploy/linkerd-web
 ```
+
 #### Exposing the dashboard
+
 Instead of using linkerd dashboard & every time you'd like to see what's going on, you can expose the dashboard via an ingress. We will use the Nginx ingress, which we had deployed and used in Lab 3.
 
 We will be applying Nginx ingress-traffic rule with basic authentication protocol
@@ -57,11 +61,13 @@ spec:
               serviceName: linkerd-web
               servicePort: 8084
 ```
+
 This exposes the dashboard at dashboard.example.com and protects it with basic auth with credentials admin,admin.
 
 From here you may need to modify your resolv.conf to add dashboard.example.com to localhost or use an alternative approach in order to see the dashboard deployment. We will not cover this in the workshop.
 
 #### Tools exposed by dashboard
+
 Linkerd dashboard exposes various CLI tools which may come handy while you debug your application running on mesh.
 
 Mainly there are three tools which Linkerd exposes as an extension to it's CLI commands
