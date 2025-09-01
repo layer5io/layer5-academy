@@ -1,6 +1,6 @@
 ---
 title: "Test"
-passing_percentage: 70
+pass_percentage: 70
 questions:
     - id: "q1"
       text: "Site Reliability Engineers must spend at least 50% of their time on operational activities."

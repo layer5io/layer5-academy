@@ -1,6 +1,6 @@
 ---
 title: "Course Test"
-passing_percentage: 70
+pass_percentage: 70
 type: "test"
 final: true
 questions:
