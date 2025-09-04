@@ -19,6 +19,7 @@ This challenge is open for all.
     - Jaeger Query
 
 ### Scoring
+
 Participants are ranked by score. Your score is determined by the number of test cases your code submission successfully passes. If two participants have the same score, the tie is broken by the contestant who took the least amount of time to solve the challenges.
 
 ### Can I participate in a sample challenge?

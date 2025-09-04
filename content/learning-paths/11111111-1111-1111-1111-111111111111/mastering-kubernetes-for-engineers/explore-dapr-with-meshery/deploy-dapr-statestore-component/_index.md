@@ -44,4 +44,3 @@ Now you can start configuring the Dapr state-store.
 7. Click the **Actions** button and deploy.
 
 Next we will deploy the Python and Node.js applications.
-

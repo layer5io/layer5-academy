@@ -17,7 +17,6 @@ languages and sample BookInfo application displays information about a book, sim
 single catalog entry of an online book store. Displayed on the page is a description of
 the book, book details (ISBN, number of pages, and so on), and a few book reviews.
 
-
 It’s worth noting that these services have no dependencies on Istio, but make an interesting
 service mesh example, particularly because of the multitude of services, languages and versions
 for the reviews service.
@@ -39,9 +38,7 @@ If your environment **does NOT** supports either of these two APIs, then you may
 
 As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
 
-
 ### Deploying Sample App with Automatic sidecar injection
-
 
 Istio, deployed as part of this workshop, will also deploy the sidecar injector. Let us now
 verify sidecar injector deployment.
@@ -109,7 +106,9 @@ kubectl describe svc productpage
 Next, you will expose the BookInfo application to be accessed external from the cluster.
 
 #### Alternative: Manual installation
+
 Follow this if the above steps did not work for you
+
 ##### Label namespace for injection
 
 Label the default namespace with istio-injection=enabled
@@ -146,10 +145,7 @@ kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
 
-
-
 ### Manual Sidecar Injection
-
 
 Use this only when Automatic Sidecar injection doesn't work>
 
@@ -180,5 +176,3 @@ kubectl apply -f <(curl https://raw.githubusercontent.com/istio/istio/master/sam
 ```
 
 Now continue to [Verify Bookinfo deployment](#verify).
-
-

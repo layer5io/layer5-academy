@@ -1,7 +1,7 @@
 ---
 type: "test"
 title: "Test"
-passing_percentage: 70
+pass_percentage: 70
 questions:
   - id: "q1"
     text: "Which feature best characterizes CloudNativePG as a Level 5 Kubernetes Operator?"
