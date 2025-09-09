@@ -183,7 +183,7 @@ To handle this error follow the suitable steps for adding a connection to your e
 
 ## Deployment
 
-At this stage, you deploy your resources to your available Kubernetes cluster connection(s) managed by Meshery. 
+At this stage, you deploy your resources to your available Kubernetes cluster connection(s) managed by Meshery.
 First, ensure the connections to your clusters are established and configured correctly, placing them in the appropriate environments. This ensures you have control over your deployment strategy.
 
 ### Kubernetes Cluster Management using Meshery
@@ -265,10 +265,8 @@ To undeploy the resources
 
    ![undeploy](undeploy.png)
 
-
 ## Conclusion
 
 In this chapter, you learned how to effectively deploy Meshery designs, ensuring your resources are deployed in the correct environment. You started by validating your designs to ensure configurations adhere to Kubernetes API specifications and best practices. Next, you did a dry run to simulate deployments without making actual changes. You also explored how to select and configure environments to manage Kubernetes connections seamlessly, and finally, how to deploy resources to your preferred cluster.
 
 Throughout these steps, you encountered common errors and learned how to address them. During these steps, you learned how to use Meshery's Notification Center to troubleshoot issues, helping you through the deployment process.
-

@@ -33,14 +33,13 @@ In the Istio management page:
 
    ![install-istio1](install-istio1.webp)
 
-
 3. Click the `Deploy` button on the confirmation modal.
 
    ![install-istio2](install-istio2.webp)
 
 #### Alternative:Manual installation
-Perform the below steps if the above steps doesn't work for you.
 
+Perform the below steps if the above steps doesn't work for you.
 
 ##### Download Istio
 
@@ -102,12 +101,10 @@ In the Istio management page:
 1. Click the (+) icon on the `Validate Service Mesh Configuration` card.
 1. Select `Verify Installation` to verify the installation of Istio.
 
-##### Alternatively:
+##### Alternatively
 
 Istio is deployed in a separate Kubernetes namespace `istio-system`. To check if Istio is deployed, and also, to see all the pieces that are deployed, execute the following:
 
 ```sh
 kubectl get all -n istio-system
 ```
-
-

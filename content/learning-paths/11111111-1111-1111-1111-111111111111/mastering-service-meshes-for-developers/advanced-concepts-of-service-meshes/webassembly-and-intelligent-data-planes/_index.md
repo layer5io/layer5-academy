@@ -20,9 +20,6 @@ In the Istio management page:
 1. Type default into the namespace field.
 2. Click the (+) icon on the Manage Sample Application Lifecycle card and select Image Hub Application to install the latest version of Image Hub
 
-
-
-
 ### Load the filter
 
 Next, load the custom Envoy filter. This filter is written in Rust and is compiled against WebAssembly as it's target runtime.
@@ -33,8 +30,6 @@ In the Istio management page:
 
 1. Type default into the namespace field.
 2. Click the (+) icon on the Apply Service Mesh Configuration card and select Envoy Filter for Image Hub to deploy the custom filter.
-
-
 
 ## Send traffic
 
@@ -134,5 +129,3 @@ Manually patch the Image Hub Deployment.
 ```
 
 A future version of Meshery will allow you to deploy any filter from the [wasm-filters](https://github.com/layer5io/wasm-filters) repo. PR the repo to upload your custom filter and have Meshery deploy it.
-
-

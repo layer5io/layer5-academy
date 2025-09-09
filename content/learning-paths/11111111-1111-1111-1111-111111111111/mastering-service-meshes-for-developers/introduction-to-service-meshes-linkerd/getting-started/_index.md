@@ -12,10 +12,12 @@ Now that we have a Kubernetes cluster and Meshery, we are ready to download and 
 ### Steps
 
 #### **Install Linkerd**
+
 Using Meshery, select Linkerd from the Management menu.
 ![step1](step1.png)
 
 In the Linkerd management page:
+
 - Type linkerd into the namespace field.
 - Click the (+) icon on the Install card and select Latest Linkerd to install the latest version of Linkerd.
 
@@ -26,6 +28,7 @@ In the Linkerd management page:
 Perform the below steps if the above steps doesn't work for you.
 
 #### Download `linkerd` CLI
+
 On a *nix system, you can setup linkerd by doing the following:
 
 The above command will get the latest Linkerd package and untar it in the same folder.
@@ -36,21 +39,25 @@ Change into the Linkerd package directory and add the linkerd client to your PAT
 curl -sL https://run.linkerd.io/install | sh
 export PATH=$PATH:$HOME/.linkerd2/bin
 ```
+
 Alternatively, on MacOS you can sue HomeBrew to install linkerd
 
 ```bash
 brew install linkerd
 ```
+
 To verify linkerd is setup lets try to print out the command help
 
 ```bash
 linkerd version
 ```
+
 We can use a new feature in linkerd to check if the cluster is ready for install:
 
 ```bash
 linkerd check --pre
 ```
+
 Install Linkerd:
 Deploy Linkerd custom resources:
 
@@ -70,6 +77,7 @@ linkerd check
 By establishing mutually-authenticated connections between Linkerd proxies , Linkerd automatically enables mutual Transport Layer Security (mTLS) by default for most HTTP-based communication between services.
 
 #### Confirming Add-ons
+
 Linkerd, as part of this workshop, is installed with several optional addons like:
 
 - Prometheus [site](https://prometheus.io/)

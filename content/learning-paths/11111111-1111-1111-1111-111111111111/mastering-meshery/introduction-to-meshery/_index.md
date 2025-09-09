@@ -12,4 +12,3 @@ level: "beginner"
 
 <!-- Link to Learning Path outline for Mastering Meshery - https://docs.google.com/document/d/1j4ADAKASH7IqnA9MVmRUNJwh6o0ibblCpPU6xe1sH6M/edit# 
  -->
-

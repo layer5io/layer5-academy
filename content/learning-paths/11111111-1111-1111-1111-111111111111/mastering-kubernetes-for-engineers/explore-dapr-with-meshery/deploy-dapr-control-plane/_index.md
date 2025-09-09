@@ -31,10 +31,10 @@ The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set 
 
 From the design above, several key components that constitute the **Dapr control plane** can be observed, including:
 
--  **Dapr Sidecar Injector**: Automatically injects Dapr sidecars into the application pods.
--  **Dapr Operator**: Manages the lifecycle of Dapr components and configurations within the Kubernetes cluster.
--  **Dapr Placement Service**: Provides service discovery and routing for stateful applications, ensuring that stateful actors are placed correctly.
--  **Dapr Sentry**: Handles certificate authority and manages secure communication between Dapr instances.
+- **Dapr Sidecar Injector**: Automatically injects Dapr sidecars into the application pods.
+- **Dapr Operator**: Manages the lifecycle of Dapr components and configurations within the Kubernetes cluster.
+- **Dapr Placement Service**: Provides service discovery and routing for stateful applications, ensuring that stateful actors are placed correctly.
+- **Dapr Sentry**: Handles certificate authority and manages secure communication between Dapr instances.
 
 Let’s take a closer look at some of the relationships between these components.
 
