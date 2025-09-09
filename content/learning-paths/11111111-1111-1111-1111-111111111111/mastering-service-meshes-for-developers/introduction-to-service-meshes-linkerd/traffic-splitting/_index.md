@@ -27,14 +27,17 @@ OR...
 
 - Download the ./sample/bookinfo.yaml
 - Inject linkerd into the sample application.
+
 ```bash
 linkerd inject ./sample/bookinfo.yaml | kubectl apply -f -
 ```
+
 This will give you the if the Linkerd injection was successful or not.
 
 ```bash
 linkerd stat deploy
 ```
+
 You will see the following services running in your cluster
 
 ```bash
@@ -46,11 +49,13 @@ kubectl get svc
     ratings       ClusterIP   10.101.57.168   <none>        9080/TCP   13m
     reviews       ClusterIP   10.105.52.139   <none>        9080/TCP   13m
 ```
+
 You can access the producpage by port-forwarding
 
 ```bash
 kubectl port-forward svc/productpage 9080:9080
 ```
+
 Checking localhost:9080 would show you a product page, with a list of reviews on the right. Those reviews are being loaded from the reviews service which is backed by the 3 reviews pods. The requests to the reviews service are randomly sent to one of the 3 review pods, as they represent different versions of this service.
 
 The three different versions provide different output:
@@ -65,6 +70,7 @@ In Linkerd’s approach to traffic splitting, services are used as the core prim
 ```bash
 kubectl apply -f ./sample/service.yaml
 ```
+
 There are two new services created
 
 ```bash
@@ -78,6 +84,7 @@ kubectl get svc
     reviews-v2    ClusterIP   10.106.174.219   <none>        9080/TCP   7s
     reviews-v3    ClusterIP   10.96.125.224    <none>        9080/TCP   7s
 ```
+
 Now, let's apply traffic-split CRD from SMI :
 
 ```yaml
@@ -93,13 +100,16 @@ spec:
     - service: reviews-v2
       weight: 500m
 ```
+
 This tells Linkerd’s control plane that whenever there are requests to the reviews service, to split them across the reviews-v1 and reviews-v2 based on the weights provided.
 
 If we now go back to our product page, we can only see the reviews with orange or no stars appear on each refresh.
 
 Cleanup
+
 ```bash
 kubectl delete trafficsplit/reviews-split
 kubectl delete -f ./sample/service.yaml
 ```
+
 Remove the bookinfo application from the Meshery Dashboard by clicking on the trash icon in the sample application card on the linkerd adapters' page.

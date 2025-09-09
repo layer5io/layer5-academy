@@ -44,4 +44,3 @@ and RoleBinding.
 With the help of Kanvas, these connections become clear and easy to understand.
 
 {{< meshery-design-embed src="embedded-design-deployment-service.js" id="embedded-design-7b01cebf-b0f9-4c11-87e7-612d8fad10c8" >}}
-

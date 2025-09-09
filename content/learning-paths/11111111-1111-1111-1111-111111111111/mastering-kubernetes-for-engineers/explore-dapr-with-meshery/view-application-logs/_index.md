@@ -33,7 +33,7 @@ while True:
 
 The Dapr sidecar for the Python application sends a POST request to the Dapr sidecar of the Node.js application using the **Dapr service invocation API**. Here's a breakdown of what happens:
 
-1. The Python app sends a POST request to its sidecar at http://localhost:3500/v1.0/invoke/nodeapp/method/neworder. _Note: http://localhost:3500 is the default listening port for Dapr_.
+1. The Python app sends a POST request to its sidecar at <http://localhost:3500/v1.0/invoke/nodeapp/method/neworder>. _Note: <http://localhost:3500> is the default listening port for Dapr_.
 2. The sidecar for the Python app invokes the nodeapp service through its own Dapr sidecar.
 
 The Python app does not need to know the exact address or port of the Node.js service, it simply makes a request to its sidecar, which handles the routing.

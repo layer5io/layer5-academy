@@ -85,4 +85,3 @@ _Figure: Persistent volume hostpath_
    - Scroll down to "Hostpath" and input `mnt/data/mysql-pv` for the _path_ and `DirectoryOrCreate` for the _type_.
 
 4. Click on `wp-pv-claim` and `mysql-pv-claim` and set their "StorageClassName" as `manual`.
-

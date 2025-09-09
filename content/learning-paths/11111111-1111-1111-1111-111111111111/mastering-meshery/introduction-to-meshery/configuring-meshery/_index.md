@@ -21,6 +21,7 @@ To start configuring Meshery:
 1. Click on the **Lifecycle** dropdown and you will see all the menu items we need in this chapter.
 
 ![lifecycle](lifecycle.png)
+
 ## Creating Teams
 
 Creating a [Team](https://docs.layer5.io/cloud/identity/teams/) is the first step in configuring Meshery. In Meshery, a team is a user group that manages and shares access to resources such as Workspaces, Designs, and Environments. Teams enable efficient collaboration and permission management, facilitating organized operations within an organization. Teams offer control access to workspaces and to workspace resources such as Environments and Connections.
@@ -29,7 +30,6 @@ Follow the steps below to create a team:
 
 1. Teams are visible when you visit the [**Identity**](https://cloud.layer5.io/identity/teams) page in Layer5 Cloud.
 1. Select **Add Team**, enter a name for your team, add Team Members, and **Create Team**.
-
 
 ![create-team](create-team.png)
 
@@ -160,5 +160,3 @@ In this chapter, you learned how to effectively configure Meshery, laying the gr
 You explored the setup of environments, which serve as logical groupings for managing Kubernetes connections and other resources. By adding cluster connections and associating them with environments, you ensured seamless integration and management of your infrastructure components.
 
 Throughout the configuration process, you encountered various steps to integrate workspaces with environments and designs. This integration not only streamlined resource management but also facilitated standardized deployments across Kubernetes clusters associated with your workspace.
-
-

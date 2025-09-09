@@ -11,8 +11,8 @@ We will be using Linkerd to debug the sample application, we had deployed earlie
 
 Let's jump into debugging the Emojivoto application right away.
 
-
 #### Exploring the Linkerd Dashboard
+
 In the event that you look at the Linkerd dashboard (by running the `linkerd dashboard` command), you should see all the resources in the emojivoto namespace, including the deployments. Every deployments running Linkerd shows success rate, requests per second and latency percentiles. If you see closely, you will observe success rate is below 100% because of some buggy endpoint present in the service.
 
 ![web](web.png)
@@ -22,6 +22,7 @@ The first thing you'll see here is that the web deployment is taking traffic fro
 While the emoji deployment is handling every request from web successfully, it looks like the voting deployment is failing some requests! A failure in a dependent deployment may be exactly what is causing the errors that web is returning.
 
 #### Debugging the application
+
 Scrolling down a little from the deployment page, we'll see a live list of all traffic that is incoming to and outgoing from web.
 
 ![debug](debug.png)

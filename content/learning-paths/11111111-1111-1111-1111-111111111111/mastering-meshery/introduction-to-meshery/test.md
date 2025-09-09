@@ -1,6 +1,6 @@
 ---
 title: "Course Test"
-passing_percentage: 70
+pass_percentage: 70
 type: "test"
 final: true
 questions:
@@ -35,10 +35,10 @@ questions:
       - id: "d"
         text: "Docker Engine"
   - id: "q3"
-    text: "What type of entity is created first for team collaboration in Meshery?"
+    text: "What term is used in Meshery to describe labels, shapes, sections, and images that enhance designs but are not deployable?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "Team"
+    correct_answer: "Annotations"
   - id: "q4"
     text: "What is a Workspace in Meshery?"
     type: "single-answer"

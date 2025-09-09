@@ -19,7 +19,7 @@ metadata:
 spec: {}
 ```
 
-#### And then begin poking holes in your service mesh "firewall".
+#### And then begin poking holes in your service mesh "firewall"
 
 ```yaml
 ---
@@ -38,7 +38,7 @@ spec:
             methods: ["GET"]
 ```
 
-#### Create AuthorizationPolicy for each BookInfo service.
+#### Create AuthorizationPolicy for each BookInfo service
 
 ```yaml
 ---
@@ -267,4 +267,3 @@ spec:
   #   80:
   #     mode: DISABLE
 ```
-
