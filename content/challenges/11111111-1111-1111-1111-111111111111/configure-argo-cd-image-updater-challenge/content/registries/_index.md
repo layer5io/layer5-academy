@@ -1,17 +1,17 @@
 ---
 id: "registries"
-title: 'Registries'
+title: "Registries:"
 description: ""
 weight: 4
 ---
 
-### Configuring the container registries
+### Configuring Container Registries
 
-Let's configure the container registries that we are using. Argo CD Image Updater supports the majority of container registries (public and private), that implement Docker registry v2 API and has been tested against registries such as Docker Hub, Docker Registry v2 reference implementation (on-premise), Red Had Quay, Jfrog Artifactory, Github Container Registry, GitHub Packages Registry, GitLab Container Registry, and Google Container Registry.
+Let's configure the container registries that we are using. Argo CD Image Updater supports most container registries (public and private) that implement Docker registry v2 API and has been tested against registries such as Docker Hub, Docker Registry v2 reference implementation (on-premise), Red Hat Quay, Jfrog Artifactory, GitHub Container Registry, GitHub Packages Registry, GitLab Container Registry, and Google Container Registry.
 
-In the following examples, we will configure two of the most widely used container registries – Amazon Elastic Container Registry (ECR) and GitHub Container Registry (GHCR). In our case, we are working with private registries to ensure secure storage and access control for container images.
+In the following examples, we will configure two of the most widely used container registries: Amazon Elastic Container Registry (ECR) and GitHub Container Registry (GHCR). In our case, we are working with private registries to ensure secure storage and access control for container images.
 
-### Amazon Elastic Container Registry (ECR) configuration
+### Amazon Elastic Container Registry (ECR) Configuration
 
 ```yaml
 registries:
@@ -28,9 +28,9 @@ For Amazon Elastic Container Registry, authentication is possible through a scri
 
 ```yaml
 authScripts:
-  # -- Whether to mount the defined scripts that can be used to authenticate with a registry, the scripts will be mounted at `/scripts`
+  # -- Whether to mount the defined scripts that can be used to authenticate with a registry. The scripts will be mounted at `/scripts`
   enabled: true
-  # -- Map of key-value pairs where the key consists of the name of the script and the value the contents
+  # -- Map of key-value pairs where the key consists of the name of the script and the value is its content.
   scripts:
     login.sh: |
       #!/bin/sh
@@ -63,7 +63,7 @@ The script is executed by the pod and is responsible for obtaining the ECR autho
         }
 ```
 
-### Github Container Registry configuration
+### Github Container Registry Configuration
 
 ```yaml
 registries:
@@ -77,7 +77,7 @@ registries:
     credentials: secret:argocd/ghcr-secret#token
 ```
 
-For registry authentication, in the credentials section, we are using a Kubernetes secret. The **#token** part refers to the specific key (usually containing a personal access token or authentication token) inside the secret. The token must have at least **read:packages** permissions. Here is a manifest of the Kubernetes secret which has to be applied in the **argocd** namespace:
+For registry authentication, in the credentials section, we are using a Kubernetes secret. The **#token** part refers to the specific key (usually containing a personal access token or authentication token) inside the secret. The token must have at least **read:packages** permission. Here is a manifest of the Kubernetes secret which has to be applied in the **argocd** namespace:
 
 ```yaml
 apiVersion: v1
