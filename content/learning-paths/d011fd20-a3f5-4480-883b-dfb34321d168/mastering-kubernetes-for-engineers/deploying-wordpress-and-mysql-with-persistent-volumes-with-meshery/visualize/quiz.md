@@ -34,7 +34,7 @@ questions:
         text: "NetworkPolicy"
   - id: "q3"
     text: "What action removes resources from the cluster?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Undeploy" 
 ---

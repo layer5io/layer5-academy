@@ -34,7 +34,7 @@ questions:
         text: "Reducing deployment costs"
   - id: "q3"
     text: "What metadata is used for component grouping?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Labels" 
 ---

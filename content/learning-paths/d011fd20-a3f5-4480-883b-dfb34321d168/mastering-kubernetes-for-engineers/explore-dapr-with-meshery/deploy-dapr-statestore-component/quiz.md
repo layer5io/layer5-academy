@@ -34,7 +34,7 @@ questions:
         text: "connectionPoolSize field"
   - id: "q3"
     text: "Which database system is used for state storage?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Redis" 
 ---

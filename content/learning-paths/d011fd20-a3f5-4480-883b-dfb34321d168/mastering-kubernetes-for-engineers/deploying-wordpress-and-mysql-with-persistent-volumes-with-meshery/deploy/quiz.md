@@ -34,7 +34,7 @@ questions:
         text: "Automatic cluster provisioning"
   - id: "q3"
     text: "Which UI element displays deployment status updates?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Notifications" 
 ---

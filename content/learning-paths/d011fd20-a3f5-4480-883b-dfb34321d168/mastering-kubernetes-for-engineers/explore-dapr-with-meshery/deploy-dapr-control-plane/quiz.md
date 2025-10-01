@@ -34,7 +34,7 @@ questions:
         text: "Istio Sidecar Proxy"
   - id: "q3"
     text: "What numeric identifier defines service endpoints?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Port" 
 ---

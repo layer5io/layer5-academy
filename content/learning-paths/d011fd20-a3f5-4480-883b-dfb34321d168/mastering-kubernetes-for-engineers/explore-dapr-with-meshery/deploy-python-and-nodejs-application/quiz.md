@@ -34,7 +34,7 @@ questions:
         text: "dapr.io/config"
   - id: "q3"
     text: "What pattern adds functionality alongside application containers?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Sidecar" 
 ---

@@ -34,7 +34,7 @@ questions:
         text: "istio-system"
   - id: "q3"
     text: "Which platform provides the distributed application runtime?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Dapr" 
 ---

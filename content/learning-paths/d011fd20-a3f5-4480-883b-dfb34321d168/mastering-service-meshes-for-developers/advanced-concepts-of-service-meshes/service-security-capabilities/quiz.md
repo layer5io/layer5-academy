@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What is the mTLS mode that enforces strict mutual TLS for all communications?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "STRICT" 
 ---

@@ -32,7 +32,7 @@ questions:
         text: "Database optimization"
   - id: "q3"
     text: "What cloud native management plane is used in this course?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Meshery" 
 ---

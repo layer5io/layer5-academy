@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "Which Linkerd annotation enables automatic proxy injection?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "inject" 
 ---

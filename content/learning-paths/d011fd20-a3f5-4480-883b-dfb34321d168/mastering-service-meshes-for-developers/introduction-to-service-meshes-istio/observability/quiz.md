@@ -32,7 +32,7 @@ questions:
         text: "Add-on services are exposed by default as LoadBalancer"
   - id: "q3"
     text: "What is the default port for accessing Grafana dashboards?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "3000" 
 ---

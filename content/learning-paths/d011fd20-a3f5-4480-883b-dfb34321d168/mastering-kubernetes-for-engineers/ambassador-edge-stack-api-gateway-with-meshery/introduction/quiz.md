@@ -36,7 +36,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "Which Meshery component provides visual design capabilities?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Kanvas" 
 ---

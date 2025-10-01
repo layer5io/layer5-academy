@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What field specifies the weight distribution in a TrafficSplit resource?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "weight" 
 ---

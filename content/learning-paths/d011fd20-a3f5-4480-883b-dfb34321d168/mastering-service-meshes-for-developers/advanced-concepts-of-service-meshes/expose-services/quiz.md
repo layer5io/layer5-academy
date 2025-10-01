@@ -32,7 +32,7 @@ questions:
         text: "Istio ServiceEntry"
   - id: "q3"
     text: "What Istio feature defines service versions for traffic routing?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "DestinationRules" 
 ---

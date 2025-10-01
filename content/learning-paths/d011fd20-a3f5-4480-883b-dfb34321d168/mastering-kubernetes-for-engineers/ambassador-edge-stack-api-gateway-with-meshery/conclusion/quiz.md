@@ -34,7 +34,7 @@ questions:
         text: "Implementing load balancing algorithms"
   - id: "q3"
     text: "Which platform was used for Ambassador Edge Stack management?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Meshery" 
 ---

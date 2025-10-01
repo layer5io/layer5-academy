@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What gRPC status code indicates a common error response?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "2" 
 ---

@@ -32,7 +32,7 @@ questions:
         text: "kubectl apply with manual YAML file configuration"
   - id: "q3"
     text: "Which CLI tool is used for Istio management and verification?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "istioctl" 
 ---

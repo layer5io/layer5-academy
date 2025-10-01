@@ -36,7 +36,7 @@ questions:
         text: "Docker Engine"
   - id: "q3"
     text: "What term is used in Meshery to describe labels, shapes, sections, and images that enhance designs but are not deployable?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Annotations"
   - id: "q4"

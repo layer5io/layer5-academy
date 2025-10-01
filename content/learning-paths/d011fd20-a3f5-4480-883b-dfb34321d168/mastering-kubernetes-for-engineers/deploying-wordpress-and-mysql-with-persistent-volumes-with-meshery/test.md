@@ -136,7 +136,7 @@ questions:
         text: "Memory-based storage"
   - id: "q10"
     text: "Which visual platform is used for application deployment in this course?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Meshery" 
 ---

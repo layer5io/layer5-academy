@@ -34,7 +34,7 @@ questions:
         text: "Monitoring dashboards"
   - id: "q3"
     text: "Which architectural approach does CloudNativePG follow?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Cloud native" 
 ---

@@ -32,7 +32,7 @@ questions:
         text: "Gateway for ingress traffic"
   - id: "q3"
     text: "What VirtualService attribute is used to distribute traffic proportionally between different versions?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "weight" 
 ---

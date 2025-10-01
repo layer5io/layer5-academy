@@ -34,7 +34,7 @@ questions:
         text: "Configured service mesh integration"
   - id: "q3"
     text: "What Kubernetes concept organizes related resources?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Namespaces" 
 ---

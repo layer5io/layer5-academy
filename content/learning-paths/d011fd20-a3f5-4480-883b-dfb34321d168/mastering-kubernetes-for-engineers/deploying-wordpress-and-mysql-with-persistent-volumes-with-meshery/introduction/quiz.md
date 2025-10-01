@@ -34,7 +34,7 @@ questions:
         text: "Service mesh configurations"
   - id: "q3"
     text: "Which file format defines Kubernetes resources?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "YAML" 
 ---

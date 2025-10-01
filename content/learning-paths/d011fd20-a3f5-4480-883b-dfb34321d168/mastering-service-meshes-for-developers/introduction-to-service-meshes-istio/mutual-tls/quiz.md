@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What identity framework does Istio use for workload identity assertion?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "SPIFFE" 
 ---

@@ -32,7 +32,7 @@ questions:
         text: "Database management"
   - id: "q3"
     text: "What is the primary category that advanced service mesh concepts fall under?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "meshery" 
 ---

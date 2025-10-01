@@ -34,7 +34,7 @@ questions:
         text: "Pub/Sub API"
   - id: "q3"
     text: "Which API manages persistent data in Dapr applications?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "State" 
 ---
