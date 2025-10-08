@@ -6,7 +6,7 @@ weight: 2
 banner: "linkerd-icon-white.svg"
 tags: [service-mesh, linkerd]
 categories: "meshery"
-level: "intermediate"
+level: "advanced"
 ---
 
 A course to help you setup a service-mesh and start using it to build real-life applications using Meshery
