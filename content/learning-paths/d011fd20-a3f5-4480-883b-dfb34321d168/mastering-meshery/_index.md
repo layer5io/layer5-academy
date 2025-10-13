@@ -7,7 +7,7 @@ banner: "meshery-logo-light.webp"
 id: "23fab7d7-4844-4926-b5e5-4a34193b9789"
 tags: [meshery]
 categories: "meshery"
-level: "beginner"
+level: "advanced"
 ---
 
 <!--
