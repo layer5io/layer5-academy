@@ -6,7 +6,7 @@ weight: 1
 banner: "istio-icon-white.svg"
 tags: [service-mesh, istio]
 categories: "meshery"
-level: "intermediate"
+level: "advanced"
 ---
 
 A course to help you setup a service-mesh and start using it to build real-life applications using Meshery

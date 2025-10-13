@@ -5,6 +5,6 @@ description: "Learn about the role of Site Reliability Engineering (SRE) in DevO
 weight: 8
 tags: ["SRE"]
 categories: "SRE"
-level: "beginner"
+level: "intermediate"
 banner: "sre-k8s.svg"
 ---

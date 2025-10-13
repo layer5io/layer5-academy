@@ -5,5 +5,5 @@ description: "Learn the principles and practices of Site Reliability Engineering
 weight: 2
 tags: ["SRE"]
 categories: "SRE"
-level: "beginner"
+level: "intermediate"
 ---
