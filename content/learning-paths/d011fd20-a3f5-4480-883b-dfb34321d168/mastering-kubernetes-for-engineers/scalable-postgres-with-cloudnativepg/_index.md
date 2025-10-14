@@ -6,7 +6,7 @@ weight: 3
 banner: "linkerd-icon-white.svg"
 tags: [kubernetes, meshery, databases]
 categories: "kubernetes"
-level: "beginner"
+level: "Intermediate"
 ---
 
 A course that will help you to install a Scalable PostgreSQL Distribution on Kubernetes with Cloud Native PostgreSQL
