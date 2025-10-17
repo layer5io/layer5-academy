@@ -32,7 +32,7 @@ questions:
         text: "Manual sidecar proxy configuration in each pod"
   - id: "q3"
     text: "Which tool is used to manage Kubernetes resources?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "kubectl" 
 ---

@@ -34,7 +34,7 @@ questions:
         text: "Automatic version control is enabled"
   - id: "q3"
     text: "What type of file is selected in the “Design Type” dropdown during import?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Manifest" 
 ---

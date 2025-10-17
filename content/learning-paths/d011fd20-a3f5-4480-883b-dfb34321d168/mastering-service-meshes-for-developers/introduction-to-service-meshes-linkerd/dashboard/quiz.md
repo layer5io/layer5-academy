@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "Which service provides the Linkerd web interface?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "linkerd-web" 
 ---

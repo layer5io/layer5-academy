@@ -34,7 +34,7 @@ questions:
         text: "kube-proxy"
   - id: "q3"
     text: "What do services use to specify communication endpoints?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Port" 
 ---

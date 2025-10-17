@@ -32,7 +32,7 @@ questions:
         text: "Using kubectl apply directly with YAML files"
   - id: "q3"
     text: "Which Istio tool verifies cluster readiness?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "istioctl" 
 ---

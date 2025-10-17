@@ -32,7 +32,7 @@ questions:
         text: "subsets.labels"
   - id: "q3"
     text: "What configuration parameter limits the maximum number of connections to a service?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "maxConnections" 
 ---

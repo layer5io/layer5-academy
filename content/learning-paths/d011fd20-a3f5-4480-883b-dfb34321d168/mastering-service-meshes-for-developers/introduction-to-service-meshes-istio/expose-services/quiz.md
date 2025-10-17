@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What port is typically used to access Envoy proxy admin interface?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "15000" 
 ---

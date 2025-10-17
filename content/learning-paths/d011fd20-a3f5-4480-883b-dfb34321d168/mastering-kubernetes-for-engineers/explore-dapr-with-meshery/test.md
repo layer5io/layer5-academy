@@ -35,7 +35,7 @@ questions:
         text: "Docker Desktop"
   - id: "q3"
     text: "What orchestration platform is used for deploying Dapr applications?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Kubernetes" 
   - id: "q4"

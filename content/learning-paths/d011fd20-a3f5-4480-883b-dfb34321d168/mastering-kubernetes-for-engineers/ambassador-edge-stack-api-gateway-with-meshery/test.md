@@ -34,7 +34,7 @@ questions:
         text: "Envoy Proxy"
   - id: "q3"
     text: "What is the primary tool used for deploying and visualizing Edge Stack components in this course?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Meshery" 
 ---

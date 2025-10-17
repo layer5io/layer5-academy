@@ -32,7 +32,7 @@ questions:
         text: "Container orchestration"
   - id: "q3"
     text: "What platform is Linkerd designed to work with?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Kubernetes" 
 ---

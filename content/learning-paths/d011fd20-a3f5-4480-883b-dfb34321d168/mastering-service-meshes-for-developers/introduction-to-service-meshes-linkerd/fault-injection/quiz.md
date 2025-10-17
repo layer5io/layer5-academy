@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "What HTTP status code does the error-injector service return?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "500" 
 ---

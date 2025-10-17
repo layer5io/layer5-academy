@@ -34,7 +34,7 @@ questions:
         text: "Load balancing"
   - id: "q3"
     text: "Which container orchestration platform does Dapr integrate with?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Kubernetes" 
 ---

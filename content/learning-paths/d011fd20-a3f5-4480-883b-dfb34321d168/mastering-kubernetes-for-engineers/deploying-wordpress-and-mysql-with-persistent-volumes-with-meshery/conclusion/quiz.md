@@ -34,7 +34,7 @@ questions:
         text: "Configuring database backups"
   - id: "q3"
     text: "Which platform provided the deployment environment?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Meshery" 
 ---

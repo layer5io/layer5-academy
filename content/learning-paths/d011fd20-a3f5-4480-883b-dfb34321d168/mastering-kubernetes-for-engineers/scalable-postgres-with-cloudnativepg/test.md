@@ -34,7 +34,7 @@ questions:
         text: "Persistent volumes managed outside Kubernetes"
   - id: "q3"
     text: "What is the name of the PostgreSQL distribution used in this course?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "CloudNativePG" 
   - id: "q4"

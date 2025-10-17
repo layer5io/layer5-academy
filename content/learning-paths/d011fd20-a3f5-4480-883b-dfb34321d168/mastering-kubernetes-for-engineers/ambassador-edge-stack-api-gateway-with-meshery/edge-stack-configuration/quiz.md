@@ -35,7 +35,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "Which Edge Stack resource controls traffic routing?"
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "Mapping" 
 ---

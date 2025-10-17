@@ -33,7 +33,7 @@ questions:
         is_correct: true
   - id: "q3"
     text: "Which ingress controller is used in the Linkerd workshop?" 
-    type: "short_answer" 
+    type: "short-answer" 
     marks: 2
     correct_answer: "NGINX" 
 ---
