@@ -4,4 +4,16 @@ description: "Learn event-driven autoscaling in Kubernetes. Work with scaled obj
 banner: "keda-icon.svg"
 id: "3ef92e40-b0e4-47bd-8f84-1b369cb41c0e"
 weight: 1
+tags: [meshery, keda, open source]
+level: "advanced"
+categories: "platform"
+
+prerequisite_knowledge:
+
+  - title: "Access to Meshery"
+    children:
+      - title: "Self-hosted Meshery"
+        link: "https://docs.meshery.io/installation"
+      - title: "Meshery Playground"
+        link: "https://play.meshery.io"        
 ---
