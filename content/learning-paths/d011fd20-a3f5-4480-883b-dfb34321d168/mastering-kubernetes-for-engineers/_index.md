@@ -8,9 +8,17 @@ id: "2bfce2ef-b468-4f65-afef-59a864a4ac26"
 tags: [kubernetes]
 categories: "kubernetes"
 level: "intermediate"
----
 
-<!--
-  This file is only used to render the courses list within a learning path.
-  Check the Learn-Layer5 folder under src/sections/, src/templates for more understanding of how the data is used
--->
+
+additional_attributes:
+  - title:  "Recognition"
+    value: "Digital Badge and Certificate"
+    description: "Earn a digital badge and certificate upon passing the exam."
+  - title: "Retake Policy"
+    value: "3"
+    description: "Up to three retakes allowed per exam"
+  - title: "Scoring"
+    value: "Composite"
+    description: "The overall certification requires passing all four, with each domain weighted at 20% toward a holistic score for recertification tracking."
+
+---
