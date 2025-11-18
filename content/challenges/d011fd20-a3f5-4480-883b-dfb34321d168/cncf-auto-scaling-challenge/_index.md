@@ -18,9 +18,6 @@ prerequisite_knowledge:
         link: "https://play.meshery.io"
         
 additional_attributes:
-  - title:  "Recognition"
-    value: "Digital Badge and Certificate"
-    description: "Earn a digital badge and certificate upon passing the exam."
   - title: "Retake Policy"
     value: "3"
     description: "Up to three retakes allowed per exam"
