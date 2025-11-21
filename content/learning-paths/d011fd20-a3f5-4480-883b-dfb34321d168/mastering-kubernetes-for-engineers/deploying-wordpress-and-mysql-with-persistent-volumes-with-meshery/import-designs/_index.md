@@ -22,7 +22,7 @@ _Figure: Import modal_
 
 _Figure: Import mysql-deployment_
 
-3. Under the "Designs" tab, you will see the successfully imported `mysql-deployment` design.
+1. Under the "Designs" tab, you will see the successfully imported `mysql-deployment` design.
 
    Clicking on the names of the designs on the `Designs` tab displays the visual representations of the various Kubernetes resources and their relationships on the canvas.
 
@@ -30,7 +30,7 @@ _Figure: Import mysql-deployment_
 
 _Figure: Imported designs on canvas_
 
-4. Now, follow the same steps to import the `wordpress-deployment` file.
+1. Now, follow the same steps to import the `wordpress-deployment` file.
 
 ![wp4](wp4.png)
 
@@ -48,13 +48,13 @@ To merge the MySQL deployment design with the WordPress deployment design:
 
 _Figure: drag and drop design_
 
-2. This action will open a merge modal asking if you want to merge the design, Click on `Merge`.
+1. This action will open a merge modal asking if you want to merge the design, Click on `Merge`.
 
 ![wp6](wp6.png)
 
 _Figure: merge modal_
 
-3. Click on `Save As` and enter `wordpress-mysql-deployment` as the new file name.
+1. Click on `Save As` and enter `wordpress-mysql-deployment` as the new file name.
 
 ![wp7](wp7.png)
 

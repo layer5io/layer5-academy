@@ -26,25 +26,25 @@ sudo apt-get update
 sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
 ```
 
-2. Download the installer script using the following command:
+1. Download the installer script using the following command:
 
 ```bash
 curl -fsSL https://get.opentofu.org/install-opentofu.sh -o install-opentofu.sh
 ```
 
-3. Grant the script execute permission and verify:
+1. Grant the script execute permission and verify:
 
 ```bash
 chmod +x install-opentofu.sh && ls -l install-opentofu.sh
 ```
 
-4. If you're familiar with shell scripting, feel free to review the script; if not, there's no need to worry - simply proceed to step 5:
+1. If you're familiar with shell scripting, feel free to review the script; if not, there's no need to worry - simply proceed to step 5:
 
 ```bash
 less install-opentofu.sh
 ```
 
-5. Execute the installer script to install OpenTofu. The script requires a mandatory argument known as the
+1. Execute the installer script to install OpenTofu. The script requires a mandatory argument known as the
 `--install-method`. The value will differ depending on your operating system and package manager. We are
 installing it on the Ubuntu system and will use snap (snapcraft) as the installation method of choice.
 
@@ -56,7 +56,7 @@ OpenTofu v1.8.4
 on linux_amd64
 ```
 
-6. The command line interface to OpenTofu is the tofu command. Verify the installation by executing the help:
+1. The command line interface to OpenTofu is the tofu command. Verify the installation by executing the help:
 
 ```bash
 tofu -h
@@ -73,7 +73,7 @@ destroy Destroy previously-created infrastructure
 <<Output Truncated>>
 ```
 
-7. OpenTofu provides tab-completion support for all command names, as well as some command arguments. To set up auto-completion, execute the following command:
+1. OpenTofu provides tab-completion support for all command names, as well as some command arguments. To set up auto-completion, execute the following command:
 
 ```bash
 tofu -install-autocomplete

@@ -78,8 +78,8 @@ Users added to an organization receive a set of [default permissions](https://do
 
 ![assign-user-roles](assign-user-roles.png)
 
-3. Select the desired role from the list (e.g., "team admin").
-4. Click **Save Changes**.
+1. Select the desired role from the list (e.g., "team admin").
+2. Click **Save Changes**.
 
 After you have completed assigning roles, your organization's user overview might look similar to the following:
 
@@ -121,7 +121,7 @@ To allow team members to collaborate within a workspace, you need to assign thei
 2. You'll typically see two columns: "Available Teams" and "Assigned Teams".
     - From the "Available Teams" list on the left, select the team you wish to assign (e.g., "Engineers").
     - Click the > button to move the selected team to the "Assigned Teams" list on the right.
-4. Click **Save** to confirm the assignment.
+3. Click **Save** to confirm the assignment.
 
 ![assign-teams-to-workspace](assign-teams-to-workspace.png)
 

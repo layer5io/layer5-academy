@@ -16,7 +16,7 @@ weight: 5
 
 Note: The comment `//export go_filter` on function is required and it should be the same as the function name.
 
-3. Using the function parameters we will have access to the original log record, tag, and timestamp. Here is an example log record:
+1. Using the function parameters we will have access to the original log record, tag, and timestamp. Here is an example log record:
 
     ```bash
     {
@@ -25,17 +25,17 @@ Note: The comment `//export go_filter` on function is required and it should be 
     }
     ```
 
-4. **Processing the record:**
+2. **Processing the record:**
 
     - The function parameter **record** is of type byte slice, which presumably contains a JSON string, and is converted to a Go string.
 
     - This string is then parsed using the **fastjson** package.
 
-5. **Determining the region:**
+3. **Determining the region:**
 
     - The **getRegion** function takes an IP address as a string, parses it, converts it to an integer, and determines which region the IP address belongs to based on predefined IP ranges. If the IP address is invalid or doesn’t fall within any range, an error is returned.
 
-6. **Modify and return:**
+4. **Modify and return:**
 
     - The determined region is added to the original JSON. The modified record will look like this:
 
@@ -52,6 +52,6 @@ Note: The comment `//export go_filter` on function is required and it should be 
 
     - Note that there’s an explicit null terminator added to the end of the string before converting it back to a byte slice This is necessary for compatibility with whatever system reads this output, perhaps a C/C++ framework.
 
-7. The **main** function is empty because the primary function here **(go_filter)** is meant to be exported and used as a plugin.
+5. The **main** function is empty because the primary function here **(go_filter)** is meant to be exported and used as a plugin.
 
 Follow the [official documentation](https://docs.fluentbit.io/manual/development/wasm-filter-plugins) for more information on writing WASM plugins.

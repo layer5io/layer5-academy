@@ -16,7 +16,7 @@ https://github.com/prometheus/prometheus/releases/download/v2.49.1/pr
 ometheus-2.49.1.linux-amd64.tar.gz
 ```
 
-2. Extract the contents by executing the following command.
+1. Extract the contents by executing the following command.
 
 ```bash
 $ tar xvf prometheus-2.49.1.linux-amd64.tar.gz
@@ -39,14 +39,14 @@ prometheus-2.49.1.linux-amd64/console_libraries/menu.lib
 prometheus-2.49.1.linux-amd64/console_libraries/prom.lib
 ```
 
-3. Move the extracted binaries to the bin folder by executing the below commands.
+1. Move the extracted binaries to the bin folder by executing the below commands.
 
 ```bash
 sudo mv prometheus-2.49.1.linux-amd64/prometheus /usr/local/bin/
 sudo mv prometheus-2.49.1.linux-amd64/promtool /usr/local/bin/
 ```
 
-4. Create a directory for the Prometheus configuration file and make use of the default
+1. Create a directory for the Prometheus configuration file and make use of the default
 configuration.
 
 ```bash
@@ -55,14 +55,14 @@ $ sudo mv prometheus-2.49.1.linux-amd64/prometheus.yml
 /etc/prometheus/prometheus.yml
 ```
 
-5. Create a user for Prometheus. It's always a good practice to run services using a dedicated
+1. Create a user for Prometheus. It's always a good practice to run services using a dedicated
 user.
 
 ```bash
 sudo useradd --no-create-home --shell /bin/false prometheus
 ```
 
-6. Set ownership, make Prometheus own its files.
+1. Set ownership, make Prometheus own its files.
 
 ```bash
 sudo chown prometheus:prometheus /usr/local/bin/prometheus
@@ -70,7 +70,7 @@ sudo chown prometheus:prometheus /usr/local/bin/promtool
 sudo chown -R prometheus:prometheus /etc/prometheus
 ```
 
-7. To allow Prometheus to run as a service, create a systemd service file:
+1. To allow Prometheus to run as a service, create a systemd service file:
 
 ```bash
 cat > /etc/systemd/system/prometheus.service << EOF
@@ -91,7 +91,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-8. Enable and start the Prometheus service:
+1. Enable and start the Prometheus service:
 
 ```bash
 $ sudo systemctl daemon-reload
@@ -102,12 +102,12 @@ Created symlink
 /etc/systemd/system/prometheus.service.
 ```
 
-9. Verify if you are able to access the service by opening the browser and executing
+1. Verify if you are able to access the service by opening the browser and executing
 <http://localhost:9090>
 
 ![Prometheus UI](ui.png)
 
-10. Let us install Grafana, add the apt Grafana repository and the GPG key to verify the
+1. Let us install Grafana, add the apt Grafana repository and the GPG key to verify the
 packages.
 
 ```bash
@@ -120,7 +120,7 @@ $ echo "deb [signed-by=/etc/apt/keyrings/grafana.gpg] https://apt.grafana.com
 stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 ```
 
-11. Install Grafana by executing the following command:
+1. Install Grafana by executing the following command:
 
 ```bash
 $ sudo apt-get -y update
@@ -183,7 +183,7 @@ Processing triggers for man-db (2.9.1-1) ...
 Processing triggers for libc-bin (2.31-0ubuntu9.14) ...
 ```
 
-12. Start and enable Grafana by executing the below command:
+1. Start and enable Grafana by executing the below command:
 
 ```bash
 $ sudo systemctl start grafana-server
@@ -196,7 +196,7 @@ Created symlink
 /lib/systemd/system/grafana-server.service.
 ```
 
-13. Configure Grafana to use Prometheus:
+1. Configure Grafana to use Prometheus:
 
 - Access Grafana web interface. Open your web browser and go to <http://localhost:3000>. The default login is admin for both username and password.
 

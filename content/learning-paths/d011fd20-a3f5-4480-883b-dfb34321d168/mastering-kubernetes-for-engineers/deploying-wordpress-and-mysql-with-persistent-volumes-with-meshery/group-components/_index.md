@@ -21,7 +21,7 @@ You can also choose to use the existing label, `app:wordpress`, but a new one, `
 
 _Figure: Add label_
 
-5. Now click on `Save As` and save the design.
+1. Now click on `Save As` and save the design.
 
 ### Group Components
 

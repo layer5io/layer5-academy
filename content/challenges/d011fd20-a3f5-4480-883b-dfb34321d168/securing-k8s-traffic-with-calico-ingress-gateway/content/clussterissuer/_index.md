@@ -11,7 +11,6 @@ Issuers and ClusterIssuers are cert-manager resources that represent certificate
 
 We create a ClusterIssuer, a cluster-scoped resource used to configure a Certificate Authority (CA) - in this example, Let’s Encrypt. We configure it to use the HTTP-01 challenge method for domain validation and explicitly tell it to solve these challenges via the **calico-demo-gw** Gateway.
 
-
 Create a clusterissuer resource:
 
 ```bash

@@ -93,7 +93,7 @@ This image illustrates the feature of pinning comments to specific nodes within 
 * **Contextual Feedback:** This feature helps in maintaining the relevance of the feedback, as the comments are always displayed in relation to the specific node they refer to.
 * **Collaborative Consistency:** Ensures that all collaborators see the comments in the correct context, facilitating clearer communication and understanding.
 
-2. #### Locking Comments
+1. #### Locking Comments
 
 ![locking-comments](locking-comments.png)
 
@@ -155,19 +155,19 @@ Customizing annotations and shapes is crucial in design reviews as it enhances c
 
 ![shape-annotation](shape-annotation.png)
 
-2. **Text Annotation Customization:** Text annotations come with various options. Customize fonts, sizes, alignments, and styles easily. Text boxes resize for seamless integration with the canvas.
+1. **Text Annotation Customization:** Text annotations come with various options. Customize fonts, sizes, alignments, and styles easily. Text boxes resize for seamless integration with the canvas.
 
 ![text-annotation](text-annotation.png)
 
-3. **Interactive Tooltip Interface:** The tooltip is your gateway to customization. It’s simple and intuitive, offering a range of editing options upon selection. It’s designed for easy navigation, mirroring popular design software.
+1. **Interactive Tooltip Interface:** The tooltip is your gateway to customization. It’s simple and intuitive, offering a range of editing options upon selection. It’s designed for easy navigation, mirroring popular design software.
 
 ![tooltip-annotation](tooltip-annotation.png)
 
-4. **Advanced Customization Features:**
+1. **Advanced Customization Features:**
     * Manage layers and group elements to organize your design better. These advanced tools ensure collaborative work while preserving design integrity.
     * Lines and edges are easily manipulated. Adjust thickness, style, and endpoints effortlessly. Drag line segments to create bends or curves, adding detail to visual representations.
 
-5. **Consistent Functionality:** The customization tools apply uniformly to all annotation types. Changes made within the tooltip reflect instantly on the canvas, facilitating real-time collaboration.
+2. **Consistent Functionality:** The customization tools apply uniformly to all annotation types. Changes made within the tooltip reflect instantly on the canvas, facilitating real-time collaboration.
 
 #### Annotation Use Cases in Design Reviews
 

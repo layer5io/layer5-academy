@@ -23,7 +23,7 @@ annotations:
         dapr.io/enable-api-logging: "true"
 ```
 
-3. Click the **Actions** button and deploy.
+1. Click the **Actions** button and deploy.
 
 ### Deploy Python Application
 

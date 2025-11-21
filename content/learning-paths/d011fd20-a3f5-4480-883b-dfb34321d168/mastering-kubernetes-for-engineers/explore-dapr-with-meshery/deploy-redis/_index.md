@@ -12,8 +12,8 @@ title: "Deploy Redis"
 
 {{< meshery-design-embed src="embedded-design-redis.js" id="embedded-design-c3dcee44-6b8a-498f-a44c-66682ccf4d2a" >}}
 
-2. Click **Actions** to deploy, then click **Open In Visualizer**.
-3. In **Visualizer** mode, use the filter to adjust the views of the resources in the cluster.
+1. Click **Actions** to deploy, then click **Open In Visualizer**.
+2. In **Visualizer** mode, use the filter to adjust the views of the resources in the cluster.
    - For **View Selector** select **Single Node**.
    - For **Kinds** select the resources you want to see including _Deployments, Pods, Services, Statefulset, Secret, Replicaset, Endpoints and Endpoint slices_.
    - For **Namespaces** select _dapr_system_ and _default_.
