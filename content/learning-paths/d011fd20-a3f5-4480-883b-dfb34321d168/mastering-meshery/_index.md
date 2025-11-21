@@ -9,6 +9,23 @@ tags: [meshery]
 categories: "meshery"
 level: "advanced"
 
+# List of additional resources for further reading 
+related_resources:
+
+  - title: "Documentation and Slides"
+    children:
+    - title: "Meshery Architecture slides"
+      link: "https://docs.meshery.io/concepts/architecture"
+    - title: "Architectural Components"
+      link: "https://docs.meshery.io/concepts/architecture"
+    - title: "Logical Concepts"
+      link: "https://docs.meshery.io/concepts/logical"
+    - title: "Running Meshery: Playground"
+      link: "https://docs.meshery.io/installation/playground"
+    - title: "Running Meshery: Self-Hosted"
+      link:  "https://docs.meshery.io/installation"
+
+---
 
 additional_attributes:
   - title: "Retake Policy"
