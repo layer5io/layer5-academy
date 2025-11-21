@@ -23,7 +23,7 @@ The [Dapr control plane](https://docs.dapr.io/concepts/dapr-services/) is a set 
 
 ![dapr-helm](dapr-helm.png)
 
-3. On the Designs tab on the left, click on the **DAPR** design you just imported. This will display the various Kubernetes resource components required for deploying the Dapr control plane on the canvas.
+1. On the Designs tab on the left, click on the **DAPR** design you just imported. This will display the various Kubernetes resource components required for deploying the Dapr control plane on the canvas.
 
 {{< meshery-design-embed src="embedded-design-dapr.js" id="embedded-design-7d183e77-09e1-4b69-a5ee-3e3870e9c5f4" >}}
 

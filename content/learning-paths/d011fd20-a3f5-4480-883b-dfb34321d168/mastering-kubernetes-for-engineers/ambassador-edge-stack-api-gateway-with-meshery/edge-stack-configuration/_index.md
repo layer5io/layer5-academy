@@ -24,15 +24,15 @@ The Edge Stack CRD YAML file typically contains the definitions for custom resou
 
 ![es1](es1.png)
 
-3. Click on the name of the design on the Designs tab to display the visual representations of the various Kubernetes resources and their relationships on the canvas.
+1. Click on the name of the design on the Designs tab to display the visual representations of the various Kubernetes resources and their relationships on the canvas.
 
-4. Click **Actions** in the top right corner and click on Deploy (double tick).
+2. Click **Actions** in the top right corner and click on Deploy (double tick).
 
-5. To check the status of your deployment, click on the notification icon on the top right corner.
+3. To check the status of your deployment, click on the notification icon on the top right corner.
 
 ![es2](es2.png)
 
-6. Click on **Open In visualizer** to navigate to the Visualize section and see a pre-filtered view of the deployed resources in the cluster.
+1. Click on **Open In visualizer** to navigate to the Visualize section and see a pre-filtered view of the deployed resources in the cluster.
 
 ![es3](es3.png)
 
@@ -44,7 +44,7 @@ Now that the CRDs have been deployed, go ahead to deploy the main Edge Stack Con
 
 ![es4](es4.png)
 
-2. You can use the **Group Components** icon on the dock below to group resources based on shared labels or annotations.
+1. You can use the **Group Components** icon on the dock below to group resources based on shared labels or annotations.
 
 ![es5](es5.png)
 
@@ -101,7 +101,7 @@ spec:
       from: ALL
 ```
 
-2. Deploy the resource on Kanvas.
+1. Deploy the resource on Kanvas.
 
 ### Mapping Resource
 

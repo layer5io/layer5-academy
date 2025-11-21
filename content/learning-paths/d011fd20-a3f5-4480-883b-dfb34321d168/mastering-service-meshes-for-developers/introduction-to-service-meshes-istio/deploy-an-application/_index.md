@@ -93,7 +93,7 @@ This will do 3 things:
 watch kubectl get deployment
 ```
 
-2. Choose a service, for instance `productpage`, and view it's container configuration:
+1. Choose a service, for instance `productpage`, and view it's container configuration:
 
 ```sh
 kubectl get po
@@ -101,7 +101,7 @@ kubectl get po
 kubectl describe pod productpage-v1-.....
 ```
 
-3. Examine details of the services:
+1. Examine details of the services:
 
 ```sh
 kubectl describe svc productpage

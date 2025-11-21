@@ -16,5 +16,14 @@ prerequisite_knowledge:
       - title: "Self-hosted Meshery"
         link: "https://docs.meshery.io/installation"
       - title: "Meshery Playground"
-        link: "https://play.meshery.io"       
+        link: "https://play.meshery.io"
+        
+additional_attributes:
+  - title: "Retake Policy"
+    value: "3"
+    description: "Up to three retakes allowed per exam"
+  - title: "Scoring"
+    value: "Composite"
+    description: "The certification requires passing the exam with a minimum passing score for recertification tracking."
+
 ---

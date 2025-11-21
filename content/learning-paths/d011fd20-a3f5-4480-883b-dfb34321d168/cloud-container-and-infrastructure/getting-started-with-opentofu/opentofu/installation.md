@@ -15,13 +15,13 @@ OpenTofu is very easy to install and works on various Linux, Windows, and MacOS 
 curl -fsSL https://get.opentofu.org/install-opentofu.sh -o install-opentofu.sh
 ```
 
-2. Grant execute permissions and review the script:
+1. Grant execute permissions and review the script:
 
 ```bash
 chmod +x install-opentofu.sh && less install-opentofu.sh
 ```
 
-3. Install using the script:
+1. Install using the script:
 
 ```bash
 ./install-opentofu.sh --install-method standalone

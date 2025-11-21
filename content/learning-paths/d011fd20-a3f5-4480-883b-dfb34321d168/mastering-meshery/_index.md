@@ -9,28 +9,30 @@ tags: [meshery]
 categories: "meshery"
 level: "advanced"
 
-
 # List of additional resources for further reading 
 related_resources:
 
-  - title: "Meshery Docs"
+  - title: "Documentation and Slides"
     children:
-    - title: "Meshery Docs"
-      link: "https://docs.meshery.io/"
+    - title: "Meshery Architecture slides"
+      link: "https://docs.meshery.io/concepts/architecture"
     - title: "Architectural Components"
       link: "https://docs.meshery.io/concepts/architecture"
     - title: "Logical Concepts"
       link: "https://docs.meshery.io/concepts/logical"
-    - title: "Quick Start with Kubernetes"
-      link: "https://docs.meshery.io/installation/kubernetes"
-    - title: "Meshery Playground"
+    - title: "Running Meshery: Playground"
       link: "https://docs.meshery.io/installation/playground"
-    - title: "Self Hosted"
+    - title: "Running Meshery: Self-Hosted"
       link:  "https://docs.meshery.io/installation"
 
 ---
 
-<!--
-  This file is only used to render the courses list within a learning path.
-  Check the Learn-Layer5 folder under src/sections/, src/templates for more understanding of how the data is used
--->
+additional_attributes:
+  - title: "Retake Policy"
+    value: "3"
+    description: "Up to three retakes allowed per exam"
+  - title: "Scoring"
+    value: "Composite"
+    description: "The certification requires passing the exam with a minimum passing score for recertification tracking."
+
+---

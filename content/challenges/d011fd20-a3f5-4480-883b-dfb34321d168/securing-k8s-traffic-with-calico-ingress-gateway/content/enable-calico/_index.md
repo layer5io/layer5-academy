@@ -20,7 +20,7 @@ metadata:
 EOF
 ```
 
-This Calico-specific Gateway API resource is the essential prerequisite for using Kubernetes Gateway API standard objects. 
+This Calico-specific Gateway API resource is the essential prerequisite for using Kubernetes Gateway API standard objects.
 
 Let's check the deployment status:
 

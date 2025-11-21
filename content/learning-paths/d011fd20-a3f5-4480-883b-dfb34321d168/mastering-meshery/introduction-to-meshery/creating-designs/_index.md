@@ -18,7 +18,7 @@ Creating designs in Kanvas is a seamless process that enables you to visualize, 
 
 ![explore](explore.png)
 
-3. On the left sidebar, click the Kanvas icon to open Kanvas in Designer mode.
+1. On the left sidebar, click the Kanvas icon to open Kanvas in Designer mode.
 
 ![open-kanvas](open-kanvas.png)
 
@@ -78,19 +78,19 @@ When working with Kanvas, you can effortlessly integrate various design files to
 
 ![import-design](import-design.png)
 
-2. Enter a name for the design in the **Design File Name** field.
+1. Enter a name for the design in the **Design File Name** field.
 
-3. Choose the appropriate **Design Type** for the file you want to import (Helm Chart, Kubernetes, Manifest, etc).
+2. Choose the appropriate **Design Type** for the file you want to import (Helm Chart, Kubernetes, Manifest, etc).
 
-4. Select your preferred import method: either **URL** or **File Upload**.
+3. Select your preferred import method: either **URL** or **File Upload**.
 
 ![explore](configuring-imported-design.png)
 
-5. **Example:** Use the Meshery Server Helm chart at [Meshery Helm Chart](https://meshery.github.io/meshery.io/charts/meshery-v0.7.48.tgz).
+1. **Example:** Use the Meshery Server Helm chart at [Meshery Helm Chart](https://meshery.github.io/meshery.io/charts/meshery-v0.7.48.tgz).
 
 ![meshery-helm-chart](meshery-helm-chart.png)
 
-6. **Review and Modify:** You should now have a Kanvas design of the chart. Continue to make any changes if required or deploy it.
+1. **Review and Modify:** You should now have a Kanvas design of the chart. Continue to make any changes if required or deploy it.
 
 ## Cloning a Design
 
@@ -106,9 +106,9 @@ When working with Kanvas, you can effortlessly integrate various design files to
 
 ![clone-design](clone-design.png)
 
-5. Click **“clone”** and a copy of the design will appear on your Kanvas canvas. You can then configure the design to suit your purposes.
+1. Click **“clone”** and a copy of the design will appear on your Kanvas canvas. You can then configure the design to suit your purposes.
 
-6. Find your newly cloned design in the list of designs in the left navigation panel.
+2. Find your newly cloned design in the list of designs in the left navigation panel.
 
 ![list-of-](list-of-designs.png)
 

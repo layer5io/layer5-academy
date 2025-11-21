@@ -27,7 +27,7 @@ Before you proceed, choose a password and convert it into base64 format. You can
 
 _Figure: Create secret component_
 
-2. Click on the Secret component to open the configuration window.
+1. Click on the Secret component to open the configuration window.
 
    - Set the _name_ as `mysql-pass`
    - Set the _Type_ as `Opaque`
@@ -37,7 +37,7 @@ _Figure: Create secret component_
 
 _Figure: Configure secret_
 
-3. Click outside the window to close the configuration tab.
+1. Click outside the window to close the configuration tab.
 
 ### Create Persistent Volumes
 
@@ -53,7 +53,7 @@ Please note that using `hostPath` for Persistent Volumes is generally not recomm
 
 _Figure: Create persistent volume_
 
-2. Click on the wordpress PV to open the configuration window.
+1. Click on the wordpress PV to open the configuration window.
 
    - Change the "name" to `wp-pv`
    - Set the "StorageClassName" as `manual`
@@ -75,7 +75,7 @@ _Figure: Persistent volume capacity_
 
 _Figure: Persistent volume hostpath_
 
-3. Repeat similar steps for the MySQL Persistent Volume
+1. Repeat similar steps for the MySQL Persistent Volume
 
    - Click on the MySQL PV to open the configuration window.
    - Change the "name" to `mysql-pv`
@@ -84,4 +84,4 @@ _Figure: Persistent volume hostpath_
    - Scroll down to "Capacity" and enter the key pair `storage:20Gi`
    - Scroll down to "Hostpath" and input `mnt/data/mysql-pv` for the _path_ and `DirectoryOrCreate` for the _type_.
 
-4. Click on `wp-pv-claim` and `mysql-pv-claim` and set their "StorageClassName" as `manual`.
+2. Click on `wp-pv-claim` and `mysql-pv-claim` and set their "StorageClassName" as `manual`.
