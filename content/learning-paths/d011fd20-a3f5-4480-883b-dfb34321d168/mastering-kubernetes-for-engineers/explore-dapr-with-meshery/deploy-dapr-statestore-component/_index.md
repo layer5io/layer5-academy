@@ -34,13 +34,13 @@ Now you can start configuring the Dapr state-store.
 
 {{< meshery-design-embed src="embedded-design-statestore.js" id="embedded-design-f0b9088c-ab17-41ee-9400-fcfc5f4d59a8" >}}
 
-6. Click on the **metadata** drop-down and begin to fill in the info.
+1. Click on the **metadata** drop-down and begin to fill in the info.
    - For **Name**, enter _redisHost_.
    - For **Value**, enter _redis-master.default.svc.cluster.local:6379_.
    - Under **Secret Key Ref**, enter the pair _redis:redis-password_.
 
 ![metadata](metadata.png)
 
-7. Click the **Actions** button and deploy.
+1. Click the **Actions** button and deploy.
 
 Next we will deploy the Python and Node.js applications.

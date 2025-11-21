@@ -89,13 +89,13 @@ Workflow:
 git checkout -b feature/your-feature
 ```
 
-3. Commit changes:
+1. Commit changes:
 
 ```bash
 git commit -m "Describe your change"
 ```
 
-4. Push and open a Pull Request.
+1. Push and open a Pull Request.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 

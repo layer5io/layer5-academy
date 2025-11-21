@@ -27,7 +27,7 @@ docs (for example, How to create an account and How to configure user).
 mkdir newproject && cd newproject
 ```
 
-2. Using the editor of your choice, create the file main.tf with the content below:
+1. Using the editor of your choice, create the file main.tf with the content below:
 
 ```hcl
 provider "aws" {
@@ -45,7 +45,7 @@ resource "aws_instance" "firstvm" {
 **Note**: Please replace the “access_key”, “secret_key” and “subnet_id” with your credentials and subnet
 ID.
 
-3. The OpenTofu CLI provides us with a few commands to make the OpenTofu code more convenient to work
+1. The OpenTofu CLI provides us with a few commands to make the OpenTofu code more convenient to work
 with. The tofu fmt command reformats OpenTofu configuration files into a canonical format and style, saving
 you the time and effort of making minor adjustments for readability and consistency.
 
@@ -54,7 +54,7 @@ tofu fmt
 main.tf
 ```
 
-4. Initialize the working directory by executing the following command:
+1. Initialize the working directory by executing the following command:
 
 ```bash
 tofu init
@@ -80,7 +80,7 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
 
-5. Generate a speculative execution plan, showing what actions OpenTofu would take to apply the current
+1. Generate a speculative execution plan, showing what actions OpenTofu would take to apply the current
 configuration. This command will not actually perform the planned actions:
 
 ```bash
@@ -103,7 +103,7 @@ OpenTofu will perform the following actions:
 .
 ```
 
-6. We can create the virtual machine with the tofu apply command. Let us go ahead and create the
+1. We can create the virtual machine with the tofu apply command. Let us go ahead and create the
 resource defined in our configuration file, i.e., an AWS EC2 instance:
 
 ```bash
@@ -147,10 +147,10 @@ aws_instance.firstvm: Creation complete after 13s [id=i-0af888e6a779951aa]
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
 
-7. Congratulations: you have created your first EC2 instance using OpenTofu. Login into your AWS console
+1. Congratulations: you have created your first EC2 instance using OpenTofu. Login into your AWS console
 and verify the machine has been created. It would be something similar to the below snapshot.
 
-8. After verification, let us clean up and destroy the resource created.
+2. After verification, let us clean up and destroy the resource created.
 
 ```bash
 tofu destroy

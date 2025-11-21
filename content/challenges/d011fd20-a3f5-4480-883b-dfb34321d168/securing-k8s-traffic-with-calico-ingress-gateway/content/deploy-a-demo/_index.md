@@ -19,6 +19,7 @@ Deploy the application; this pulls the Kubernetes manifests from the official Gi
 kubectl create -f 
 https://raw.githubusercontent.com/GoogleCloudPlatform/microservices-demo/refs/heads/release/v0.10.2/release/kubernetes-manifests.yaml
 ```
+
 Now that the application is deployed, we can verify the status of the frontend deployment and identify the associated ClusterIP service:
 
 ```bash
@@ -38,5 +39,5 @@ frontend                ClusterIP      10.100.42.132    <none>                  
 frontend-external       LoadBalancer   10.100.43.33     a78ef864683d543e59c7d91fba812176-247554297.us-west-2.elb.amazonaws.com   80:30816/TCP   5d19h
 ```
 
-At this point, our application is successfully deployed, and our customers can access it using the DNS name provided by the load balancer. However, this traffic is unencrypted, which highlights the key security gap we’re aiming to address. 
+At this point, our application is successfully deployed, and our customers can access it using the DNS name provided by the load balancer. However, this traffic is unencrypted, which highlights the key security gap we’re aiming to address.
 Next, we will use Calico Ingress Gateway to equip our application with SSL and run it over HTTPS without modifying our application or server code.

@@ -39,20 +39,20 @@ EOF
 }
 ```
 
-2. The OpenTofu CLI provides us with a few commands to make the OpenTofu code more convenient to work with. The tofu fmt command reformats OpenTofu configuration files into a canonical format and style, saving you the time and effort of making minor adjustments for readability and consistency. It works effectively as a pre-commit hook in your version control system.
+1. The OpenTofu CLI provides us with a few commands to make the OpenTofu code more convenient to work with. The tofu fmt command reformats OpenTofu configuration files into a canonical format and style, saving you the time and effort of making minor adjustments for readability and consistency. It works effectively as a pre-commit hook in your version control system.
 
 ```bash
 tofu fmt
 main.tf
 ```
 
-3. Create a directory and move the OpenTofu code to the directory before we initialize a working directory:
+1. Create a directory and move the OpenTofu code to the directory before we initialize a working directory:
 
 ```bash
 mkdir demo && mv main.tf demo/ && cd demo
 ```
 
-4. After writing the code, the first step is to initialize a new or existing OpenTofu working directory by creating initial files, loading any remote state, downloading modules, and more. This is the first command you should run for any new or existing OpenTofu configuration on each machine. It sets up all the necessary local data to run OpenTofu, which is typically not committed to version control. You can safely run this command multiple times. While subsequent runs may produce errors, this command will never delete your configuration or state.
+1. After writing the code, the first step is to initialize a new or existing OpenTofu working directory by creating initial files, loading any remote state, downloading modules, and more. This is the first command you should run for any new or existing OpenTofu configuration on each machine. It sets up all the necessary local data to run OpenTofu, which is typically not committed to version control. You can safely run this command multiple times. While subsequent runs may produce errors, this command will never delete your configuration or state.
 
 ```bash
 tofu init
@@ -77,14 +77,14 @@ rerun this command to reinitialize your working directory. If you forget, other
 commands will detect it and remind you to do so if necessary.
 ```
 
-5. We can use an optional command tofu validate to validate the syntax and arguments of the configuration files present in the directory:
+1. We can use an optional command tofu validate to validate the syntax and arguments of the configuration files present in the directory:
 
 ```bash
 tofu validate
 Success! The configuration is valid.
 ```
 
-6. Generate a speculative execution plan, showing what actions OpenTofu would take to apply the current configuration. This command will not actually perform the planned actions:
+1. Generate a speculative execution plan, showing what actions OpenTofu would take to apply the current configuration. This command will not actually perform the planned actions:
 
 ```bash
 tofu plan
@@ -118,7 +118,7 @@ guarantee to take exactly these actions if
 you run "tofu apply" now.
 ```
 
-7. We can create or update an existing infrastructure with the tofu apply command. Let us go ahead and create the resource defined in our configuration file, i.e., a local file:
+1. We can create or update an existing infrastructure with the tofu apply command. Let us go ahead and create the resource defined in our configuration file, i.e., a local file:
 
 ```bash
 tofu apply
@@ -151,7 +151,7 @@ local_file.hello_world: Creation complete after 0s
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
 
-8. Verify the file was created in the local directory:
+1. Verify the file was created in the local directory:
 
 ```bash
 ls demo.txt && cat demo.txt
@@ -159,7 +159,7 @@ Hello World!!!
 Welcome to the fascinating world of OpenTofu!
 ```
 
-9. To create any infrastructure in OpenTofu, we need to define the resource in the OpenTofu language, initialize a working directory, install the required plugins, generate a plan, and execute the plan by applying it. We can also clean up and destroy the resource created with a simple destroy command. Let us clean up by executing:
+1. To create any infrastructure in OpenTofu, we need to define the resource in the OpenTofu language, initialize a working directory, install the required plugins, generate a plan, and execute the plan by applying it. We can also clean up and destroy the resource created with a simple destroy command. Let us clean up by executing:
 
 ```bash
 tofu destroy
@@ -192,7 +192,7 @@ local_file.hello_world: Destruction complete after 0s
 Destroy complete! Resources: 1 destroyed.
 ```
 
-9. Verify if the file has been cleaned up :
+1. Verify if the file has been cleaned up :
 
 ```bash
 ls demo.txt
