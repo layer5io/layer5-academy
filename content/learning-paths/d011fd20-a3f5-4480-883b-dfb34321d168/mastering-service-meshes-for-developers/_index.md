@@ -10,7 +10,7 @@ categories: "meshery"
 level: "advanced"
 
 
-additional_attributes
+additional_attributes:
   - title: "Retake Policy"
     value: "3"
     description: "Up to three retakes allowed per exam"
