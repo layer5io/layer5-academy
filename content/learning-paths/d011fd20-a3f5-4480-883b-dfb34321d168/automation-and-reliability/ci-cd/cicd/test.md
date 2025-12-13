@@ -3,7 +3,7 @@ title: 'Test'
 pass_percentage: 70
 questions:
   - id: 'q1'
-    text: "What is the 'mantra' of Continuous Integration (CI) ? "
+    text: "What is the 'mantra' of Continuous Integration (CI)?"
     type: 'single-answer'
     marks: 2
     options:
@@ -153,6 +153,70 @@ questions:
       - id: 'd'
         text: 'Creating executable artifacts'
         is_correct: true
+
+  - id: 'q11'
+    text: 'What are the key principles of Continuous Integration?'
+    type: 'multiple-answers'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Frequent code integration'
+        is_correct: true
+      - id: 'b'
+        text: 'Automated builds'
+        is_correct: true
+      - id: 'c'
+        text: 'Automated testing'
+        is_correct: true
+      - id: 'd'
+        text: 'Manual deployment to production'
+
+  - id: 'q12'
+    text: 'Which characteristic is specific to Continuous Deployment?'
+    type: 'single-answer'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Manual approval before production release'
+      - id: 'b'
+        text: 'Automated production deployment after passing tests'
+        is_correct: true
+      - id: 'c'
+        text: 'Deployment only to staging environments'
+      - id: 'd'
+        text: 'Weekly release schedule'
+
+  - id: 'q13'
+    text: 'In a phased rollout strategy, what is the primary approach?'
+    type: 'single-answer'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Deploy to all users simultaneously'
+      - id: 'b'
+        text: 'Release to a limited subset initially and progressively expand'
+        is_correct: true
+      - id: 'c'
+        text: 'Deploy only during off-peak hours'
+      - id: 'd'
+        text: 'Use feature flags to hide new features'
+
+  - id: 'q14'
+    text: 'What are the key principles of GitOps?'
+    type: 'multiple-answers'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Declarative configuration'
+        is_correct: true
+      - id: 'b'
+        text: 'Single source of truth in Git'
+        is_correct: true
+      - id: 'c'
+        text: 'Pull-based reconciliation'
+        is_correct: true
+      - id: 'd'
+        text: 'Manual deployment scripts'
 
 layout: 'test'
 type: 'test'
