@@ -18,9 +18,7 @@ questions:
         text: 'Complex Integration'
 
   - id: 'q2'
-    text:
-      'Which concept involves automatically preparing code changes for a release
-      to production?'
+    text: 'Which concept involves automatically preparing code changes for a release to production?'
     type: 'single-answer'
     marks: 2
     options:
@@ -42,8 +40,7 @@ questions:
       - id: 'a'
         text: 'To slow down the development process to ensure quality'
       - id: 'b'
-        text:
-          'To automate the steps of building, testing, and deploying software'
+        text: 'To automate the steps of building, testing, and deploying software'
         is_correct: true
       - id: 'c'
         text: 'To manually review every line of code written by developers'

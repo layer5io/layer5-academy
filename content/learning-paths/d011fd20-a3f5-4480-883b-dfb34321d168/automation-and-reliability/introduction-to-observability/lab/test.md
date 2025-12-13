@@ -3,9 +3,7 @@ title: 'Test'
 pass_percentage: 70
 questions:
   - id: 'q1'
-    text:
-      'According to the installation steps, which default port is used to access
-      the Prometheus web interface?'
+    text: 'According to the installation steps, which default port is used to access the Prometheus web interface?'
     type: 'single-answer'
     marks: 2
     options:
@@ -20,16 +18,14 @@ questions:
         text: '22'
 
   - id: 'q2'
-    text:
-      'Why is a dedicated user created for Prometheus during the setup process?'
+    text: 'Why is a dedicated user created for Prometheus during the setup process?'
     type: 'single-answer'
     marks: 2
     options:
       - id: 'a'
         text: 'To give the service root privileges'
       - id: 'b'
-        text:
-          'It is a security best practice to run services with a dedicated user'
+        text: 'It is a security best practice to run services with a dedicated user'
         is_correct: true
       - id: 'c'
         text: 'Because Ubuntu requires a new user for every download'
@@ -37,9 +33,7 @@ questions:
         text: 'To allow external remote access by default'
 
   - id: 'q3'
-    text:
-      'What is the necessary step to visualize Prometheus metrics within
-      Grafana?'
+    text: 'What is the necessary step to visualize Prometheus metrics within Grafana?'
     type: 'single-answer'
     marks: 2
     options:
@@ -54,9 +48,7 @@ questions:
         text: 'Restart the Ubuntu host machine'
 
   - id: 'q4'
-    text:
-      'Which file must be created to allow Prometheus to run as a background
-      service managed by the system?'
+    text: 'Which file must be created to allow Prometheus to run as a background service managed by the system?'
     type: 'single-answer'
     marks: 2
     options:
@@ -71,9 +63,7 @@ questions:
         text: 'A bash executable in the bin folder'
 
   - id: 'q5'
-    text:
-      'Which simple query is suggested to check the up/down status of Prometheus
-      targets?'
+    text: 'Which simple query is suggested to check the up/down status of Prometheus targets?'
     type: 'single-answer'
     marks: 2
     options:

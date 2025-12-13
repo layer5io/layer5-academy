@@ -3,8 +3,7 @@ title: 'Test'
 pass_percentage: 70
 questions:
   - id: 'q1'
-    text:
-      'What is the primary goal of observability as described in the chapter?'
+    text: 'What is the primary goal of observability as described in the chapter?'
     type: 'single-answer'
     marks: 2
     options:
@@ -19,8 +18,7 @@ questions:
         text: 'To generate more logs than necessary'
 
   - id: 'q2'
-    text:
-      'Which of the following represents the three key pillars of observability?'
+    text: 'Which of the following represents the three key pillars of observability?'
     type: 'single-answer'
     marks: 2
     options:
@@ -65,9 +63,7 @@ questions:
         is_correct: true
 
   - id: 'q5'
-    text:
-      'Why is observability particularly crucial for complex, distributed
-      systems?'
+    text: 'Why is observability particularly crucial for complex, distributed systems?'
     type: 'single-answer'
     marks: 2
     options:

@@ -9,7 +9,4 @@ categories: ['Webassembly', 'platform']
 tags: [fluentbit, wasm, webassembly]
 level: 'intermediate'
 ---
-
-This challenge examines using Fluent Bit and WASM to enrich log data based on
-pre-existing location data in the logs. The WASM plugin is just one of the
-options available for processing data with Fluent Bit.
+This challenge examines using Fluent Bit and WASM to enrich log data based on pre-existing location data in the logs. The WASM plugin is just one of the options available for processing data with Fluent Bit.

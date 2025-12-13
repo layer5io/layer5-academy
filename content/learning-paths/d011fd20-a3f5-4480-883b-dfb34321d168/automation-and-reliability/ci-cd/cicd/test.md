@@ -18,9 +18,7 @@ questions:
         text: 'Deployment over testing'
 
   - id: 'q2'
-    text:
-      'Which specific problem does CI/CD help minimize by ensuring consistent
-      environments?'
+    text: 'Which specific problem does CI/CD help minimize by ensuring consistent environments?'
     type: 'single-answer'
     marks: 2
     options:
@@ -35,16 +33,12 @@ questions:
         text: 'Syntax errors in production'
 
   - id: 'q3'
-    text:
-      'What is the critical difference between Continuous Delivery and
-      Continuous Deployment?'
+    text: 'What is the critical difference between Continuous Delivery and Continuous Deployment?'
     type: 'single-answer'
     marks: 2
     options:
       - id: 'a'
-        text:
-          'Continuous Delivery requires manual intervention for production
-          release, while Continuous Deployment is automatic.'
+        text: 'Continuous Delivery requires manual intervention for production release, while Continuous Deployment is automatic.'
         is_correct: true
       - id: 'b'
         text: 'Continuous Delivery is faster than Continuous Deployment.'
@@ -54,9 +48,7 @@ questions:
         text: 'Continuous Delivery deploys to production automatically.'
 
   - id: 'q4'
-    text:
-      "In the context of GitOps, what serves as the 'single source of truth' for
-      infrastructure and application configuration?"
+    text: "In the context of GitOps, what serves as the 'single source of truth' for infrastructure and application configuration?"
     type: 'single-answer'
     marks: 2
     options:
@@ -71,9 +63,7 @@ questions:
         text: 'The Production Database'
 
   - id: 'q5'
-    text:
-      'Which release strategy involves maintaining two identical environments
-      (blue and green) to ensure zero downtime?'
+    text: 'Which release strategy involves maintaining two identical environments (blue and green) to ensure zero downtime?'
     type: 'single-answer'
     marks: 2
     options:
@@ -88,9 +78,7 @@ questions:
         text: 'Feature Toggles'
 
   - id: 'q6'
-    text:
-      'Which GitOps principle ensures that a controller automatically applies
-      changes from the repository to the target environment?'
+    text: 'Which GitOps principle ensures that a controller automatically applies changes from the repository to the target environment?'
     type: 'single-answer'
     marks: 2
     options:
@@ -112,8 +100,7 @@ questions:
       - id: 'a'
         text: 'To deploy to all users simultaneously'
       - id: 'b'
-        text:
-          'To test new features on a small subset of users before a full release'
+        text: 'To test new features on a small subset of users before a full release'
         is_correct: true
       - id: 'c'
         text: 'To disable features using conditional statements'
@@ -143,9 +130,7 @@ questions:
       - id: 'a'
         text: 'By preventing code from being merged until it is perfect'
       - id: 'b'
-        text:
-          'By allowing developers to enable or disable features without
-          modifying code'
+        text: 'By allowing developers to enable or disable features without modifying code'
         is_correct: true
       - id: 'c'
         text: 'By automatically fixing bugs in production'

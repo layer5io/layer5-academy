@@ -10,9 +10,7 @@ questions:
       - id: 'a'
         text: 'The ability to monitor CPU usage'
       - id: 'b'
-        text:
-          'The ability to understand the internal state of a system based on its
-          external outputs'
+        text: 'The ability to understand the internal state of a system based on its external outputs'
         is_correct: true
       - id: 'c'
         text: 'The ability to automatically rewrite code to fix bugs'
@@ -20,9 +18,7 @@ questions:
         text: 'The process of manually checking server racks'
 
   - id: 'q2'
-    text:
-      'Which type of log is specifically essential for compliance, security
-      monitoring, and forensic analysis?'
+    text: 'Which type of log is specifically essential for compliance, security monitoring, and forensic analysis?'
     type: 'single-answer'
     marks: 2
     options:
@@ -44,9 +40,7 @@ questions:
       - id: 'a'
         text: 'The total amount of memory used by the database'
       - id: 'b'
-        text:
-          'The journey of a single request or transaction across various
-          services'
+        text: 'The journey of a single request or transaction across various services'
         is_correct: true
       - id: 'c'
         text: 'A list of all users currently logged in'
@@ -76,9 +70,7 @@ questions:
       - id: 'a'
         text: 'When the system slows down due to too many alerts'
       - id: 'b'
-        text:
-          'When operators become overwhelmed by false positives and start
-          ignoring alerts'
+        text: 'When operators become overwhelmed by false positives and start ignoring alerts'
         is_correct: true
       - id: 'c'
         text: 'When the alerting software crashes'
@@ -86,8 +78,7 @@ questions:
         text: 'When alerts are delivered to the wrong team'
 
   - id: 'q6'
-    text:
-      'Which tool is identified as a cloud native manager for service meshes?'
+    text: 'Which tool is identified as a cloud native manager for service meshes?'
     type: 'single-answer'
     marks: 2
     options:
@@ -102,9 +93,7 @@ questions:
         text: 'Nagios'
 
   - id: 'q7'
-    text:
-      'Which three concepts are described as fundamental for ensuring services
-      meet reliability targets in SRE?'
+    text: 'Which three concepts are described as fundamental for ensuring services meet reliability targets in SRE?'
     type: 'single-answer'
     marks: 2
     options:

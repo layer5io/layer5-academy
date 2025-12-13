@@ -10,9 +10,7 @@ questions:
       - id: 'a'
         text: 'To manually compile code once a month'
       - id: 'b'
-        text:
-          'To automate the release of software changes to production frequently
-          and reliably'
+        text: 'To automate the release of software changes to production frequently and reliably'
         is_correct: true
       - id: 'c'
         text: 'To remove the need for software testing'
@@ -35,9 +33,7 @@ questions:
         text: 'curl localhost:8080/password'
 
   - id: 'q3'
-    text:
-      'Which port is mapped to 8080 in the docker run command to access the
-      Jenkins server?'
+    text: 'Which port is mapped to 8080 in the docker run command to access the Jenkins server?'
     type: 'single-answer'
     marks: 2
     options:
@@ -52,9 +48,7 @@ questions:
         text: 'Port 22'
 
   - id: 'q4'
-    text:
-      "Why is the 'None' option selected during the 'Select Plugins to install'
-      step in this lab?"
+    text: "Why is the 'None' option selected during the 'Select Plugins to install' step in this lab?"
     type: 'single-answer'
     marks: 2
     options:
@@ -63,16 +57,13 @@ questions:
       - id: 'b'
         text: 'Because the internet connection is disabled'
       - id: 'c'
-        text:
-          'To keep the setup simple and manually add plugins later if needed'
+        text: 'To keep the setup simple and manually add plugins later if needed'
         is_correct: true
       - id: 'd'
         text: 'Because the plugins are incompatible with Docker'
 
   - id: 'q5'
-    text:
-      'What type of project is created to test the Jenkins installation in this
-      lab?'
+    text: 'What type of project is created to test the Jenkins installation in this lab?'
     type: 'single-answer'
     marks: 2
     options:
