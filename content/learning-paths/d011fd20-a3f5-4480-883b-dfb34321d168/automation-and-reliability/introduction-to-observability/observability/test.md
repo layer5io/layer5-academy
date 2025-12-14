@@ -107,6 +107,84 @@ questions:
       - id: 'd'
         text: 'TCP, IP, and DNS'
 
+  - id: 'q8'
+    text: 'What type of metrics provide insights into the health and performance of the underlying infrastructure?'
+    type: 'single-answer'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Business Metrics'
+      - id: 'b'
+        text: 'Application Metrics'
+      - id: 'c'
+        text: 'System Metrics'
+        is_correct: true
+      - id: 'd'
+        text: 'User Metrics'
+
+  - id: 'q9'
+    text: 'Which components are part of a trace in distributed tracing?'
+    type: 'multiple-answers'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Spans representing single operations'
+        is_correct: true
+      - id: 'b'
+        text: 'Trace context carrying the trace identity'
+        is_correct: true
+      - id: 'c'
+        text: 'CPU usage percentages'
+      - id: 'd'
+        text: 'Annotations and metadata'
+        is_correct: true
+
+  - id: 'q10'
+    text: 'What is the solution to address the challenge of data volume and overhead in observability?'
+    type: 'single-answer'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Stop collecting all logs'
+      - id: 'b'
+        text: 'Implementing intelligent data sampling and aggregation techniques'
+        is_correct: true
+      - id: 'c'
+        text: 'Manually review each log entry'
+      - id: 'd'
+        text: 'Use only one monitoring tool'
+
+  - id: 'q11'
+    text: 'Which open source distributed tracing systems are mentioned in the content?'
+    type: 'multiple-answers'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'Jaeger'
+        is_correct: true
+      - id: 'b'
+        text: 'Zipkin'
+        is_correct: true
+      - id: 'c'
+        text: 'Jenkins'
+      - id: 'd'
+        text: 'Docker'
+
+  - id: 'q12'
+    text: 'Why is observability particularly crucial for complex, distributed systems?'
+    type: 'single-answer'
+    marks: 2
+    options:
+      - id: 'a'
+        text: 'It eliminates the need for system maintenance'
+      - id: 'b'
+        text: 'It helps understand the interaction between different components'
+        is_correct: true
+      - id: 'c'
+        text: 'It reduces the overall cost of internet bandwidth'
+      - id: 'd'
+        text: 'It automatically writes code for new features'
+
 layout: 'test'
 type: 'test'
 ---

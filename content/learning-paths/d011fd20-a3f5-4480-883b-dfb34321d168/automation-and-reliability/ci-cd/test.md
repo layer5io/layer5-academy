@@ -32,7 +32,6 @@ questions:
         - id: "d"
           text: "Increased manual testing"
 
-
     - id: "q3"
       text: "What tool is commonly used for implementing CI/CD pipelines?"
       type: "single-answer"
@@ -62,6 +61,70 @@ questions:
           is_correct: true
         - id: "d"
           text: "A physical pipe that transfers data from one server to another"
+
+    - id: "q5"
+      text: "What are the main benefits of implementing CI/CD?"
+      type: "multiple-answers"
+      marks: 2
+      options:
+        - id: "a"
+          text: "Faster time to market"
+          is_correct: true
+        - id: "b"
+          text: "Reduced risk of deployment failures"
+          is_correct: true
+        - id: "c"
+          text: "Increased manual work for operations teams"
+        - id: "d"
+          text: "Early detection of bugs and issues"
+          is_correct: true
+
+    - id: "q6"
+      text: "Which deployment model is described as 'paradigm-shifting' in the content?"
+      type: "single-answer"
+      marks: 2
+      options:
+        - id: "a"
+          text: "Waterfall"
+        - id: "b"
+          text: "GitOps"
+          is_correct: true
+        - id: "c"
+          text: "FTP Transfer"
+        - id: "d"
+          text: "Manual Copy-Paste"
+
+    - id: "q7"
+      text: "What is the difference between Continuous Delivery and Continuous Deployment?"
+      type: "single-answer"
+      marks: 2
+      options:
+        - id: "a"
+          text: "There is no difference between them"
+        - id: "b"
+          text: "Continuous Delivery requires manual approval for production, Continuous Deployment is fully automatic"
+          is_correct: true
+        - id: "c"
+          text: "Continuous Deployment is slower than Continuous Delivery"
+        - id: "d"
+          text: "Continuous Delivery does not include testing"
+
+    - id: "q8"
+      text: "Which release strategies help minimize deployment risk?"
+      type: "multiple-answers"
+      marks: 2
+      options:
+        - id: "a"
+          text: "Blue-Green Deployment"
+          is_correct: true
+        - id: "b"
+          text: "Canary Release"
+          is_correct: true
+        - id: "c"
+          text: "Feature Toggles"
+          is_correct: true
+        - id: "d"
+          text: "Direct production deployment without testing"
 
 layout: "test"
 type: "test"
