@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure as Code on Example Academy</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/</link><description>Recent content in Infrastructure as Code on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/index.xml" rel="self" type="application/rss+xml"/><item><title>Infrastructure as Code</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/overview/</guid><description>&lt;h3 id="overview" class="heading-link">
+ Overview
+ &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Infrastructure_as_code">Infrastructure as Code (IaC)&lt;/a> is a revolutionary approach in the space of software development and IT operations, transforming the way we build, manage, and scale infrastructure. At its core, IaC involves describing and provisioning infrastructure elements through machine-readable script files, treating infrastructure in a manner similar to software code.&lt;/p>
+&lt;p>In traditional setups, infrastructure deployment was a manual and often error-prone process. With IaC, this paradigm shifts towards automation, enabling developers to define infrastructure configurations using high-level programming languages. One of the key advantages is the ability to version control the infrastructure code, ensuring traceability, reproducibility, and easy collaboration across development teams.&lt;/p></description></item><item><title>Why Should You Bother?</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/why/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/why/</guid><description>&lt;h3 id="software-engineers" class="heading-link">
+ Software Engineers
+ &lt;a href="#software-engineers" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+
+&lt;h4 id="efficiency-and-consistency" class="heading-link">
+ Efficiency and Consistency
+ &lt;a href="#efficiency-and-consistency" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>Consider a scenario where a software engineer needs to set up a development environment with specific server configurations. With IaC, they can script these configurations, ensuring consistency across different environments, be it development, testing, or production.&lt;/p>
+
+&lt;h4 id="collaboration-and-version-control" class="heading-link">
+ Collaboration and Version Control
+ &lt;a href="#collaboration-and-version-control" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>When multiple engineers collaborate on infrastructure changes, version control becomes crucial. IaC enables engineers to use tools like Git to manage changes, track history, and collaborate seamlessly, just like they do with application code.&lt;/p></description></item><item><title>Categories of Infrastructure As Code Tools</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/categories/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/categories/</guid><description>&lt;h3 id="declarative-iac-tools" class="heading-link">
+ Declarative IaC Tools
+ &lt;a href="#declarative-iac-tools" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Declarative tools focus on describing the desired state of the infrastructure. Users specify what they want, and the tool ensures the system reaches that state.&lt;/p>
+&lt;p>Examples:&lt;/p>
+&lt;ul>
+&lt;li>Terraform allows users to define infrastructure using a declarative configuration language. It supports various providers like AWS, Azure, and Google Cloud, enabling multi-cloud and hybrid cloud scenarios.&lt;/li>
+&lt;li>Pulumi provides Infrastructure as Code in multiple programming languages like Python, TypeScript, and Go. It allows integration with various cloud providers and offers flexibility.&lt;/li>
+&lt;li>SaltStack is an open source platform with YAML configuration files for IaC. It focuses on automation and offers centralized infrastructure management.&lt;/li>
+&lt;/ul>
+
+&lt;h3 id="configuration-management-tools" class="heading-link">
+ Configuration Management Tools
+ &lt;a href="#configuration-management-tools" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>These tools focus on configuring and maintaining software applications on existing infrastructure. While not purely IaC, they play a crucial role in managing the software layer.&lt;/p></description></item><item><title>Five Fundamental Features of an IaC Tool</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/fundamentals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/fundamentals/</guid><description>&lt;h3 id="features-of-iac-tools" class="heading-link">
+ Features of IaC Tools
+ &lt;a href="#features-of-iac-tools" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In the dynamic landscape of modern software development, Infrastructure as Code (IaC) tools have become indispensable for automating and managing infrastructure. Let&amp;rsquo;s dive into five fundamental features that make these tools essential for developers, using straightforward scenarios and relatable examples.&lt;/p>
+
+&lt;h4 id="declarative-configuration" class="heading-link">
+ Declarative Configuration
+ &lt;a href="#declarative-configuration" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>&lt;strong>What is it?&lt;/strong>&lt;/p>
+&lt;p>Declarative configuration allows users to specify the desired state of their infrastructure without detailing the steps to reach that state. It&amp;rsquo;s like ordering a meal in a restaurant without instructing the chef on how to cook it.&lt;/p></description></item><item><title>Infrastructure as Code (IaC) with Meshery</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/meshery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/meshery/</guid><description>&lt;h3 id="meshery-as-infrastructure-as-code-iac" class="heading-link">
+ Meshery as Infrastructure as Code (IaC)
+ &lt;a href="#meshery-as-infrastructure-as-code-iac" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Meshery is a cloud native management plane that enables Infrastructure as Code (IaC) through declarative configuration management. Using Meshery Designs, users can define, import, manage, and deploy infrastructure configurations in a structured and repeatable manner.&lt;/p>
+
+&lt;h3 id="meshery-designs-the-foundation-of-iac" class="heading-link">
+ Meshery Designs: The Foundation of IaC
+ &lt;a href="#meshery-designs-the-foundation-of-iac" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Meshery Designs are YAML-based configurations that serve as the core construct for managing infrastructure as code. They provide a declarative approach similar to Kubernetes manifests.&lt;/p></description></item><item><title>Introduction to Terraform</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/terraform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/terraform/</guid><description>&lt;h3 id="what-is-terraform" class="heading-link">
+ What is Terraform?
+ &lt;a href="#what-is-terraform" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Imagine this: you&amp;rsquo;re a software developer, coding away on an amazing new app. But then comes the dreaded task – setting up the infrastructure for your application. Manually provisioning servers, configuring networks, and managing databases sounds like a nightmare, right?&lt;/p>
+&lt;p>Well, fear no more! Infrastructure as Code (IaC) tools like Terraform are here to save the day. Think of Terraform as your personal infrastructure chef, taking care of all the tedious infrastructure setup and management tasks with ease.&lt;/p></description></item><item><title>Introduction to OpenTofu</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/opentofu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/opentofu/</guid><description>&lt;h3 id="what-is-opentofu" class="heading-link">
+ What is OpenTofu?
+ &lt;a href="#what-is-opentofu" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://opentofu.org/">OpenTofu&lt;/a> is an open source IaC tool forked from Terraform version 1.5. It inherits the familiar syntax and functionality of Terraform, making it easy for existing Terraform users to pick up and use. However, OpenTofu goes beyond simply replicating Terraform. It introduces several key enhancements and features that cater to the needs of the open source community and address the limitations of the BSL.&lt;/p></description></item><item><title>Introduction to AWS CloudFormation</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/aws/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-194/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/iac/iac/aws/</guid><description>&lt;h3 id="overview-of-aws-cloudformation" class="heading-link">
+ Overview of AWS CloudFormation
+ &lt;a href="#overview-of-aws-cloudformation" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>AWS CloudFormation is a powerful Infrastructure as Code (IaC) service offered by Amazon Web Services (AWS) that allows you to define, provision, and manage your cloud infrastructure in a declarative way. With CloudFormation, you can describe your infrastructure using templates, which are written in JSON or YAML and contain a set of instructions for AWS to create and configure the resources you need. This approach provides several key benefits, including:&lt;/p></description></item></channel></rss>
