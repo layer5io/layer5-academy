@@ -107,6 +107,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 - **Organization-owned content**: Use academy-example as a starting point.
 After creating a release, the academy-build pipeline will fetch and publish your content to Layer5 Cloud (requires organization ID and token).
 
+
 ---
 
 ## Resources
@@ -114,3 +115,4 @@ After creating a release, the academy-build pipeline will fetch and publish your
 - Academy Documentation: <https://docs.layer5.io/cloud/academy>
 - Content Creation Guide: <https://docs.layer5.io/cloud/academy/creating-content>
 - Community Slack: <https://slack.layer5.io>
+
