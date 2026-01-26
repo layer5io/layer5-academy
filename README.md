@@ -1,3 +1,4 @@
+
 # Layer5 Academy
 
 **Layer5 Academy** is the **official content repository** for Layer5's learning platform, hosting all official learning paths, challenges, and certifications.  
@@ -114,3 +115,4 @@ After creating a release, the academy-build pipeline will fetch and publish your
 - Academy Documentation: <https://docs.layer5.io/cloud/academy>
 - Content Creation Guide: <https://docs.layer5.io/cloud/academy/creating-content>
 - Community Slack: <https://slack.layer5.io>
+
