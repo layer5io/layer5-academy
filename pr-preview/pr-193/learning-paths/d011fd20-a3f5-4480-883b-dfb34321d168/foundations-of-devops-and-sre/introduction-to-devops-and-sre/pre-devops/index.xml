@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Pre-DevOps Era on Example Academy</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/</link><description>Recent content in The Pre-DevOps Era on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Characteristics of the Pre-DevOps Era</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/characteristics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/characteristics/</guid><description>&lt;h3 id="key-characteristics-of-the-pre-devops-era" class="heading-link">
+ Key Characteristics of the Pre-DevOps Era
+ &lt;a href="#key-characteristics-of-the-pre-devops-era" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>The pre-DevOps era in software development was a starkly different landscape than what we see today. It was a time of siloed teams, rigid methodologies, and a lot of manual work, which often led to slow and unreliable software delivery.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Waterfall Model&lt;/strong>
+The dominant methodology was the &lt;a href="https://en.wikipedia.org/wiki/Waterfall_model">Waterfall model&lt;/a>, a linear approach where each stage had to be completed before moving on to the next. This made it difficult to adapt to changes and respond quickly to new requirements.&lt;/li>
+&lt;li>&lt;strong>Siloed Teams&lt;/strong>
+Developers, testers, and operations teams worked independently, often with little communication or collaboration. This created a &amp;ldquo;throw it over the wall&amp;rdquo; mentality, where each team blamed the other for problems.&lt;/li>
+&lt;li>&lt;strong>Manual Processes&lt;/strong>
+Most tasks, from testing to deployment, were done manually. This was time-consuming and error-prone, leading to delays and inconsistencies.&lt;/li>
+&lt;li>&lt;strong>Limited Automation&lt;/strong>
+There were few tools available to automate repetitive tasks, making it difficult to scale software development.&lt;/li>
+&lt;li>&lt;strong>Slow and Unreliable Delivery&lt;/strong>
+Releases were infrequent and often buggy, causing frustration for both developers and users.
+Next, let’s take a look at some specific examples of the challenges faced in the pre-DevOps era.&lt;/li>
+&lt;/ul></description></item><item><title>Challenges: Example 1: Sony PlayStation Network Outage (2011)</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/challenge-1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/challenge-1/</guid><description>&lt;h3 id="psn-outage" class="heading-link">
+ PSN Outage
+ &lt;a href="#psn-outage" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In April 2011, &lt;a href="https://en.wikipedia.org/wiki/2011_PlayStation_Network_outage">the Sony PlayStation Network (PSN) experienced a massive outage&lt;/a> that lasted for 23 days and affected over 100 million users. This incident is considered a classic example of the challenges faced in the pre-DevOps era and serves as a cautionary tale for organizations transitioning to modern development practices.&lt;/p>
+
+&lt;h4 id="pre-devops-challenges-contributing-to-the-psn-outage" class="heading-link">
+ Pre-DevOps Challenges Contributing to the PSN Outage
+ &lt;a href="#pre-devops-challenges-contributing-to-the-psn-outage" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Silos and Communication Gaps&lt;/strong>: The development and operations teams at Sony worked in separate silos with limited communication and collaboration. This led to a lack of understanding of each other&amp;rsquo;s work and challenges, making it difficult to respond effectively to the evolving situation during the outage.&lt;/li>
+&lt;li>&lt;strong>Manual and Slow Processes&lt;/strong>: Deployments and infrastructure changes were performed manually, requiring significant time and effort. This slowness hampered Sony&amp;rsquo;s ability to quickly assess the situation and implement necessary fixes.&lt;/li>
+&lt;li>&lt;strong>Limited Scalability and Flexibility&lt;/strong>: The PSN&amp;rsquo;s infrastructure was not designed to handle the surging demand caused by the attack, leading to widespread outages and service disruptions.&lt;/li>
+&lt;li>&lt;strong>Lack of Visibility and Tracking&lt;/strong>: Sony lacked effective monitoring tools to identify and diagnose the source of the outage promptly. This delayed the response time and made it difficult to determine the full scope of the attack.&lt;/li>
+&lt;li>&lt;strong>Culture of Blame and Finger-Pointing&lt;/strong>: The siloed environment and lack of communication led to blame and finger-pointing between different teams, hindering collaboration and problem-solving efforts.&lt;/li>
+&lt;/ul>
+
+&lt;h4 id="consequences-of-the-psn-outage" class="heading-link">
+ Consequences of the PSN Outage
+ &lt;a href="#consequences-of-the-psn-outage" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Financial Losses&lt;/strong>: Sony estimated the outage cost the company approximately $170 million in lost revenue and legal settlements.&lt;/li>
+&lt;li>&lt;strong>Reputation Damage&lt;/strong>: The incident severely damaged Sony&amp;rsquo;s reputation and eroded user trust in the PSN platform.&lt;/li>
+&lt;li>&lt;strong>Customer Frustration&lt;/strong>: Millions of users were frustrated by the prolonged outage and lack of information from Sony.&lt;/li>
+&lt;/ul>
+
+&lt;h4 id="lessons-learned-from-the-psn-outage" class="heading-link">
+ Lessons Learned from the PSN Outage
+ &lt;a href="#lessons-learned-from-the-psn-outage" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>Here are some of the lessons learned from the PSN outage:&lt;/p></description></item><item><title>Challenges: Example 2: The Launch of healthcare.gov Website (2013)</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/challenge-2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/challenge-2/</guid><description>&lt;h3 id="the-launch-of-healthcaregov-website" class="heading-link">
+ The Launch of healthcare.gov Website
+ &lt;a href="#the-launch-of-healthcaregov-website" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>The launch of the &lt;a href="https://d3.harvard.edu/platform-rctom/submission/the-failed-launch-of-www-healthcare-gov/">United States Department of Health and Human Services&amp;rsquo; healthcare.gov website&lt;/a> in 2013 was plagued by technical problems, causing major delays and embarrassment for the government. This was due in part to the use of outdated technology and a lack of collaboration between development and operations teams.&lt;/p>
+&lt;p>The pre-DevOps era was a time of significant challenges for software development. However, it also laid the groundwork for the emergence of DevOps, which has revolutionized the way software is built and delivered.&lt;/p></description></item><item><title>Test</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-193/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/introduction-to-devops-and-sre/pre-devops/test/</guid><description/></item></channel></rss>
