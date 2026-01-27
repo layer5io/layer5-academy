@@ -48,6 +48,13 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
+      - name: Checkout for cleanup
+        if: github.event.action == 'closed'
+        uses: actions/checkout@v6
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
       - name: Install Node.js dependencies
         if: github.event.action != 'closed'
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
