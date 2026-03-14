@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SRE on Example Academy</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/</link><description>Recent content in SRE on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/index.xml" rel="self" type="application/rss+xml"/><item><title>What is Site Reliability Engineering (SRE)?</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/what/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/what/</guid><description>&lt;h3 id="overview" class="heading-link">
+ Overview
+ &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Site Reliability Engineering (SRE) is an approach to running large-scale, reliable services. &lt;a href="https://sre.google/">Google&lt;/a> is widely credited with formalizing and popularizing the term &amp;ldquo;SRE&amp;rdquo; and has since been adopted by many other tech companies. SRE blends aspects of software engineering with traditional IT and focuses on creating scalable and highly reliable software systems. The primary focus of SRE is to improve the reliability of services. Reliability is often measured through service level indicators (SLIs), service level objectives (SLOs), and service level agreements (SLAs). These metrics help define the performance and availability levels expected from a service.&lt;/p></description></item><item><title>SRE versus DevOps</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/devops-vs-sre/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/devops-vs-sre/</guid><description>&lt;h3 id="characteristics-of-sre" class="heading-link">
+ Characteristics of SRE
+ &lt;a href="#characteristics-of-sre" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Focus on Reliability&lt;/strong>: SRE places a primary emphasis on ensuring the reliability and availability of services. SREs are specifically tasked with maintaining a high level of service reliability and meeting defined Service Level Objectives (SLOs).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Error Budgets&lt;/strong>: SRE introduces the concept of error budgets, which quantifies the allowable amount of downtime or errors within a specific timeframe. This allows for a balance between reliability and innovation, as long as the error budget is not exhausted.&lt;/p></description></item><item><title>Measuring Reliability with SLIs</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/reliability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/reliability/</guid><description>&lt;h3 id="service-level-indicators-slis" class="heading-link">
+ Service Level Indicators (SLIs)
+ &lt;a href="#service-level-indicators-slis" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>SLIs are specific, quantitative metrics that define the performance and reliability of a service. They are typically expressed as a ratio, percentage, or a specific numerical value. SLIs represent the aspects of a service that are most critical to its users. Selecting the right SLIs is crucial. They should align with user expectations and business goals. For example, if users value a fast response time, latency might be a critical SLI.&lt;/p></description></item><item><title>Embracing Risks with SLOs and Error Budgets</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/slos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/slos/</guid><description>&lt;h3 id="slos-and-error-budgets" class="heading-link">
+ SLOs and Error Budgets
+ &lt;a href="#slos-and-error-budgets" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In SRE, embracing risks is an inherent part of the approach, and it&amp;rsquo;s managed through the concepts of Service Level Objectives (SLOs) and error budgets. Let&amp;rsquo;s explore how SLOs and error budgets enable teams to balance innovation and reliability while embracing a certain level of risk.&lt;/p>
+
+&lt;h4 id="service-level-objectives-slos" class="heading-link">
+ Service Level Objectives (SLOs)
+ &lt;a href="#service-level-objectives-slos" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>SLOs are specific, measurable targets that define the acceptable level of reliability for a service. They are expressed as a percentage or ratio and represent the agreed-upon performance level that a service should achieve.&lt;/p></description></item><item><title>Service Level Agreements (SLAs)</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/sla/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/sla/</guid><description>&lt;h3 id="sla" class="heading-link">
+ SLA
+ &lt;a href="#sla" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>An SLA is a formal contract between a service provider and its customers, outlining the expected level of service. It defines the agreed-upon quality of service, including performance metrics, availability, and support expectations. In Site Reliability Engineering (SRE), a Service Level Agreement (SLA) plays a crucial role in managing expectations and ensuring a service meets user needs.&lt;/p>
+
+&lt;h3 id="benefits-of-slas" class="heading-link">
+ Benefits of SLAs
+ &lt;a href="#benefits-of-slas" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>Clear Communication: SLAs establish a shared understanding between SREs, developers, and stakeholders regarding the expected performance of a service.&lt;/li>
+&lt;li>Improved Reliability: Having defined SLAs motivates SREs to proactively monitor and improve the system&amp;rsquo;s reliability to meet the agreed-upon targets.&lt;/li>
+&lt;li>Risk Management: Clear SLAs help manage customer expectations and define potential consequences for outages. This allows for proactive planning and mitigation strategies.&lt;/li>
+&lt;/ul>
+
+&lt;h3 id="real-world-example" class="heading-link">
+ Real-world Example
+ &lt;a href="#real-world-example" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Let&amp;rsquo;s take a look at an example of an SLA in SRE applied to an e-commerce platform.&lt;/p></description></item><item><title>The 7 Principles of SRE</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/principles/</guid><description>&lt;h3 id="principles-of-sre" class="heading-link">
+ Principles of SRE
+ &lt;a href="#principles-of-sre" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Site Reliability Engineering (SRE) follows a set of principles that guide the approach to building and maintaining reliable, scalable, and efficient software systems. These principles are key to the SRE philosophy.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Embracing Risk&lt;/strong>&lt;/p>
+&lt;p>SREs aim to identify the acceptable level of risk and manage it appropriately. No system is ever truly perfect. SRE acknowledges that there will be failures and focuses on minimizing their impact and ensuring fast recovery.&lt;/p></description></item><item><title>Building SRE Practices in Your Organization</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/sre-practice/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/sre-practice/</guid><description>&lt;h3 id="building-sre-practices" class="heading-link">
+ Building SRE Practices
+ &lt;a href="#building-sre-practices" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Building a robust Site Reliability Engineering (SRE) practice within your organization requires a multi-pronged approach.&lt;/p>
+
+&lt;h4 id="gain-buy-in-and-support" class="heading-link">
+ Gain buy-in and support
+ &lt;a href="#gain-buy-in-and-support" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>Demonstrate the value of SRE: Highlight the benefits of improved reliability, performance, and efficiency to key stakeholders.&lt;/p>
+&lt;p>Secure funding and resources: Allocate budget and personnel to build and maintain a dedicated SRE team.&lt;/p>
+&lt;p>Foster a culture of collaboration: Encourage collaboration between SRE, development, and operations teams.&lt;/p></description></item><item><title>Future Trends and Evolutions in SRE</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/future/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/future/</guid><description>&lt;h3 id="trends-and-evolutions" class="heading-link">
+ Trends and Evolutions
+ &lt;a href="#trends-and-evolutions" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>The world of Site Reliability Engineering (SRE) is constantly evolving, driven by the ever-changing landscape of technology and the increasing demands for reliable, scalable, and secure systems.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>AI and Machine Learning Integration&lt;/strong>: SRE teams will increasingly use AI and machine learning to automate routine tasks, predict system failures, and optimize performance. This trend includes the development of self-healing systems that can automatically detect and rectify issues without human intervention.&lt;/p></description></item><item><title>Test</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-196/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/foundations-of-devops-and-sre/sre/sre/test/</guid><description/></item></channel></rss>
