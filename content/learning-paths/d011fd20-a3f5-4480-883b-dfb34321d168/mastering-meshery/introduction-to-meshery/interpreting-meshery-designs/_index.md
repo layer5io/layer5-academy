@@ -31,7 +31,10 @@ These components encapsulate the resources and include their detailed configurat
 
 ## Meshery Design at a Glance
 
-![basic-meshery-design](basic-meshery-design.png)
+{{< meshery-design-embed
+  id="embedded-design-meshery-design-at-a-glance"
+  src="embedded-design-meshery-design-at-a-glance.js"
+>}}
 
 The design above shows a simple Meshery Design that consists of Kubernetes components. It specifically illustrates some kubernetes resources that are required to deploy an application to a Kubernetes cluster.
 
