@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Containers on Example Academy</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/</link><description>Recent content in Containers on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/index.xml" rel="self" type="application/rss+xml"/><item><title>What Are Containers?</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/what/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/what/</guid><description>&lt;p>Containers have revolutionized Application Packaging and Deployment. In today&amp;rsquo;s fast-paced world, the ability to quickly and efficiently deploy software applications is critical for businesses of all sizes. Containers have emerged as a revolutionary technology that addresses this need by providing a lightweight, portable, and isolated environment for applications to run.&lt;/p>
+&lt;p>Imagine a container as a standardized box that holds everything your application needs to run - its code, libraries, runtime environment, and system configuration. Unlike virtual machines, which virtualize the entire hardware stack, containers share the underlying operating system (OS) with other containers, making them much more lightweight and efficient.&lt;/p></description></item><item><title>The Difference Between Containers and Virtual Machines</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/difference/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/difference/</guid><description>&lt;h3 id="virtual-machines-isolated-and-versatile" class="heading-link">
+ Virtual Machines: Isolated and Versatile
+ &lt;a href="#virtual-machines-isolated-and-versatile" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Virtual machines provide a fully isolated virtual environment, complete with an operating system and all necessary dependencies. Each VM runs on a hypervisor, a layer that abstracts the physical hardware and allows multiple VMs to coexist on a single physical machine.&lt;/p>
+&lt;p>Here are some key characteristics of virtual machines:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Strong isolation&lt;/p>
+&lt;p>Each VM operates as an independent entity, with its own dedicated resources and a separate OS instance. This isolation makes VMs highly secure, as vulnerabilities within one VM do not impact others.&lt;/p></description></item><item><title>Brief History of Containers</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/history/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/history/</guid><description>&lt;h3 id="chroot-1970s" class="heading-link">
+ Chroot (1970s)
+ &lt;a href="#chroot-1970s" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>The concept of isolation dates back to the chroot system call in Unix operating systems, which was introduced in the 1970s. &lt;a href="https://en.wikipedia.org/wiki/Chroot">Chroot&lt;/a> allows a process to have its own isolated view of the filesystem.&lt;/p>
+
+&lt;h3 id="freebsd-jails-2000" class="heading-link">
+ FreeBSD Jails (2000)
+ &lt;a href="#freebsd-jails-2000" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>FreeBSD introduced the concept of &lt;a href="https://en.wikipedia.org/wiki/FreeBSD_jail">jails&lt;/a>, which provided lightweight virtualization by isolating processes, filesystems, and networking. This was an early form of containerization.&lt;/p></description></item><item><title>Docker: What’s under the hood?</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/docker/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/docker/</guid><description>&lt;h3 id="docker" class="heading-link">
+ Docker
+ &lt;a href="#docker" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Docker is a platform that uses containerization technology to simplify the development, deployment, and scaling of applications. Under the hood, Docker relies on several key components and technologies to achieve its functionality.&lt;/p>
+
+&lt;h3 id="docker-engine" class="heading-link">
+ Docker Engine
+ &lt;a href="#docker-engine" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Docker Engine, often simply referred to as Docker, is the heart of Docker technology, providing the necessary functionality to create and manage container lifecycle. Its architecture allows for seamless development, shipment, and running of applications in containers. Docker Engine is modular in nature and consists of many modules which help in container lifecycle management:&lt;/p></description></item><item><title>Podman: An Alternative to Docker</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/podman/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/podman/</guid><description>&lt;h3 id="podman-overview" class="heading-link">
+ Podman Overview
+ &lt;a href="#podman-overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Podman (Pod Manager) is an open source tool for managing OCI (Open Container Initiative) containers and pods. Its architecture and approach differ in several key aspects from Docker, particularly in how it operates without a daemon. Podman is a powerful container management tool that can be considered a potential alternative to Docker Engine.&lt;/p>
+
+&lt;h3 id="key-features-of-podman" class="heading-link">
+ Key Features of Podman
+ &lt;a href="#key-features-of-podman" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Daemonless Architecture&lt;/strong>&lt;/p></description></item><item><title>The Need for Container Orchestration</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/need/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/need/</guid><description>&lt;h3 id="why-is-container-orchestration-essential" class="heading-link">
+ Why is Container Orchestration Essential?
+ &lt;a href="#why-is-container-orchestration-essential" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>As containerization has become increasingly popular for deploying applications, the need for container orchestration has also grown. While individual containers offer many advantages, managing a large number of them across different environments can quickly become complex and cumbersome. Container orchestration platforms address this challenge by automating the deployment, scaling, and management of containerized applications.&lt;/p>
+
+&lt;h4 id="automating-container-management" class="heading-link">
+ Automating container management
+ &lt;a href="#automating-container-management" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>Manually managing a large number of containers is error-prone and time-consuming. Container orchestration platforms automate many tasks, including:&lt;/p></description></item><item><title>Kubernetes: The Orchestrator of Containerized Applications</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/kubernetes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/kubernetes/</guid><description>&lt;h3 id="overview" class="heading-link">
+ Overview
+ &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Kubernetes, often abbreviated as k8s, is an open source platform for automating the deployment, scaling, and management of containerized applications. It has become the de facto standard for container orchestration, powering a vast number of applications across various industries.&lt;/p>
+&lt;p>Imagine you have a large orchestra with many different instruments. Each instrument plays its own unique part, but they all need to work together in harmony to create beautiful music. Kubernetes is like the conductor of this orchestra, coordinating the different containerized applications (instruments) to ensure your application runs smoothly and efficiently.&lt;/p></description></item><item><title>Key Components of Kubernetes</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/components/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/components/</guid><description>&lt;h3 id="control-plane-node" class="heading-link">
+ Control Plane Node
+ &lt;a href="#control-plane-node" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>Control plane nodes in Kubernetes play a critical role in managing the cluster&amp;rsquo;s state and configuration. They are responsible for making global decisions about the cluster (like scheduling), as well as detecting and responding to cluster events (like starting up a new pod when a deployment&amp;rsquo;s &lt;strong>replicas&lt;/strong> field is unsatisfied). Here are the key components of control plane nodes:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>API Server&lt;/p></description></item><item><title>What Kubernetes is Not</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/not-kubernetes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/not-kubernetes/</guid><description>&lt;h3 id="kubernetes-is-not-a" class="heading-link">
+ Kubernetes is NOT a
+ &lt;a href="#kubernetes-is-not-a" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+
+&lt;h4 id="kubernetes-is-not-a-traditional-virtualization-platform" class="heading-link">
+ Kubernetes is not a Traditional Virtualization Platform
+ &lt;a href="#kubernetes-is-not-a-traditional-virtualization-platform" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>Kubernetes operates at the container orchestration level, not at the virtual machine level. It doesn&amp;rsquo;t provide virtualization in the same way as hypervisors like VMware or KVM. Instead, it manages and orchestrates containerized applications.&lt;/p>
+
+&lt;h4 id="kubernetes-is-not-a-containerization-platform" class="heading-link">
+ Kubernetes is not a Containerization Platform
+ &lt;a href="#kubernetes-is-not-a-containerization-platform" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>While Kubernetes works with containers, it is not a containerization platform itself. It relies on container runtimes like containerd or Docker to manage and run containers. Kubernetes focuses on orchestrating and automating container deployment, scaling, and management.&lt;/p></description></item><item><title>Developing Container Technologies</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/container-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-202/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/containers/container-technology/</guid><description>&lt;h4 id="containerd" class="heading-link">
+ Containerd
+ &lt;a href="#containerd" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>While not exactly emerging (it has been around for a few years), &lt;a href="https://containerd.io/">containerd&lt;/a> is worth mentioning. It&amp;rsquo;s a core container runtime that was originally part of Docker but has become a standalone project and a key component of various container platforms.&lt;/p>
+
+&lt;h4 id="podman" class="heading-link">
+ Podman
+ &lt;a href="#podman" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>&lt;a href="https://podman.io/">Podman&lt;/a> is an open source container management tool that aims to provide a daemonless, rootless container experience. It allows users to manage containers without requiring a central daemon process, making it a lightweight alternative to Docker.&lt;/p></description></item></channel></rss>
