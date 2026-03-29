@@ -8,7 +8,10 @@ module:
     extended: true
     min: 0.146.0
   imports:
-
-    # used to source the base theme for academy.
     - path: github.com/layer5io/academy-theme
       disable: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -2606,4 +2606,8 @@ relationships:
     subType: reference
     status: approved
     type: non-binding
+<<<<<<< HEAD
     version: v1.0.0
+=======
+    version: v1.0.0
+>>>>>>> 3ba94fd (Final clean Meshery design integration)
