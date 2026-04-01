@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lab on Example Academy</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/</link><description>Recent content in Lab on Example Academy</description><generator>Hugo</generator><language>en</language><atom:link href="https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/index.xml" rel="self" type="application/rss+xml"/><item><title>Lab 1. Installing OpenTofu</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/lab1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/lab1/</guid><description>&lt;h3 id="overview" class="heading-link">
+ Overview
+ &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In this hands-on activity, we will learn how to install OpenTofu and verify the installation.&lt;/p>
+
+&lt;h3 id="installing-opentofu" class="heading-link">
+ Installing OpenTofu
+ &lt;a href="#installing-opentofu" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+
+&lt;h4 id="linux-environment-setup" class="heading-link">
+ Linux Environment Setup
+ &lt;a href="#linux-environment-setup" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h4>
+&lt;p>While this section presents various setup options, we will install OpenTofu on an Ubuntu 22.04 host.
+Depending on the operating system and the installation method, there are several ways to install OpenTofu.
+The most convenient is to use the installation script provided by the official OpenTofu documentation.&lt;/p></description></item><item><title>Lab 2. Learning the Basics of OpenTofu</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/lab2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/lab2/</guid><description>&lt;h3 id="overview" class="heading-link">
+ Overview
+ &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In this lab, you will gain hands-on experience with the basics of the OpenTofu command line and be introduced to the OpenTofu configuration language, which specifies the resources OpenTofu would create and the providers it would use.&lt;/p>
+
+&lt;h3 id="prerequisites" class="heading-link">
+ Prerequisites
+ &lt;a href="#prerequisites" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>You will need OpenTofu installed as per Lab 1.&lt;/p>
+
+&lt;h3 id="initialize-and-create-a-local-resource" class="heading-link">
+ Initialize and Create a Local Resource
+ &lt;a href="#initialize-and-create-a-local-resource" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In this exercise, we will write a basic OpenTofu code to create a resource locally and understand the basic
+workflow to create any infrastructure in OpenTofu.&lt;/p></description></item><item><title>Lab 3. Creating a Virtual Machine using OpenTofu</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/lab3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-206/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/lab/lab3/</guid><description>&lt;h3 id="overview" class="heading-link">
+ Overview
+ &lt;a href="#overview" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;p>In this lab, you will gain hands-on experience creating a virtual machine from code using OpenTofu. OpenTofu
+can also create infrastructure across various providers. In this exercise, we will use AWS and create an EC2
+instance for demonstration purposes.&lt;/p>
+
+&lt;h3 id="prerequisites" class="heading-link">
+ Prerequisites
+ &lt;a href="#prerequisites" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>OpenTofu installed as per Lab 1.&lt;/li>
+&lt;li>AWS account created - access and secret keys.
+Note: It is out of scope for this course to help you create an AWS account. Please refer to the official AWS
+docs (for example, How to create an account and How to configure user).&lt;/li>
+&lt;/ol>
+
+&lt;h3 id="creating-an-ec2-virtual-machine-with-opentofu" class="heading-link">
+ Creating an EC2 Virtual Machine with OpenTofu
+ &lt;a href="#creating-an-ec2-virtual-machine-with-opentofu" class="heading-anchor" aria-label="Permalink to this heading">🔗&lt;/a>
+&lt;/h3>
+&lt;ol>
+&lt;li>Create a separate directory for storing your OpenTofu code:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>mkdir newproject &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> cd newproject
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>Using the editor of your choice, create the file main.tf with the content below:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-hcl" data-lang="hcl">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">provider&lt;/span> &lt;span style="color:#e6db74">&amp;#34;aws&amp;#34;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> region &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;us-east-1&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> access_key &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;xxxxxxxxxxxxxxxxxxxxxxx&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> secret_key &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;xxxxxxxxxxxxxxxxxxxxxxxx&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">resource&lt;/span> &lt;span style="color:#e6db74">&amp;#34;aws_instance&amp;#34; &amp;#34;firstvm&amp;#34;&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ami &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;ami-053b0d53c279acc90&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> instance_type &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;t2.micro&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> subnet_id &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;subnet-xxxxxxxxxx&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Note&lt;/strong>: Please replace the “access_key”, “secret_key” and “subnet_id” with your credentials and subnet
+ID.&lt;/p></description></item></channel></rss>
