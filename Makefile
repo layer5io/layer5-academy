@@ -33,6 +33,7 @@ build-preview:
 ## Empty build cache and run on your local machine.
 clean: 
 	hugo --cleanDestinationDir
+	make setup
 	make site
 
 ## Fix Markdown linting issues
