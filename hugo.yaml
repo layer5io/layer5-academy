@@ -5,7 +5,7 @@ ignoreLogs: ['warning-goldmark-raw-html']
 
 params:
   academy:
-    consoleURL: https://cloud.layer5.io/academy/instructors-console
+    domain: cloud.layer5.io
 
 module:
   hugoVersion:
