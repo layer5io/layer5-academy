@@ -51,7 +51,7 @@ questions:
         is_correct: true
       - id: "d"
         text: "The amount of storage to allocate."
-  - id: "q4"
+  - id: "q4b"
     text: "According to the course, what is the very first step required before you can deploy a PostgreSQL cluster using a CloudNativePG manifest?"
     type: "single-answer"
     marks: 2
