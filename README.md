@@ -101,6 +101,36 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
 ---
 
+## Assessment Authoring
+
+Assessment files use the Academy test layout and define their questions in Markdown frontmatter. Use short, stable IDs for assessments, questions, and options; question IDs must be unique within one assessment, and option IDs must be unique within one question. The Academy theme converts these author-facing IDs into deterministic UUIDs in the generated JSON consumed by Layer5 Cloud.
+
+```yaml
+---
+title: "Assessment Example"
+id: "assessment-example"
+type: "test"
+layout: "test"
+passPercentage: 70
+maxAttempts: 3
+timeLimit: 30
+numberOfQuestions: 1
+questions:
+  - id: "q1"
+    text: "Layer5 Academy assessment files are authored in Markdown."
+    type: "true-false"
+    marks: 1
+    options:
+      - id: "true"
+        text: "True"
+        isCorrect: true
+      - id: "false"
+        text: "False"
+---
+```
+
+---
+
 ## Publishing
 
 - **Official content**: Merged changes are automatically integrated into the central academy-build pipeline and deployed to the Academy platform.
