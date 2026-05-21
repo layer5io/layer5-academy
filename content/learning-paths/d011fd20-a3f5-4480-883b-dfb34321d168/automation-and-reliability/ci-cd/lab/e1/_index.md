@@ -16,7 +16,7 @@ Set up Jenkins server on a Docker container and store Jenkins Home on Docker Vol
 1. Create the Jenkins container by executing the following command:
 
 ```bash
-$ docker run --name myjenkins1 -dit -p 8080:8080 -p 50000:50000 -v
+docker run --name myjenkins1 -dit -p 8080:8080 -p 50000:50000 -v
 jenkins_data:/var/jenkins_home jenkins/jenkins:2.60.3-alpine
 ```
 

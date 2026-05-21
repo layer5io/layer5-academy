@@ -159,6 +159,34 @@ categories:
 ---
 ```
 
+### Assessment Frontmatter
+
+Use short, stable IDs for assessments, questions, and options; question IDs must be unique within one assessment, and option IDs must be unique within one question. The Academy theme converts these author-facing IDs into deterministic UUIDs in generated JSON for Layer5 Cloud.
+
+```yaml
+---
+title: "Assessment Example"
+id: "assessment-example"
+type: "test"
+layout: "test"
+passPercentage: 70
+maxAttempts: 3
+timeLimit: 30
+numberOfQuestions: 1
+questions:
+  - id: "q1"
+    text: "Layer5 Academy assessment files are authored in Markdown."
+    type: "true-false"
+    marks: 1
+    options:
+      - id: "true"
+        text: "True"
+        isCorrect: true
+      - id: "false"
+        text: "False"
+---
+```
+
 ### Content Best Practices
 
 1. **Accuracy**: Ensure all technical information is current and correct
