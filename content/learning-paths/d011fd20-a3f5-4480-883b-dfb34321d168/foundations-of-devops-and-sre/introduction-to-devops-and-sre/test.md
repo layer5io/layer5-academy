@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "Which of the following are characteristics of the pre-DevOps era ?"
@@ -9,10 +9,10 @@ questions:
       options:
         - id: "a"
           text: "Inconsistent infrastructure"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Operations Engineers did not have a lot of insight into the product they were pushing into production"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Infrastructure changes were done in a continuous manner, in small batch releases"
         - id: "d"
@@ -33,7 +33,7 @@ questions:
           text: "Continuous Integration (CI) and Continuous Deployment (CD)"
         - id: "d"
           text: "All of the above"
-          is_correct: true
+          isCorrect: true
 
 
     - id: "q3"
@@ -43,7 +43,7 @@ questions:
       options:
         - id: "a"
           text: "Docker"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Prometheus"
         - id: "c"

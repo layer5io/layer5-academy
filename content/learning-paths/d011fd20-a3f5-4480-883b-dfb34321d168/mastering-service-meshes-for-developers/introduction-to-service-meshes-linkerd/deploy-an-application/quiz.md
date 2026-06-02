@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "BookInfo"
       - id: "b"
         text: "EmojiVoto"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "PetStore"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Manually using linkerd inject command"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Automatically using sidecar injector with annotations"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Through Meshery dashboard configuration"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which Linkerd annotation enables automatic proxy injection?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "inject" 
+    correctAnswer: "inject" 
 ---

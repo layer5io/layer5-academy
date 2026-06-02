@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -14,7 +14,7 @@ questions:
         text: "Basic"
       - id: "c"
         text: "Intermediate"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Advanced"
   - id: "q2"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Service mesh architecture"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Service-to-service communication"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Database management"
   - id: "q3"
     text: "What is the primary category that advanced service mesh concepts fall under?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "meshery" 
+    correctAnswer: "meshery" 
 ---

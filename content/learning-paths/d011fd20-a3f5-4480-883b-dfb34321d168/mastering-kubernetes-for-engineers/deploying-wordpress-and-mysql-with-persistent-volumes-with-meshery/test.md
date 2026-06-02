@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "The application runs too slowly."
       - id: "b"
         text: "Data is lost if the pod fails, is rescheduled, or restarted."
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "The application cannot be accessed from the internet."
       - id: "d"
@@ -24,13 +24,13 @@ questions:
     options:
       - id: "a"
         text: "A Persistent Volume for WordPress"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "A Secret for the MySQL password"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "A Persistent Volume for MySQL"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "A ConfigMap for the WordPress theme"
   - id: "q3"
@@ -44,7 +44,7 @@ questions:
         text: "A plan for organizing the pods on different nodes."
       - id: "c"
         text: "An importable file that contains the application's component configurations."
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "A log file that records deployment errors."
   - id: "q4"
@@ -54,15 +54,15 @@ questions:
     options:
       - id: "a"
         text: "Importing and merging design files."
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Writing the PHP code for the WordPress application."
       - id: "c"
         text: "Validating the design and deploying it to the cluster."
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Visualizing the deployed resources after a successful deployment."
-        is_correct: true
+        isCorrect: true
   - id: "q5"
     text: "What specific Kubernetes object is used to request storage from a Persistent Volume?"
     type: "single-answer"
@@ -72,7 +72,7 @@ questions:
         text: "A StorageClaim"
       - id: "b"
         text: "A Persistent Volume Claim (PVC)"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "A Secret"
       - id: "d"
@@ -84,7 +84,7 @@ questions:
     options:
       - id: "a"
         text: "It allows you to learn without needing to set up your own Kubernetes cluster."
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "It provides a text editor for modifying WordPress."
       - id: "c"
@@ -100,7 +100,7 @@ questions:
         text: "To make the password available to the public."
       - id: "b"
         text: "To avoid hardcoding sensitive information directly into configuration files."
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To automatically generate a strong password."
       - id: "d"
@@ -114,7 +114,7 @@ questions:
         text: "Apache and PostgreSQL"
       - id: "b"
         text: "WordPress and MySQL"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Nginx and Redis"
       - id: "d"
@@ -126,10 +126,10 @@ questions:
     options:
       - id: "a"
         text: "Persistent Volumes"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Kubernetes storage"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Temporary storage"
       - id: "d"
@@ -138,5 +138,5 @@ questions:
     text: "Which visual platform is used for application deployment in this course?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Meshery" 
+    correctAnswer: "Meshery" 
 ---

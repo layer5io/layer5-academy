@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "Prometheus, Grafana, and Jaeger"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Elasticsearch, Kibana, and Logstash"
       - id: "c"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Changing service type to NodePort or LoadBalancer"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Using port-forwarding"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Configuring Kubernetes Ingress"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What type of monitoring capability tracks requests across multiple services?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "Tracing" 
+    correctAnswer: "Tracing" 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Only Kubernetes cluster connections"
       - id: "b"
         text: "Teams, Workspaces, Environments, and Connections"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Only application deployment configurations"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Environments"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Connections"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Service meshes"
       - id: "d"
@@ -41,7 +41,7 @@ questions:
         text: "The cluster is added with limited functionality"
       - id: "b"
         text: "You receive an error message and need to upload the correct file"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Meshery automatically fixes the configuration"
       - id: "d"

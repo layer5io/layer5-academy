@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "dapr.io/enabled: \"true\""
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "dapr.io/inject: \"true\""
       - id: "c"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "dapr.io/app-id"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "dapr.io/app-port"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "dapr.io/protocol"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What pattern adds functionality alongside application containers?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Sidecar" 
+    correctAnswer: "Sidecar" 
 ---

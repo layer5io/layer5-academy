@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "A structured, reusable, and extensible way to represent infrastructure components and their relationships"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Only code-based representations of infrastructure"
       - id: "c"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Triangles for Networking and Service Management"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Cylinders for Storage and Stateful Components"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Rectangles for Hierarchical and Parent Components"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "User Icons for Role-based access control (RBAC) components"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What is the primary purpose of annotations in Meshery designs?"
     type: "single-answer"
@@ -43,7 +43,7 @@ questions:
         text: "To deploy functional components to the cluster"
       - id: "b"
         text: "To enhance the design by providing additional context and illustrating connections between components"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To automatically configure Kubernetes resources"
       - id: "d"

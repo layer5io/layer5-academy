@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "STRICT"
       - id: "b"
         text: "PERMISSIVE"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "DISABLE"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "cert-chain.pem"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "key.pem"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "root-cert.pem"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What identity framework does Istio use for workload identity assertion?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "SPIFFE" 
+    correctAnswer: "SPIFFE" 
 ---

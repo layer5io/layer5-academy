@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "To showcase a real production e-commerce platform"
       - id: "b"
         text: "To demonstrate service mesh capabilities with polyglot microservices"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To provide a database management system"
       - id: "d"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Kubernetes API server supporting admissionregistration APIs"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Namespace labeled with istio-injection=enabled"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Manual sidecar proxy container configuration"
   - id: "q3"
     text: "Which tool manages Kubernetes namespace labeling?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "kubectl" 
+    correctAnswer: "kubectl" 
 ---

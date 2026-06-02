@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "To visualize, configure, and manage cloud-native infrastructure efficiently"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "To deploy applications directly to production"
       - id: "c"
@@ -24,13 +24,13 @@ questions:
     options:
       - id: "a"
         text: "Helm charts"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Kubernetes manifests"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Docker Compose files"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "PowerPoint presentations"
   - id: "q3"
@@ -42,7 +42,7 @@ questions:
         text: "They are permanently deleted"
       - id: "b"
         text: "They are retained and preserved individually"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "They are automatically backed up to GitHub"
       - id: "d"

@@ -8,7 +8,7 @@ tags: [meshery, keda, open source]
 level: "advanced"
 categories: "platform"
 
-prerequisite_knowledge:
+prerequisiteKnowledge:
 
   - title: "Access to Meshery"
     children:
@@ -17,7 +17,7 @@ prerequisite_knowledge:
       - title: "Meshery Playground"
         link: "https://play.meshery.io"
         
-additional_attributes:
+additionalAttributes:
   - title: "Retake Policy"
     value: "3"
     description: "Up to three retakes allowed per exam"

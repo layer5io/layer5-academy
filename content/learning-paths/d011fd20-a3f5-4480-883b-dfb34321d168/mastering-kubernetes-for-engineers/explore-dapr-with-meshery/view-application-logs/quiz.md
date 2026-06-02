@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "8080"
       - id: "b"
         text: "3500"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "3000"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Service invocation API"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "State management API"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Configuration API"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which API manages persistent data in Dapr applications?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "State" 
+    correctAnswer: "State" 
 ---

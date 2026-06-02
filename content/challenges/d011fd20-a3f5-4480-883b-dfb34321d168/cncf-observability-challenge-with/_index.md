@@ -9,7 +9,7 @@ tags: [meshery, jaeger, cncf]
 level: "intermediate"
 categories: "platform"
 
-prerequisite_knowledge:
+prerequisiteKnowledge:
 
   - title: "Access to Meshery"
     children:
@@ -18,7 +18,7 @@ prerequisite_knowledge:
       - title: "Meshery Playground"
         link: "https://play.meshery.io"
         
-additional_attributes:
+additionalAttributes:
   - title: "Retake Policy"
     value: "3"
     description: "Up to three retakes allowed per exam"

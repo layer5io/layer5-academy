@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: 'q1'
     text: "What does 'CI' stand for in the context of software development?"
@@ -11,7 +11,7 @@ questions:
         text: 'Continuous Improvement'
       - id: 'b'
         text: 'Continuous Integration'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Code Inspection'
       - id: 'd'
@@ -24,7 +24,7 @@ questions:
     options:
       - id: 'a'
         text: 'Continuous Delivery'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Manual Deployment'
       - id: 'c'
@@ -41,7 +41,7 @@ questions:
         text: 'To slow down the development process to ensure quality'
       - id: 'b'
         text: 'To automate the steps of building, testing, and deploying software'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'To manually review every line of code written by developers'
       - id: 'd'
@@ -56,7 +56,7 @@ questions:
         text: 'Waterfalls'
       - id: 'b'
         text: 'GitOps'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'FTP Transfer'
       - id: 'd'
@@ -69,10 +69,10 @@ questions:
     options:
       - id: 'a'
         text: 'Faster time to market'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Reduced risk of deployment failures'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Increased manual work for operations teams'
       - id: 'd'

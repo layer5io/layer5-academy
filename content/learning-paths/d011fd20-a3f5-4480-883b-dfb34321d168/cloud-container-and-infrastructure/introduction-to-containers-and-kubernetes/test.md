@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "Which of the following Linux kernel features makes running a process in isolation possible?"
@@ -13,7 +13,7 @@ questions:
           text: "userspace"
         - id: "c"
           text: "namespace"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "containerspace"
 
@@ -30,7 +30,7 @@ questions:
           text: "Orchestration engine"
         - id: "d"
           text: "Registry"
-          is_correct: true
+          isCorrect: true
 
 
     - id: "q3"
@@ -42,12 +42,12 @@ questions:
           text: "Service mesh"
         - id: "b"
           text: "Availability"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Networking"
         - id: "d"
           text: "Scalability"
-          is_correct: true
+          isCorrect: true
     
     - id: "q4"
       text: "Which of the following statements is correct?"
@@ -58,7 +58,7 @@ questions:
           text: "Kubernetes is NOT an container orchestration tool"
         - id: "b"
           text: "Kubernetes is NOT a programming language used for developing cloud native applications"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Kubernetes is NOT an open source platform for automating deployment, scaling, and operations of application container"
         - id: "d"

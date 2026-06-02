@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "Organizations contain multiple Teams, and Teams manage access to Workspaces and their resources"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Workspaces contain Organizations, which contain Teams"
       - id: "c"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Using an invite link"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Creating new user accounts directly"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Adding existing Layer5 Cloud users"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Inviting users via email who don't have Layer5 Cloud accounts"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What do users receive when they are added to an organization?"
     type: "single-answer"
@@ -43,7 +43,7 @@ questions:
         text: "Full administrator privileges"
       - id: "b"
         text: "A set of default permissions"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "No permissions until manually assigned"
       - id: "d"

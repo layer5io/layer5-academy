@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: 'q1'
     text: "What is the 'mantra' of Continuous Integration (CI)?"
@@ -11,7 +11,7 @@ questions:
         text: 'Integrate once at the end of the project'
       - id: 'b'
         text: 'Frequent integration'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Manual code review only'
       - id: 'd'
@@ -24,7 +24,7 @@ questions:
     options:
       - id: 'a'
         text: "The 'it works on my machine' problem"
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: "The '404 not found' error"
       - id: 'c'
@@ -39,7 +39,7 @@ questions:
     options:
       - id: 'a'
         text: 'Continuous Delivery requires manual intervention for production release, while Continuous Deployment is automatic.'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Continuous Delivery is faster than Continuous Deployment.'
       - id: 'c'
@@ -58,7 +58,7 @@ questions:
         text: 'The Kubernetes Cluster'
       - id: 'c'
         text: 'The Git Repository'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'The Production Database'
 
@@ -73,7 +73,7 @@ questions:
         text: 'Rolling Release'
       - id: 'c'
         text: 'Blue-Green Deployment'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Feature Toggles'
 
@@ -88,7 +88,7 @@ questions:
         text: 'Manual synchronization'
       - id: 'c'
         text: 'Pull-based reconciliation'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Environment Parity'
 
@@ -101,7 +101,7 @@ questions:
         text: 'To deploy to all users simultaneously'
       - id: 'b'
         text: 'To test new features on a small subset of users before a full release'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'To disable features using conditional statements'
       - id: 'd'
@@ -114,7 +114,7 @@ questions:
     options:
       - id: 'a'
         text: 'Meshery'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Photoshop'
       - id: 'c'
@@ -131,7 +131,7 @@ questions:
         text: 'By preventing code from being merged until it is perfect'
       - id: 'b'
         text: 'By allowing developers to enable or disable features without modifying code'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'By automatically fixing bugs in production'
       - id: 'd'
@@ -144,15 +144,15 @@ questions:
     options:
       - id: 'a'
         text: 'Code compilation'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Automated testing'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Manual user acceptance testing'
       - id: 'd'
         text: 'Creating executable artifacts'
-        is_correct: true
+        isCorrect: true
 
   - id: 'q11'
     text: 'What are the key principles of Continuous Integration?'
@@ -161,13 +161,13 @@ questions:
     options:
       - id: 'a'
         text: 'Frequent code integration'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Automated builds'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Automated testing'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Manual deployment to production'
 
@@ -180,7 +180,7 @@ questions:
         text: 'Manual approval before production release'
       - id: 'b'
         text: 'Automated production deployment after passing tests'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Deployment only to staging environments'
       - id: 'd'
@@ -195,7 +195,7 @@ questions:
         text: 'Deploy to all users simultaneously'
       - id: 'b'
         text: 'Release to a limited subset initially and progressively expand'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Deploy only during off-peak hours'
       - id: 'd'
@@ -208,13 +208,13 @@ questions:
     options:
       - id: 'a'
         text: 'Declarative configuration'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Single source of truth in Git'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Pull-based reconciliation'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Manual deployment scripts'
 

@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What is the cloud in the context of computing?"
@@ -11,7 +11,7 @@ questions:
           text: "A visible mass of condensed water vapor floating in the atmosphere"
         - id: "b"
           text: "A collection of data centers accessible via the Internet"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "A type of software used for creating documents"
         - id: "d"
@@ -24,7 +24,7 @@ questions:
       options:
         - id: "a"
           text: "Platform as a Service"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Performance as a Service"
         - id: "c"
@@ -46,7 +46,7 @@ questions:
           text: "A shared cloud computing service where multiple organizations have access"
         - id: "d"
           text: "A cloud computing environment exclusively used by a single organization"
-          is_correct: true
+          isCorrect: true
 
 layout: "test"
 type: "test"

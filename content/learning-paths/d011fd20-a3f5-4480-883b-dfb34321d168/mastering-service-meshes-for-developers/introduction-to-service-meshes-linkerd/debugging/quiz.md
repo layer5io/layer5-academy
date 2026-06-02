@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "High latency values"
       - id: "b"
         text: "Success rate below 100%"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Low requests per second"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Live traffic monitoring in dashboard"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "tap command for request inspection"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "gRPC status code recognition"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What gRPC status code indicates a common error response?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "2" 
+    correctAnswer: "2" 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "To manage databases"
       - id: "b"
         text: "To serve as an API Gateway integrated with Meshery"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To replace Kubernetes"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Istio"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Linkerd"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Consul Connect"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What is the primary tool used for deploying and visualizing Edge Stack components in this course?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Meshery" 
+    correctAnswer: "Meshery" 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: 'q1'
     text: 'What is the primary goal of observability as described in the chapter?'
@@ -11,7 +11,7 @@ questions:
         text: 'To increase the complexity of software systems'
       - id: 'b'
         text: 'To improve reliability and performance by providing insights'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'To replace the need for software developers'
       - id: 'd'
@@ -28,7 +28,7 @@ questions:
         text: 'Frontend, Backend, and Database'
       - id: 'c'
         text: 'Metrics, Logs, and Traces'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Hardware, Software, and Network'
 
@@ -41,7 +41,7 @@ questions:
         text: 'Telepathy'
       - id: 'b'
         text: 'X-ray vision'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Invisibility'
       - id: 'd'
@@ -60,7 +60,7 @@ questions:
         text: 'User feedback forms'
       - id: 'd'
         text: 'Numerical gauges like CPU usage'
-        is_correct: true
+        isCorrect: true
 
   - id: 'q5'
     text: 'Why is observability particularly crucial for complex, distributed systems?'
@@ -71,7 +71,7 @@ questions:
         text: 'It eliminates the need for system maintenance'
       - id: 'b'
         text: 'It helps understand the interaction between different components'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'It reduces the overall cost of internet bandwidth'
       - id: 'd'
