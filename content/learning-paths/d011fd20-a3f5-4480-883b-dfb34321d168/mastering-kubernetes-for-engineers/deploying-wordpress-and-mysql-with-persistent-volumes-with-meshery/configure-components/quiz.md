@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "mysql-secret"
       - id: "b"
         text: "mysql-pass"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "database-password"
       - id: "d"
@@ -24,18 +24,18 @@ questions:
     options:
       - id: "a"
         text: "StorageClassName set to 'manual'"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Protocol set to TCP"
       - id: "c"
         text: "Capacity set to 50Gi"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "AccessMode set to 'ReadWriteOnce'"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What storage type should be avoided in production environments?"
     type: "short_answer" 
     marks: 2
-    correct_answer: "hostPath" 
+    correctAnswer: "hostPath" 
 ---

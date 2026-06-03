@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "default"
       - id: "b"
         text: "linkerd"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "kube-system"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "linkerd install | kubectl apply -f -"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Using Meshery from the Management menu"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "curl -sL https://run.linkerd.io/install | sh"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which CLI tool is used for Linkerd management?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "linkerd" 
+    correctAnswer: "linkerd" 
 ---

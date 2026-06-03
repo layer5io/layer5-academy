@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "8080 and 8443"
       - id: "b"
         text: "80 and 443"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "8000 and 8443"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "edge-stack-agent Deployment"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "edge-stack-admin Service"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "nginx-controller"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What do services use to specify communication endpoints?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Port" 
+    correctAnswer: "Port" 
 ---

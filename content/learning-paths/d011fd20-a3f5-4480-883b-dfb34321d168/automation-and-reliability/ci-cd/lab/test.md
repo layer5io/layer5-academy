@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: 'q1'
     text: 'What is the primary goal of Continuous Delivery (CD)?'
@@ -11,7 +11,7 @@ questions:
         text: 'To manually compile code once a month'
       - id: 'b'
         text: 'To automate the release of software changes to production frequently and reliably'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'To remove the need for software testing'
       - id: 'd'
@@ -28,7 +28,7 @@ questions:
         text: 'cat /var/jenkins_home/secrets/initialAdminPassword'
       - id: 'c'
         text: 'docker logs myjenkins1 | grep -B 5 initialAdminPassword'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'curl localhost:8080/password'
 
@@ -41,7 +41,7 @@ questions:
         text: 'Port 50000'
       - id: 'b'
         text: 'Port 8080'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Port 80'
       - id: 'd'
@@ -58,7 +58,7 @@ questions:
         text: 'Because the internet connection is disabled'
       - id: 'c'
         text: 'To keep the setup simple and manually add plugins later if needed'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Because the plugins are incompatible with Docker'
 
@@ -73,7 +73,7 @@ questions:
         text: 'Multibranch Pipeline'
       - id: 'c'
         text: 'Freestyle Project'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Maven Project'
 

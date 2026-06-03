@@ -1,7 +1,7 @@
 ---
 type: "test"
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: "q1"
     text: "Which feature best characterizes CloudNativePG as a Level 5 Kubernetes Operator?"
@@ -12,7 +12,7 @@ questions:
         text: "It supports only manual scaling of PostgreSQL clusters"
       - id: "b"
         text: "It integrates seamlessly with the Kubernetes API and supports lifecycle automation"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "It allows PostgreSQL deployment on virtual machines only"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Declarative configuration via CRDs"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Kubernetes-native operator pattern"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Manual scaling scripts"
       - id: "d"
@@ -36,7 +36,7 @@ questions:
     text: "What is the name of the PostgreSQL distribution used in this course?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "CloudNativePG" 
+    correctAnswer: "CloudNativePG" 
   - id: "q4"
     text: "In the manifest for a CloudNativePG Cluster, what does the 'instances' field define?"
     type: "single-answer"
@@ -48,7 +48,7 @@ questions:
         text: "The specific version of PostgreSQL to be used."
       - id: "c"
         text: "The total number of servers (pods) that will form the PostgreSQL cluster."
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "The amount of storage to allocate."
   - id: "q4b"
@@ -60,7 +60,7 @@ questions:
         text: "Create the Persistent Volume Claims manually."
       - id: "b"
         text: "Install the CloudNativePG operator into your Kubernetes cluster."
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Create the user credentials Secret."
       - id: "d"
@@ -73,13 +73,13 @@ questions:
     options:
       - id: "a"
         text: "Built-in high availability with failover capabilities."
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Management of backup and recovery processes."
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Automatic performance tuning of SQL queries."
       - id: "d"
         text: "Support for creating read-only replicas for scaling."
-        is_correct: true
+        isCorrect: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Command line interface only"
       - id: "b"
         text: "Visual tools for managing Kubernetes resources"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Database management tools"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Persistent volumes"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Secret for the database"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Load balancer configurations"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which file format defines Kubernetes resources?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "YAML" 
+    correctAnswer: "YAML" 
 ---

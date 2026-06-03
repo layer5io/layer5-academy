@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Resources are immediately deployed without validation"
       - id: "b"
         text: "The design is validated to ensure there are no errors"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "The design is saved to local storage"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Connection to live Kubernetes clusters"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Full control over connected clusters"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Read-only access to cluster metrics"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which UI element displays deployment status updates?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Notifications" 
+    correctAnswer: "Notifications" 
 ---

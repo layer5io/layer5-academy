@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "To provide database management solutions"
       - id: "b"
         text: "To facilitate collaborative design, operation, and management of cloud and cloud-native infrastructure"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To replace Kubernetes entirely"
       - id: "d"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "MeshSync"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Docker Engine"
       - id: "c"
         text: "Operator"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Broker"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What do Meshery's logical components primarily help with?"
     type: "single-answer"
@@ -42,7 +42,7 @@ questions:
         text: "Hardware provisioning"
       - id: "b"
         text: "Structuring the management process by providing a clear framework for configuration, operation, and collaboration"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Network security monitoring"
       - id: "d"

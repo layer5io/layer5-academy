@@ -89,7 +89,7 @@ The grouping of these components illustrates their interconnections, enhancing o
 ### Deploy Dapr
 
 1. The Dapr control plane has to be deployed in the **dapr-system** namespace. Click on the namespaced components (deployments, services, etc.) to open up the configuration tab. Then change the namespace from **default** to **dapr-system**.
-2. To deploy, click **Actions** in the top right corner and click on Deploy (double tick). To learn about deploying Designs in Meshery, see Chapter [Deploying Meshery Designs](https://cloud.layer5.io/academy/learning-paths/mastering-meshery/introduction-to-meshery).
+2. To deploy, click **Actions** in the top right corner and click on Deploy (double tick). To learn about deploying Designs in Meshery, see Chapter [Deploying Meshery Designs](https://cloud.layer5.io/academy/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/mastering-meshery/introduction-to-meshery/).
 3. After deployment, Click on **Open In Visualizer** to see the pre-filtered view of the deployed resources in the cluster.
 4. In **Visualizer** mode, use the filter to adjust the views of the resources in the cluster.
    - For **View Selector** select **Single Node**.

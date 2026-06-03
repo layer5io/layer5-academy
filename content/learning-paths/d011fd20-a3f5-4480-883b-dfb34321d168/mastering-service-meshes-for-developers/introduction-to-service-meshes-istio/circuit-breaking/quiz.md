@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "To limit the impact of failures and network issues"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "To encrypt traffic between services"
       - id: "c"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "trafficPolicy.connectionPool"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "trafficPolicy.outlierDetection"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "subsets.labels"
   - id: "q3"
     text: "What configuration parameter limits the maximum number of connections to a service?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "maxConnections" 
+    correctAnswer: "maxConnections" 
 ---

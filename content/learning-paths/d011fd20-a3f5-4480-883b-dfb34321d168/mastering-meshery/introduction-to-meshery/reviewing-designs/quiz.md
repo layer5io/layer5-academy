@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "Private, Public, and Published"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Draft, Review, and Final"
       - id: "c"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Commenting via the Dock"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Commenting via Context Menu using right-click"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Using voice commands with speech recognition"
       - id: "d"
         text: "Using keyboard shortcut Ctrl + M (Command + M for Mac)"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What happens when you pin a comment to a node in Kanvas?"
     type: "single-answer"
@@ -42,7 +42,7 @@ questions:
         text: "The comment becomes permanently locked and cannot be edited"
       - id: "b"
         text: "The comment stays linked to that node and follows it when the node is moved"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "The comment automatically gets resolved"
 ---

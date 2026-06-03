@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Kubectl"
       - id: "b"
         text: "Meshery"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Helm"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Created and configured a Dapr state store component"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Viewed Dapr sidecars and observed API calls in logs"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Set up CI/CD pipelines"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What Kubernetes concept organizes related resources?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Namespaces" 
+    correctAnswer: "Namespaces" 
 ---

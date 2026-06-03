@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "Prometheus, Grafana, and Jaeger"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Elasticsearch, Kibana, and Logstash"
       - id: "c"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Changing service type to NodePort or LoadBalancer"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Using port-forwarding"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Add-on services are exposed by default as LoadBalancer"
   - id: "q3"
     text: "What is the default port for accessing Grafana dashboards?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "3000" 
+    correctAnswer: "3000" 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Heavy-weight service mesh"
       - id: "b"
         text: "Lightweight service mesh"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Enterprise service mesh"
       - id: "d"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Kubernetes integration"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Service mesh deployment"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Container orchestration"
   - id: "q3"
     text: "What platform is Linkerd designed to work with?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Kubernetes" 
+    correctAnswer: "Kubernetes" 
 ---

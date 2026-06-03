@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "8443"
       - id: "b"
         text: "8080"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "80"
       - id: "d"
@@ -24,18 +24,18 @@ questions:
     options:
       - id: "a"
         text: "Mappings"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "TLSContexts"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "ConfigMaps"
       - id: "d"
         text: "Listeners"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which Edge Stack resource controls traffic routing?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Mapping" 
+    correctAnswer: "Mapping" 
 ---

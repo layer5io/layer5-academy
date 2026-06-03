@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "NGINX Proxy"
       - id: "b"
         text: "Envoy Proxy"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "HAProxy"
       - id: "d"
@@ -24,19 +24,19 @@ questions:
     options:
       - id: "a"
         text: "Automatic TLS"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Global rate limiting"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Local rate limiting"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Round Robin Load Balancing"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which Meshery component provides visual design capabilities?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Kanvas" 
+    correctAnswer: "Kanvas" 
 ---

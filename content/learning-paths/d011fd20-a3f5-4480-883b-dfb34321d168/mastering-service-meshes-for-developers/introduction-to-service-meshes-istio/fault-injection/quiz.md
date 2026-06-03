@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "HTTP delay and HTTP abort"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Network partition and service unavailable"
       - id: "c"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "fault.delay for HTTP delays"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "fault.abort for HTTP aborts"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "match conditions for specific users or headers"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What type of failure is simulated when the reviews service is delayed by fault injection?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "Timeout" 
+    correctAnswer: "Timeout" 
 ---

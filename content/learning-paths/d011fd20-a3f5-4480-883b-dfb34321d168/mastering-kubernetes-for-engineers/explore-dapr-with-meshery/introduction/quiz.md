@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -10,7 +10,7 @@ questions:
     options:
       - id: "a"
         text: "Distributed Application Runtime"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Distributed API Runtime"
       - id: "c"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Service invocation"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "State management"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Database administration"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which container orchestration platform does Dapr integrate with?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Kubernetes" 
+    correctAnswer: "Kubernetes" 
 ---

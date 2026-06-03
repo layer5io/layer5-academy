@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What is Continuous Integration (CI)?"
@@ -9,7 +9,7 @@ questions:
       options:
         - id: "a"
           text: "A practice where developers merge their changes back to the main branch as often as possible, preferably multiple times a day"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "The manual process of validating and deploying code changes"
         - id: "c"
@@ -28,7 +28,7 @@ questions:
           text: "Longer time to market"
         - id: "c"
           text: "Higher software quality and reduced deployment risk"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Increased manual testing"
 
@@ -41,7 +41,7 @@ questions:
           text: "Git"
         - id: "b"
           text: "Jenkins"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Kubernetes"
         - id: "d"
@@ -58,7 +58,7 @@ questions:
           text: "A single, large deployment step"
         - id: "c"
           text: "A set of automated processes for software delivery, including building, testing, and deploying code"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "A physical pipe that transfers data from one server to another"
 
@@ -69,15 +69,15 @@ questions:
       options:
         - id: "a"
           text: "Faster time to market"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Reduced risk of deployment failures"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Increased manual work for operations teams"
         - id: "d"
           text: "Early detection of bugs and issues"
-          is_correct: true
+          isCorrect: true
 
     - id: "q6"
       text: "Which deployment model is described as 'paradigm-shifting' in the content?"
@@ -88,7 +88,7 @@ questions:
           text: "Waterfall"
         - id: "b"
           text: "GitOps"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "FTP Transfer"
         - id: "d"
@@ -103,7 +103,7 @@ questions:
           text: "There is no difference between them"
         - id: "b"
           text: "Continuous Delivery requires manual approval for production, Continuous Deployment is fully automatic"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Continuous Deployment is slower than Continuous Delivery"
         - id: "d"
@@ -116,13 +116,13 @@ questions:
       options:
         - id: "a"
           text: "Blue-Green Deployment"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Canary Release"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Feature Toggles"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Direct production deployment without testing"
 

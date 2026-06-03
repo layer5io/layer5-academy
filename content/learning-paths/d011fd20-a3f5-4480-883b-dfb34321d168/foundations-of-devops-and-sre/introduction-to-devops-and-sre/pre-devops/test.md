@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What was the dominant software development methodology in the pre-DevOps era?"
@@ -11,7 +11,7 @@ questions:
           text: "Agile"
         - id: "b"
           text: "Waterfall Model"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Scrum"
         - id: "d"
@@ -24,15 +24,15 @@ questions:
       options:
         - id: "a"
           text: "Siloed teams working independently"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Manual processes for testing and deployment"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Continuous automated deployments"
         - id: "d"
           text: "Limited automation of repetitive tasks"
-          is_correct: true
+          isCorrect: true
 
     - id: "q3"
       text: "What mentality was common in the pre-DevOps era due to siloed teams?"
@@ -43,7 +43,7 @@ questions:
           text: "Shared responsibility"
         - id: "b"
           text: "'Throw it over the wall' mentality"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Collaborative development"
         - id: "d"
@@ -60,7 +60,7 @@ questions:
           text: "Market analysis"
         - id: "c"
           text: "Each stage"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Budget approval"
 
@@ -71,15 +71,15 @@ questions:
       options:
         - id: "a"
           text: "Infrequent releases"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Often buggy"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Automated and reliable"
         - id: "d"
           text: "Time-consuming and error-prone"
-          is_correct: true
+          isCorrect: true
 
 layout: "test"
 type: "test"

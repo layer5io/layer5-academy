@@ -10,7 +10,7 @@ categories: "meshery"
 level: "advanced"
 
 # List of additional resources for further reading 
-related_resources:
+relatedResources:
 
   - title: "Documentation and Slides"
     children:
@@ -25,7 +25,7 @@ related_resources:
       - title: "Running Meshery: Self-Hosted"
         link:  "https://docs.meshery.io/installation"
 
-additional_attributes:
+additionalAttributes:
   - title: "Retake Policy"
     value: "3"
     description: "Up to three retakes allowed per exam"

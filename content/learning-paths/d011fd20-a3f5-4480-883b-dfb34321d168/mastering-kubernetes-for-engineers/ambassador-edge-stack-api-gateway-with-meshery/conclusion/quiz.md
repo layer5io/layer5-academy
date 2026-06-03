@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Kubectl"
       - id: "b"
         text: "Kanvas"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Helm"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Exploring AES system using Meshery Playground"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Configuring, deploying, and managing Ambassador Edge Stack with Meshery"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Setting up database connections"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which platform was used for Ambassador Edge Stack management?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Meshery" 
+    correctAnswer: "Meshery" 
 ---

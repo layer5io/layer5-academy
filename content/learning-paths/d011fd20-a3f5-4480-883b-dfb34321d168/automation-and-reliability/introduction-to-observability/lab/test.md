@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: 'q1'
     text: 'According to the installation steps, which default port is used to access the Prometheus web interface?'
@@ -13,7 +13,7 @@ questions:
         text: '8080'
       - id: 'c'
         text: '9090'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: '22'
 
@@ -26,7 +26,7 @@ questions:
         text: 'To give the service root privileges'
       - id: 'b'
         text: 'It is a security best practice to run services with a dedicated user'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Because Ubuntu requires a new user for every download'
       - id: 'd'
@@ -41,7 +41,7 @@ questions:
         text: 'Install the Prometheus plugin via the command line'
       - id: 'b'
         text: 'Add Prometheus as a Data Source in the Grafana UI'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Edit the prometheus.yml file to point to Grafana'
       - id: 'd'
@@ -54,7 +54,7 @@ questions:
     options:
       - id: 'a'
         text: 'A systemd service file (/etc/systemd/system/prometheus.service)'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'A cron job script'
       - id: 'c'
@@ -75,7 +75,7 @@ questions:
         text: 'ping prometheus'
       - id: 'd'
         text: 'up{job="prometheus"}'
-        is_correct: true
+        isCorrect: true
 
 layout: 'test'
 type: 'test'

@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "envoy.wasm.runtime.wasmtime"
       - id: "b"
         text: "envoy.wasm.runtime.v8"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "envoy.wasm.runtime.node"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "EnvoyFilter resource"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "WebAssembly binary file"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Volume mount configuration for the sidecar"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which annotation configures Istio sidecar volumes?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "userVolumeMount" 
+    correctAnswer: "userVolumeMount" 
 ---

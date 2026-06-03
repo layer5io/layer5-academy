@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Variants"
       - id: "b"
         text: "Subsets"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Endpoints"
       - id: "d"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "VirtualService for routing rules"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "DestinationRule for defining subsets"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Gateway for ingress traffic"
   - id: "q3"
     text: "What VirtualService attribute is used to distribute traffic proportionally between different versions?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "weight" 
+    correctAnswer: "weight" 
 ---
