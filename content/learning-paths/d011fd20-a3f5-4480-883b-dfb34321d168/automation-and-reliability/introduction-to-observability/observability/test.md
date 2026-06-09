@@ -1,6 +1,6 @@
 ---
 title: 'Test'
-pass_percentage: 70
+passPercentage: 70
 questions:
   - id: 'q1'
     text: 'What is the core definition of observability?'
@@ -11,7 +11,7 @@ questions:
         text: 'The ability to monitor CPU usage'
       - id: 'b'
         text: 'The ability to understand the internal state of a system based on its external outputs'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'The ability to automatically rewrite code to fix bugs'
       - id: 'd'
@@ -28,7 +28,7 @@ questions:
         text: 'System Logs'
       - id: 'c'
         text: 'Audit Logs'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Console Logs'
 
@@ -41,7 +41,7 @@ questions:
         text: 'The total amount of memory used by the database'
       - id: 'b'
         text: 'The journey of a single request or transaction across various services'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'A list of all users currently logged in'
       - id: 'd'
@@ -54,7 +54,7 @@ questions:
     options:
       - id: 'a'
         text: 'Adding code to applications to collect telemetry data'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Installing physical sensors on hardware'
       - id: 'c'
@@ -71,7 +71,7 @@ questions:
         text: 'When the system slows down due to too many alerts'
       - id: 'b'
         text: 'When operators become overwhelmed by false positives and start ignoring alerts'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'When the alerting software crashes'
       - id: 'd'
@@ -88,7 +88,7 @@ questions:
         text: 'Splunk'
       - id: 'c'
         text: 'Meshery'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'Nagios'
 
@@ -99,7 +99,7 @@ questions:
     options:
       - id: 'a'
         text: 'SLA, SLO, and SLI'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'CPU, RAM, and GPU'
       - id: 'c'
@@ -118,7 +118,7 @@ questions:
         text: 'Application Metrics'
       - id: 'c'
         text: 'System Metrics'
-        is_correct: true
+        isCorrect: true
       - id: 'd'
         text: 'User Metrics'
 
@@ -129,15 +129,15 @@ questions:
     options:
       - id: 'a'
         text: 'Spans representing single operations'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Trace context carrying the trace identity'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'CPU usage percentages'
       - id: 'd'
         text: 'Annotations and metadata'
-        is_correct: true
+        isCorrect: true
 
   - id: 'q10'
     text: 'What is the solution to address the challenge of data volume and overhead in observability?'
@@ -148,7 +148,7 @@ questions:
         text: 'Stop collecting all logs'
       - id: 'b'
         text: 'Implementing intelligent data sampling and aggregation techniques'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Manually review each log entry'
       - id: 'd'
@@ -161,10 +161,10 @@ questions:
     options:
       - id: 'a'
         text: 'Jaeger'
-        is_correct: true
+        isCorrect: true
       - id: 'b'
         text: 'Zipkin'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'Jenkins'
       - id: 'd'
@@ -179,7 +179,7 @@ questions:
         text: 'It eliminates the need for system maintenance'
       - id: 'b'
         text: 'It helps understand the interaction between different components'
-        is_correct: true
+        isCorrect: true
       - id: 'c'
         text: 'It reduces the overall cost of internet bandwidth'
       - id: 'd'

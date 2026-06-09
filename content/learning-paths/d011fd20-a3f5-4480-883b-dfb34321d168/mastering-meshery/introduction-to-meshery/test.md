@@ -1,6 +1,6 @@
 ---
 title: "Course Test"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 final: true
 questions:
@@ -13,7 +13,7 @@ questions:
         text: "To manage Docker containers"
       - id: "b"
         text: "To facilitate collaborative design and operation of cloud and cloud-native infrastructure"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To replace Kubernetes"
       - id: "d"
@@ -25,20 +25,20 @@ questions:
     options:
       - id: "a"
         text: "MeshSync"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Broker"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Operator"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Docker Engine"
   - id: "q3"
     text: "What term is used in Meshery to describe labels, shapes, sections, and images that enhance designs but are not deployable?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Annotations"
+    correctAnswer: "Annotations"
   - id: "q4"
     text: "What is a Workspace in Meshery?"
     type: "single-answer"
@@ -48,7 +48,7 @@ questions:
         text: "A physical server location"
       - id: "b"
         text: "A logical grouping of resources that helps organize and manage infrastructure"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "A type of Kubernetes node"
       - id: "d"
@@ -60,13 +60,13 @@ questions:
     options:
       - id: "a"
         text: "Designs"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Environments"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Policies"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "CPU cores"
   - id: "q6"
@@ -78,7 +78,7 @@ questions:
         text: "A monitoring tool"
       - id: "b"
         text: "A visual designer for creating cloud-native infrastructure designs"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "A database management system"
       - id: "d"
@@ -90,13 +90,13 @@ questions:
     options:
       - id: "a"
         text: "Helm charts"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Kubernetes manifests"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Docker Compose files"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "PowerPoint presentations"
 ---

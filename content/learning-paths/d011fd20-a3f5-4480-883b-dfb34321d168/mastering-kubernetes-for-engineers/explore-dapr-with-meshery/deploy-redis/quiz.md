@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Multi-node"
       - id: "b"
         text: "Single Node"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Cluster-wide"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "dapr-system"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "default"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "kube-system"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which platform provides the distributed application runtime?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Dapr" 
+    correctAnswer: "Dapr" 
 ---

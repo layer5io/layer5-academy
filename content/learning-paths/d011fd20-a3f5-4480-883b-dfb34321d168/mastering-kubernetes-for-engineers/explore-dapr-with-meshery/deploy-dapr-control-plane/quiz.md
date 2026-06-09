@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "default"
       - id: "b"
         text: "dapr-system"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "kube-system"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Dapr Sidecar Injector"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Dapr Placement Service"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Nginx Controller"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What numeric identifier defines service endpoints?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Port" 
+    correctAnswer: "Port" 
 ---

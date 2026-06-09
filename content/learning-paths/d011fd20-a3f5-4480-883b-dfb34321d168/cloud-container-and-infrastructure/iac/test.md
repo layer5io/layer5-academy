@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What is Infrastructure as Code (IaC)?"
@@ -11,7 +11,7 @@ questions:
           text: "A process for manually managing and configuring physical hardware devices"
         - id: "b"
           text: "A practice of automating the provisioning and management of infrastructure through code instead of through manual processes"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "A software development methodology focused on the automation of code deployment"
         - id: "d"
@@ -28,7 +28,7 @@ questions:
           text: "Immutability"
         - id: "c"
           text: "Manual tracking"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Version control"
 
@@ -40,7 +40,7 @@ questions:
       options:
         - id: "a"
           text: "Terraform can manage resources across multiple cloud providers, while CloudFormation is designed specifically for Amazon Web Services (AWS)"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Terraform is limited to managing infrastructure on Amazon Web Services (AWS), while CloudFormation can manage resources across multiple cloud providers"
         - id: "c"
@@ -61,7 +61,7 @@ questions:
           text: "It is exclusively designed for managing Kubernetes clusters"
         - id: "d"
           text: "It simplifies infrastructure management with user-friendly interfaces and robust integration capabilities"
-          is_correct: true
+          isCorrect: true
 
 layout: "test"
 type: "test"

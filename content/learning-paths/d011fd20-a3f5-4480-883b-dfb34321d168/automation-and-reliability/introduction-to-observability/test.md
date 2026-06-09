@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What is Observability?"
@@ -11,7 +11,7 @@ questions:
           text: "The process of manually checking system logs when users report issues"
         - id: "b"
           text: "The ability to understand the internal state of a system by analyzing its outputs, such as metrics, logs, and traces"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "The practice of preventing any failures in a system through extensive testing"
         - id: "d"
@@ -28,7 +28,7 @@ questions:
           text: "OpenTraces"
         - id: "c"
           text: "Prometheus and Grafana"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Elasticsearch"
 
@@ -41,7 +41,7 @@ questions:
           text: "Configurations"
         - id: "b"
           text: "Traces"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Tests"
         - id: "d"
@@ -60,7 +60,7 @@ questions:
           text: "Traces"
         - id: "d"
           text: "Databases"
-          is_correct: true
+          isCorrect: true
 
     - id: "q5"
       text: "What are the three key pillars of observability?"
@@ -69,13 +69,13 @@ questions:
       options:
         - id: "a"
           text: "Metrics"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Logs"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Traces"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Databases"
 
@@ -88,7 +88,7 @@ questions:
           text: "Data Volume and Overhead"
         - id: "b"
           text: "Alert Fatigue"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Tool Proliferation"
         - id: "d"
@@ -101,15 +101,15 @@ questions:
       options:
         - id: "a"
           text: "Provides real-time insights into application health"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Enables continuous monitoring as part of CI/CD"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Eliminates the need for version control"
         - id: "d"
           text: "Facilitates collaboration across development and operations teams"
-          is_correct: true
+          isCorrect: true
 
     - id: "q8"
       text: "According to the content, observability is compared to having which specific ability?"
@@ -120,7 +120,7 @@ questions:
           text: "Telepathy"
         - id: "b"
           text: "X-ray vision"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Invisibility"
         - id: "d"

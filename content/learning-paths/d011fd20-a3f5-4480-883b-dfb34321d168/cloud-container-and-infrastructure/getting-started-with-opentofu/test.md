@@ -13,7 +13,7 @@ questions:
         text: "Higher risk of human error"
       - id: "c"
         text: "Consistency across environments"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Greater time consumption"
   - id: "q2"
@@ -27,7 +27,7 @@ questions:
         text: "tofu plan"
       - id: "c"
         text: "tofu init"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "tofu destroy"
   - id: "q3"
@@ -39,7 +39,7 @@ questions:
         text: "To add support for more cloud providers"
       - id: "b"
         text: "Due to a license change in Terraform"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To remove backward compatibility"
       - id: "d"
@@ -51,16 +51,16 @@ questions:
     options:
       - id: "a"
         text: "tofu plan"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "tofu apply"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "tofu destroy"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "tofu validate"
-        is_correct: true
+        isCorrect: true
       - id: "e"
         text: "tofu pack"
   - id: "q5"
@@ -70,20 +70,20 @@ questions:
     options:
       - id: "a"
         text: "Fully open source"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Vendor lock-in"
       - id: "c"
         text: "Community-driven development"
-        is_correct: true
+        isCorrect: true
       - id: "d"
         text: "Modular design"
-        is_correct: true
+        isCorrect: true
       - id: "e"
         text: "High licensing costs"
   - id: "q6"
     text: "What do you call a reusable component or plugin that enables interaction with a cloud or service in OpenTofu?"
     type: "short-answer"
     marks: 2
-    correct_answer: "Provider"
+    correctAnswer: "Provider"
 ---

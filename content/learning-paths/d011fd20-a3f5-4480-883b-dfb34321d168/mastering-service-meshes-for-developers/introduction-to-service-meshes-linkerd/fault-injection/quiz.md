@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Adding code libraries to services for failures"
       - id: "b"
         text: "A form of chaos engineering using service mesh capabilities"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Breaking application deployments intentionally"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Using SMI Traffic Split API"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Deploying error services that return HTTP 500"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Redirecting percentage of traffic to error services"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What HTTP status code does the error-injector service return?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "500" 
+    correctAnswer: "500" 
 ---

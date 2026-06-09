@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "ClusterIP"
       - id: "b"
         text: "LoadBalancer or NodePort"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "ExternalName"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "Istio Gateway"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Istio VirtualService"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "DestinationRule for service subsets"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "What port is typically used to access Envoy proxy admin interface?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "15000" 
+    correctAnswer: "15000" 
 ---

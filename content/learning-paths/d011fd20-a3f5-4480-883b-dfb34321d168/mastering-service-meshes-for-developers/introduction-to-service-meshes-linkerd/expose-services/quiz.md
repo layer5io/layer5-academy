@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Yes, it includes both ingress and egress gateways"
       - id: "b"
         text: "No, it allows you to choose your preferred ingress controller"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Only an ingress gateway is included"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "l5d-dst-override header configuration"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Kubernetes service FQDN specification"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Service port configuration"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which ingress controller is used in the Linkerd workshop?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "NGINX" 
+    correctAnswer: "NGINX" 
 ---

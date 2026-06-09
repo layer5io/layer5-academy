@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "To manage internal service-to-service communication"
       - id: "b"
         text: "To expose services outside the cluster for external access"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "To provide authentication for all services"
       - id: "d"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Istio Gateway"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Istio VirtualService"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Istio ServiceEntry"
   - id: "q3"
     text: "What Istio feature defines service versions for traffic routing?" 
     type: "short-answer" 
     marks: 2
-    correct_answer: "DestinationRules" 
+    correctAnswer: "DestinationRules" 
 ---

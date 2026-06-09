@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Docker Compose"
       - id: "b"
         text: "Kubernetes Manifest"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Helm Chart"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "A merge modal appears"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "The designs are combined into a single design"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "The original designs are deleted"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What type of file is selected in the “Design Type” dropdown during import?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Manifest" 
+    correctAnswer: "Manifest" 
 ---

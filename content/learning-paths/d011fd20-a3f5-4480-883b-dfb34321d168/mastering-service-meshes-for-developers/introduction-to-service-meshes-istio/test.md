@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Linkerd"
       - id: "b"
         text: "Istio"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Consul Connect"
       - id: "d"
@@ -24,15 +24,15 @@ questions:
     options:
       - id: "a"
         text: "Set up a service mesh"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Deploy applications using service mesh"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Database optimization"
   - id: "q3"
     text: "What cloud native management plane is used in this course?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Meshery" 
+    correctAnswer: "Meshery" 
 ---

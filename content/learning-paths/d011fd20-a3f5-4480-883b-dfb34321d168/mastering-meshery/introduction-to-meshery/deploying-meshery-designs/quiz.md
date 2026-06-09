@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Configuration, testing, environment selection, and deployment"
       - id: "b"
         text: "Validation, dry-run, environment selection, and deployment"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Import, validation, testing, and deployment"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Simulates deployment without making actual changes"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Identifies potential issues before deployment"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Permanently deploys resources to the cluster"
       - id: "d"
@@ -41,7 +41,7 @@ questions:
         text: "One Meshery Operator can manage multiple Kubernetes clusters"
       - id: "b"
         text: "There is a one-to-one relationship between a Meshery Operator and a Kubernetes cluster"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Multiple Meshery Operators can share the same Kubernetes cluster"
       - id: "d"

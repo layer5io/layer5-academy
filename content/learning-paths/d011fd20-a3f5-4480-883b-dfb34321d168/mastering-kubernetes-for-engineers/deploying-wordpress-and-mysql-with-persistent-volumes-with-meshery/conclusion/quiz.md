@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Only WordPress site"
       - id: "b"
         text: "WordPress site and MySQL database with Persistent Volumes"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Only MySQL database"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Importing manifest files"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Creating persistent volumes"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Setting up CI/CD pipelines"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which platform provided the deployment environment?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Meshery" 
+    correctAnswer: "Meshery" 
 ---

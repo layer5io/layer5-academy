@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "app:wordpress"
       - id: "b"
         text: "dev:tutorial"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "env:production"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "Visualizing relationships between resources"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Making it easier to manage resources"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Automatically scaling applications"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "What metadata is used for component grouping?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Labels" 
+    correctAnswer: "Labels" 
 ---

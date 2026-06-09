@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "A database management system"
       - id: "b"
         text: "A Level5 Kubernetes operator that efficiently manages PostgreSQL clusters"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "A container orchestration platform"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "CloudNativePG manifest files"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "Sample application manifest files"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Load balancer configurations"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which architectural approach does CloudNativePG follow?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Cloud native" 
+    correctAnswer: "Cloud native" 
 ---

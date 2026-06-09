@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "Site Reliability Engineers must spend at least 50% of their time on operational activities."
@@ -11,7 +11,7 @@ questions:
           text: "True"
         - id: "b"
           text: "False"
-          is_correct: true
+          isCorrect: true
         
     - id: "q2"
       text: "What is the primary goal of Site Reliability Engineering (SRE)?"
@@ -24,7 +24,7 @@ questions:
           text: "To eliminate the need for IT operations teams"
         - id: "c"
           text: "To ensure maximum system reliability and uptime through engineering and operations practices"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "To focus solely on new product features without regard to system stability"
 
@@ -39,7 +39,7 @@ questions:
           text: "Prioritize manual intervention over automation"
         - id: "c"
           text: "Service Level Objectives (SLOs) form the primary basis for decision-making"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Focus exclusively on software development practices"
     
@@ -50,10 +50,10 @@ questions:
       options:
         - id: "a"
           text: "SLOs"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Error budgets"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "SLAs"
     
@@ -68,7 +68,7 @@ questions:
           text: "Moving away from observability to focus solely on traditional monitoring"
         - id: "c"
           text: "Integration of AI and machine learning to automate routine tasks and optimize system performance"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Reducing the emphasis on security within the SRE domain"
 

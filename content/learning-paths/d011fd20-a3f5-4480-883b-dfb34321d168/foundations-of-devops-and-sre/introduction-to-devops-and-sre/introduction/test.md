@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What is the primary goal of DevOps?"
@@ -9,7 +9,7 @@ questions:
       options:
         - id: "a"
           text: "To automate and streamline the processes of software delivery and infrastructure changes"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "To eliminate the need for operations teams"
         - id: "c"
@@ -26,7 +26,7 @@ questions:
           text: "Software Reliability Engineering"
         - id: "b"
           text: "Site Reliability Engineering"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "System Resource Engineering"
         - id: "d"
@@ -43,7 +43,7 @@ questions:
           text: "Amazon"
         - id: "c"
           text: "Google"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Facebook"
 
@@ -54,12 +54,12 @@ questions:
       options:
         - id: "a"
           text: "Enhancing collaboration and communication between Dev and Ops teams"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Creating more manual processes"
         - id: "c"
           text: "Fostering a culture of continuous improvement"
-          is_correct: true
+          isCorrect: true
         - id: "d"
           text: "Reducing automation in software delivery"
 
@@ -72,7 +72,7 @@ questions:
           text: "SRE focuses only on keeping systems running"
         - id: "b"
           text: "SRE provides a framework for balancing system reliability with new features and development"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "SRE eliminates the need for operations teams"
         - id: "d"

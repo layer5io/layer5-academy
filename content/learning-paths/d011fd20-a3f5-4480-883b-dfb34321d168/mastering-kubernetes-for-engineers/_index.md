@@ -10,7 +10,7 @@ categories: "kubernetes"
 level: "intermediate"
 
 
-additional_attributes:
+additionalAttributes:
   - title: "Retake Policy"
     value: "3"
     description: "Up to three retakes allowed per exam"

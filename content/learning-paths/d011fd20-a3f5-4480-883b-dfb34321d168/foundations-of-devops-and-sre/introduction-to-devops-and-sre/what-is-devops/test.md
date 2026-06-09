@@ -1,6 +1,6 @@
 ---
 title: "Test"
-pass_percentage: 70
+passPercentage: 70
 questions:
     - id: "q1"
       text: "What does DevOps combine?"
@@ -9,7 +9,7 @@ questions:
       options:
         - id: "a"
           text: "Development + Operations"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Design + Operations"
         - id: "c"
@@ -26,7 +26,7 @@ questions:
           text: "Marketing and sales"
         - id: "b"
           text: "Infrastructure and operations problems"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Human resources"
         - id: "d"
@@ -39,10 +39,10 @@ questions:
       options:
         - id: "a"
           text: "Automate and streamline software delivery processes"
-          is_correct: true
+          isCorrect: true
         - id: "b"
           text: "Foster a culture of continuous improvement"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Increase manual handoffs between teams"
         - id: "d"
@@ -57,7 +57,7 @@ questions:
           text: "Microsoft"
         - id: "b"
           text: "Google"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "Amazon"
         - id: "d"
@@ -72,7 +72,7 @@ questions:
           text: "To eliminate all system failures"
         - id: "b"
           text: "To create scalable and highly reliable software systems"
-          is_correct: true
+          isCorrect: true
         - id: "c"
           text: "To reduce software development speed"
         - id: "d"

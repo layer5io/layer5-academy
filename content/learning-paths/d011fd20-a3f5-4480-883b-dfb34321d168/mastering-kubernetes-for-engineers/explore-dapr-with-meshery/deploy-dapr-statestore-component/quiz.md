@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "redis.state"
       - id: "b"
         text: "state.redis"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "statestore.redis"
       - id: "d"
@@ -24,10 +24,10 @@ questions:
     options:
       - id: "a"
         text: "redisHost field"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "redisPassword field"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "httpTimeout field"
       - id: "d"
@@ -36,5 +36,5 @@ questions:
     text: "Which database system is used for state storage?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "Redis" 
+    correctAnswer: "Redis" 
 ---

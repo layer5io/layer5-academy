@@ -1,6 +1,6 @@
 ---
 title: "Quiz"
-pass_percentage: 70
+passPercentage: 70
 type: "test"
 questions:
   - id: "q1"
@@ -12,7 +12,7 @@ questions:
         text: "Only success rates"
       - id: "b"
         text: "Success rate, requests/second, and latency"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "Only CPU and memory usage"
       - id: "d"
@@ -24,16 +24,16 @@ questions:
     options:
       - id: "a"
         text: "stat for golden metrics"
-        is_correct: true
+        isCorrect: true
       - id: "b"
         text: "top for real-time path view"
-        is_correct: true
+        isCorrect: true
       - id: "c"
         text: "tap for request stream monitoring"
-        is_correct: true
+        isCorrect: true
   - id: "q3"
     text: "Which service provides the Linkerd web interface?"
     type: "short-answer" 
     marks: 2
-    correct_answer: "linkerd-web" 
+    correctAnswer: "linkerd-web" 
 ---
