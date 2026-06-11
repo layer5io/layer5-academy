@@ -23,23 +23,33 @@ include .github/build/Makefile.show-help.mk
 setup:
 	npm install
 
-## Build and run site locally with draft and future content enabled.
-site: check-go
-	hugo server -D -F
+## Verify required commands and local dependencies are present.
+check-deps:
+	@echo "Checking if 'npm' and local 'hugo' binary are present..."
+	@command -v npm > /dev/null || { echo "Error: 'npm' not found. Please install Node.js and npm."; exit 1; }
+	@test -x node_modules/.bin/hugo || { echo "Error: Hugo binary not found in node_modules. Please run 'make setup' first."; exit 1; }
+	@echo "Dependencies check passed."
+
+## Run on your local machine with draft and future content enabled.
+site: check-deps check-go
+	npm run dev:site
+
+## Run on your local machine without file watching.
+serve: check-deps check-go
+	npm run dev:serve
 
 ## Build site
-build:
-	hugo build
+build: check-deps check-go
+	npm run dev:build
 
 ## Build site for local consumption
-build-preview:
-	hugo --baseURL=$(BASEURL)
+build-preview: check-deps check-go
+	npm run dev:build -- --baseURL="$(BASEURL)"
 
 ## Empty build cache and run on your local machine.
 clean:
-	hugo --cleanDestinationDir
-	make setup
-	make site
+	npm run clean
+	$(MAKE) site
 
 ## Fix Markdown linting issues
 lint-fix:
@@ -61,8 +71,8 @@ check-go:
 	@echo "Go is installed."
 
 ## Update the academy-theme package to latest version
-theme-update:
+theme-update: check-deps
 	echo "Updating to latest academy-theme..." && \
-	hugo mod get github.com/layer5io/academy-theme
+	npm run update:theme
 
-.PHONY: setup build build-preview site clean lint-fix check-go theme-update
+.PHONY: setup check-deps build build-preview site serve clean check-go theme-update lint-fix

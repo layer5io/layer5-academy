@@ -98,7 +98,7 @@ make site
 
 #### Building the Site
 
-To build the Academy site for production, ensure you have `Hugo` and `Go` installed. Now, run the following command to build the site:
+To build the Academy site for production, ensure you have `npm` and `Go` installed. The local `hugo` binary is managed by `npm`. Ensure you have run `make setup` first, then run the following command to build the site:
 
 ```sh
 make build

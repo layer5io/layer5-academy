@@ -19,7 +19,7 @@
 </h1>
 
 **Layer5 Academy** is the **official content repository** for Layer5's learning platform, hosting all official learning paths, challenges, and certifications.  
-It is built with [Hugo](https://gohugo.io/) and integrated into a multi-repository architecture for rapid local preview and automated cloud deployment.
+It is built with [Hugo](https://gohugo.io/) (managed locally via npm) and integrated into a multi-repository architecture for rapid local preview and automated cloud deployment.
 
 ---
 
@@ -59,12 +59,13 @@ The Academy platform is composed of multiple repositories, each with a specific 
 ## Quick Start (Local Preview)
 
 > Use this workflow for a fast preview loop when editing Markdown content.
+> **Note:** You do not need to install Hugo globally. The required `hugo-extended` binary is managed locally via npm when you run `make setup`.
 
 ```bash
 # Clean up and verify Go module dependencies
 go mod tidy
 
-# Install necessary tools and modules
+# Install necessary tools and modules (including local Hugo)
 make setup
 
 # Start the local Hugo development server
