@@ -52,6 +52,24 @@ make setup
 # Start the local Hugo development server
 make site
 
+# Build the site for production
+make build
+
+# Build the site for local consumption with custom base URL
+make build-preview
+
+# Clean the Hugo cache and restart local setup
+make clean
+
+# Fix Markdown linting issues
+make lint-fix
+
+# Verify Go is installed before starting the local site
+make check-go
+
+# Update the academy-theme package version
+make theme-update
+
 ```
 
 Open your browser at: ```http://localhost:1313/academy```. Note: The local preview uses the ```academy-theme```. In production, content is wrapped by the Layer5 Cloud UI, so minor visual differences may occur. For end-to-end validation, test with the ```academy-build``` repository.

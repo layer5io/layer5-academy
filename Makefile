@@ -11,27 +11,32 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
+#----------------------------------------------------------------------------
+# Academy
+#----------------------------------------------------------------------------
+## ------------------------------------------------------------
+----LOCAL_BUILDS: Show help for available targets
 
-## Install dependencies on your local machine.
+## Install site dependencies
 setup:
 	npm install
 
-## Run on your local machine with draft and future content enabled.
+## Build and run site locally with draft and future content enabled.
 site: check-go
 	hugo server -D -F
 
 ## Build site
 build:
-	hugo
+	hugo build
 
 ## Build site for local consumption
 build-preview:
 	hugo --baseURL=$(BASEURL)
 
 ## Empty build cache and run on your local machine.
-clean: 
+clean:
 	hugo --cleanDestinationDir
 	make setup
 	make site
@@ -47,6 +52,9 @@ lint-fix:
 	@echo "Running markdownlint-cli2 --fix..."
 	@markdownlint-cli2 --fix "**/*.md" "#node_modules" "#public" "#resources"
 
+## ------------------------------------------------------------
+----MAINTENANCE: Show help for available targets
+
 check-go:
 	@echo "Checking if Go is installed..."
 	@command -v go > /dev/null || (echo "Go is not installed. Please install it before proceeding."; exit 1)
@@ -57,4 +65,4 @@ theme-update:
 	echo "Updating to latest academy-theme..." && \
 	hugo mod get github.com/layer5io/academy-theme
 
-.PHONY: setup build site clean check-go theme-update
+.PHONY: setup build build-preview site clean lint-fix check-go theme-update
