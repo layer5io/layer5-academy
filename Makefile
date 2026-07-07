@@ -11,8 +11,16 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
 include .github/build/Makefile.core.mk
 include .github/build/Makefile.show-help.mk
+
+# Changes to any main recipe in this Makefile, require a corresponding change in all other repositories subscribed to the 'meshery-academy' topic.
+
+# htmltest is fetched and run on demand via 'go run' (no install step). Pin it for
+# reproducible link checks; leave as 'latest' to always use the newest release.
+HTMLTEST_VERSION ?= latest
+export HTMLTEST_VERSION
 
 # ---------------------------------------------------------------------------
 # Academy
@@ -40,50 +48,67 @@ theme-update: check-go check-deps
 	@echo "Updating to latest academy-theme..."
 	npm run update:theme
 
-#----------------------------------------------------------------------------
-# LOCAL_BUILDS: Show help for available targets
-#----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# LOCAL BUILDS: Show help for available targets
+# ---------------------------------------------------------------------------
 
 ## Install site dependencies
 setup:
 	npm install
 
-## Build site for local consumption
+## Build the site locally with draft and future content enabled.
 build: check-go check-deps
-	npm run build:production
+	npm run build
 
-## Build site for local consumption
+## Build the site for a deploy preview.
 build-preview: check-go check-deps
 	npm run build:preview
 
-## Build and run site locally with draft and future content enabled.
+## Build the site for production.
+build-production: check-go check-deps
+	npm run build:production
+
+## Build and run the site locally with live reload (draft and future content enabled).
 site: check-go check-deps
 	npm run site
 
-## Build and run site locally
-serve: check-go check-deps
-	npm run serve
+## Build and serve the site once with the file-watcher off (no live reload).
+site-no-watch: check-go check-deps
+	npm run site:no-watch
 
-## Empty build cache and run on your local machine.
+## Empty the build cache, reinstall dependencies, and run the site locally.
 clean:
 	npm run clean
+	$(MAKE) setup
+	$(MAKE) site
+
+## Check internal links in the built site (htmltest is fetched on demand via 'go run').
+check-links: check-go check-deps
+	npm run check:links
 
 ## Format code using Prettier
 format:
 	npm run format
 
+## Check formatting without writing changes.
+format-check:
+	npm run format:check
+
 ## Fix Markdown linting issues
 lint-fix:
-	npm run lint:fix
+	npx --yes markdownlint-cli2 --fix "content/**/*.md"
 
 .PHONY: \
 	setup \
 	build \
 	build-preview \
-	serve \
+	build-production \
 	site \
+	site-no-watch \
 	clean \
+	check-links \
 	format \
+	format-check \
 	lint-fix \
 	check-deps \
 	check-go \
