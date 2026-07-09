@@ -34,3 +34,5 @@ additionalAttributes:
     description: "The certification requires passing the exam with a minimum passing score for recertification tracking."
 
 ---
+
+**Organization ID:** {{< org-id >}}
