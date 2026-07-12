@@ -1981,7 +1981,7 @@ To interact with our Kubernetes cluster, kubectl is the primary go to command li
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The icon renders inline: 
 
- 
+ &lt;svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"&gt;&lt;path d="M32 4.287L0 59.713h4.44L32 12.25v7.8L9.033 59.713h4.593L32 28.02v7.962l-13.78 23.73h4.593L32 43.943v7.8l-4.593 7.962H64z" fill="#da291c"/&gt;&lt;/svg&gt;
 &lt;/p&gt;
 &lt;p&gt;To add your own SVG icons, place &lt;code&gt;.svg&lt;/code&gt; files in the &lt;code&gt;assets/icons/&lt;/code&gt; directory.&lt;/p&gt;</description></item><item><title>Continuous Delivery (CD) and Continuous Deployment (CD) Principles and Practices</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/automation-and-reliability/ci-cd/cicd/cd-principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/automation-and-reliability/ci-cd/cicd/cd-principles/</guid><description>&lt;h3 id="principles" class="heading-link"&gt;
  Principles
@@ -9521,14 +9521,14 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{% lab-intro %}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Welcome to this hands-on lab. In this exercise, you will learn how to deploy a cloud native application using Kubernetes. By the end of this lab, you will be able to create a cluster, deploy workloads, and expose services.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{% /lab-intro %}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>SwaggerUI</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/swaggerui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/swaggerui/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; swaggerui src=&amp;#34;/examples/openapi/example.json&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>SwaggerUI</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/swaggerui/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/swaggerui/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; swaggerui src=&amp;#34;/academy/examples/openapi/example.json&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;div id="docsy_swagger_ui"&gt;&lt;/div&gt;
 &lt;script&gt;
  window.onload = function () {
  const ui = SwaggerUIBundle({
- url: "/examples/openapi/example.json",
+ url: "/academy/examples/openapi/example.json",
  dom_id: '#docsy_swagger_ui',
  presets: [
  SwaggerUIBundle.presets.apis,
@@ -9602,11 +9602,12 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
  &lt;a href="#sample-notebook" class="heading-anchor" aria-label="Permalink to this heading"&gt;🔗&lt;/a&gt;
 &lt;/h1&gt;
 &lt;p&gt;This Jupyter notebook demonstrates how the &lt;code&gt;hextra/jupyter&lt;/code&gt; shortcode renders notebook cells.
-It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax highlighting, and cell outputs.&lt;/p&gt;</description></item><item><title>Meshery Design Embed</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/academy-theme/meshery-design-embed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/academy-theme/meshery-design-embed/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; meshery-design-embed
+It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax highlighting, and cell outputs.&lt;/p&gt;</description></item><item><title>Meshery Design Embed</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/academy-theme/meshery-design-embed/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/academy-theme/meshery-design-embed/</guid><description>&lt;p&gt;The &lt;code&gt;meshery-design-embed&lt;/code&gt; shortcode renders an interactive Meshery design diagram.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; meshery-design-embed
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; id=&amp;#34;embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; src=&amp;#34;./embedded-design-deploy-meshery-using-meshery.js&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The rendered output is shown below:&lt;/p&gt;
 
 
 
@@ -9663,7 +9664,9 @@ It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax 
 &lt;/div&gt;
 
 
-&lt;script src="./embedded-design-deploy-meshery-using-meshery.js" type="module"&gt;&lt;/script&gt;</description></item><item><title>Tabpane and Tab</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/tabpane-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/tabpane-tab/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; tabpane text=true &amp;gt;}}
+&lt;script src="./embedded-design-deploy-meshery-using-meshery.js" type="module"&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://docs.layer5.io/kanvas/designer/embedding-designs/"&gt;Learn more&lt;/a&gt; about embedded designs.&lt;/p&gt;</description></item><item><title>Tabpane and Tab</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/tabpane-tab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/docsy/tabpane-tab/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; tabpane text=true &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{% tab header=&amp;#34;Tab 1&amp;#34; lang=&amp;#34;en&amp;#34; %}}Tab content.{{&amp;lt; /tab &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; {{% tab header=&amp;#34;Tab 2&amp;#34; lang=&amp;#34;en&amp;#34; %}}More content.{{&amp;lt; /tab &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; /tabpane &amp;gt;}}
@@ -9706,7 +9709,7 @@ It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax 
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[338 84 198 137 270 37]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[169 236 62 492 484 268]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
@@ -9816,72 +9819,7 @@ It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax 
 &lt;div class="highlight" filename="main.go"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;package&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;func&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;main&lt;/span&gt;() { &lt;span style="color:#a6e22e"&gt;fmt&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;Println&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#34;hello&amp;#34;&lt;/span&gt;) }
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Inline code like &lt;code&gt;var foo = &amp;quot;bar&amp;quot;;&lt;/code&gt; is supported.&lt;/p&gt;</description></item><item><title>Course Test</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/test/</guid><description/></item><item><title>Course Test</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/mastering-meshery/introduction-to-meshery/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/mastering-meshery/introduction-to-meshery/test/</guid><description/></item><item><title>Embedded Design</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/academy-theme/embedded-design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/academy-theme/embedded-design/</guid><description>&lt;p&gt;The &lt;code&gt;meshery-design-embed&lt;/code&gt; shortcode renders an interactive Meshery design diagram.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{{&amp;lt; meshery-design-embed
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; id=&amp;#34;embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; src=&amp;#34;./embedded-design-deploy-meshery-using-meshery.js&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The rendered output is shown below:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;style&gt;
-.meshery-embed-container {
- border: 1px solid #eee;
- border-radius: 4px;
- margin: 1rem auto;
- box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-.meshery-embed-container.full {
- width: 80%;
- height: 30rem;
-}
-.meshery-embed-container.half {
- width: 50%;
- height: 25rem;
-}
-.meshery-embed-container .cy-container {
- width: 100%;
- height: 100%;
-}
-
-&lt;/style&gt;
-
-
-&lt;div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem;"&gt;
-&lt;div
- id="embedded-design-c811e9f4-2522-4eb6-b775-7475545356d8"class="meshery-embed-container full"&gt;&lt;/div&gt;
-
-&lt;a href="https://cloud.layer5.io/catalog/content/design/c811e9f4-2522-4eb6-b775-7475545356d8" target="_blank" rel="noopener noreferrer"&gt;
- Open Design
-&lt;/a&gt;
-
-&lt;/div&gt;
-
-
-&lt;script src="../embedded-design-deploy-meshery-using-meshery.js" type="module"&gt;&lt;/script&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href="https://docs.layer5.io/kanvas/designer/embedding-designs/"&gt;Learn more&lt;/a&gt; about embedded designs.&lt;/p&gt;</description></item><item><title>Footnotes</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/footnotes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/footnotes/</guid><description>&lt;p&gt;This is a superscript number for your footnote. &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Inline code like &lt;code&gt;var foo = &amp;quot;bar&amp;quot;;&lt;/code&gt; is supported.&lt;/p&gt;</description></item><item><title>Course Test</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/getting-started-with-opentofu/test/</guid><description/></item><item><title>Course Test</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/mastering-meshery/introduction-to-meshery/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/mastering-meshery/introduction-to-meshery/test/</guid><description/></item><item><title>Footnotes</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/footnotes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/footnotes/</guid><description>&lt;p&gt;This is a superscript number for your footnote. &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class="footnotes" role="doc-endnotes"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -10255,7 +10193,7 @@ It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax 
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[314 177 384 222 12 499]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[211 144 219 150 169 321]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/academy/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -10267,7 +10205,7 @@ It supports &lt;strong&gt;Markdown&lt;/strong&gt; cells, code cells with syntax 
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[128 466 241 222 218 45]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[456 479 89 122 442 70]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/academy/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Tables</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/tables/</guid><description>&lt;table&gt;

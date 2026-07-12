@@ -55,7 +55,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[314 177 384 222 12 499]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
+ &lt;img id="[211 144 219 150 169 321]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/academy/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Spruce shoot close-up" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Large images should always scale down and fit in the content container.&lt;/p&gt;
@@ -67,7 +67,7 @@
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[128 466 241 222 218 45]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
+ &lt;img id="[456 479 89 122 442 70]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-239/academy/assets/icons/layer5-academy-icon.svg" onclick="openModal(this.id)" alt="Large spruce shoot photo" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The photo above of the Spruce Picea abies shoot with foliage buds: Bjørn Erik Pedersen, CC-BY-SA.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Tables</title><link>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://layer5io.github.io/layer5-academy/pr-preview/pr-239/content-formatting-examples/markdown/tables/</guid><description>&lt;table&gt;
