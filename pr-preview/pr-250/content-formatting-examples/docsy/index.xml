@@ -392,7 +392,7 @@ This image was processed from a page resource using the Docsy `imgproc` shortcod
 
 
 &lt;div class="md__image"&gt;
- &lt;img id="[319 95 459 146 316 434]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-250/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
+ &lt;img id="[13 240 491 328 475 494]" src="https://layer5io.github.io/layer5-academy/pr-preview/pr-250/examples/images/exoscale-icon.png" onclick="openModal(this.id)" alt="Rendered tab image" 
  class="md-image-responsive" /&gt;
 &lt;/div&gt;&lt;/p&gt;
 
