@@ -18,7 +18,7 @@ Meshery's primary purpose is to facilitate the collaborative design, operation, 
 1. **Enhancing Collaboration:** Meshery allows teams of engineers to work together more effectively by providing a visual and intuitive interface for managing infrastructure.  
 2. **Simplifying Complexity:** It abstracts the complexity of managing multiple Kubernetes clusters and cloud-native environments, making it easier for engineers to deploy, monitor, and manage applications.  
 3. **Ensuring Extensibility:** As an open-source project, Meshery is highly extensible, allowing users to customize and extend its functionality to meet their specific needs.  
-4. **Improving Performance Management:** Meshery provides tools for performance analysis, helping teams understand and optimize the performance of their applications and infrastructure.  
+4. **Improving Performance Management:** Meshery provides tools for performance analysis adhering to the [Service Mesh Performance](https://smp-spec.io/) standard, helping teams understand and optimize the performance of their applications and infrastructure.  
 5. **Promoting Best Practices:** Through its various features and capabilities, Meshery encourages the adoption of best practices in cloud-native infrastructure management, such as using standardized designs and patterns.
 
 Meshery is designed to be a versatile and powerful tool that addresses the modern needs of infrastructure management in cloud-native environments, making it easier for engineers to manage their infrastructure with confidence and efficiency.
