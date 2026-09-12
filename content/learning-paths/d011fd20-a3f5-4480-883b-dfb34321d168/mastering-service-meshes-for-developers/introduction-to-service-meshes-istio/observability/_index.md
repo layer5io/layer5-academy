@@ -22,7 +22,7 @@ Using Meshery, install Istio telemetry add-ons. In the Istio management page:
 
 You will use Prometheus and Grafana for collecting and viewing metrics and [Jaeger](https://www.jaegertracing.io/) collecting and viewing distributed traces. Expose each add-on external to the cluster. Each the service network typs are set to "LoadBalancer".
 
-#### [Service Mesh Performance](https://smp-spec.io/) and Telemetry
+#### Service Mesh Performance and Telemetry
 
 Many of the labs require load to be placed on the sample apps. Let's generate HTTP traffic against the BookInfo application, so we can see interesting telemetry.
 
