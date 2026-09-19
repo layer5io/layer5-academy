@@ -1115,15 +1115,15 @@ for this exercise. Refer to the official
 &lt;p&gt;&lt;strong&gt;InfluxDB&lt;/strong&gt; is a high-performance, distributed, and scalable time-series database. It is commonly used for storing and querying metrics data.&lt;/p&gt;</description></item><item><title>Setting up a Kubernetes Cluster with kind</title><link>/layer5-academy/pr-preview/pr-278/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/lab/e6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/layer5-academy/pr-preview/pr-278/learning-paths/d011fd20-a3f5-4480-883b-dfb34321d168/cloud-container-and-infrastructure/introduction-to-containers-and-kubernetes/lab/e6/</guid><description>&lt;p&gt;&lt;a href="https://kind.sigs.k8s.io/"&gt;kind&lt;/a&gt; is a tool for running local Kubernetes clusters
 using Docker container nodes. kind was primarily designed for testing
 Kubernetes itself, but may be used for local development or CI.&lt;/p&gt;
-&lt;p&gt;Having &lt;a href="https://docs.docker.com"&gt;Docker&lt;/a&gt;,
+&lt;p&gt;Having &lt;a href="https://docs.docker.com/get-started/get-docker/"&gt;Docker&lt;/a&gt;,
 &lt;a href="https://kubernetes.io/docs/tasks/tools/"&gt;kubectl&lt;/a&gt;, and
 &lt;a href="https://kind.sigs.k8s.io"&gt;kind&lt;/a&gt; installed on your host is a prerequisite for
 this exercise.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;We will create a simple cluster with default configuration. A config file
-with additional configurations can be created and passed to the create
-cluster command during the run time. To keep it simple, we are going to make
-use of default configurations.&lt;/li&gt;
+with additional configuration can be created and passed to the create
+cluster command at runtime. To keep it simple, we are going to make use of
+the default configuration.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;kind create cluster
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Creating cluster &lt;span style="color:#e6db74"&gt;&amp;#34;kind&amp;#34;&lt;/span&gt; ...
