@@ -30,7 +30,7 @@ Kubernetes resources.
 
 [**Kanvas**](https://docs.layer5.io/kanvas/) is a visual tool within Meshery that allows users to interact with and manage Kubernetes resources. It provides a graphical interface for viewing, configuring, and deploying resources, making it easier to understand the relationships and interactions between different components in a Kubernetes cluster.
 
-If this is your first time working with Meshery Playground, consider starting with the [Exploring Kubernetes Pods with Meshery Playground](https://docs.meshery.io/guides/tutorials/kubernetes-pods) tutorial first.
+If this is your first time working with Meshery Playground, consider starting with the [Using Meshery Playground](https://docs.meshery.io/installation/playground) guide first.
 
 ### Ambassador Edge Stack
 
