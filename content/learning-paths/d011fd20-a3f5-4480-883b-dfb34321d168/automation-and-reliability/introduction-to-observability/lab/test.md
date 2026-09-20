@@ -3,7 +3,7 @@ title: 'Test'
 passPercentage: 70
 questions:
   - id: 'q1'
-    text: 'According to the installation steps, which default port is used to access the Prometheus web interface?'
+    text: 'Which default port is used to access the Prometheus web interface?'
     type: 'single-answer'
     marks: 2
     options:
@@ -18,7 +18,7 @@ questions:
         text: '22'
 
   - id: 'q2'
-    text: 'Why is a dedicated user created for Prometheus during the setup process?'
+    text: 'Why is running Prometheus under a dedicated service user considered an operational best practice?'
     type: 'single-answer'
     marks: 2
     options:
@@ -48,12 +48,12 @@ questions:
         text: 'Restart the Ubuntu host machine'
 
   - id: 'q4'
-    text: 'Which file must be created to allow Prometheus to run as a background service managed by the system?'
+    text: 'On Linux systems using systemd, which file is used to run Prometheus as a background service managed by the operating system?'
     type: 'single-answer'
     marks: 2
     options:
       - id: 'a'
-        text: 'A systemd service file (/etc/systemd/system/prometheus.service)'
+        text: 'A systemd service unit file (/etc/systemd/system/prometheus.service)'
         isCorrect: true
       - id: 'b'
         text: 'A cron job script'
@@ -63,7 +63,7 @@ questions:
         text: 'A bash executable in the bin folder'
 
   - id: 'q5'
-    text: 'Which simple query is suggested to check the up/down status of Prometheus targets?'
+    text: 'Which PromQL query is used to check the up/down health status of targets across all endpoints?'
     type: 'single-answer'
     marks: 2
     options:
@@ -74,7 +74,7 @@ questions:
       - id: 'c'
         text: 'ping prometheus'
       - id: 'd'
-        text: 'up{job="prometheus"}'
+        text: 'up'
         isCorrect: true
 
 layout: 'test'

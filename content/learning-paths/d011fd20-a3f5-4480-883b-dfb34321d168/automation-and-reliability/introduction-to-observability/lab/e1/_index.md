@@ -20,10 +20,10 @@ installed and running on your host is a prerequisite for this exercise.
 When configuring Prometheus in production environments, consider the following
 operational standards:
 
-- **Dedicated Service User:** Always run Prometheus under a dedicated non-root
-  service account (such as `prometheus`). Running background services under
-  isolated users is a security best practice that enforces least-privilege
-  access.
+- **Dedicated Service User:** In host-based or production deployments, run
+  Prometheus under a dedicated non-root service account (such as `prometheus`).
+  Running background services under isolated users is a security best practice
+  that enforces least-privilege access.
 - **Service Management:** On Linux systems using systemd, create a service
   unit file at `/etc/systemd/system/prometheus.service` to run Prometheus as a
   background service managed by the operating system, and enable it via
@@ -50,7 +50,8 @@ operational standards:
      **Add data source**.
    - Select **Prometheus** as the data source type.
    - In the connection settings, set the Prometheus server URL to
-     `http://localhost:9090`.
+     `http://localhost:9090` (or `http://host.docker.internal:9090` if running
+     Grafana in a Docker container).
    - Click **Save & test** to verify connectivity between Grafana and
      Prometheus.
 
