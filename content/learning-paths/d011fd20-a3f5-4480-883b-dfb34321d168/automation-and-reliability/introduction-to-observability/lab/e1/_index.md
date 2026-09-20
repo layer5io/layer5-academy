@@ -24,9 +24,10 @@ operational standards:
   service account (such as `prometheus`). Running background services under
   isolated users is a security best practice that enforces least-privilege
   access.
-- **Service Management:** To run Prometheus as a background service managed by
-  the operating system, create a systemd service unit file at
-  `/etc/systemd/system/prometheus.service` and enable it via `systemctl`.
+- **Service Management:** On Linux systems using systemd, create a service
+  unit file at `/etc/systemd/system/prometheus.service` to run Prometheus as a
+  background service managed by the operating system, and enable it via
+  `systemctl`.
 
 ## Hands-on Exercise: Connecting Prometheus and Grafana
 
@@ -57,8 +58,10 @@ operational standards:
 
 1. Create a dashboard to visualize metrics from Prometheus:
    - In the panel configuration view, select Prometheus as your data source.
-   - In the metric query field, enter a PromQL query such as
-     `up{job="prometheus"}` to monitor the health of Prometheus targets.
+   - In the metric query field, enter a PromQL query such as `up` to monitor
+     target health across all endpoints, or `up{job="prometheus"}` (assuming
+     a scrape job named `prometheus` is configured, which is Prometheus's
+     default configuration).
    - Adjust the time range and visualization settings as needed, and assign a
      title to your panel under panel settings.
    - Click **Apply** in the upper right corner to add the panel to your
