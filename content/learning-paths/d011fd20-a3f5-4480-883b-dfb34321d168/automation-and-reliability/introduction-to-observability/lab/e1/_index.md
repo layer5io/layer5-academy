@@ -15,7 +15,7 @@ and
 [Grafana](https://grafana.com/docs/grafana/latest/setup-grafana/installation/)
 installed and running on your host is a prerequisite for this exercise.
 
-### Service Architecture and Security Concepts
+## Service Architecture and Security Concepts
 
 When configuring Prometheus in production environments, consider the following
 operational standards:
@@ -28,7 +28,7 @@ operational standards:
   the operating system, create a systemd service unit file at
   `/etc/systemd/system/prometheus.service` and enable it via `systemctl`.
 
-### Hands-on Exercise: Connecting Prometheus and Grafana
+## Hands-on Exercise: Connecting Prometheus and Grafana
 
 1. Verify that your Prometheus server is accessible by navigating to
    <http://localhost:9090> in your web browser (port `9090` is the default web
@@ -58,8 +58,7 @@ operational standards:
 1. Create a dashboard to visualize metrics from Prometheus:
    - In the panel configuration view, select Prometheus as your data source.
    - In the metric query field, enter a PromQL query such as
-     `up{job="prometheus"}` to monitor the health of Prometheus targets, or
-     `node_cpu_seconds_total` for system CPU utilization.
+     `up{job="prometheus"}` to monitor the health of Prometheus targets.
    - Adjust the time range and visualization settings as needed, and assign a
      title to your panel under panel settings.
    - Click **Apply** in the upper right corner to add the panel to your
