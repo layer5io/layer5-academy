@@ -51,7 +51,7 @@ operational standards:
    - Select **Prometheus** as the data source type.
    - In the connection settings, set the Prometheus server URL to
      `http://localhost:9090` (or `http://host.docker.internal:9090` if running
-     Grafana in a Docker container).
+     Grafana in Docker Desktop).
    - Click **Save & test** to verify connectivity between Grafana and
      Prometheus.
 
