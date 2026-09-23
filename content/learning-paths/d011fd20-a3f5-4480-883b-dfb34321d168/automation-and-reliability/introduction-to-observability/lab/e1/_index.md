@@ -1,6 +1,6 @@
 ---
 type: "page"
-title: "Installing and Configuring Prometheus and Grafana"
+title: "Configuring Prometheus and Grafana for Observability"
 description: ""
 weight: 2
 ---
