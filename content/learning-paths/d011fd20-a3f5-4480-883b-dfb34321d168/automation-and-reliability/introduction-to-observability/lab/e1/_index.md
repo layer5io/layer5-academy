@@ -28,6 +28,32 @@ operational standards:
   unit file at `/etc/systemd/system/prometheus.service` to run Prometheus as a
   background service managed by the operating system, and enable it via
   `systemctl`.
+- **Default Scrape Configuration:** By default, Prometheus is configured in
+  `prometheus.yml` to scrape its own metrics endpoint at `localhost:9090`:
+
+  ```yaml
+  scrape_configs:
+    - job_name: "prometheus"
+      static_configs:
+        - targets: ["localhost:9090"]
+  ```
+
+  This scrape target ensures health metrics like `up` or `up{job="prometheus"}`
+  are immediately collected and available for queries.
+- **Docker Deployment Considerations:** If running services via Docker:
+  - When running Grafana in Docker on Linux Docker Engine to connect to host
+    Prometheus, start the container with host-gateway mapping:
+
+    ```bash
+    docker run -d -p 3000:3000 \
+      --add-host=host.docker.internal:host-gateway \
+      --name grafana grafana/grafana
+    ```
+
+  - When running both Prometheus and Grafana in Docker, attach them to a
+    shared user-defined bridge network (e.g.,
+    `docker network create monitoring`) and reference the Prometheus container
+    by name (`http://prometheus:9090`).
 
 ## Hands-on Exercise: Connecting Prometheus and Grafana
 
@@ -49,10 +75,14 @@ operational standards:
    - In the Grafana sidebar, navigate to **Connections** > **Data Sources** >
      **Add data source**.
    - Select **Prometheus** as the data source type.
-   - In the connection settings, set the Prometheus server URL to
-     `http://localhost:9090` (or `http://host.docker.internal:9090` if running
-     Grafana in a Docker container). On Linux Docker Engine, add a
-     `host.docker.internal:host-gateway` mapping to the Grafana container.
+   - In the connection settings, set the Prometheus server URL based on your
+     deployment:
+     - **Host-based / Docker Desktop:** `http://localhost:9090` (or
+       `http://host.docker.internal:9090` on Docker Desktop).
+     - **Linux Docker Engine (Host connection):**
+       `http://host.docker.internal:9090` (with `--add-host` mapped).
+     - **Shared Docker Network:** `http://prometheus:9090` (using container
+       name).
    - Click **Save & test** to verify connectivity between Grafana and
      Prometheus.
 
