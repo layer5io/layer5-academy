@@ -1,4 +1,4 @@
-baseURL: http://localhost:9876/academy/
+baseURL: http://localhost:1313/academy/
 title: Example Academy
 canonifyurls: true
 ignoreLogs: ['warning-goldmark-raw-html']
