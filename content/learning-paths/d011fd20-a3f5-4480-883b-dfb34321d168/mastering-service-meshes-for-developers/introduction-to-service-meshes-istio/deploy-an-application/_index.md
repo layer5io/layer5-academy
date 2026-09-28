@@ -38,9 +38,9 @@ whether your Kubernetes deployment supports these APIs by executing:
 kubectl api-versions | grep admissionregistration
 ```
 
-If your environment **does NOT** supports either of these two APIs, then you may use [manual sidecar injection](#manual-sidecar-inj) to deploy the sample app.
+If your environment **does NOT** supports either of these two APIs, then you may use [manual sidecar injection](#manual-sidecar-injection) to deploy the sample app.
 
-As part of Istio deployment in [Previous chapter](./getting-started), you have deployed the sidecar injector.
+As part of Istio deployment in [Previous chapter](../getting-started/), you have deployed the sidecar injector.
 
 ### Deploying Sample App with Automatic sidecar injection
 
@@ -137,7 +137,7 @@ kube-system    Active    1h
 
 ##### Deploy BookInfo
 
-Applying this yaml file included in the Istio package you collected in [Getting Started](./getting-started) will deploy the BookInfo app in you cluster.
+Applying this yaml file included in the Istio package you collected in [Getting Started](../getting-started/) will deploy the BookInfo app in you cluster.
 
 ```sh
 kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
@@ -179,4 +179,4 @@ To do both in a single command:
 kubectl apply -f <(curl https://raw.githubusercontent.com/istio/istio/master/samples/bookinfo/platform/kube/bookinfo.yaml | istioctl kube-inject -f -)
 ```
 
-Now continue to [Verify Bookinfo deployment](#verify).
+Now continue to [Verify Bookinfo deployment](#verify-bookinfo-deployment).
