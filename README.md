@@ -60,11 +60,13 @@ The Academy platform is composed of multiple repositories, each with a specific 
 
 > Use this workflow for a fast preview loop when editing Markdown content.
 
-```bash
-# Clean up and verify Go module dependencies
-go mod tidy
+**Prerequisites:**
 
-# Install necessary tools and modules
+- **[Go](https://go.dev/doc/install)** – Required by Hugo Modules to fetch the `academy-theme`. Use the version listed in `go.mod`.
+- **[Node.js](https://nodejs.org/) and npm** – Required to install the local Hugo binary. Node.js 22 is recommended.
+
+```bash
+# Install Node dependencies (including the local Hugo binary)
 make setup
 
 # Start the local Hugo development server with live reload
