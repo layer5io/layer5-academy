@@ -510,7 +510,7 @@ cp image.png static/images/learning-paths/my-topic/
 
 ### Reporting Vulnerabilities
 
-- **Email**: <security-vulns-reports@layer5.io>
+- **Email**: <security@layer5.io>
 - **Policy**: See [SECURITY.md](SECURITY.md) for full security policy
 - **Confidentiality**: Report security issues privately, not in public issues
 
