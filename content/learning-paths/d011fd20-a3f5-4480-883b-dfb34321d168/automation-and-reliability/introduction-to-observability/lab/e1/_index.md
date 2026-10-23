@@ -61,15 +61,15 @@ operational standards:
    <http://localhost:9090> in your web browser (port `9090` is the default web
    interface port for Prometheus):
 
-![Prometheus UI](ui.png)
+   ![Prometheus UI](ui.png)
 
 1. Access the Grafana web interface by navigating to <http://localhost:3000> in
    your web browser. The default login credentials are `admin` for both username
    and password:
 
-![Grafana Login](grafana.png)
+   ![Grafana Login](grafana.png)
 
-![Grafana Dashboard](grafana2.png)
+   ![Grafana Dashboard](grafana2.png)
 
 1. Add Prometheus as a Data Source in Grafana:
    - In the Grafana sidebar, navigate to **Connections** > **Data Sources** >
@@ -88,7 +88,7 @@ operational standards:
    - Click **Save & test** to verify connectivity between Grafana and
      Prometheus.
 
-![Grafana Data Source](grafana3.png)
+   ![Grafana Data Source](grafana3.png)
 
 1. Create a dashboard to visualize metrics from Prometheus:
    - In the panel configuration view, select Prometheus as your data source.
@@ -105,4 +105,4 @@ operational standards:
    - You can add additional panels by clicking **Add Panel** to monitor
      different application and infrastructure metrics.
 
-![Grafana Dashboard](grafana4.png)
+   ![Grafana Dashboard](grafana4.png)

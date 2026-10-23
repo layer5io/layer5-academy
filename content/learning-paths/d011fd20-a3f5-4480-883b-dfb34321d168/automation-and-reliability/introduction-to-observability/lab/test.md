@@ -45,7 +45,7 @@ questions:
       - id: 'c'
         text: 'Edit the prometheus.yml file to point to Grafana'
       - id: 'd'
-        text: 'Restart the Ubuntu host machine'
+        text: 'Restart the host operating system'
 
   - id: 'q4'
     text: 'On Linux systems using systemd, which file is used to run Prometheus as a background service managed by the operating system?'
