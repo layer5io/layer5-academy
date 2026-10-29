@@ -94,6 +94,15 @@ jobs:
             npm install
           fi
 
+      - name: Cache Hugo generated resources
+        if: github.event.action != 'closed'
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.2.4
+        with:
+          path: resources/_gen
+          key: hugo-preview-${{ runner.os }}-${{ hashFiles('go.mod', 'go.sum', 'hugo.yaml', 'package-lock.json', 'postcss.config.js', 'assets/**', 'layouts/**', 'static/**') }}-${{ hashFiles('content/**') }}
+          restore-keys: |
+            hugo-preview-${{ runner.os }}-${{ hashFiles('go.mod', 'go.sum', 'hugo.yaml', 'package-lock.json', 'postcss.config.js', 'assets/**', 'layouts/**', 'static/**') }}-
+
       - name: Build PR preview
         if: github.event.action != 'closed'
         env:
